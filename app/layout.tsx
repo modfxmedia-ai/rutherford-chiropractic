@@ -1,15 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { Header } from "./_ui/Header";
+import { Footer } from "./_ui/Footer";
+import { BusinessSchema } from "./_ui/BusinessSchema";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Sans-serif workhorse — used for body, nav, buttons, and all standard headings.
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// Elegant serif — reserved for italic accent words inside headlines
+// (e.g. <span className="accent-serif">chronic pain</span>).
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  style: ["italic"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,9 +36,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <BusinessSchema />
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

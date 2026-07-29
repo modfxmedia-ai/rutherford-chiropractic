@@ -1,26 +1,669 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ---------------------------------------------------------------------------
+ * Rutherford Spine & Wellness Center — Global Theme
+ *
+ * Palette is the CLIENT LOGO ONLY. No other brand colors are permitted here.
+ *   Primary Blue  #004B99   logo wordmark, nav, primary buttons
+ *   Deep Navy     #011149   dark text, logo accent/shadow
+ *   Accent Orange #FC8F00   ratings, secondary CTA highlight
+ *   Body Gray     #666666   body copy
+ *   Muted Gray    #999999   muted/footer surfaces
+ *   White         #FFFFFF   surfaces
+ *
+ * Layout, spacing, and component patterns are structurally inspired by
+ * renoregen.com (sticky utility bar + mega-menu nav, pill buttons, italic
+ * serif accent word in headlines, stat counters, generous whitespace,
+ * card-based sections) but implemented ONLY with the palette above.
+ * ------------------------------------------------------------------------- */
+
+@theme {
+  /* -- Brand colors ------------------------------------------------------ */
+  --color-brand-blue: #004b99;
+  --color-brand-blue-600: #004b99;
+  --color-brand-blue-700: #003b7a;
+  --color-brand-blue-800: #002d5e;
+  --color-brand-navy: #011149;
+  --color-brand-orange: #fc8f00;
+  --color-brand-orange-600: #fc8f00;
+  --color-brand-orange-700: #d97600;
+  --color-brand-gray: #666666;
+  --color-brand-gray-muted: #999999;
+  --color-brand-white: #ffffff;
+
+  /* Semantic aliases used across components */
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f6f7f9;
+  --color-surface-dark: #011149;
+  --color-foreground: #011149;
+  --color-body: #666666;
+  --color-muted: #999999;
+  --color-primary: #004b99;
+  --color-primary-hover: #003b7a;
+  --color-accent: #fc8f00;
+  --color-accent-hover: #d97600;
+  --color-border: #e5e7eb;
+
+  /* -- Typography -------------------------------------------------------- */
+  /* Font families are supplied by next/font in app/layout.tsx via CSS
+     variables. `--font-sans` is the workhorse; `--font-serif` is reserved
+     for italic accent words inside headlines. */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, "Times New Roman",
+    serif;
+
+  /* Modular type scale (1.250 Major Third, headings tightened slightly).
+     Value pairs are `size / line-height`. */
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1.125rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.375rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.6875rem;
+  --text-lg: 1.125rem;
+  --text-lg--line-height: 1.75rem;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.875rem;
+  --text-2xl: 1.75rem;
+  --text-2xl--line-height: 2.125rem;
+  --text-3xl: 2.25rem;
+  --text-3xl--line-height: 2.5rem;
+  --text-4xl: 2.75rem;
+  --text-4xl--line-height: 3rem;
+  --text-5xl: 3.5rem;
+  --text-5xl--line-height: 3.75rem;
+  --text-6xl: 4.5rem;
+  --text-6xl--line-height: 4.75rem;
+
+  /* Fluid display size for hero headlines (clamps between mobile & desktop) */
+  --text-display: clamp(2.5rem, 1.5rem + 4vw, 5rem);
+  --text-display--line-height: 1.05;
+  --text-display--letter-spacing: -0.01em;
+
+  /* Extra font weights for the sans workhorse */
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 800;
+
+  /* -- Section / component spacing scale --------------------------------- */
+  /* `--spacing-section-*` are the vertical rhythm tokens applied to top-level
+     page sections (hero, cards row, testimonials, CTA). */
+  --spacing-section-xs: 3rem;    /* 48px */
+  --spacing-section-sm: 4.5rem;  /* 72px */
+  --spacing-section-md: 6rem;    /* 96px */
+  --spacing-section-lg: 8rem;    /* 128px */
+  --spacing-section-xl: 10rem;   /* 160px */
+
+  /* Container widths — capped so content stays boxed and readable on large
+     monitors instead of stretching edge-to-edge. */
+  --container-narrow: 44rem;   /* 704px — narrow reading column */
+  --container-content: 72rem;  /* 1152px — standard content column */
+  --container-wide: 80rem;     /* 1280px — widest homepage sections (hero, grids) */
+  --container-chrome: 90rem;   /* 1440px — header/footer utility rows, wide enough for the full nav row */
+
+  /* Responsive edge padding — grows with viewport so large monitors keep
+     generous, premium margins instead of content hugging the browser edge. */
+  --container-padding: clamp(1.25rem, 4vw, 4rem);
+
+  /* Gentler padding scale reserved for the header/footer chrome rows. Nav
+     bars can sit a little closer to the edge than hero/content copy, and
+     this keeps enough room for the full nav + CTA buttons at in-between
+     viewport widths (1280–1535px) without ever overflowing. */
+  --container-padding-chrome: clamp(1.25rem, 2vw, 2rem);
+
+  /* -- Radii -------------------------------------------------------------- */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* -- Shadows (subtle, brand-neutral) ----------------------------------- */
+  --shadow-card: 0 1px 2px rgba(1, 17, 73, 0.04),
+    0 8px 24px -8px rgba(1, 17, 73, 0.08);
+  --shadow-elevated: 0 4px 12px rgba(1, 17, 73, 0.06),
+    0 24px 60px -20px rgba(1, 17, 73, 0.16);
+  --shadow-focus-primary: 0 0 0 4px rgba(0, 75, 153, 0.25);
+  --shadow-focus-accent: 0 0 0 4px rgba(252, 143, 0, 0.3);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* ---------------------------------------------------------------------------
+ * Base element defaults
+ * ------------------------------------------------------------------------- */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  color-scheme: light;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--text-base--line-height);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Headings inherit color by default so any Tailwind text-* utility can
+   freely override them without !important. Wrapped in @layer base so
+   utility classes (which live in @layer utilities, a later layer) win. */
+@layer base {
+  :where(h1, h2, h3, h4, h5, h6) {
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-brand-white);
+}
+
+/* Focus ring — used everywhere a focus-visible outline is needed */
+:where(a, button, input, textarea, select, [role="button"]):focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus-primary);
+  border-radius: var(--radius-sm);
+}
+
+/* ---------------------------------------------------------------------------
+ * Component classes (Tailwind v4 `@utility` singletons)
+ *
+ * These are shipped as first-class utilities so JSX stays terse and the
+ * theme stays in one file. Add more utilities as new patterns emerge.
+ * ------------------------------------------------------------------------- */
+
+/* Boxed content containers — used on EVERY homepage section (hero included)
+   so content never touches the viewport edge. Backgrounds/media on a section
+   may still span full width; only the `container-*` wrapper constrains the
+   actual content column. Padding scales with viewport via `--container-padding`
+   so large monitors get generous, premium margins instead of edge-hugging
+   content, while mobile keeps a tight, familiar 20px gutter. */
+@utility container-content {
+  width: 100%;
+  max-width: var(--container-content);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+@utility container-wide {
+  width: 100%;
+  max-width: var(--container-wide);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+@utility container-narrow {
+  width: 100%;
+  max-width: var(--container-narrow);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+@utility container-header {
+  width: 100%;
+  max-width: var(--container-chrome);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-chrome);
+}
+
+/* Vertical section rhythm */
+@utility section-y-sm {
+  padding-block: var(--spacing-section-sm);
+}
+@utility section-y {
+  padding-block: var(--spacing-section-md);
+}
+@utility section-y-lg {
+  padding-block: var(--spacing-section-lg);
+}
+@utility section-y-xl {
+  padding-block: var(--spacing-section-xl);
+}
+
+/* Italic-serif accent word inside a headline
+   e.g. <h1>Relief from <span className="accent-serif">chronic pain</span></h1> */
+@utility accent-serif {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-brand-blue);
+  letter-spacing: 0;
+}
+
+/* Eyebrow label above section headlines */
+@utility eyebrow {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-brand-orange);
+}
+
+/* Display headline sizing (hero / section titles) */
+@utility h-display {
+  font-family: var(--font-sans);
+  font-size: var(--text-display);
+  line-height: var(--text-display--line-height);
+  letter-spacing: var(--text-display--letter-spacing);
+  font-weight: 700;
+  color: var(--color-foreground);
+}
+@utility h-section {
+  font-family: var(--font-sans);
+  font-size: var(--text-4xl);
+  line-height: var(--text-4xl--line-height);
+  font-weight: 700;
+  color: var(--color-foreground);
+  letter-spacing: -0.01em;
+}
+
+/* ---------------------------------------------------------------------------
+ * Button variants — pill-shaped, matching the reference layout language.
+ *
+ *   .btn                       base (do not use alone)
+ *   .btn-primary               solid Primary Blue on white
+ *   .btn-primary-on-dark       solid Primary Blue variant tuned for dark surfaces
+ *   .btn-outline-orange        transparent w/ Accent Orange border + text
+ *   .btn-outline-navy          transparent w/ Deep Navy border + text
+ *   .btn-ghost                 minimal, for tertiary actions
+ *   .btn-sm / .btn-lg          size modifiers
+ * ------------------------------------------------------------------------- */
+
+@utility btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-inline: 1.75rem;
+  padding-block: 0.875rem;
+  border-radius: var(--radius-pill);
+  border: 2px solid transparent;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 180ms ease, color 180ms ease,
+    border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+  white-space: nowrap;
+}
+@utility btn-sm {
+  padding-inline: 1.25rem;
+  padding-block: 0.625rem;
+  font-size: var(--text-xs);
+}
+@utility btn-lg {
+  padding-inline: 2.25rem;
+  padding-block: 1.125rem;
+  font-size: var(--text-base);
+  letter-spacing: 0.05em;
+}
+@utility btn-primary {
+  background: var(--color-primary);
+  color: var(--color-brand-white);
+  border-color: var(--color-primary);
+  &:hover {
+    background: var(--color-primary-hover);
+    border-color: var(--color-primary-hover);
+  }
+}
+@utility btn-primary-on-dark {
+  background: var(--color-brand-white);
+  color: var(--color-primary);
+  border-color: var(--color-brand-white);
+  &:hover {
+    background: transparent;
+    color: var(--color-brand-white);
+    border-color: var(--color-brand-white);
+  }
+}
+@utility btn-outline-orange {
+  background: transparent;
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  &:hover {
+    background: var(--color-accent);
+    color: var(--color-brand-white);
+  }
+}
+@utility btn-outline-navy {
+  background: transparent;
+  color: var(--color-brand-navy);
+  border-color: var(--color-brand-navy);
+  &:hover {
+    background: var(--color-brand-navy);
+    color: var(--color-brand-white);
+  }
+}
+@utility btn-ghost {
+  background: transparent;
+  color: var(--color-brand-navy);
+  border-color: transparent;
+  padding-inline: 0.75rem;
+  &:hover {
+    color: var(--color-primary);
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Surface / card primitives
+ * ------------------------------------------------------------------------- */
+
+@utility surface-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+}
+@utility surface-dark {
+  background: var(--color-surface-dark);
+  color: var(--color-brand-white);
+}
+@utility surface-muted {
+  background: var(--color-surface-muted);
+}
+
+/* Sticky top utility bar (renoregen-style: phone / hours / rating / social) */
+@utility utility-bar {
+  background: var(--color-brand-navy);
+  color: var(--color-brand-white);
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  letter-spacing: 0.04em;
+}
+
+/* Stat counter block (big number over small caps label) */
+@utility stat-number {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: var(--text-5xl);
+  line-height: 1;
+  color: var(--color-brand-blue);
+  letter-spacing: -0.02em;
+}
+@utility stat-label {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-body);
+}
+
+/* Star rating color — reserved for the Accent Orange only */
+@utility rating-star {
+  color: var(--color-accent);
+}
+
+/* ---------------------------------------------------------------------------
+ * Premium visual-polish utilities
+ *
+ * Shared building blocks for the homepage-wide "modern, premium" redesign
+ * pass: glass panels, hover-lift cards, icon badges, and soft decorative
+ * glows/blobs. Kept brand-neutral (Primary Blue / Deep Navy / Accent Orange
+ * only) so any section can reuse them consistently.
+ * ------------------------------------------------------------------------- */
+
+/* Frosted glass panel — used on dark/gradient surfaces (NutritionistCta,
+   floating badges over imagery) so content still reads as "premium" rather
+   than a flat dark rectangle. */
+@utility glass-panel {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+/* Light-surface glass — for floating chips/badges over photography on a
+   white section (e.g. a stat badge over the About video). */
+@utility glass-panel-light {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Hover-lift — subtle rise + deeper shadow on hover/focus for cards, used
+   alongside `surface-card`. Respects prefers-reduced-motion by only
+   animating transform/box-shadow (already GPU-cheap; no need to gate). */
+@utility hover-lift {
+  transition: transform 280ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 280ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 280ms ease;
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-elevated);
+  }
+}
+
+/* Circular icon badge — brand-blue tint by default, used for checklist
+   items, stat icons, and per-service badges. */
+@utility icon-badge {
+  display: inline-grid;
+  place-items: center;
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--color-brand-blue) 10%, white);
+  color: var(--color-brand-blue);
+  flex-shrink: 0;
+}
+
+/* Soft decorative background glow — an absolutely-positioned blurred blob
+   meant to sit behind content via a `relative` + `overflow-hidden` parent.
+   Purely decorative (`aria-hidden`), brand-tinted only. */
+@utility bg-glow-blue {
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--color-brand-blue) 18%, transparent),
+    transparent
+  );
+  filter: blur(40px);
+}
+@utility bg-glow-orange {
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--color-brand-orange) 22%, transparent),
+    transparent
+  );
+  filter: blur(40px);
+}
+
+/* Faint brand-blue tinted surface — used behind a copy column to create a
+   "floating card" effect on alternating rows (DetailedServices) without
+   introducing an off-brand color. */
+@utility surface-tint-blue {
+  background: color-mix(in srgb, var(--color-brand-blue) 5%, var(--color-surface));
+}
+
+/* Slightly-darker-than-navy footer surface — gives the footer its own
+   depth tier below a Deep-Navy CTA section (e.g. NutritionistCta) without
+   introducing a new hue. */
+@utility surface-footer {
+  background: color-mix(in srgb, var(--color-brand-navy) 88%, black);
+}
+
+/* Section divider — thin gradient rule used between stacked long-form
+   blocks (DetailedServices) instead of a hard border. */
+@utility divider-fade {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-border) 20%,
+    var(--color-border) 80%,
+    transparent
+  );
+}
+
+/* ---------------------------------------------------------------------------
+ * Hero-specific keyframe animations
+ *
+ * A prior implementation used `framer-motion` `motion.svg`, `motion.a`, and
+ * a `Reveal`-wrapped `hidden lg:block` container for the trust card, but the
+ * `initial → animate` / `initial → whileInView` transitions were leaving
+ * those elements stuck at their hidden state after hydration on this
+ * Next.js 16 + React 19 + framer-motion 12 setup. These CSS keyframe
+ * utilities give the hero deterministic, guaranteed-to-play motion for the
+ * problematic elements while `Reveal`-wrapped `motion.div`s continue to
+ * handle the rest of the copy card.
+ *
+ * All keyframes respect `prefers-reduced-motion`.
+ * ------------------------------------------------------------------------- */
+
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-star-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hero-scroll-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(12px);
+    opacity: 0.2;
+  }
+}
+
+@keyframes hero-float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes hero-float-y-alt {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes hero-float-y-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes hero-dash-drift {
+  to {
+    stroke-dashoffset: -100;
+  }
+}
+
+@utility hero-anim-fade-up {
+  opacity: 0;
+  animation: hero-fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@utility hero-anim-star {
+  opacity: 0;
+  animation: hero-star-pop 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@utility hero-anim-scroll {
+  animation: hero-scroll-bounce 1.8s ease-in-out infinite;
+}
+
+@utility hero-anim-float {
+  animation: hero-float-y 5s ease-in-out infinite;
+}
+
+@utility hero-anim-float-alt {
+  animation: hero-float-y-alt 6s ease-in-out 0.8s infinite;
+}
+
+@utility hero-anim-float-slow {
+  animation: hero-float-y-slow 7s ease-in-out infinite;
+}
+
+@utility hero-anim-dash {
+  animation: hero-dash-drift 12s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-anim-fade-up,
+  .hero-anim-star {
+    animation: none;
+    opacity: 1;
+  }
+  .hero-anim-scroll,
+  .hero-anim-float,
+  .hero-anim-float-alt,
+  .hero-anim-float-slow,
+  .hero-anim-dash {
+    animation: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * CareSlider — "story-style" auto-advance progress bar.
+ * Duration MUST stay in sync with `INTERVAL_MS` in CareSlider.tsx (6.5s).
+ * Re-mounting the element with a fresh `key` per slide restarts the fill.
+ * ------------------------------------------------------------------------- */
+@keyframes care-progress-fill {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@utility care-progress-fill {
+  animation: care-progress-fill 6.5s linear forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .care-progress-fill {
+    animation: none;
+    width: 100%;
+  }
+}
+

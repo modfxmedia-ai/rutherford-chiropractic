@@ -1,0 +1,44 @@
+import type { MetadataRoute } from "next";
+import { ORIGIN, ROUTES } from "./_lib/content-map";
+import { CONDITIONS } from "./_lib/conditions";
+
+/**
+ * Emits `/sitemap.xml` containing every URL from the original WordPress
+ * page and post sitemaps, plus the new "Conditions" pages (a taxonomy that
+ * doesn't exist on the live origin, so it isn't part of `content-map.json`).
+ * `lastModified` for migrated routes is taken from Yoast's original
+ * `<lastmod>` timestamp so we don't reset freshness signals on migration.
+ */
+export default function sitemap(): MetadataRoute.Sitemap {
+  const migrated = ROUTES.map((r) => {
+    const url = `${ORIGIN}${r.path}`;
+    const lastModified = r.lastmod ? new Date(r.lastmod) : undefined;
+    const priority =
+      r.category === "home"
+        ? 1
+        : r.category === "core-service"
+          ? 0.9
+          : r.category === "utility"
+            ? 0.6
+            : r.category === "blog-index"
+              ? 0.7
+              : r.category === "location-landing"
+                ? 0.7
+                : 0.5;
+    const changeFrequency =
+      r.category === "blog-post"
+        ? ("monthly" as const)
+        : r.category === "home"
+          ? ("weekly" as const)
+          : ("monthly" as const);
+    return { url, lastModified, changeFrequency, priority };
+  });
+
+  const conditions = CONDITIONS.map((c) => ({
+    url: `${ORIGIN}/${c.slug}/`,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...migrated, ...conditions];
+}
