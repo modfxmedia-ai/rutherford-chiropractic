@@ -22,7 +22,7 @@ export function NutritionistCta() {
       />
 
       <div className="container-content relative">
-        <div className="grid gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center">
           <div>
             <Reveal>
               <p className="eyebrow !text-[color:var(--color-brand-orange)]">
@@ -44,7 +44,7 @@ export function NutritionistCta() {
             </Reveal>
 
             <Reveal delay={0.16}>
-              <Stagger className="mt-8 grid gap-3 sm:grid-cols-2 max-w-lg" as="ul">
+              <Stagger className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-lg" as="ul">
                 {[
                   "Personalized whole-person plan",
                   "Non-invasive, medication-free care",

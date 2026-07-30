@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /spinal-decompression-therapy/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "Get Relief from Headaches & Migraines with Spinal Decompression Therapy - Chiropractic Murfreesboro TN"
+// Live title: "Get Relief from Headaches & Migraines with Spinal Decompression Therapy"
 
 export const metadata = metadataFor("/spinal-decompression-therapy/");
 
 export default function Page() {
+  const post = getBlogPost("spinal-decompression-therapy")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/spinal-decompression-therapy/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"Get Relief from Headaches & Migraines with Spinal Decompression Therapy - Chiropractic Murfreesboro TN"}</h1>
-        <p>Blog post route (/spinal-decompression-therapy/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

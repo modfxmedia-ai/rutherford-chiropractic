@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /how-neuropathy-affects-your-sleep/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "How Neuropathy Affects Your Sleep and Tips for Better Rest - Chiropractic Murfreesboro TN"
+// Live title: "How Neuropathy Affects Your Sleep and Tips for Better Rest"
 
 export const metadata = metadataFor("/how-neuropathy-affects-your-sleep/");
 
 export default function Page() {
+  const post = getBlogPost("how-neuropathy-affects-your-sleep")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/how-neuropathy-affects-your-sleep/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"How Neuropathy Affects Your Sleep and Tips for Better Rest - Chiropractic Murfreesboro TN"}</h1>
-        <p>Blog post route (/how-neuropathy-affects-your-sleep/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

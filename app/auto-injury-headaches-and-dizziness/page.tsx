@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /auto-injury-headaches-and-dizziness/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "Auto Injury Headaches and Dizziness: Signs You Need a Chiropractor - Chiropractic Murfreesboro TN"
+// Live title: "Auto Injury Headaches and Dizziness: Signs You Need a Chiropractor"
 
 export const metadata = metadataFor("/auto-injury-headaches-and-dizziness/");
 
 export default function Page() {
+  const post = getBlogPost("auto-injury-headaches-and-dizziness")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/auto-injury-headaches-and-dizziness/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"Auto Injury Headaches and Dizziness: Signs You Need a Chiropractor - Chiropractic Murfreesboro TN"}</h1>
-        <p>Blog post route (/auto-injury-headaches-and-dizziness/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

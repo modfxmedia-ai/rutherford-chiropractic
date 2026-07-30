@@ -165,10 +165,10 @@ export function Hero() {
 
   return (
     <section
-      className="relative isolate min-h-[100svh] w-full overflow-hidden text-white"
-      aria-label="Rutherford Spine and Wellness Center — Chiropractic Care Murfreesboro TN"
+      className="relative isolate w-full overflow-hidden text-white lg:min-h-[100svh]"
+      aria-label="Rutherford Spine and Wellness Center - Chiropractic Care Murfreesboro TN"
     >
-      {/* Layer 1 — Video background (autoplay, muted, looped) */}
+      {/* Layer 1 - Video background (autoplay, muted, looped) */}
       <video
         src="/media/homepage-bg-video.mp4"
         poster="/media/chiropractors-murfreesboro-tn.jpg"
@@ -181,7 +181,7 @@ export function Hero() {
         className="absolute inset-0 -z-20 h-full w-full object-cover"
       />
 
-      {/* Layer 2 — Brand legibility scrim (navy → blue diagonal, brand-only) */}
+      {/* Layer 2 - Brand legibility scrim (navy → blue diagonal, brand-only) */}
       <div
         aria-hidden
         className="absolute inset-0 -z-10"
@@ -191,7 +191,7 @@ export function Hero() {
         }}
       />
 
-      {/* Layer 3 — Ambient accent glows (top-right orange, bottom-left blue) */}
+      {/* Layer 3 - Ambient accent glows (top-right orange, bottom-left blue) */}
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-70"
@@ -201,9 +201,9 @@ export function Hero() {
         }}
       />
 
-      {/* Layer 4 — Content */}
-      <div className="container-wide relative flex min-h-[100svh] flex-col justify-center pt-32 pb-24 lg:pt-40 lg:pb-32">
-        <div className="grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center lg:gap-14">
+      {/* Layer 4 - Content */}
+      <div className="container-wide relative flex flex-col justify-start pt-14 pb-12 sm:pt-20 sm:pb-16 lg:min-h-[100svh] lg:justify-center lg:pt-32 lg:pb-20">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:items-center lg:gap-14">
           {/* Copy card */}
           <div className="relative max-w-2xl">
             {/* Eyebrow pill */}
@@ -217,14 +217,13 @@ export function Hero() {
               </span>
             </Reveal>
 
-            {/* H1 — verbatim, wrapped in Reveal (motion.h1 misbehaves on this stack) */}
+            {/* H1 - verbatim, wrapped in Reveal (motion.h1 misbehaves on this stack) */}
             <Reveal delay={0.15} as="div" className="mt-6">
               <h1
                 className="h-display !text-white lg:text-[clamp(2.5rem,1.3rem+3.1vw,4.25rem)]"
                 style={{ textWrap: "balance" as unknown as string }}
               >
-                Chiropractic
-                <br className="hidden sm:block" />{" "}
+                Chiropractic{" "}
                 <span
                   className="accent-serif"
                   style={{ color: "var(--color-brand-orange)" }}
@@ -340,7 +339,7 @@ export function Hero() {
             style={{ animationDelay: "0.4s" }}
           >
             <Parallax strength={14} className="relative">
-              {/* Ambient glow blobs — purely decorative, never over text */}
+              {/* Ambient glow blobs - purely decorative, never over text */}
               <div
                 aria-hidden
                 className="absolute -right-10 -top-16 -z-10 h-56 w-56 rounded-full bg-[color:var(--color-brand-blue)]/35 blur-3xl"
@@ -402,7 +401,7 @@ export function Hero() {
                           </svg>
                         </div>
                         <div>
-                          <span className="inline-flex items-center rounded-full bg-[color:var(--color-brand-orange)]/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.15em] text-[color:var(--color-brand-orange)] ring-1 ring-inset ring-[color:var(--color-brand-orange)]/40">
+                          <span className="inline-flex items-center rounded-full bg-white px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.15em] text-[color:var(--color-brand-orange)] ring-1 ring-inset ring-[color:var(--color-brand-orange)]/40">
                             Locally Owned Clinic
                           </span>
                           <p className="mt-2 text-lg font-bold text-white">
@@ -437,13 +436,13 @@ export function Hero() {
                   </div>
                 </StaggerItem>
 
-                {/* Stat + rating row — animated counter and the same
+                {/* Stat + rating row - animated counter and the same
                     verified 5.0 rating shown in the copy column, never a
                     fabricated quote/name. */}
                 <StaggerItem className="grid grid-cols-2 gap-4">
                   <div className="hero-anim-float-alt">
                     <FloatOnHover>
-                      <div className="h-full rounded-2xl border border-white/20 bg-[color:var(--color-brand-navy)]/85 px-5 py-4 shadow-[var(--shadow-elevated)] backdrop-blur">
+                      <div className="h-full rounded-2xl border border-white/20 bg-[color:var(--color-brand-navy)] px-5 py-4 shadow-[var(--shadow-elevated)]">
                         <p className="text-3xl font-extrabold leading-none text-[color:var(--color-brand-orange)]">
                           <Counter to={100} suffix="%" />
                         </p>
@@ -512,7 +511,7 @@ export function Hero() {
           </aside>
         </div>
 
-        {/* Scroll indicator — plain <a> with CSS keyframe bounce */}
+        {/* Scroll indicator - plain <a> with CSS keyframe bounce */}
         <a
           href="#services"
           aria-label="Scroll to services"
@@ -528,7 +527,7 @@ export function Hero() {
         </a>
       </div>
 
-      {/* Layer 5 — Bottom fade into next section */}
+      {/* Layer 5 - Bottom fade into next section */}
       <div
         aria-hidden
         className="pointer-events-none absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent"

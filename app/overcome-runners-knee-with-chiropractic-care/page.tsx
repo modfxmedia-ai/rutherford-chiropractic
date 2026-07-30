@@ -1,5 +1,7 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /overcome-runners-knee-with-chiropractic-care/
 // Category: blog-post (Blog post)
@@ -9,14 +11,11 @@ import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
 export const metadata = metadataFor("/overcome-runners-knee-with-chiropractic-care/");
 
 export default function Page() {
+  const post = getBlogPost("overcome-runners-knee-with-chiropractic-care")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/overcome-runners-knee-with-chiropractic-care/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"Overcome Runner’s Knee with Chiropractic Care"}</h1>
-        <p>Blog post route (/overcome-runners-knee-with-chiropractic-care/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

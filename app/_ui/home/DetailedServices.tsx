@@ -278,7 +278,7 @@ function DetailedCard({ service, index }: { service: DetailedService; index: num
   return (
     <article
       id={service.slug}
-      className="scroll-mt-40 grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-10"
+      className="scroll-mt-40 grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center lg:gap-10"
     >
       {/* Image column */}
       <Reveal className={flipped ? "lg:order-2" : ""}>
@@ -377,7 +377,7 @@ function DetailedCard({ service, index }: { service: DetailedService; index: num
             </Reveal>
           )}
 
-          <Stagger className="mt-5 grid gap-2 sm:grid-cols-2">
+          <Stagger className="mt-5 grid grid-cols-1 gap-2 sm:grid-cols-2">
             {service.listItems.map((item) => (
               <StaggerItem
                 key={item}
@@ -534,7 +534,7 @@ export function DetailedServices() {
 
         <div className="relative mt-10">
           {/* NOTE: `QuickNav`'s sticky range is bounded by the height of
-              THIS wrapper (its immediate parent), not by any sibling — so
+              THIS wrapper (its immediate parent), not by any sibling - so
               the nav and the card list must share one tall parent here,
               not live in two separate same-height wrapper divs. */}
           <QuickNav />

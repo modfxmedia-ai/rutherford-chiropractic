@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /chiropractic-care-for-disc-injuries/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "Chiropractic Care for Disc Injuries - Chiropractic Murfreesboro TN"
+// Live title: "Chiropractic Care for Disc Injuries"
 
 export const metadata = metadataFor("/chiropractic-care-for-disc-injuries/");
 
 export default function Page() {
+  const post = getBlogPost("chiropractic-care-for-disc-injuries")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/chiropractic-care-for-disc-injuries/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"Chiropractic Care for Disc Injuries - Chiropractic Murfreesboro TN"}</h1>
-        <p>Blog post route (/chiropractic-care-for-disc-injuries/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

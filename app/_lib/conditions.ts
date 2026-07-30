@@ -46,13 +46,13 @@ export const CONDITIONS: Condition[] = [
     slug: "sciatica",
     name: "Sciatica",
     shortDescription:
-      "Sharp, burning pain that radiates from your lower back through the hip and leg \u2014 often fueled by everyday sitting, lifting, and sleep habits.",
+      "Sharp, burning pain that radiates from your lower back through the hip and leg - often fueled by everyday sitting, lifting, and sleep habits.",
     heroEyebrow: "Condition We Treat",
     heroDescription:
-      "Sciatica is more than ordinary back pain \u2014 it's that sharp, burning, or tingling feeling that starts in the lower back and travels through the hip and down the leg, sometimes all the way to the foot.",
+      "Sciatica is more than ordinary back pain - it's that sharp, burning, or tingling feeling that starts in the lower back and travels through the hip and down the leg, sometimes all the way to the foot.",
     overview: [
-      "Sciatica isn't just regular back pain. It's the sharp, burning, or tingling sensation that starts in the lower back, moves through the hip, and runs down the back of the leg \u2014 sometimes all the way to the foot. It can make simple things like standing up, getting out of the car, or walking across the yard feel hard.",
-      "Most sciatica doesn't come from one big injury. It builds from small, repeated movements and postures throughout the day \u2014 how you sit at a desk, bend to lift something, stand for long periods, or sleep at night can all quietly irritate the sciatic nerve. At Rutherford Spine & Wellness Center, we focus on finding those root patterns instead of just chasing the pain.",
+      "Sciatica isn't just regular back pain. It's the sharp, burning, or tingling sensation that starts in the lower back, moves through the hip, and runs down the back of the leg - sometimes all the way to the foot. It can make simple things like standing up, getting out of the car, or walking across the yard feel hard.",
+      "Most sciatica doesn't come from one big injury. It builds from small, repeated movements and postures throughout the day - how you sit at a desk, bend to lift something, stand for long periods, or sleep at night can all quietly irritate the sciatic nerve. At Rutherford Spine & Wellness Center, we focus on finding those root patterns instead of just chasing the pain.",
     ],
     symptoms: [
       "Sharp, burning, or electric pain from the low back through the hip and leg",
@@ -118,7 +118,7 @@ export const CONDITIONS: Condition[] = [
       {
         question: "Can sitting all day really cause sciatica?",
         answer:
-          "Yes. Long stretches of sitting tighten the front of the hips, stress the spinal discs, and add pressure on the sciatic nerve \u2014 one of the most common triggers we see in our Murfreesboro patients.",
+          "Yes. Long stretches of sitting tighten the front of the hips, stress the spinal discs, and add pressure on the sciatic nerve - one of the most common triggers we see in our Murfreesboro patients.",
       },
       {
         question: "Do I need an MRI before treatment?",
@@ -140,13 +140,13 @@ export const CONDITIONS: Condition[] = [
     slug: "herniated-disc",
     name: "Herniated & Bulging Disc",
     shortDescription:
-      "When a spinal disc bulges or ruptures and presses on a nearby nerve, pain can radiate far beyond your back \u2014 often with tingling, numbness, or burning.",
+      "When a spinal disc bulges or ruptures and presses on a nearby nerve, pain can radiate far beyond your back - often with tingling, numbness, or burning.",
     heroEyebrow: "Condition We Treat",
     heroDescription:
       "Your spine's discs act as shock-absorbing cushions between each vertebra. When one wears down, bulges, or ruptures, it can press on nearby nerves and send pain well beyond your back.",
     overview: [
-      "Your spine is made up of vertebrae stacked one on top of another, with discs in between acting like small cushions \u2014 soft in the center, tougher on the outside \u2014 that absorb shock as you move, twist, lift, and bend.",
-      "A disc can be injured or wear down over time, bulging outward or rupturing so its inner material presses on a nearby nerve. Early on, disc pain can feel similar to a simple muscle strain, but disc problems usually involve nerve-related symptoms \u2014 pain, tingling, or numbness that spreads away from the spine \u2014 while muscle strain tends to stay local and calm down as the muscle heals.",
+      "Your spine is made up of vertebrae stacked one on top of another, with discs in between acting like small cushions - soft in the center, tougher on the outside - that absorb shock as you move, twist, lift, and bend.",
+      "A disc can be injured or wear down over time, bulging outward or rupturing so its inner material presses on a nearby nerve. Early on, disc pain can feel similar to a simple muscle strain, but disc problems usually involve nerve-related symptoms - pain, tingling, or numbness that spreads away from the spine - while muscle strain tends to stay local and calm down as the muscle heals.",
     ],
     symptoms: [
       "Pain that radiates into an arm or leg, not just the back or neck",
@@ -233,10 +233,10 @@ export const CONDITIONS: Condition[] = [
     slug: "migraines-headaches",
     name: "Migraines & Headaches",
     shortDescription:
-      "Recurring headaches and migraines can trace back to tension and misalignment in your neck and upper spine \u2014 not just stress.",
+      "Recurring headaches and migraines can trace back to tension and misalignment in your neck and upper spine - not just stress.",
     heroEyebrow: "Condition We Treat",
     heroDescription:
-      "Headaches and migraines can disrupt your life in more ways than one \u2014 the throbbing pain, sensitivity to light, or trouble concentrating can make even simple tasks unbearable. Often, the root of the discomfort lies in the spine.",
+      "Headaches and migraines can disrupt your life in more ways than one - the throbbing pain, sensitivity to light, or trouble concentrating can make even simple tasks unbearable. Often, the root of the discomfort lies in the spine.",
     overview: [
       "Your spine plays a critical role in your overall health, especially your nervous system. Misalignments or compression in the cervical spine (your neck) can affect nearby nerves, leading to tension headaches or even triggering migraines by disrupting the flow of oxygen and nutrients to the brain.",
       "At Rutherford Spine & Wellness Center, we look at the connection between your neck, posture, and nervous system, using non-invasive chiropractic care and spinal decompression to address the mechanical causes behind recurring head pain.",
@@ -305,7 +305,7 @@ export const CONDITIONS: Condition[] = [
       {
         question: "Is spinal decompression safe for neck-related headaches?",
         answer:
-          "Yes \u2014 it's a gentle, controlled, non-surgical stretch designed specifically to relieve pressure on the discs and nerves in the neck.",
+          "Yes - it's a gentle, controlled, non-surgical stretch designed specifically to relieve pressure on the discs and nerves in the neck.",
       },
       {
         question: "Do I need to change my desk setup too?",
@@ -332,8 +332,8 @@ export const CONDITIONS: Condition[] = [
     heroDescription:
       "Whiplash can turn simple things like backing out of the driveway or looking over your shoulder into painful chores. It happens when your head and neck are snapped back and forth quickly.",
     overview: [
-      "Whiplash usually happens in a rear-end car accident, a hard hit in sports, or a slip and fall \u2014 anything that snaps the head and neck quickly in one direction, then back in the other. Even if nothing is broken, the soft tissue and joint strain underneath can be very real.",
-      "Swelling and inflammation often build over time, which is why whiplash symptoms may not show up until hours or days after the incident. Feeling okay right after a fender-bender doesn't always mean there's no injury underneath \u2014 early, targeted care makes a real difference in preventing long-term problems.",
+      "Whiplash usually happens in a rear-end car accident, a hard hit in sports, or a slip and fall - anything that snaps the head and neck quickly in one direction, then back in the other. Even if nothing is broken, the soft tissue and joint strain underneath can be very real.",
+      "Swelling and inflammation often build over time, which is why whiplash symptoms may not show up until hours or days after the incident. Feeling okay right after a fender-bender doesn't always mean there's no injury underneath - early, targeted care makes a real difference in preventing long-term problems.",
     ],
     symptoms: [
       "Neck pain and stiffness",
@@ -386,7 +386,7 @@ export const CONDITIONS: Condition[] = [
     ],
     faqs: [
       {
-        question: "My pain started days after the accident \u2014 is that normal?",
+        question: "My pain started days after the accident - is that normal?",
         answer:
           "Yes, this is common with whiplash. Swelling and inflammation can build gradually, so symptoms often appear or worsen hours or even days after the original incident.",
       },
@@ -408,7 +408,7 @@ export const CONDITIONS: Condition[] = [
       {
         question: "Will my symptoms come back if I don't get treated?",
         answer:
-          "Untreated joint and soft-tissue strain from whiplash can lead to chronic neck pain, recurring headaches, and extra spinal wear over time \u2014 which is why early, structured care matters.",
+          "Untreated joint and soft-tissue strain from whiplash can lead to chronic neck pain, recurring headaches, and extra spinal wear over time - which is why early, structured care matters.",
       },
     ],
     relatedService: { label: "Auto Injury Care", href: "/auto-injuries/" },
@@ -420,12 +420,12 @@ export const CONDITIONS: Condition[] = [
     slug: "arthritis",
     name: "Arthritis & Joint Numbness",
     shortDescription:
-      "Stiff, aching joints paired with numbness or tingling often point to nerve compression in the spine \u2014 not just wear-and-tear in the joint itself.",
+      "Stiff, aching joints paired with numbness or tingling often point to nerve compression in the spine - not just wear-and-tear in the joint itself.",
     heroEyebrow: "Condition We Treat",
     heroDescription:
-      "Arthritis doesn't just cause joint pain and stiffness \u2014 it can also lead to numbness and tingling, especially when it affects the spine and puts pressure on nearby nerves.",
+      "Arthritis doesn't just cause joint pain and stiffness - it can also lead to numbness and tingling, especially when it affects the spine and puts pressure on nearby nerves.",
     overview: [
-      "When people think of arthritis, they usually picture joint pain, swelling, and stiffness. But arthritis can also cause numbness and tingling, particularly when it narrows the space between vertebrae and puts pressure on nearby nerves \u2014 a process called nerve compression.",
+      "When people think of arthritis, they usually picture joint pain, swelling, and stiffness. But arthritis can also cause numbness and tingling, particularly when it narrows the space between vertebrae and puts pressure on nearby nerves - a process called nerve compression.",
       "As arthritis progresses, it can also wear down the discs that cushion the spine, sometimes leading to herniated discs or bone spurs that irritate nerves further. When a nerve is compressed, signals don't travel the way they should, which shows up as numbness, tingling, or weakness in the hands or feet.",
     ],
     symptoms: [
@@ -481,7 +481,7 @@ export const CONDITIONS: Condition[] = [
       {
         question: "Why does arthritis cause numbness, not just pain?",
         answer:
-          "As arthritis narrows the space around the spinal nerves or contributes to disc wear, it can compress nerves directly \u2014 which shows up as numbness, tingling, or weakness rather than just localized joint pain.",
+          "As arthritis narrows the space around the spinal nerves or contributes to disc wear, it can compress nerves directly - which shows up as numbness, tingling, or weakness rather than just localized joint pain.",
       },
       {
         question: "Is spinal decompression safe if I have arthritis?",
@@ -496,12 +496,12 @@ export const CONDITIONS: Condition[] = [
       {
         question: "Can this help me avoid surgery?",
         answer:
-          "For many patients, yes \u2014 non-surgical, non-invasive care is often effective for arthritis-related nerve symptoms before more invasive options are considered.",
+          "For many patients, yes - non-surgical, non-invasive care is often effective for arthritis-related nerve symptoms before more invasive options are considered.",
       },
       {
         question: "Will exercise make my arthritis worse?",
         answer:
-          "The right kind of gentle, targeted movement generally helps joints stay mobile and can reduce stiffness \u2014 we'll guide you toward exercises that support rather than strain your joints.",
+          "The right kind of gentle, targeted movement generally helps joints stay mobile and can reduce stiffness - we'll guide you toward exercises that support rather than strain your joints.",
       },
     ],
     relatedService: { label: "Neuropathy Care", href: "/neuropathy/" },
@@ -513,10 +513,10 @@ export const CONDITIONS: Condition[] = [
     slug: "degenerative-disc-disease",
     name: "Degenerative Disc Disease",
     shortDescription:
-      "Discs naturally lose height and hydration over time \u2014 often leading to chronic stiffness, radiating tingling, and reduced flexibility in the neck or back.",
+      "Discs naturally lose height and hydration over time - often leading to chronic stiffness, radiating tingling, and reduced flexibility in the neck or back.",
     heroEyebrow: "Condition We Treat",
     heroDescription:
-      "Chronic neck and back stiffness is more than just a physical discomfort \u2014 it can affect your mood, productivity, and quality of life. Often, the root cause is degenerative changes in the spinal discs.",
+      "Chronic neck and back stiffness is more than just a physical discomfort - it can affect your mood, productivity, and quality of life. Often, the root cause is degenerative changes in the spinal discs.",
     overview: [
       "For many people, chronic neck and back pain stems from issues like herniated discs, degenerative disc disease, or poor posture. These changes can compress the nerves in the spine, leading to pain, stiffness, and even radiating symptoms like tingling in the arms or legs.",
       "Degenerative disc disease develops gradually as discs lose hydration and height with age, prior injury, or years of repetitive strain. Spinal decompression and chiropractic care work together to relieve pressure on the affected discs and nerves, restoring alignment and improving circulation to the area.",
@@ -589,7 +589,7 @@ export const CONDITIONS: Condition[] = [
       {
         question: "Can I still be active with degenerative disc disease?",
         answer:
-          "Yes \u2014 in fact, the right kind of movement and strengthening is part of an effective, long-term plan. We'll guide you on which activities to modify and which ones actually help.",
+          "Yes - in fact, the right kind of movement and strengthening is part of an effective, long-term plan. We'll guide you on which activities to modify and which ones actually help.",
       },
       {
         question: "Will this come back after treatment?",
@@ -606,19 +606,19 @@ export const CONDITIONS: Condition[] = [
     slug: "joint-pain",
     name: "Joint Pain & Stiffness",
     shortDescription:
-      "Popping, cracking, or stiff joints often signal that your body is compensating for a deeper alignment issue \u2014 not just \u201Cgetting older.\u201D",
+      "Popping, cracking, or stiff joints often signal that your body is compensating for a deeper alignment issue - not just \u201Cgetting older.\u201D",
     heroEyebrow: "Condition We Treat",
     heroDescription:
       "Joint pain has a way of sneaking up on active people. One month you feel fine on runs or in the garden; the next, your knee twinges on every step or your shoulder feels tight overhead.",
     overview: [
-      "Many joint problems don't start on the field or in the gym \u2014 they build up from everyday habits. Desk posture, footwear, and sudden jumps in activity level quietly load your joints over and over until they finally start to hurt or make noise.",
-      "Even with good habits, joint pain can come from deeper alignment issues you can't see in a mirror. When the spine or pelvis isn't lined up well, the rest of the body compensates \u2014 certain joints end up taking the brunt of every step, swing, or lift, which is often why the knee or shoulder hurts even though the real trigger is somewhere else.",
+      "Many joint problems don't start on the field or in the gym - they build up from everyday habits. Desk posture, footwear, and sudden jumps in activity level quietly load your joints over and over until they finally start to hurt or make noise.",
+      "Even with good habits, joint pain can come from deeper alignment issues you can't see in a mirror. When the spine or pelvis isn't lined up well, the rest of the body compensates - certain joints end up taking the brunt of every step, swing, or lift, which is often why the knee or shoulder hurts even though the real trigger is somewhere else.",
     ],
     symptoms: [
       "Popping, cracking, or clicking joints during movement",
       "Stiffness after rest or first thing in the morning",
       "Joint pain that shows up after activity, not during it",
-      "Uneven wear \u2014 one side of the body working harder than the other",
+      "Uneven wear - one side of the body working harder than the other",
       "Tightness that limits your normal range of motion",
       "Aches that seem to move around from one joint to another",
     ],
@@ -653,7 +653,7 @@ export const CONDITIONS: Condition[] = [
       {
         title: "Whole-Person Evaluation",
         description:
-          "We assess your nerves, muscles, and alignment together \u2014 not just the joint that hurts \u2014 to find the real trigger.",
+          "We assess your nerves, muscles, and alignment together - not just the joint that hurts - to find the real trigger.",
       },
     ],
     benefits: [
@@ -667,7 +667,7 @@ export const CONDITIONS: Condition[] = [
       {
         question: "Is joint popping always something to worry about?",
         answer:
-          "No \u2014 occasional, painless popping is usually just a harmless change in joint pressure, similar to cracking your knuckles. It's worth getting checked when popping is paired with stiffness, reduced motion, or discomfort.",
+          "No - occasional, painless popping is usually just a harmless change in joint pressure, similar to cracking your knuckles. It's worth getting checked when popping is paired with stiffness, reduced motion, or discomfort.",
       },
       {
         question: "Can chiropractic care actually reduce the popping?",
@@ -685,7 +685,7 @@ export const CONDITIONS: Condition[] = [
           "Many patients notice improved movement within the first few visits, with continued improvement as alignment and muscle balance are restored over several weeks.",
       },
       {
-        question: "I'm active in sports \u2014 will this help me perform better?",
+        question: "I'm active in sports - will this help me perform better?",
         answer:
           "Yes. Reducing compensation and improving joint mechanics often helps patients move more efficiently and with more confidence during sports and everyday activity.",
       },

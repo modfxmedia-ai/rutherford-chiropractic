@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { businessInfo, primaryNav } from "./nav";
 import {
+  CalendarIcon,
   ChevronDownIcon,
   FacebookIcon,
   MailIcon,
@@ -77,13 +78,13 @@ export function Header() {
         }`}
       >
         <div
-          className={`container-header flex items-center justify-between gap-3 transition-[height] duration-300 ease-out ${
+          className={`container-header flex items-center justify-between gap-4 transition-[height] duration-300 ease-out lg:gap-8 ${
             scrolled ? "h-16 lg:h-20" : "h-20 lg:h-24"
           }`}
         >
           <Link
             href="/"
-            aria-label="Rutherford Spine &amp; Wellness Center — Home"
+            aria-label="Rutherford Spine &amp; Wellness Center - Home"
             className="shrink-0"
           >
             <Image
@@ -98,16 +99,18 @@ export function Header() {
             />
           </Link>
 
-          <DesktopNav />
+          <div className="hidden min-w-0 flex-1 justify-center lg:flex">
+            <DesktopNav />
+          </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2.5">
             {/* TODO: swap the `#reviews` target for the client's Google reviews URL */}
-            <a href="#reviews" className="btn btn-outline-orange btn-sm hidden 2xl:inline-flex">
+            <a href="#reviews" className="btn btn-outline-orange btn-xs hidden 2xl:inline-flex">
               Read Reviews
             </a>
             <Link
               href="/contact-us/"
-              className="btn btn-primary btn-sm hidden min-[1400px]:inline-flex"
+              className="btn btn-primary btn-xs hidden min-[1400px]:inline-flex"
             >
               Schedule Your Consultation
             </Link>
@@ -168,23 +171,23 @@ function UtilityBar() {
 function DesktopNav() {
   return (
     <nav aria-label="Primary" className="hidden lg:block">
-      <ul className="flex items-center gap-0 xl:gap-1">
+      <ul className="flex items-center gap-0.5 xl:gap-1.5">
         {primaryNav.map((item) =>
           item.children ? (
             <li key={item.label} className="group relative">
               <button
                 type="button"
                 aria-haspopup="menu"
-                className="relative inline-flex items-center gap-1 whitespace-nowrap rounded-md px-1.5 py-2 text-[13px] font-semibold uppercase tracking-[0.01em] text-brand-navy transition-colors hover:text-brand-blue group-focus-within:text-brand-blue xl:px-2.5"
+                className="relative inline-flex items-center gap-1 whitespace-nowrap rounded-md px-2 py-2 text-[11.5px] font-semibold uppercase tracking-[0.01em] text-brand-navy transition-colors hover:text-brand-blue group-focus-within:text-brand-blue xl:px-2.5"
               >
                 {item.label}
                 <ChevronDownIcon
-                  size={14}
+                  size={12}
                   className="transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180"
                 />
-                <span className="pointer-events-none absolute inset-x-1.5 -bottom-0.5 h-0.5 origin-left scale-x-0 rounded-full bg-[color:var(--color-brand-orange)] transition-transform duration-300 ease-out group-hover:scale-x-100 group-focus-within:scale-x-100 xl:inset-x-2.5" />
+                <span className="pointer-events-none absolute inset-x-2 -bottom-0.5 h-0.5 origin-left scale-x-0 rounded-full bg-[color:var(--color-brand-orange)] transition-transform duration-300 ease-out group-hover:scale-x-100 group-focus-within:scale-x-100 xl:inset-x-2.5" />
               </button>
-              {/* Flush hoverable wrapper (no gap) — the visual "floating"
+              {/* Flush hoverable wrapper (no gap) - the visual "floating"
                   offset lives on the inner panel via `mt-2`, not on this
                   outer box, so the pointer never crosses dead space that
                   would drop out of `group-hover`. */}
@@ -194,17 +197,33 @@ function DesktopNav() {
                 className="invisible absolute left-1/2 top-full z-50 min-w-[240px] -translate-x-1/2 opacity-0 transition-all duration-200 ease-out group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"
               >
                 <ul className="surface-card mt-2 origin-top scale-95 overflow-hidden p-2 opacity-0 transition-all duration-200 ease-out group-hover:scale-100 group-hover:opacity-100 group-focus-within:scale-100 group-focus-within:opacity-100">
-                  {item.children.map((c) => (
-                    <li key={c.href}>
-                      <Link
-                        href={c.href}
-                        role="menuitem"
-                        className="block rounded-md px-4 py-2.5 text-sm font-medium text-brand-navy transition-colors hover:bg-brand-blue/5 hover:text-brand-blue"
+                  {item.children.map((c) =>
+                    c.label === "Book Appointment" ? (
+                      <li
+                        key={c.label}
+                        className="mt-1 border-t border-[color:var(--color-border)] pt-1"
                       >
-                        {c.label}
-                      </Link>
-                    </li>
-                  ))}
+                        <Link
+                          href={c.href}
+                          role="menuitem"
+                          className="flex items-center gap-2 rounded-md px-4 py-2.5 text-sm font-bold text-[color:var(--color-brand-orange)] transition-colors hover:bg-[color:var(--color-brand-orange)]/10"
+                        >
+                          <CalendarIcon size={15} />
+                          {c.label}
+                        </Link>
+                      </li>
+                    ) : (
+                      <li key={c.label}>
+                        <Link
+                          href={c.href}
+                          role="menuitem"
+                          className="block rounded-md px-4 py-2.5 text-sm font-medium text-brand-navy transition-colors hover:bg-brand-blue/5 hover:text-brand-blue"
+                        >
+                          {c.label}
+                        </Link>
+                      </li>
+                    )
+                  )}
                 </ul>
               </div>
             </li>
@@ -212,10 +231,10 @@ function DesktopNav() {
             <li key={item.href} className="group relative">
               <Link
                 href={item.href}
-                className="relative inline-block whitespace-nowrap rounded-md px-1.5 py-2 text-[13px] font-semibold uppercase tracking-[0.01em] text-brand-navy transition-colors hover:text-brand-blue xl:px-2.5"
+                className="relative inline-block whitespace-nowrap rounded-md px-2 py-2 text-[11.5px] font-semibold uppercase tracking-[0.01em] text-brand-navy transition-colors hover:text-brand-blue xl:px-2.5"
               >
                 {item.label}
-                <span className="pointer-events-none absolute inset-x-1.5 -bottom-0.5 h-0.5 origin-left scale-x-0 rounded-full bg-[color:var(--color-brand-orange)] transition-transform duration-300 ease-out group-hover:scale-x-100 xl:inset-x-2.5" />
+                <span className="pointer-events-none absolute inset-x-2 -bottom-0.5 h-0.5 origin-left scale-x-0 rounded-full bg-[color:var(--color-brand-orange)] transition-transform duration-300 ease-out group-hover:scale-x-100 xl:inset-x-2.5" />
               </Link>
             </li>
           )

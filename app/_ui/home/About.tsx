@@ -64,7 +64,7 @@ export function About() {
         <div className="absolute -left-24 top-1/3 h-72 w-72 rounded-full bg-glow-blue" />
       </div>
       <div className="container-wide relative">
-        <div className="grid gap-12 lg:grid-cols-2 lg:items-start">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-start">
           {/* Copy column */}
           <div>
             <Reveal>
@@ -123,7 +123,7 @@ export function About() {
             </Stagger>
           </div>
 
-          {/* Video column — sticks in place on large screens while the
+          {/* Video column - sticks in place on large screens while the
               copy column scrolls past it, then releases at the section end. */}
           <Reveal delay={0.1} className="lg:sticky lg:top-[152px] lg:self-start">
             <div className="relative">

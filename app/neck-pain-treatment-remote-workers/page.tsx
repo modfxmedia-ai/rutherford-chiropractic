@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /neck-pain-treatment-remote-workers/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "Relief for Desk-Related Neck Pain in Murfreesboro"
+// Live title: "Neck Pain Treatment in Murfreesboro for Desk and Remote Workers"
 
 export const metadata = metadataFor("/neck-pain-treatment-remote-workers/");
 
 export default function Page() {
+  const post = getBlogPost("neck-pain-treatment-remote-workers")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/neck-pain-treatment-remote-workers/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"Relief for Desk-Related Neck Pain in Murfreesboro"}</h1>
-        <p>Blog post route (/neck-pain-treatment-remote-workers/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

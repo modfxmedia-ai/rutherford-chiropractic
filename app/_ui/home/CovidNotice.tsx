@@ -60,7 +60,7 @@ export function CovidNotice() {
                 Do you think you may have COVID-19? If you think you&rsquo;re sick, follow guidance about when to call your doctor:
               </p>
 
-              <Stagger className="mt-6 grid gap-3 sm:grid-cols-3" as="ul">
+              <Stagger className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-3" as="ul">
                 {STEPS.map((step) => (
                   <StaggerItem
                     key={step.label}

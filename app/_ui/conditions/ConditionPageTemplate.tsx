@@ -39,7 +39,7 @@ export function ConditionPageTemplate({ condition }: { condition: Condition }) {
 
 function ConditionHero({ condition }: { condition: Condition }) {
   return (
-    <section className="surface-dark relative isolate overflow-hidden pt-32 pb-20 lg:pt-40 lg:pb-24">
+    <section className="surface-dark relative isolate overflow-hidden pt-14 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16">
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"
@@ -112,7 +112,7 @@ function SymptomsSection({ condition }: { condition: Condition }) {
           <span className="eyebrow">Symptoms</span>
           <h2 className="h-section mt-3">Signs of {condition.name}</h2>
         </Reveal>
-        <Stagger as="ul" className="mx-auto mt-10 grid max-w-4xl gap-4 sm:grid-cols-2">
+        <Stagger as="ul" className="mx-auto mt-10 grid grid-cols-1 max-w-4xl gap-4 sm:grid-cols-2">
           {condition.symptoms.map((symptom) => (
             <StaggerItem
               as="li"
@@ -175,7 +175,7 @@ function TreatmentSection({ condition }: { condition: Condition }) {
             combining these therapies to fit your specific situation.
           </p>
         </Reveal>
-        <Stagger as="ul" className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <Stagger as="ul" className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {condition.treatments.map((treatment) => (
             <StaggerItem
               as="li"
@@ -204,7 +204,7 @@ function BenefitsSection({ condition }: { condition: Condition }) {
           <span className="eyebrow">Benefits of Treatment</span>
           <h2 className="h-section mt-3">Why Patients Choose Rutherford</h2>
         </Reveal>
-        <Stagger as="ul" className="mt-8 grid gap-4 sm:grid-cols-2">
+        <Stagger as="ul" className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {condition.benefits.map((benefit) => (
             <StaggerItem
               as="li"

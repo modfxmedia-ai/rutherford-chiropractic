@@ -40,18 +40,23 @@ const conditionsLinks =
 const quickLinks = [
   { label: "Home", href: "/" },
   { label: "Medical Weight Loss", href: "/medical-weight-loss/" },
+  { label: "Areas We Serve", href: "/areas-we-serve/" },
   { label: "New Patients", href: "/new-patients/" },
   { label: "New Patient Forms", href: "/new-patient-forms/" },
   { label: "Financing", href: "/financing/" },
   { label: "Contact Us", href: "/contact-us/" },
   { label: "Blog", href: "/blog/" },
+  { label: "Sitemap", href: "/sitemap/" },
 ];
 
 const YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="surface-footer relative mt-auto overflow-hidden text-white">
+    <footer
+      id="site-footer"
+      className="surface-footer relative mt-auto overflow-hidden text-white"
+    >
       <div
         aria-hidden
         className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-glow-blue"
@@ -62,8 +67,8 @@ export function Footer() {
       />
 
       <div className="container-wide section-y-sm relative">
-        {/* Tier 1 — NAP + organized nav columns */}
-        <Stagger className="grid gap-10 md:grid-cols-2 lg:grid-cols-12">
+        {/* Tier 1 - NAP + organized nav columns */}
+        <Stagger className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-12">
           <StaggerItem className="lg:col-span-4">
             <NapBlock />
           </StaggerItem>
@@ -78,8 +83,8 @@ export function Footer() {
           </StaggerItem>
         </Stagger>
 
-        {/* Tier 2 — conversion cards */}
-        <Stagger className="mt-14 grid gap-6 border-t border-white/10 pt-12 md:grid-cols-3">
+        {/* Tier 2 - conversion cards */}
+        <Stagger className="mt-14 grid grid-cols-1 gap-6 border-t border-white/10 pt-12 md:grid-cols-3">
           <StaggerItem>
             <ReviewsCard />
           </StaggerItem>
@@ -124,7 +129,7 @@ export function Footer() {
 function NapBlock() {
   return (
     <div>
-      <Link href="/" aria-label="Rutherford Spine &amp; Wellness Center — Home" className="inline-block">
+      <Link href="/" aria-label="Rutherford Spine &amp; Wellness Center - Home" className="inline-block">
         <Image
           src={brandAssets.logo}
           alt="Rutherford Spine &amp; Wellness Center"

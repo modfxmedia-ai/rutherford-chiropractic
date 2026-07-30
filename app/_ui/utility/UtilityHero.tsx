@@ -19,7 +19,7 @@ export function UtilityHero({
   subtitle?: string;
 }) {
   return (
-    <section className="surface-dark relative isolate overflow-hidden pt-32 pb-16 lg:pt-40 lg:pb-20">
+    <section className="surface-dark relative isolate overflow-hidden pt-14 pb-8 sm:pt-20 sm:pb-10 lg:pt-28 lg:pb-14">
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"

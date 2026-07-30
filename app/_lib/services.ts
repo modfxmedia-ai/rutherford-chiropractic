@@ -60,7 +60,7 @@ function processSteps(assessmentTitle: string, assessmentDescription: string): S
     {
       title: "Schedule Your Consultation",
       description:
-        "Call our office or fill out our online form to book a time that works for you \u2014 no referral needed.",
+        "Call our office or fill out our online form to book a time that works for you - no referral needed.",
     },
     { title: assessmentTitle, description: assessmentDescription },
     {
@@ -76,7 +76,7 @@ function processSteps(assessmentTitle: string, assessmentDescription: string): S
   ];
 }
 
-const ALL_SERVICE_LINKS = [
+export const ALL_SERVICE_LINKS = [
   { label: "Chiropractic", href: "/chiropractic/" },
   { label: "Spinal Decompression", href: "/spinal-decompression/" },
   { label: "Neuropathy", href: "/neuropathy/" },
@@ -133,7 +133,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       {
         question: "How many chiropractic visits will I need?",
         answer:
-          "Every treatment plan is different \u2014 after your initial exam, Dr. Wesley Stewart will recommend a visit schedule based on your specific condition and goals, and adjust it as you improve.",
+          "Every treatment plan is different - after your initial exam, Dr. Wesley Stewart will recommend a visit schedule based on your specific condition and goals, and adjust it as you improve.",
       },
       {
         question: "Is chiropractic care safe?",
@@ -142,7 +142,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         question: "Do I need a referral to see a chiropractor?",
-        answer: "No referral is required \u2014 you can schedule a consultation directly with our Murfreesboro office.",
+        answer: "No referral is required - you can schedule a consultation directly with our Murfreesboro office.",
       },
     ],
     related: relatedTo("/back-pain-relief/", "/spinal-decompression/", "/auto-injuries/"),
@@ -189,7 +189,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       {
         question: "Is spinal decompression painful?",
         answer:
-          "No \u2014 spinal decompression uses gentle, controlled stretching of the spine, so most patients find it comfortable and relaxing.",
+          "No - spinal decompression uses gentle, controlled stretching of the spine, so most patients find it comfortable and relaxing.",
       },
       {
         question: "How long until I feel relief?",
@@ -246,11 +246,11 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       {
         question: "What causes neuropathy?",
         answer:
-          "Neuropathy pain can stem from a variety of underlying issues affecting the nerves in the hands and feet \u2014 our team will evaluate your symptoms to determine the best treatment approach.",
+          "Neuropathy pain can stem from a variety of underlying issues affecting the nerves in the hands and feet - our team will evaluate your symptoms to determine the best treatment approach.",
       },
       {
         question: "Do you use medication to treat neuropathy?",
-        answer: "No \u2014 we offer opioid-free, drug-free alternative therapies using FDA-approved neuropathy equipment.",
+        answer: "No - we offer opioid-free, drug-free alternative therapies using FDA-approved neuropathy equipment.",
       },
       {
         question: "How quickly can I expect relief from neuropathy symptoms?",
@@ -299,13 +299,13 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     whyChooseUs: TRUST_POINTS,
     process: processSteps(
       "Pain Source Exam",
-      "We accurately diagnose and isolate the true source of your pain \u2014 not just the symptoms \u2014 before recommending treatment.",
+      "We accurately diagnose and isolate the true source of your pain - not just the symptoms - before recommending treatment.",
     ),
     faqs: [
       {
         question: "What causes back pain?",
         answer:
-          "Back pain can come from many sources \u2014 muscle strain, disc issues, spine misalignment, and more \u2014 which is why an accurate diagnosis is the first step in effective treatment.",
+          "Back pain can come from many sources - muscle strain, disc issues, spine misalignment, and more - which is why an accurate diagnosis is the first step in effective treatment.",
       },
       {
         question: "Will I need imaging or X-rays?",
@@ -314,7 +314,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
       {
         question: "Is chiropractic treatment effective for chronic back pain?",
-        answer: "Yes \u2014 many patients with chronic back pain find lasting relief through consistent, non-invasive chiropractic care.",
+        answer: "Yes - many patients with chronic back pain find lasting relief through consistent, non-invasive chiropractic care.",
       },
     ],
     related: relatedTo("/chiropractic/", "/spinal-decompression/", "/sports-injuries/"),
@@ -357,19 +357,19 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     ),
     faqs: [
       {
-        question: "I don\u2019t feel any pain after my accident \u2014 do I still need to be seen?",
+        question: "I don\u2019t feel any pain after my accident - do I still need to be seen?",
         answer:
           "Yes. Some auto injuries, like whiplash, don\u2019t cause symptoms right away and can worsen if left untreated, so it\u2019s best to be evaluated as soon as possible.",
       },
       {
         question: "Will my auto insurance cover chiropractic treatment after an accident?",
         answer:
-          "Many auto insurance policies include coverage for chiropractic care following an accident \u2014 our office can help you understand your options.",
+          "Many auto insurance policies include coverage for chiropractic care following an accident - our office can help you understand your options.",
       },
       {
         question: "How soon after an accident should I schedule an appointment?",
         answer:
-          "The sooner the better \u2014 early treatment gives your body the best chance to heal properly and can help prevent long-term complications.",
+          "The sooner the better - early treatment gives your body the best chance to heal properly and can help prevent long-term complications.",
       },
     ],
     related: relatedTo("/chiropractic/", "/back-pain-relief/", "/spinal-decompression/"),
@@ -415,17 +415,17 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       {
         question: "Can chiropractic care help with a sports injury?",
         answer:
-          "Yes \u2014 chiropractic treatment can help prevent minor injuries from becoming chronic problems and supports faster, safer recovery for athletes of all levels.",
+          "Yes - chiropractic treatment can help prevent minor injuries from becoming chronic problems and supports faster, safer recovery for athletes of all levels.",
       },
       {
-        question: "I\u2019m not a serious athlete \u2014 can I still be treated for a sports injury?",
+        question: "I\u2019m not a serious athlete - can I still be treated for a sports injury?",
         answer:
           "Absolutely. Whether you\u2019re training for a marathon or just enjoy weekend activities, our care is tailored to your activity level and goals.",
       },
       {
         question: "What is runner\u2019s knee and how is it treated?",
         answer:
-          "Runner\u2019s knee causes aching, weakness, and cracking around the kneecap from repetitive strain \u2014 our chiropractic techniques target the underlying cause rather than just the symptoms.",
+          "Runner\u2019s knee causes aching, weakness, and cracking around the kneecap from repetitive strain - our chiropractic techniques target the underlying cause rather than just the symptoms.",
       },
     ],
     related: relatedTo("/chiropractic/", "/back-pain-relief/", "/auto-injuries/"),

@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "./_ui/Header";
 import { Footer } from "./_ui/Footer";
 import { BusinessSchema } from "./_ui/BusinessSchema";
+import { StickyBookBanner } from "./_ui/StickyBookBanner";
 
 // Sans-serif workhorse — used for body, nav, buttons, and all standard headings.
 const inter = Inter({
@@ -43,6 +44,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <StickyBookBanner />
       </body>
     </html>
   );

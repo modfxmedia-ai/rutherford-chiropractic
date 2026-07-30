@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /how-spinal-decompression-can-alleviate-pain-from-work-related-injuries/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "How Spinal Decompression Can Alleviate Pain from Work-Related Injuries - Chiropractic Murfreesboro TN"
+// Live title: "How Spinal Decompression Can Alleviate Pain from Work-Related Injuries"
 
 export const metadata = metadataFor("/how-spinal-decompression-can-alleviate-pain-from-work-related-injuries/");
 
 export default function Page() {
+  const post = getBlogPost("how-spinal-decompression-can-alleviate-pain-from-work-related-injuries")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/how-spinal-decompression-can-alleviate-pain-from-work-related-injuries/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"How Spinal Decompression Can Alleviate Pain from Work-Related Injuries - Chiropractic Murfreesboro TN"}</h1>
-        <p>Blog post route (/how-spinal-decompression-can-alleviate-pain-from-work-related-injuries/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

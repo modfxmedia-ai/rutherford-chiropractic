@@ -83,7 +83,7 @@ export function NewPatientFormsPage() {
             </p>
           </Reveal>
 
-          <Stagger as="ul" className="mx-auto mt-14 grid max-w-4xl gap-6 sm:grid-cols-2">
+          <Stagger as="ul" className="mx-auto mt-14 grid grid-cols-1 max-w-4xl gap-6 sm:grid-cols-2">
             {FORM_GROUPS.map((group) => (
               <StaggerItem as="li" key={group.title}>
                 <div className="hover-lift surface-card flex h-full flex-col bg-white p-6 lg:p-7">

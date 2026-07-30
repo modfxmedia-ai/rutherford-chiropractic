@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { ORIGIN, ROUTES } from "./_lib/content-map";
 import { CONDITIONS } from "./_lib/conditions";
+import { PSEO_COMBINATIONS } from "./_lib/pseo/combinations";
+import { PSEO_AUDIENCE_COMBINATIONS } from "./_lib/pseo/audience-content";
 
 /**
  * Emits `/sitemap.xml` containing every URL from the original WordPress
@@ -40,5 +42,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...migrated, ...conditions];
+  const pseo = PSEO_COMBINATIONS.map((combo) => ({
+    url: `${ORIGIN}/${combo.conditionSlug}/${combo.neighborhoodSlug}/`,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  const pseoAudience = PSEO_AUDIENCE_COMBINATIONS.map((combo) => ({
+    url: `${ORIGIN}/${combo.conditionSlug}/${combo.neighborhoodSlug}/${combo.audienceSlug}/`,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+
+  const areasWeServe = [
+    {
+      url: `${ORIGIN}/areas-we-serve/`,
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    },
+    {
+      url: `${ORIGIN}/sitemap/`,
+      changeFrequency: "monthly" as const,
+      priority: 0.4,
+    },
+  ];
+
+  return [...migrated, ...conditions, ...pseo, ...pseoAudience, ...areasWeServe];
 }

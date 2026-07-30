@@ -83,12 +83,12 @@ export function ContactPage() {
       <UtilityHero
         eyebrow="Get In Touch"
         h1="Contact Us"
-        subtitle="Have a question or ready to schedule your visit? Reach out any way that works for you — our Murfreesboro team is here to help."
+        subtitle="Have a question or ready to schedule your visit? Reach out any way that works for you - our Murfreesboro team is here to help."
       />
 
       <section className="section-y bg-white">
         <div className="container-content">
-          <Stagger as="ul" className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <Stagger as="ul" className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {NAP_ROWS.map(({ icon: Icon, label, value, href, external }) => {
               const content = (
                 <div className="hover-lift surface-card flex h-full items-start gap-3 bg-white p-5">
@@ -128,7 +128,7 @@ export function ContactPage() {
 
       <section className="section-y surface-muted">
         <div className="container-content">
-          <div className="grid gap-10 lg:grid-cols-2 lg:gap-12">
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-12">
             <Reveal>
               <h2 className="h-section">Fill Out The Form Below To Schedule Your Consultation</h2>
               <div className="surface-card mt-6 overflow-hidden bg-white p-2">

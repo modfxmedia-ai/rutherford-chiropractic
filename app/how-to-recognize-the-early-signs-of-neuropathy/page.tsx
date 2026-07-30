@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /how-to-recognize-the-early-signs-of-neuropathy/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "How to Recognize the Early Signs of Neuropathy - Chiropractic Murfreesboro TN"
+// Live title: "How to Recognize the Early Signs of Neuropathy"
 
 export const metadata = metadataFor("/how-to-recognize-the-early-signs-of-neuropathy/");
 
 export default function Page() {
+  const post = getBlogPost("how-to-recognize-the-early-signs-of-neuropathy")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/how-to-recognize-the-early-signs-of-neuropathy/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"How to Recognize the Early Signs of Neuropathy - Chiropractic Murfreesboro TN"}</h1>
-        <p>Blog post route (/how-to-recognize-the-early-signs-of-neuropathy/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

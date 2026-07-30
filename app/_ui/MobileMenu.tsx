@@ -1,9 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
 import { primaryNav, businessInfo } from "./nav";
 import {
+  CalendarIcon,
   ChevronDownIcon,
   CloseIcon,
   FacebookIcon,
@@ -19,9 +21,39 @@ import {
  * All nav groups are expanded inline (no nested toggle-per-group) so users
  * on small screens can see every link at once. Body scroll is locked while
  * the menu is open and the Escape key closes it.
+ *
+ * The backdrop + slide-in panel are rendered through a `createPortal` into
+ * `document.body` rather than in-place. Reason: the Header's glass surface
+ * uses `backdrop-blur-*` (CSS `backdrop-filter`), which — like `transform`/
+ * `filter`/`perspective` — establishes a new containing block for any
+ * `position: fixed` DESCENDANT. Without the portal, the panel's `fixed
+ * inset-y-0` was being sized/positioned relative to that blurred header
+ * div's own (short) box instead of the viewport, squashing the whole menu
+ * into a ~80px sliver at the top of the screen instead of a full-height
+ * drawer. Portaling to `<body>` (which has no such ancestor) escapes that
+ * containing block entirely.
  */
+// `document.body` doesn't exist during SSR, so the portal can only render
+// once mounted on the client. `useSyncExternalStore` (server snapshot =
+// false) is the React-endorsed way to detect "client has mounted" without
+// calling setState inside an effect.
+function subscribeNoop() {
+  return () => {};
+}
+function getClientSnapshot() {
+  return true;
+}
+function getServerSnapshot() {
+  return false;
+}
+
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const mounted = useSyncExternalStore(
+    subscribeNoop,
+    getClientSnapshot,
+    getServerSnapshot
+  );
 
   useEffect(() => {
     if (!open) return;
@@ -50,25 +82,28 @@ export function MobileMenu() {
         {open ? <CloseIcon size={26} /> : <MenuIcon size={26} />}
       </button>
 
-      {/* Backdrop */}
-      <div
-        onClick={() => setOpen(false)}
-        aria-hidden
-        className={`lg:hidden fixed inset-0 z-40 bg-brand-navy/60 backdrop-blur-sm transition-opacity duration-200 ${
-          open ? "opacity-100" : "pointer-events-none opacity-0"
-        }`}
-      />
+      {mounted &&
+        createPortal(
+          <>
+            {/* Backdrop */}
+            <div
+              onClick={() => setOpen(false)}
+              aria-hidden
+              className={`lg:hidden fixed inset-0 z-40 bg-brand-navy/60 backdrop-blur-sm transition-opacity duration-200 ${
+                open ? "opacity-100" : "pointer-events-none opacity-0"
+              }`}
+            />
 
-      {/* Slide-in panel */}
-      <div
-        id="mobile-menu-panel"
-        role="dialog"
-        aria-modal={open}
-        aria-label="Site navigation"
-        className={`lg:hidden fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col bg-white shadow-elevated transition-transform duration-300 ${
-          open ? "translate-x-0" : "translate-x-full"
-        }`}
-      >
+            {/* Slide-in panel */}
+            <div
+              id="mobile-menu-panel"
+              role="dialog"
+              aria-modal={open}
+              aria-label="Site navigation"
+              className={`lg:hidden fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col bg-white shadow-elevated transition-transform duration-300 ${
+                open ? "translate-x-0" : "translate-x-full"
+              }`}
+            >
         <div className="flex h-16 items-center justify-between border-b border-[color:var(--color-border)] px-5">
           <span className="text-xs font-bold uppercase tracking-[0.18em] text-brand-blue">
             Menu
@@ -93,17 +128,30 @@ export function MobileMenu() {
                     <ChevronDownIcon size={14} />
                   </div>
                   <ul className="flex flex-col gap-0.5 border-l-2 border-brand-blue/20 pl-4">
-                    {item.children.map((c) => (
-                      <li key={c.href}>
-                        <Link
-                          href={c.href}
-                          onClick={() => setOpen(false)}
-                          className="block rounded-sm py-2 text-base font-medium text-brand-navy hover:text-brand-blue"
-                        >
-                          {c.label}
-                        </Link>
-                      </li>
-                    ))}
+                    {item.children.map((c) =>
+                      c.label === "Book Appointment" ? (
+                        <li key={c.label} className="mt-1">
+                          <Link
+                            href={c.href}
+                            onClick={() => setOpen(false)}
+                            className="flex items-center gap-2 rounded-sm py-2 text-base font-bold text-[color:var(--color-brand-orange)] hover:text-[color:var(--color-brand-orange-700)]"
+                          >
+                            <CalendarIcon size={16} />
+                            {c.label}
+                          </Link>
+                        </li>
+                      ) : (
+                        <li key={c.label}>
+                          <Link
+                            href={c.href}
+                            onClick={() => setOpen(false)}
+                            className="block rounded-sm py-2 text-base font-medium text-brand-navy hover:text-brand-blue"
+                          >
+                            {c.label}
+                          </Link>
+                        </li>
+                      )
+                    )}
                   </ul>
                 </li>
               ) : (
@@ -177,7 +225,10 @@ export function MobileMenu() {
             </a>
           </div>
         </nav>
-      </div>
+            </div>
+          </>,
+          document.body
+        )}
     </>
   );
 }

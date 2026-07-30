@@ -1,22 +1,21 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
+import { BlogPostTemplate } from "../_ui/blog/BlogPostTemplate";
+import { getBlogPost } from "../_lib/blog";
 
 // Route: /when-touch-hurts-coping-with-extreme-sensitivity-from-neuropathy-42/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "When Touch Hurts: Coping with Extreme Sensitivity from Neuropathy - Chiropractic Murfreesboro TN"
+// Live title: "When Touch Hurts: Coping with Extreme Sensitivity from Neuropathy"
 
 export const metadata = metadataFor("/when-touch-hurts-coping-with-extreme-sensitivity-from-neuropathy-42/");
 
 export default function Page() {
+  const post = getBlogPost("when-touch-hurts-coping-with-extreme-sensitivity-from-neuropathy-42")!;
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/when-touch-hurts-coping-with-extreme-sensitivity-from-neuropathy-42/")} />
-      <main>
-        {/* Routing placeholder — visual design lands in a later step. */}
-        <h1>{"When Touch Hurts: Coping with Extreme Sensitivity from Neuropathy - Chiropractic Murfreesboro TN"}</h1>
-        <p>Blog post route (/when-touch-hurts-coping-with-extreme-sensitivity-from-neuropathy-42/) scaffolded.</p>
-      </main>
+      <BlogPostTemplate post={post} />
     </>
   );
 }

@@ -31,6 +31,12 @@ type RevealProps = {
   once?: boolean;
   className?: string;
   as?: "div" | "section" | "article" | "li" | "h2" | "p" | "span";
+  /** Fraction of the element's OWN bounding box that must be in view before
+   * it triggers (default 0.2). For very tall wrappers (e.g. a full
+   * long-form article body many screens tall) pass 0 — a percentage-of-
+   * self threshold is practically unreachable once the element is taller
+   * than a few viewport heights. */
+  amount?: number;
 };
 
 export function Reveal({
@@ -40,6 +46,7 @@ export function Reveal({
   once = true,
   className,
   as = "div",
+  amount = 0.2,
 }: RevealProps) {
   const reduce = useReducedMotion();
   const MotionTag = motion[as] as typeof motion.div;
@@ -48,7 +55,7 @@ export function Reveal({
       className={className}
       initial={reduce ? false : { opacity: 0, y }}
       whileInView={reduce ? undefined : { opacity: 1, y: 0 }}
-      viewport={{ once, amount: 0.2 }}
+      viewport={{ once, amount }}
       transition={{ duration: 0.7, delay, ease: EASE }}
     >
       {children}
@@ -80,10 +87,17 @@ export function Stagger({
   children,
   className,
   as = "div",
+  amount = 0.15,
 }: {
   children: ReactNode;
   className?: string;
   as?: "div" | "ul" | "section";
+  /** Fraction of the container's OWN bounding box that must be in view
+   * before it triggers. Keep the default for small/short containers, but
+   * pass a much smaller value (e.g. 0) for tall multi-row grids — a large
+   * grid's total height can exceed the viewport many times over, making a
+   * percentage-of-self threshold like 0.15 practically unreachable. */
+  amount?: number;
 }) {
   const reduce = useReducedMotion();
   const MotionTag = motion[as] as typeof motion.div;
@@ -93,7 +107,7 @@ export function Stagger({
       variants={reduce ? undefined : staggerContainer}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.15 }}
+      viewport={{ once: true, amount }}
     >
       {children}
     </MotionTag>

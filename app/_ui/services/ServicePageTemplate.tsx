@@ -54,7 +54,7 @@ export function ServicePageTemplate({ data }: { data: ServicePageData }) {
 
 function ServiceHero({ data }: { data: ServicePageData }) {
   return (
-    <section className="surface-dark relative isolate overflow-hidden pt-32 pb-20 lg:pt-40 lg:pb-24">
+    <section className="surface-dark relative isolate overflow-hidden pt-14 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16">
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"
@@ -125,7 +125,7 @@ function ServiceList({ list }: { list: NonNullable<ServiceSectionData["list"]> }
     );
   }
   return (
-    <Stagger as="ul" className="mt-6 grid gap-3 sm:grid-cols-2">
+    <Stagger as="ul" className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
       {list.items.map((item) => (
         <StaggerItem
           key={item}
@@ -171,7 +171,7 @@ function ServiceSection({
     return (
       <section className={`section-y ${bg}`}>
         <div className="container-wide">
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-10">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:items-center lg:gap-10">
             <Reveal className={flipped ? "lg:order-2" : ""}>
               <Parallax strength={22} className="relative">
                 <div
@@ -257,7 +257,7 @@ function WhyChooseSection({ data }: { data: ServicePageData }) {
           <span className="eyebrow">Why Rutherford</span>
           <h2 className="h-section mt-3">Why Patients Choose Us for {data.h1.replace(" Murfreesboro TN", "")}</h2>
         </Reveal>
-        <Stagger as="ul" className="mt-10 grid gap-4 sm:grid-cols-2">
+        <Stagger as="ul" className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {data.whyChooseUs.map((point) => (
             <StaggerItem
               key={point}

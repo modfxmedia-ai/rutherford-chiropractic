@@ -90,8 +90,8 @@ export function LocationMap() {
       />
 
       <div className="container-wide relative">
-        <div className="grid gap-14 lg:grid-cols-2 lg:items-center lg:gap-16">
-          {/* Left — copy, contact details, quick actions, trust badges */}
+        <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:items-center lg:gap-16">
+          {/* Left - copy, contact details, quick actions, trust badges */}
           <div>
             <Reveal>
               <p className="eyebrow">Find Us</p>
@@ -106,12 +106,12 @@ export function LocationMap() {
               <p className="mt-5 max-w-lg text-lg leading-relaxed text-[color:var(--color-body)]">
                 Conveniently located in Murfreesboro, our clinic offers a
                 calm, modern space to begin your recovery. Stop by, call
-                ahead, or book online &mdash; our team is ready to help you
+                ahead, or book online - our team is ready to help you
                 feel your best.
               </p>
             </Reveal>
 
-            <Stagger className="mt-8 grid gap-5 sm:grid-cols-2">
+            <Stagger className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2">
               {CONTACT_ROWS.map(({ icon: Icon, label, value, href, external }) => {
                 const content = (
                   <div className="group/row flex min-w-0 items-start gap-3">
@@ -153,7 +153,7 @@ export function LocationMap() {
                   Call Now
                 </MagneticButton>
                 <MagneticButton
-                  href={businessInfo.address.mapsUrl}
+                  href={businessInfo.address.directionsUrl}
                   external
                   className="btn btn-outline-orange"
                 >
@@ -188,7 +188,7 @@ export function LocationMap() {
             </Stagger>
           </div>
 
-          {/* Right — map card */}
+          {/* Right - map card */}
           <Reveal delay={0.1} className="relative pt-7">
             <div
               aria-hidden
@@ -208,7 +208,7 @@ export function LocationMap() {
             </div>
 
             <div className="glass-panel-light rounded-[2rem] p-3 shadow-[var(--shadow-elevated)] transition-shadow duration-300 hover:shadow-[0_30px_80px_-20px_rgba(0,75,153,0.35)] md:p-4">
-              <div className="h-[360px] w-full overflow-hidden rounded-[1.5rem] sm:h-[420px] lg:h-[540px]">
+              <div className="relative h-[360px] w-full overflow-hidden rounded-[1.5rem] sm:h-[420px] lg:h-[540px]">
                 <iframe
                   src={MAP_EMBED_SRC}
                   title="Map showing the location of Rutherford Spine & Wellness Center"
@@ -216,6 +216,18 @@ export function LocationMap() {
                   referrerPolicy="no-referrer-when-downgrade"
                   className="h-full w-full border-0"
                 />
+                {/* Floating "Get Directions" button anchored to the map
+                    itself, in addition to the one in the button row above - 
+                    opens turn-by-turn directions in the user's map app. */}
+                <a
+                  href={businessInfo.address.directionsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary btn-sm absolute right-3 top-3 shadow-[var(--shadow-elevated)] sm:right-4 sm:top-4"
+                >
+                  <MapPinIcon width={14} height={14} />
+                  Get Directions
+                </a>
               </div>
             </div>
           </Reveal>

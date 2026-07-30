@@ -51,7 +51,7 @@ export function ConditionsCarousel() {
   }, []);
 
   useEffect(() => {
-    if (reduce) return; // prefers-reduced-motion — no autoplay
+    if (reduce) return; // prefers-reduced-motion - no autoplay
     let raf = 0;
     const tick = () => {
       const el = trackRef.current;

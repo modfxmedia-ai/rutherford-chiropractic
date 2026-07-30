@@ -121,7 +121,7 @@ function ServiceRow({
             {service.title}
           </h3>
 
-          {/* Pure-CSS grid-rows expand/collapse — no JS height animation */}
+          {/* Pure-CSS grid-rows expand/collapse - no JS height animation */}
           <div
             className={`grid transition-[grid-template-rows,opacity] duration-300 ease-out ${
               isActive ? "grid-rows-[1fr] opacity-100 mt-2" : "grid-rows-[0fr] opacity-0"
@@ -184,14 +184,14 @@ export function ServicesGrid() {
           </div>
           <Reveal delay={0.1}>
             <p className="max-w-sm text-[color:var(--color-body)] leading-relaxed lg:text-right">
-              Personalized, non-invasive care&mdash;from chronic pain relief to
+              Personalized, non-invasive care - from chronic pain relief to
               peak athletic performance.
             </p>
           </Reveal>
         </div>
 
-        <div className="mt-12 grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
-          {/* Left — numbered interactive list */}
+        <div className="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-16">
+          {/* Left - numbered interactive list */}
           <Reveal delay={0.05}>
             <ul>
               {SERVICES.map((s, idx) => (
@@ -206,7 +206,7 @@ export function ServicesGrid() {
             </ul>
           </Reveal>
 
-          {/* Right — sticky media panel synced to the active row */}
+          {/* Right - sticky media panel synced to the active row */}
           <Reveal delay={0.15}>
             <div className="lg:sticky lg:top-28">
               <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl shadow-[var(--shadow-elevated)] lg:ml-auto">

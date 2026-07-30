@@ -152,7 +152,7 @@ export function CareSlider() {
       onFocus={() => setPaused(true)}
       onBlur={() => setPaused(false)}
     >
-      {/* Ambient orange glow — brand palette only */}
+      {/* Ambient orange glow - brand palette only */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 opacity-[0.18]"
@@ -167,7 +167,7 @@ export function CareSlider() {
           Areas We Treat
         </p>
 
-        {/* Labeled icon tabs — replaces the old unlabeled dot-pager */}
+        {/* Labeled icon tabs - replaces the old unlabeled dot-pager */}
         <div
           role="tablist"
           aria-label="Areas of care"
@@ -197,7 +197,7 @@ export function CareSlider() {
           })}
         </div>
 
-        {/* Story-style progress bar — shows time until auto-advance */}
+        {/* Story-style progress bar - shows time until auto-advance */}
         <div className="mt-4 h-1 w-full max-w-xs overflow-hidden rounded-full bg-white/10">
           <div
             key={i}
@@ -206,8 +206,8 @@ export function CareSlider() {
           />
         </div>
 
-        {/* Content row — icon medallion + crossfading copy */}
-        <div className="mt-8 grid gap-6 md:grid-cols-[auto_1fr] md:items-start md:gap-8">
+        {/* Content row - icon medallion + crossfading copy */}
+        <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-[auto_1fr] md:items-start md:gap-8">
           <div
             aria-hidden
             className="hidden h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/15 bg-white/5 text-[color:var(--color-brand-orange)] backdrop-blur-md md:flex"
