@@ -36,7 +36,7 @@ const SERVICES: Service[] = [
     copy:
       "We provide compassionate chiropractic care in Murfreesboro, TN treating the root causes of your issues. We can treat many spine and neck issues to get you off of prescription medications.",
     href: "/chiropractic/",
-    image: "/media/chiropractors-murfreesboro-tn-copy.jpg",
+    image: "/media/services/chiropractic-care.jpg",
     alt: "Chiropractic care in Murfreesboro, TN",
   },
   {
@@ -44,7 +44,7 @@ const SERVICES: Service[] = [
     copy:
       "Our Murfreesboro spinal decompression team utilizes non-invasive techniques to relieve pressure from off of the spinal discs, allowing for greater shock absorption and the movement of oxygen for faster healing.",
     href: "/spinal-decompression/",
-    image: "/media/spinal-decompression-murfreesboro-tn-copy.jpg",
+    image: "/media/services/spinal-decompression.jpg",
     alt: "Spinal decompression treatment in Murfreesboro, TN",
   },
   {
@@ -52,7 +52,7 @@ const SERVICES: Service[] = [
     copy:
       "Our dedicated staff of sports injury doctors in Murfreesboro, TN can help with acute and chronic sports related injuries to help you get back to peak physical condition. Don\u2019t allow your injuries to persist which can grow to a much larger issue.",
     href: "/sports-injuries/",
-    image: "/media/sports-injury-murfreesboro-tn-copy.jpg",
+    image: "/media/services/sports-injury.jpeg",
     alt: "Sports injury care in Murfreesboro, TN",
   },
   {
@@ -60,7 +60,7 @@ const SERVICES: Service[] = [
     copy:
       "Dr. Wesley is dedicated to relieving patients of their pain in the most natural, non-invasive ways possible. Come visit our Murfreesboro, TN office to see how we can help you relieve your back pain effectively.",
     href: "/back-pain-relief/",
-    image: "/media/pain-relief-murfreesboro-tn-copy.jpg",
+    image: "/media/services/back-pain-relief.avif",
     alt: "Back pain relief in Murfreesboro, TN",
   },
   {
@@ -68,7 +68,7 @@ const SERVICES: Service[] = [
     copy:
       "Our Murfreesboro Neuropathy doctors provide opioid-free/drug-free alternative therapies for acute, and/or chronic neuropathy pain or circulatory disorders symptoms patients. Relieving Neuropathy naturally eliminates side effects of prescription medications.",
     href: "/neuropathy/",
-    image: "/media/neuropathy-murfreesboro-tn-copy.jpg",
+    image: "/media/services/neuropathy.webp",
     alt: "Neuropathy relief in Murfreesboro, TN",
   },
   {
@@ -76,7 +76,7 @@ const SERVICES: Service[] = [
     copy:
       "If you have been injured in an auto accident, come visit our Murfreesboro, TN office to help get you back to 100% again. These injuries may start small however they can grow into serious problems over time. Let us help you correct these issues to keep you from long term chronic issues.",
     href: "/auto-injuries/",
-    image: "/media/auto-injury-murfreesboro-tn-copy.jpg",
+    image: "/media/services/auto-injury.webp",
     alt: "Auto injury care in Murfreesboro, TN",
   },
 ];

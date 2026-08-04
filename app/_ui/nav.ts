@@ -47,14 +47,7 @@ export const primaryNav: NavItem[] = [
     ],
   },
   { label: "Medical Weight Loss", href: "/medical-weight-loss/" },
-  {
-    label: "New Patients",
-    children: [
-      { label: "New Patients", href: "/new-patients/" },
-      { label: "New Patient Forms", href: "/new-patient-forms/" },
-      BOOK_APPOINTMENT,
-    ],
-  },
+  { label: "New Patients", href: "/new-patients/" },
   { label: "Financing", href: "/financing/" },
   {
     label: "Contact Us",

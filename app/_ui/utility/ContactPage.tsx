@@ -17,6 +17,16 @@
  * `LocationMap` component already establishes this exact no-API-key
  * `output=embed` pattern from `businessInfo`, so it's reused here for
  * "embed a map" per the task).
+ *
+ * The embedded GHL widget itself displays a "Claim Your $47 New Patient
+ * Special Now!" banner baked into its (cross-origin, third-party) markup -
+ * that text can't be safely stripped from our side without a fragile
+ * pixel-crop hack that would break at different viewport widths (verified:
+ * the banner's rendered height varies ~57-171px depending on iframe width).
+ * Instead, a dedicated "$47 New Patient Special" section was added above the
+ * form (own on-brand styling, `#schedule-form` anchor CTA) so the offer gets
+ * proper standalone billing instead of being buried inside the third-party
+ * widget's own header line.
  */
 
 import type { SVGProps } from "react";
@@ -123,10 +133,45 @@ export function ContactPage() {
               );
             })}
           </Stagger>
+
+          <Reveal>
+            <div className="hover-lift surface-card relative mt-10 overflow-hidden bg-[color:var(--color-brand-navy)] p-8 text-white sm:mt-14 sm:p-10">
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-0 opacity-40"
+                style={{
+                  background:
+                    "radial-gradient(45% 65% at 90% 10%, rgba(252,143,0,0.35) 0%, transparent 65%)",
+                }}
+              />
+              <div className="relative flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <p className="eyebrow">Limited-Time Offer</p>
+                  <h2 className="h-section mt-2 !text-white">
+                    $47 New Patient Special
+                  </h2>
+                  <p className="mt-3 max-w-xl text-white/85 leading-relaxed">
+                    For a limited time, new patients can get started with Rutherford
+                    Spine &amp; Wellness Center for just $47. Fill out the form below
+                    or call our Murfreesboro office to claim your appointment and take
+                    the first step toward lasting relief.
+                  </p>
+                </div>
+                <div className="flex shrink-0 flex-col gap-3 sm:flex-row">
+                  <a href="#schedule-form" className="btn btn-lg btn-outline-orange">
+                    Claim This Offer
+                  </a>
+                  <a href={businessInfo.phoneHref} className="btn btn-lg btn-primary-on-dark">
+                    Call {businessInfo.phone}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Reveal>
         </div>
       </section>
 
-      <section className="section-y surface-muted">
+      <section id="schedule-form" className="section-y surface-muted">
         <div className="container-content">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-12">
             <Reveal>
