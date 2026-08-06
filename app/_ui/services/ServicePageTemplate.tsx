@@ -26,6 +26,8 @@ import { Reveal, Stagger, StaggerItem, Parallax } from "../motion/primitives";
 import { businessInfo } from "../nav";
 import { ServiceIcon } from "./icons";
 import { FaqAccordion } from "../conditions/FaqAccordion";
+import { HeroBgImage } from "../HeroBgImage";
+import { heroBgForService } from "../../_lib/hero-images";
 import type { ServicePageData, ServiceSection as ServiceSectionData } from "../../_lib/services";
 
 export function ServicePageTemplate({ data }: { data: ServicePageData }) {
@@ -55,6 +57,7 @@ export function ServicePageTemplate({ data }: { data: ServicePageData }) {
 function ServiceHero({ data }: { data: ServicePageData }) {
   return (
     <section className="surface-dark relative isolate overflow-hidden pt-14 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16">
+      <HeroBgImage src={heroBgForService(data.slug)} alt="" />
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"

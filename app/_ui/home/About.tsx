@@ -133,25 +133,27 @@ export function About() {
               />
               <div className="relative">
                 <ClinicVideo />
+              </div>
 
-                <div className="glass-panel-light absolute -bottom-6 left-6 right-6 flex items-center gap-4 rounded-2xl px-5 py-4 shadow-[var(--shadow-elevated)] sm:left-8 sm:right-auto sm:w-auto">
-                  <span className="icon-badge h-11 w-11 shrink-0">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="m9 12 2 2 4-4" />
-                      <circle cx="12" cy="12" r="9" />
-                    </svg>
-                  </span>
-                  <div>
-                    <p className="text-sm font-bold text-[color:var(--color-brand-navy)] leading-tight">
-                      Dr. Wesley Stewart
-                    </p>
-                    <p className="text-xs text-[color:var(--color-muted)]">
-                      16+ years serving Murfreesboro, TN
-                    </p>
-                  </div>
+              {/* Trust badge card — moved BELOW the video so it doesn't
+                  overlap the browser's native video controls when playing. */}
+              <div className="mt-4 glass-panel-light flex items-center gap-4 rounded-2xl px-5 py-4 shadow-[var(--shadow-elevated)] sm:w-auto sm:self-start">
+                <span className="icon-badge h-11 w-11 shrink-0">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="m9 12 2 2 4-4" />
+                    <circle cx="12" cy="12" r="9" />
+                  </svg>
+                </span>
+                <div>
+                  <p className="text-sm font-bold text-[color:var(--color-brand-navy)] leading-tight">
+                    Dr. Wesley Stewart
+                  </p>
+                  <p className="text-xs text-[color:var(--color-muted)]">
+                    16+ years serving Murfreesboro, TN
+                  </p>
                 </div>
               </div>
-              <p className="mt-10 text-sm text-[color:var(--color-muted)] sm:mt-8">
+              <p className="mt-6 text-sm text-[color:var(--color-muted)]">
                 A short tour of the Rutherford Spine &amp; Wellness Center clinic in Murfreesboro, TN.
               </p>
             </div>

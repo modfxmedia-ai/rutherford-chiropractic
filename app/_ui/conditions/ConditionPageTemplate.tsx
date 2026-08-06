@@ -19,6 +19,8 @@ import Link from "next/link";
 import { Reveal, Stagger, StaggerItem } from "../motion/primitives";
 import { ConditionIcon } from "./icons";
 import { FaqAccordion } from "./FaqAccordion";
+import { HeroBgImage } from "../HeroBgImage";
+import { heroBgForCondition } from "../../_lib/hero-images";
 import type { Condition } from "../../_lib/conditions";
 import { businessInfo } from "../nav";
 
@@ -40,6 +42,7 @@ export function ConditionPageTemplate({ condition }: { condition: Condition }) {
 function ConditionHero({ condition }: { condition: Condition }) {
   return (
     <section className="surface-dark relative isolate overflow-hidden pt-14 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16">
+      <HeroBgImage src={heroBgForCondition(condition.slug)} alt="" />
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"

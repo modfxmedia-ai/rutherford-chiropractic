@@ -178,7 +178,7 @@ export function MobileMenu() {
             </Link>
             {/* TODO: swap the `#reviews` target for the client's Google reviews URL */}
             <a
-              href="#reviews"
+              href="/#reviews"
               onClick={() => setOpen(false)}
               className="btn btn-outline-orange btn-lg w-full"
             >

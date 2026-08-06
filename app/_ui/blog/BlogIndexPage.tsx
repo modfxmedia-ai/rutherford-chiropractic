@@ -33,6 +33,7 @@ export function BlogIndexPage({ posts }: { posts: BlogPostMeta[] }) {
         eyebrow="Chiropractic Health Blog"
         h1="Our Blog"
         subtitle="Read our health blog for useful tips on healing back pain & staying active. Rutherford Spine & Wellness Center shares simple ways to improve your daily health."
+        bgImage="/media/blog-banner.jpeg"
       />
 
       <section className="section-y">

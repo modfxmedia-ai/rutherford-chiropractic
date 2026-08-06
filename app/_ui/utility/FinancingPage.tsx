@@ -14,7 +14,7 @@ const CARECREDIT_APPLY_URL = "https://www.carecreditprovidercenter.com/portal/lo
 export function FinancingPage() {
   return (
     <main>
-      <UtilityHero eyebrow="Payment Options" h1="Financing" />
+      <UtilityHero eyebrow="Payment Options" h1="Financing" bgImage="/media/financing-banner.jpg" />
 
       <section className="section-y bg-white">
         <div className="container-narrow text-center">

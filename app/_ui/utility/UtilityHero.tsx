@@ -8,18 +8,23 @@
 
 import Link from "next/link";
 import { Reveal } from "../motion/primitives";
+import { HeroBgImage } from "../HeroBgImage";
+import { DEFAULT_HERO_BG } from "../../_lib/hero-images";
 
 export function UtilityHero({
   eyebrow,
   h1,
   subtitle,
+  bgImage,
 }: {
   eyebrow: string;
   h1: string;
   subtitle?: string;
+  bgImage?: string;
 }) {
   return (
     <section className="surface-dark relative isolate overflow-hidden pt-14 pb-8 sm:pt-20 sm:pb-10 lg:pt-28 lg:pb-14">
+      <HeroBgImage src={bgImage ?? DEFAULT_HERO_BG} alt="" />
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"

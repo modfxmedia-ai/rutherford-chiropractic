@@ -13,6 +13,8 @@ import Link from "next/link";
 import { Reveal, Stagger, StaggerItem } from "../motion/primitives";
 import { ServiceIcon } from "../services/icons";
 import { FaqAccordion } from "../conditions/FaqAccordion";
+import { HeroBgImage } from "../HeroBgImage";
+import { heroBgForService } from "../../_lib/hero-images";
 import type { PseoPageContent } from "../../_lib/pseo/content";
 import { businessInfo } from "../nav";
 
@@ -34,6 +36,7 @@ function PseoHero({ content }: { content: PseoPageContent }) {
   const { condition, neighborhood } = content;
   return (
     <section className="surface-dark relative isolate overflow-hidden pt-14 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16">
+      <HeroBgImage src={heroBgForService(content.serviceSlug)} alt="" />
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"

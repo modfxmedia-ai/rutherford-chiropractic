@@ -15,7 +15,7 @@ export function ClinicVideo() {
     <div className="relative overflow-hidden rounded-3xl bg-[color:var(--color-brand-navy)] aspect-video shadow-[var(--shadow-elevated)]">
       <video
         src="/media/rutherford-clinic-of-chiropractic-gbsug8zma-a0e0qr-1.mp4"
-        poster="/media/chiropractic-care-murfreesboro-tn.jpg"
+        poster="/media/clinic-tour-poster.png"
         controls={playing}
         preload="metadata"
         playsInline

@@ -14,6 +14,8 @@ import { businessInfo } from "../nav";
 import { BlogCard } from "./BlogCard";
 import { ReadingProgressBar } from "./ReadingProgressBar";
 import { ShareBar } from "./ShareBar";
+import { HeroBgImage } from "../HeroBgImage";
+import { DEFAULT_HERO_BG } from "../../_lib/hero-images";
 import {
   formatBlogDate,
   getBlogBodyHtml,
@@ -33,6 +35,7 @@ export function BlogPostTemplate({ post }: { post: BlogPostMeta }) {
       <ReadingProgressBar />
 
       <section className="surface-dark relative isolate overflow-hidden pt-14 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-20">
+        <HeroBgImage src={post.featuredImage?.src ?? DEFAULT_HERO_BG} alt="" />
         <div
           aria-hidden
           className="absolute inset-0 -z-10 opacity-80"

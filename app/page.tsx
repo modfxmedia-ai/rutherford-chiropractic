@@ -8,6 +8,7 @@ import { CovidNotice } from "./_ui/home/CovidNotice";
 import { About } from "./_ui/home/About";
 import { DoctorSnippet } from "./_ui/home/DoctorSnippet";
 import { DetailedServices } from "./_ui/home/DetailedServices";
+import { ReviewsSection } from "./_ui/home/ReviewsSection";
 import { NutritionistCta } from "./_ui/home/NutritionistCta";
 import { LocationMap } from "./_ui/home/LocationMap";
 
@@ -30,6 +31,7 @@ export default function Page() {
         <About />
         <DoctorSnippet />
         <DetailedServices />
+        <ReviewsSection />
         <NutritionistCta />
         <LocationMap />
       </main>

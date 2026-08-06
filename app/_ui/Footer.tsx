@@ -247,11 +247,9 @@ function ReviewsCard() {
       eyebrow="Patient Feedback"
       title="See Our Reviews!"
       body="Real experiences from Murfreesboro-area patients who found relief through chiropractic, spinal decompression, and neuropathy care."
-      // TODO: swap `#reviews` for the client's Google reviews URL once provided.
-      href="#reviews"
+      href="/#reviews"
       cta="Read Reviews"
       variant="btn-outline-orange"
-      external
     />
   );
 }

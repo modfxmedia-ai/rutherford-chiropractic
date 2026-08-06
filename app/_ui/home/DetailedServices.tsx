@@ -154,7 +154,7 @@ const SERVICES: DetailedService[] = [
     ],
     outro:
       "If you have chronic back or neck pain and are in need of relief, spinal decompression may be for you. Don\u2019t go through a painful back surgery with the high costs and long recovery periods. Spinal decompression can sometimes have you back to your old self again within two to three months. Visit our spinal decompression office in Murfreesboro, TN or fill out our online form to schedule an appointment.",
-    image: "/media/spinal-decompression-murfreesboro-tn.jpg",
+    image: "/media/decompression-therapy.jpg",
     alt: "Spinal decompression in Murfreesboro, TN",
   },
   {
@@ -205,7 +205,7 @@ const SERVICES: DetailedService[] = [
     ],
     outro:
       "Don\u2019t let runner\u2019s knee stop you from living life! Contact our office today to schedule a consultation about your treatment options.",
-    image: "/media/sports-injuries-murfreesboro-tn.jpg",
+    image: "/media/sports-injury-detailed.webp",
     alt: "Sports injury care in Murfreesboro, TN",
   },
   {
@@ -232,7 +232,7 @@ const SERVICES: DetailedService[] = [
     ],
     outro:
       "To learn more or to schedule a consultation to discuss your auto accident injury or situation, please contact us today.",
-    image: "/media/auto-injury-pain-relief-murfreesboro-tn.jpg",
+    image: "/media/auto-injury-detailed.jpg",
     alt: "Auto injury pain relief in Murfreesboro, TN",
   },
   {
@@ -265,7 +265,7 @@ const SERVICES: DetailedService[] = [
     ],
     outro:
       "To learn more or to schedule a consultation to discuss your specific health situation, please contact us today.",
-    image: "/media/back-pain-experts-murfreesboro-tn.jpg",
+    image: "/media/back-pain-relief-detailed.jpg",
     alt: "Back pain relief experts in Murfreesboro, TN",
   },
 ];

@@ -98,7 +98,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     heroParagraph:
       "Rutherford Spine & Wellness Center provides the highest quality and compassionate chiropractic care in Murfreesboro, TN for our patients. From massage therapy and physical therapy to the latest pain management techniques and chiropractic treatments, our seasoned chiropractor, Dr. Wesley Stewart, and expert staff are ready to design a treatment plan that\u2019s right for you. Our goal is always to fully alleviate your back or neck pain, treat your whiplash or work place injury, or address your other healthcare issues, and ultimately get you back to the quality of life you deserve.",
     heroImage: {
-      src: "/media/chiropractic-care-murfreesboro-tn.jpg",
+      src: "/media/services/chiropractic-care.jpg",
       alt: "Chiropractic care in Murfreesboro, TN",
     },
     sections: [
@@ -155,7 +155,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     heroParagraph:
       "Rutherford Spine & Wellness Center provides the latest in spinal decompression in Murfreesboro, TN. Spinal decompression and manipulation relieves back pain in a safe and natural way through gentle stretching of the spine. Pressure is taken off of the spinal discs, allowing for greater shock absorption and the movement of oxygen for faster healing. Do you suffer from back pain? Get effective relief from this and related conditions with spinal decompression performed at Rutherford Spine & Wellness Center. With 16 years of experience, we are one of the area\u2019s leading providers of non-surgical decompression therapy and non-invasive pain relief.",
     heroImage: {
-      src: "/media/spinal-decompression-murfreesboro-tn.jpg",
+      src: "/media/decompression-therapy.jpg",
       alt: "Spinal decompression in Murfreesboro, TN",
     },
     sections: [
@@ -212,7 +212,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     heroParagraph:
       "Although pain medications can relieve neuropathy pain temporarily, they may also produce undesirable side effects or no results. That\u2019s why Rutherford Spine & Wellness Center is offering opioid-free/drug-free alternative therapies for acute, and/or chronic neuropathy pain or circulatory disorders symptoms patients in Murfreesboro, TN. For your peace of mind, we use only FDA-approved neuropathy equipment and all of our treatments are non-invasive.",
     heroImage: {
-      src: "/media/neuropathy-murfreesboro-tn.jpg",
+      src: "/media/services/neuropathy.jpg",
       alt: "Neuropathy care in Murfreesboro, TN",
     },
     sections: [
@@ -268,7 +268,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     heroParagraph:
       "At Rutherford Spine & Wellness Center in Murfreesboro, TN, we understand how serious pain can negatively alter your life. Our chiropractor, Dr. Wesley Stewart, is dedicated to relieving patients of their pain in the most natural, non-invasive ways possible. It is our belief that no one deserves to live life in discomfort or with physical limitations, which is why we work hard to accurately diagnose and to set apart the source of pain, and then targeting the problem with dedicated chiropractic care.",
     heroImage: {
-      src: "/media/back-pain-experts-murfreesboro-tn.jpg",
+      src: "/media/back-pain-relief-detailed.jpg",
       alt: "Back pain relief experts in Murfreesboro, TN",
     },
     sections: [
@@ -327,7 +327,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     heroParagraph:
       "A car accident can be over in mere seconds, but the pain caused by a related injury can last a lifetime if it\u2019s not treated properly. It\u2019s important to know that some accident injuries are hidden and might not be felt for months or even years. It\u2019s possible that you could feel nothing at all directly following an accident, yet still is injured. When you are seen at Rutherford Spine & Wellness Center, you will find out if there is anything to be concerned about, and if necessary, you will receive the appropriate treatment from a chiropractor with 16 years of experience.",
     heroImage: {
-      src: "/media/auto-injury-pain-relief-murfreesboro-tn.jpg",
+      src: "/media/auto-injury-detailed.jpg",
       alt: "Auto injury pain relief in Murfreesboro, TN",
     },
     sections: [
@@ -382,7 +382,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     heroParagraph:
       "No matter if you are a serious marathon runner or more of a casual weekend athlete, Rutherford Spine & Wellness Center in Murfreesboro, TN can prevent and care for your sports injuries.",
     heroImage: {
-      src: "/media/sports-injuries-murfreesboro-tn.jpg",
+      src: "/media/sports-injury-detailed.webp",
       alt: "Sports injury care in Murfreesboro, TN",
     },
     sections: [

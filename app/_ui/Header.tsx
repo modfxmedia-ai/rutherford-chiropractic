@@ -104,8 +104,7 @@ export function Header() {
           </div>
 
           <div className="flex shrink-0 items-center gap-2.5">
-            {/* TODO: swap the `#reviews` target for the client's Google reviews URL */}
-            <a href="#reviews" className="btn btn-outline-orange btn-xs hidden 2xl:inline-flex">
+            <a href="/#reviews" className="btn btn-outline-orange btn-xs hidden 2xl:inline-flex">
               Read Reviews
             </a>
             <Link

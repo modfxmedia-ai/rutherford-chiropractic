@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { useState } from "react";
 import { Reveal } from "../motion/primitives";
 
@@ -27,6 +26,11 @@ type Service = {
   copy: string;
   href: string;
   image: string;
+  /** Natural pixel dimensions of the source image — used so next/image
+      never requests a bigger optimized version than the original, which
+      is what was making a few of these look "pixelated" (upscaled). */
+  width: number;
+  height: number;
   alt: string;
 };
 
@@ -37,6 +41,8 @@ const SERVICES: Service[] = [
       "We provide compassionate chiropractic care in Murfreesboro, TN treating the root causes of your issues. We can treat many spine and neck issues to get you off of prescription medications.",
     href: "/chiropractic/",
     image: "/media/services/chiropractic-care.jpg",
+    width: 1200,
+    height: 625,
     alt: "Chiropractic care in Murfreesboro, TN",
   },
   {
@@ -45,6 +51,8 @@ const SERVICES: Service[] = [
       "Our Murfreesboro spinal decompression team utilizes non-invasive techniques to relieve pressure from off of the spinal discs, allowing for greater shock absorption and the movement of oxygen for faster healing.",
     href: "/spinal-decompression/",
     image: "/media/services/spinal-decompression.jpg",
+    width: 1024,
+    height: 1024,
     alt: "Spinal decompression treatment in Murfreesboro, TN",
   },
   {
@@ -52,7 +60,9 @@ const SERVICES: Service[] = [
     copy:
       "Our dedicated staff of sports injury doctors in Murfreesboro, TN can help with acute and chronic sports related injuries to help you get back to peak physical condition. Don\u2019t allow your injuries to persist which can grow to a much larger issue.",
     href: "/sports-injuries/",
-    image: "/media/services/sports-injury.jpeg",
+    image: "/media/services/sports-injury.jpg",
+    width: 732,
+    height: 402,
     alt: "Sports injury care in Murfreesboro, TN",
   },
   {
@@ -60,7 +70,9 @@ const SERVICES: Service[] = [
     copy:
       "Dr. Wesley is dedicated to relieving patients of their pain in the most natural, non-invasive ways possible. Come visit our Murfreesboro, TN office to see how we can help you relieve your back pain effectively.",
     href: "/back-pain-relief/",
-    image: "/media/services/back-pain-relief.avif",
+    image: "/media/services/back-pain-relief.jpg",
+    width: 800,
+    height: 594,
     alt: "Back pain relief in Murfreesboro, TN",
   },
   {
@@ -68,7 +80,9 @@ const SERVICES: Service[] = [
     copy:
       "Our Murfreesboro Neuropathy doctors provide opioid-free/drug-free alternative therapies for acute, and/or chronic neuropathy pain or circulatory disorders symptoms patients. Relieving Neuropathy naturally eliminates side effects of prescription medications.",
     href: "/neuropathy/",
-    image: "/media/services/neuropathy.webp",
+    image: "/media/services/neuropathy.jpg",
+    width: 724,
+    height: 483,
     alt: "Neuropathy relief in Murfreesboro, TN",
   },
   {
@@ -77,6 +91,8 @@ const SERVICES: Service[] = [
       "If you have been injured in an auto accident, come visit our Murfreesboro, TN office to help get you back to 100% again. These injuries may start small however they can grow into serious problems over time. Let us help you correct these issues to keep you from long term chronic issues.",
     href: "/auto-injuries/",
     image: "/media/services/auto-injury.webp",
+    width: 1200,
+    height: 1200,
     alt: "Auto injury care in Murfreesboro, TN",
   },
 ];
@@ -164,7 +180,6 @@ function ServiceRow({
 }
 
 export function ServicesGrid() {
-  const reduce = useReducedMotion();
   const [active, setActive] = useState(0);
   const activeService = SERVICES[active];
 
@@ -209,27 +224,37 @@ export function ServicesGrid() {
           {/* Right - sticky media panel synced to the active row */}
           <Reveal delay={0.15}>
             <div className="lg:sticky lg:top-28">
-              <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl shadow-[var(--shadow-elevated)] lg:ml-auto">
-                <AnimatePresence mode="wait">
-                  <motion.div
-                    key={activeService.title}
-                    initial={reduce ? false : { opacity: 0, scale: 1.03 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    exit={reduce ? undefined : { opacity: 0, scale: 0.98 }}
-                    transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                    className="absolute inset-0"
+              <div className="relative aspect-[4/3] w-full max-w-md overflow-hidden rounded-3xl bg-[color:var(--color-brand-navy)] shadow-[var(--shadow-elevated)] lg:ml-auto">
+                {/* Stack every image so they all preload on mount; only the
+                    active one is visible via CSS opacity crossfade. This
+                    avoids the "hover a row -> wait for a fresh image to
+                    fetch" delay caused by lazy loading + AnimatePresence.
+                    Each image is rendered at its natural pixel dimensions
+                    (no `fill`, no upscaling) with `object-contain` so the
+                    original composition is preserved — never cropped or
+                    zoomed to fill a portrait frame. */}
+                {SERVICES.map((s, idx) => (
+                  <div
+                    key={s.title}
+                    className={`absolute inset-0 transition-opacity duration-500 ease-out ${
+                      idx === active ? "opacity-100" : "opacity-0"
+                    }`}
+                    aria-hidden={idx !== active}
                   >
                     <Image
-                      src={activeService.image}
-                      alt={activeService.alt}
-                      fill
+                      src={s.image}
+                      alt={s.alt}
+                      width={s.width}
+                      height={s.height}
                       sizes="(min-width: 1024px) 32vw, 90vw"
-                      className="object-cover"
-                      priority={active === 0}
+                      className="absolute inset-0 h-full w-full object-contain object-center"
+                      priority={idx === 0}
+                      loading={idx === 0 ? undefined : "eager"}
+                      quality={95}
                     />
-                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[color:var(--color-brand-navy)]/90 via-[color:var(--color-brand-navy)]/10 to-transparent" />
-                  </motion.div>
-                </AnimatePresence>
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[color:var(--color-brand-navy)]/85 via-[color:var(--color-brand-navy)]/5 to-transparent" />
+                  </div>
+                ))}
 
                 <div className="absolute inset-x-0 bottom-0 p-6">
                   <p className="text-xs font-bold tracking-[0.2em] text-[color:var(--color-brand-orange)]">

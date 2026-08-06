@@ -25,6 +25,8 @@ import { Reveal, Stagger, StaggerItem } from "../motion/primitives";
 import { businessInfo } from "../nav";
 import { ServiceIcon } from "../services/icons";
 import { FaqAccordion } from "../conditions/FaqAccordion";
+import { HeroBgImage } from "../HeroBgImage";
+import { heroBgForService } from "../../_lib/hero-images";
 import { ALL_SERVICE_LINKS } from "../../_lib/services";
 import { getAllLocationSlugs } from "../../_lib/locations";
 import type { LocationListBlock, LocationPageData, LocationReview } from "../../_lib/locations";
@@ -72,6 +74,7 @@ function LocationHero({
 }) {
   return (
     <section className="surface-dark relative isolate overflow-hidden pt-14 pb-10 sm:pt-20 sm:pb-12 lg:pt-28 lg:pb-16">
+      <HeroBgImage src={heroBgForService(data.service)} alt="" />
       <div
         aria-hidden
         className="absolute inset-0 -z-10 opacity-80"
