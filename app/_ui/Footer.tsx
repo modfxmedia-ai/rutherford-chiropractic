@@ -16,19 +16,17 @@ import {
  * Global site footer — premium two-tier layout.
  *
  * Palette is strictly the brand tokens defined in `app/globals.css`: a
- * darker-than-navy `surface-footer` base (so the footer reads as its own
- * "ground floor" beneath the Deep Navy NutritionistCta section above it)
- * with soft brand-tinted glow accents, white text, and blue/orange
- * highlights only.
+ * darker-than-navy `surface-footer` base with soft brand-tinted glow
+ * accents, white text, and blue/orange highlights only.
  *
  * Tier 1 — informational: logo + NAP/hours, then three link columns
  * (Services / Conditions / Quick Links) derived directly from `primaryNav`
  * so every header nav + dropdown target still gets an in-footer internal
  * link for crawlers, just organized instead of a flattened wall of text.
  *
- * Tier 2 — conversion: "See Our Reviews!" + "Nutritionist Consultation"
- * CTA cards and a HIPAA trust badge, each a `glass-panel` with an icon
- * badge, entrance stagger, and a magnetic CTA button.
+ * Tier 2 — conversion: "See Our Reviews!" CTA card and a HIPAA trust
+ * badge, each a `glass-panel` with an icon badge, entrance stagger, and a
+ * magnetic CTA button.
  *
  * Bottom bar: © line + a smooth-scrolling back-to-top control.
  */
@@ -39,7 +37,6 @@ const conditionsLinks =
   primaryNav.find((item) => item.label === "Conditions")?.children ?? [];
 const quickLinks = [
   { label: "Home", href: "/" },
-  { label: "Medical Weight Loss", href: "/medical-weight-loss/" },
   { label: "Areas We Serve", href: "/areas-we-serve/" },
   { label: "New Patients", href: "/new-patients/" },
   { label: "New Patient Forms", href: "/new-patient-forms/" },
@@ -84,12 +81,9 @@ export function Footer() {
         </Stagger>
 
         {/* Tier 2 - conversion cards */}
-        <Stagger className="mt-14 grid grid-cols-1 gap-6 border-t border-white/10 pt-12 md:grid-cols-3">
+        <Stagger className="mt-14 grid grid-cols-1 gap-6 border-t border-white/10 pt-12 md:grid-cols-2">
           <StaggerItem>
             <ReviewsCard />
-          </StaggerItem>
-          <StaggerItem>
-            <NutritionistCard />
           </StaggerItem>
           <StaggerItem>
             <TrustBadge />
@@ -156,6 +150,14 @@ function NapBlock() {
           </li>
           <li className="group/row flex items-start gap-3">
             <span className="mt-0.5 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 text-[color:var(--color-brand-orange)] transition-transform duration-300 group-hover/row:scale-110">
+              <FaxIcon />
+            </span>
+            <span className="pt-1.5 text-sm text-white/80">
+              <span className="text-white/50">Fax:</span> {businessInfo.fax}
+            </span>
+          </li>
+          <li className="group/row flex items-start gap-3">
+            <span className="mt-0.5 grid h-9 w-9 shrink-0 place-items-center rounded-full bg-white/10 text-[color:var(--color-brand-orange)] transition-transform duration-300 group-hover/row:scale-110">
               <MailIcon size={16} />
             </span>
             <a
@@ -189,11 +191,19 @@ function NapBlock() {
             Hours
           </p>
           <div className="flex justify-between gap-4 pt-1">
-            <dt>Monday &ndash; Thursday</dt>
-            <dd className="text-white">8:00am &ndash; 6:00pm</dd>
+            <dt>Mon &ndash; Thu</dt>
+            <dd className="text-white text-right">
+              8:00am &ndash; 12:00pm
+              <br />
+              2:00pm &ndash; 6:00pm
+            </dd>
           </div>
           <div className="flex justify-between gap-4">
             <dt>Friday</dt>
+            <dd className="text-white">8:00am &ndash; 12:00pm</dd>
+          </div>
+          <div className="flex justify-between gap-4">
+            <dt>Sat &ndash; Sun</dt>
             <dd className="text-white/60">Closed</dd>
           </div>
         </dl>
@@ -247,34 +257,16 @@ function ReviewsCard() {
       eyebrow="Patient Feedback"
       title="See Our Reviews!"
       body="Real experiences from Murfreesboro-area patients who found relief through chiropractic, spinal decompression, and neuropathy care."
-      href="/#reviews"
+      href={businessInfo.googleReviewsUrl}
       cta="Read Reviews"
       variant="btn-outline-orange"
-    />
-  );
-}
-
-function NutritionistCard() {
-  return (
-    <CtaCard
-      icon={<LeafIcon />}
-      eyebrow="Now Booking"
-      title={
-        <>
-          Nutritionist <span className="accent-serif text-brand-orange">Consultation</span>
-        </>
-      }
-      body="Meet with our on-staff nutritionist to build a personalized plan that supports your recovery, weight loss goals, and long-term wellness."
-      // Scheduling routes through the site's contact page (verified in content-map).
-      href="/contact-us/"
-      cta="Schedule Now"
-      variant="btn-primary-on-dark"
+      external
     />
   );
 }
 
 /**
- * Compact card used for the two footer CTA slots. The variant maps to a
+ * Compact card used for the footer CTA slots. The variant maps to a
  * button utility declared in `app/globals.css` so the palette stays locked.
  */
 function CtaCard(props: {
@@ -368,6 +360,17 @@ function ShieldIcon() {
   );
 }
 
+function FaxIcon() {
+  return (
+    <svg {...iconBase({ size: 16 })}>
+      <path d="M6 9V3h12v6" />
+      <rect x="4" y="9" width="16" height="10" rx="2" />
+      <path d="M8 15h8" />
+      <path d="M8 12h5" />
+    </svg>
+  );
+}
+
 function StarIcon() {
   return (
     <svg {...iconBase({})}>
@@ -376,13 +379,8 @@ function StarIcon() {
   );
 }
 
-function LeafIcon() {
-  return (
-    <svg {...iconBase({})}>
-      <path d="M20 4c-9 0-16 7-16 16 9 0 16-7 16-16Z" />
-      <path d="M6 18C10 14 14 10 19 5" />
-    </svg>
-  );
+function LeafIcon_REMOVED_placeholder() {
+  return null;
 }
 
 function ArrowUpIcon() {

@@ -12,10 +12,10 @@
  * approach fights CSS scroll-snap + `scroll-smooth` and freezes silently);
  * a pure CSS marquee sidesteps all of those pitfalls.
  *
- * 10 patient testimonials cover every listed service on the site
- * (chiropractic, spinal decompression, back pain, neuropathy, sports
- * injuries, auto injuries, medical weight loss) and every condition
- * (sciatica, herniated disc, migraines, whiplash, arthritis).
+ * 11 patient testimonials sourced from real Google reviews of Rutherford
+ * Spine and Wellness Center — each preserved close to verbatim (minor
+ * typo fixes and Google UI-cruft trimming only) and rendered with the
+ * component's hard-coded 5-star rating.
  */
 
 import { Reveal } from "../motion/primitives";
@@ -34,93 +34,102 @@ type Review = {
 
 const REVIEWS: Review[] = [
   {
-    name: "Sarah M.",
-    initial: "S",
-    service: "Spinal Decompression",
-    date: "2 months ago",
+    name: "Brenda Hathaway",
+    initial: "B",
+    service: "Rehabilitation",
+    date: "4 months ago",
     quote:
-      "After years of chronic lower back pain, Dr. Wesley Stewart's spinal decompression treatment gave me my life back. The whole team is genuinely caring, and the non-invasive approach worked when nothing else did.",
+      "Before I came to Rutherford Spine and Wellness Center I was in serious excruciating pain with my condition and just 2 days in, my condition is getting better already. Mr. Stewart and the ladies in the back are the best at what they do and I would recommend this place of business to anyone for services and rehabilitation. Keep up the excellent work. Thanks for ALL that you do to make everyone feel, do and be better.",
     avatarColor: "bg-[color:var(--color-brand-blue)]",
   },
   {
-    name: "Michael T.",
-    initial: "M",
-    service: "Auto Injury",
-    date: "3 weeks ago",
+    name: "Deborah Newsom",
+    initial: "D",
+    service: "New Patient Care",
+    date: "4 months ago",
     quote:
-      "Rear-ended on I-24 and left with terrible neck pain. Dr. Stewart's team documented everything for my insurance and had me feeling normal again in about six weeks. Highly recommend for anyone dealing with whiplash.",
+      "At consultation Dr. Stewart was very detailed in explaining x-ray findings & creating the care plan. The staff was friendly from the front desk & all through out the process.",
     avatarColor: "bg-[#EA4335]",
   },
   {
-    name: "Jennifer P.",
-    initial: "J",
-    service: "Neuropathy",
-    date: "1 month ago",
+    name: "Belinda Carney",
+    initial: "B",
+    service: "Spinal Care",
+    date: "7 months ago",
     quote:
-      "The burning and tingling in my feet had been getting worse for two years. Their FDA-approved neuropathy protocol - no drugs, no side effects - has been life-changing. I sleep through the night again.",
+      "Thank you for being the best I've had dealing with my spine. When I say that this is a wonderful place to go — the secretary, nurses and the doctor Mr. Stewart are all loving gifts from God. I pray God bless them all to continue with that blessing in the name of Jesus 🙏🏼🫶🏻💕 Amen!!!",
     avatarColor: "bg-[#34A853]",
   },
   {
-    name: "David R.",
-    initial: "D",
-    service: "Sports Injury",
-    date: "5 months ago",
+    name: "Nancy Ferrell",
+    initial: "N",
+    service: "Chronic Pain Relief",
+    date: "a year ago",
     quote:
-      "As a competitive runner, I couldn't afford a long recovery. Dr. Wesley got me back to training in half the time I expected and helped correct the movement pattern that caused the injury in the first place.",
+      "The office staff was very nice and friendly and made you feel comfortable. Dr. Stewart was very friendly and professional, and so were his technicians!!! I was completely at ease during the whole experience. After I got home, I did my ice pack 20 minutes on and 40 minutes off and I am already feeling better, which is totally amazing because I've been in so much pain for 2 1/2 years without any help from others. If this continues to help me, I will be totally amazed by the whole experience. So for the first time, I'm optimistic!!! 🙏🏻😃",
     avatarColor: "bg-[color:var(--color-brand-orange)]",
   },
   {
-    name: "Amanda L.",
-    initial: "A",
-    service: "Migraines & Headaches",
-    date: "6 weeks ago",
+    name: "Ross Jaramillo",
+    initial: "R",
+    service: "Chiropractic Care",
+    date: "6 months ago",
     quote:
-      "I've had chronic migraines since college. After a handful of adjustments and some posture work, I've gone from 3-4 migraines a week to maybe 1 a month. Only wish I'd come here years ago.",
+      "I really enjoyed my time and getting to know the staff. They were very professional, very clean and organized. Would definitely recommend visiting. I am an owner of a business and I pay attention to detail, and they clearly are a professional company.",
     avatarColor: "bg-[#FBBC05]",
   },
   {
-    name: "Robert K.",
-    initial: "R",
-    service: "Sciatica",
-    date: "2 months ago",
+    name: "Susan Van Blarcom-Young",
+    initial: "S",
+    service: "Back Pain Relief",
+    date: "a year ago",
     quote:
-      "Sciatic pain radiating from my hip down to my calf. Two months of consistent care with Dr. Stewart and I'm back on the golf course. Zero pain, zero medication. Real, honest chiropractic done right.",
+      "I have been a patient of this clinic for many years after I had a lower back injury. By continuing my monthly adjustments, I no longer experience debilitating back episodes. The staff is friendly and accommodating to any schedule changes, and Dr. Stewart is wonderful and caring.",
     avatarColor: "bg-[color:var(--color-brand-blue)]",
   },
   {
-    name: "Emily S.",
-    initial: "E",
+    name: "Kathleen Atwood",
+    initial: "K",
     service: "Chiropractic Care",
-    date: "4 months ago",
+    date: "2 years ago",
     quote:
-      "Everyone here is professional and welcoming - from the front desk to Dr. Wesley himself. He takes time to actually explain what he's doing and why. Best chiropractor in Murfreesboro, hands down.",
+      "Dr. Stewart does everything he can to get his patients feeling better. He really cares and listens to what you have to say. The girls in the front office are very friendly, welcoming and efficient. Jennifer and Alexis do a great job and take good care of their patients in a fun and efficient manner. I would highly recommend this office to anyone in pain.",
     avatarColor: "bg-[#EA4335]",
   },
   {
-    name: "James W.",
-    initial: "J",
-    service: "Herniated Disc",
+    name: "Donald Craft",
+    initial: "D",
+    service: "Chiropractic Adjustments",
     date: "3 months ago",
     quote:
-      "An MRI showed a herniated L4-L5 disc and my previous doctor was pushing surgery. Rutherford Spine offered spinal decompression instead. Ten weeks later - back to work, back to lifting, no surgery needed.",
+      "Dr. Stewart and staff always provide excellent care when I get adjusted!",
     avatarColor: "bg-[#34A853]",
   },
   {
-    name: "Lisa A.",
-    initial: "L",
-    service: "Arthritis & Joint Pain",
-    date: "7 weeks ago",
+    name: "Kaylen Hartman",
+    initial: "K",
+    service: "New Patient Care",
+    date: "a year ago",
     quote:
-      "The arthritis in my knees and lower back made walking around the house painful. Dr. Stewart's treatment plan combined adjustments with lifestyle guidance and I feel 10 years younger. Truly grateful.",
+      "Entire staff was kind, helpful and made my first experience wonderful. Mr. Stewart was very knowledgeable and compassionate through the entire process of what I need to do to have a full recovery. I will be a lifetime member!",
     avatarColor: "bg-[color:var(--color-brand-orange)]",
   },
   {
-    name: "Christopher B.",
-    initial: "C",
-    service: "Medical Weight Loss",
-    date: "5 months ago",
+    name: "Danielle Campbell",
+    initial: "D",
+    service: "Spinal Decompression",
+    date: "a year ago",
     quote:
-      "Lost 34 pounds on their medical weight loss program - not a fad, an actual plan. The team followed up every week and adjusted things as needed. My back pain improved right along with the scale. Amazing.",
+      "Dr. Stewart and his team are wonderful!! I went from miserable pain 24/7 to hardly any pain at all. No surgery & no medication. Words can not explain the difference. He and his lovely staff are always so kind and helpful. 🧡 Truly a blessing for me to find them.",
+    avatarColor: "bg-[#FBBC05]",
+  },
+  {
+    name: "Kimberly",
+    initial: "K",
+    service: "Chiropractic Care",
+    date: "4 months ago",
+    quote:
+      "Great! I love the experience! Very honest! Well worth the visit!",
     avatarColor: "bg-[color:var(--color-brand-blue)]",
   },
 ];

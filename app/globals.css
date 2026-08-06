@@ -480,7 +480,7 @@ body {
  * only) so any section can reuse them consistently.
  * ------------------------------------------------------------------------- */
 
-/* Frosted glass panel — used on dark/gradient surfaces (NutritionistCta,
+/* Frosted glass panel — used on dark/gradient surfaces (footer CTAs,
    floating badges over imagery) so content still reads as "premium" rather
    than a flat dark rectangle. */
 @utility glass-panel {
@@ -551,7 +551,7 @@ body {
 }
 
 /* Slightly-darker-than-navy footer surface — gives the footer its own
-   depth tier below a Deep-Navy CTA section (e.g. NutritionistCta) without
+   depth tier below a Deep-Navy CTA section without
    introducing a new hue. */
 @utility surface-footer {
   background: color-mix(in srgb, var(--color-brand-navy) 88%, black);

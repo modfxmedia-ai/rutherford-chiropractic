@@ -1,9 +1,9 @@
 /**
  * Primary navigation config for the site header.
  *
- * Every migrated `href` (Services, Medical Weight Loss, New Patients,
- * Financing, Contact Us) MUST exist in `content-map.json` — those slugs
- * mirror the live WordPress site 1:1 so search-engine equity is preserved.
+ * Every migrated `href` (Services, New Patients, Financing, Contact Us)
+ * MUST exist in `content-map.json` — those slugs mirror the live WordPress
+ * site 1:1 so search-engine equity is preserved.
  *
  * The "Conditions" dropdown is a brand-new taxonomy that does not exist on
  * the live origin; its routes are defined directly in `app/_lib/conditions.ts`
@@ -46,7 +46,6 @@ export const primaryNav: NavItem[] = [
       BOOK_APPOINTMENT,
     ],
   },
-  { label: "Medical Weight Loss", href: "/medical-weight-loss/" },
   { label: "New Patients", href: "/new-patients/" },
   { label: "Financing", href: "/financing/" },
   {
@@ -66,9 +65,15 @@ export const primaryNav: NavItem[] = [
 export const businessInfo = {
   phone: "615-217-0097",
   phoneHref: "tel:+16152170097",
-  email: "Rutherfordclinicofchiropractic@yahoo.com",
-  emailHref: "mailto:Rutherfordclinicofchiropractic@yahoo.com",
+  fax: "(615) 848-0038",
+  email: "rutherfordspine01@gmail.com",
+  emailHref: "mailto:rutherfordspine01@gmail.com",
   facebookUrl: "https://www.facebook.com/rutherfordspineandwellness",
+  /** Public Google Business Profile reviews URL. Used for every
+      "Read Reviews" CTA (header, mobile menu, footer) — links go
+      straight to the practice's real Google review page. */
+  googleReviewsUrl:
+    "https://www.google.com/maps/place/Rutherford+Spine+and+Wellness+Center/@35.8586059,-86.4065423,847m/data=!3m1!1e3!4m8!3m7!1s0x8863f8762e775ba7:0x36ad7a8989614c22!8m2!3d35.8586059!4d-86.4065423!9m1!1b1!16s%2Fg%2F1jglry67b",
   address: {
     line1: "1139 NW Broad St., Suite 103",
     line2: "Murfreesboro, TN 37129",

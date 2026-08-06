@@ -81,16 +81,6 @@ function SportsInjuriesIcon(props: IconProps) {
   );
 }
 
-function MedicalWeightLossIcon(props: IconProps) {
-  return (
-    <svg {...base(props)}>
-      <path d="M9 3h6" />
-      <path d="M10 3v4.2L5.5 16A3 3 0 0 0 8.2 20.5h7.6A3 3 0 0 0 18.5 16L14 7.2V3" />
-      <path d="M7.5 14h9" />
-    </svg>
-  );
-}
-
 const SERVICE_ICONS: Record<string, (props: IconProps) => React.JSX.Element> = {
   chiropractic: ChiropracticIcon,
   "spinal-decompression": SpinalDecompressionIcon,
@@ -98,7 +88,6 @@ const SERVICE_ICONS: Record<string, (props: IconProps) => React.JSX.Element> = {
   "back-pain-relief": BackPainReliefIcon,
   "auto-injuries": AutoInjuriesIcon,
   "sports-injuries": SportsInjuriesIcon,
-  "medical-weight-loss": MedicalWeightLossIcon,
 };
 
 export function ServiceIcon({ slug, ...props }: { slug: string } & IconProps) {

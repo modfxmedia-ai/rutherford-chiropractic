@@ -9,7 +9,7 @@ import { ClinicVideo } from "./ClinicVideo";
  */
 
 const P1 =
-  "Rutherford Spine & Wellness Center is a locally owned chiropractic clinic in Murfreesboro, TN. Our licensed chiropractor, Dr. Wesley Stewart, has been freeing people from pain for 16 years now. Dr. Stewart is committed to promoting the optimal health and well-being of his patients by using the \u201Cwhole person approach\u201D. This approach to wellness is to look for hidden causes of any disturbance or disruption (may or may not be causing symptoms at the time) and make necessary interventions and lifestyle adjustments needed to minimize the conditions for normal function. With this unique approach, Dr. Stewart is able to help you to advance and/or maintain your journey to better health.";
+  "Rutherford Spine & Wellness Center is a locally owned chiropractic clinic in Murfreesboro, TN. Our licensed chiropractor, Dr. Wesley Stewart, has been freeing people from pain for 29 years now. Dr. Stewart is committed to promoting the optimal health and well-being of his patients by using the \u201Cwhole person approach\u201D. This approach to wellness is to look for hidden causes of any disturbance or disruption (may or may not be causing symptoms at the time) and make necessary interventions and lifestyle adjustments needed to minimize the conditions for normal function. With this unique approach, Dr. Stewart is able to help you to advance and/or maintain your journey to better health.";
 
 const P2 =
   "We have been curing people from many acute and chronic pain and debilitating issues through natural chiropractic care. Our office works to help with sports injuries, auto injuries, neuropathy, chiropractic adjustments, spinal decompression and back pain relief. We would love the opportunity to help you with your pain in a natural and non-invasive way to help get you back to your normal activities and off of prescription medications.";
@@ -19,7 +19,7 @@ const P3 =
 
 const STATS = [
   {
-    value: 16,
+    value: 29,
     suffix: "+",
     label: "Years Experience",
     icon: (
@@ -121,6 +121,41 @@ export function About() {
                 </StaggerItem>
               ))}
             </Stagger>
+
+            {/* Financing note — same three options detailed in the dedicated
+                FinancingOptions section further down, briefly restated here
+                so the About block itself signals that cost need not be a
+                barrier to starting care. */}
+            <Reveal delay={0.05}>
+              <div className="mt-8 flex flex-wrap items-center gap-3 rounded-2xl border border-[color:var(--color-border)] bg-white p-5">
+                <p className="text-sm font-semibold text-[color:var(--color-brand-navy)]">
+                  Flexible financing:
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "In-House Financing",
+                    "HFA",
+                    "CareCredit",
+                  ].map((label) => (
+                    <span
+                      key={label}
+                      className="rounded-full bg-[color:var(--color-brand-blue)]/10 px-3 py-1 text-xs font-bold uppercase tracking-[0.08em] text-[color:var(--color-brand-blue)]"
+                    >
+                      {label}
+                    </span>
+                  ))}
+                </div>
+                <p className="basis-full text-xs text-[color:var(--color-muted)]">
+                  All plans are interest-free when paid within the agreed term.{" "}
+                  <Link
+                    href="/financing/"
+                    className="font-semibold text-[color:var(--color-brand-blue)] hover:text-[color:var(--color-brand-orange)]"
+                  >
+                    Learn more →
+                  </Link>
+                </p>
+              </div>
+            </Reveal>
           </div>
 
           {/* Video column - sticks in place on large screens while the
@@ -149,7 +184,7 @@ export function About() {
                     Dr. Wesley Stewart
                   </p>
                   <p className="text-xs text-[color:var(--color-muted)]">
-                    16+ years serving Murfreesboro, TN
+                    29+ years serving Murfreesboro, TN
                   </p>
                 </div>
               </div>

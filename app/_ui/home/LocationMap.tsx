@@ -6,13 +6,15 @@ import { MagneticButton } from "../motion/MagneticButton";
 
 /**
  * LocationMap — "Visit Our Clinic" section, the last informational stop
- * before the footer. Sits between the dark `NutritionistCta` CTA and the
+ * before the footer. Sits after the Reviews section and above the site
+ * footer, matching the same layered `bg-glow-*` primitive used elsewhere
+ * on the site (Footer glows, Hero glass chips).
  * dark `surface-footer`, so it's deliberately a light section (alternating
  * with its neighbors) rather than a third consecutive dark block.
  *
  * Glassmorphism is expressed via `glass-panel-light` (frosted white) over
  * soft brand-tinted glow blobs, matching the same visual language used
- * elsewhere on the site (Footer/NutritionistCta glows, Hero glass chips).
+ * elsewhere on the site (Footer glows, Hero glass chips).
  *
  * Map embed uses the no-API-key `output=embed` Google Maps URL built from
  * the verified clinic address in `businessInfo` — no key/billing required.
@@ -50,6 +52,11 @@ const CONTACT_ROWS: Array<{
     href: businessInfo.phoneHref,
   },
   {
+    icon: PhoneIcon,
+    label: "Fax",
+    value: businessInfo.fax,
+  },
+  {
     icon: MailIcon,
     label: "Email",
     value: businessInfo.email,
@@ -60,9 +67,11 @@ const CONTACT_ROWS: Array<{
     label: "Hours",
     value: (
       <>
-        Monday &ndash; Thursday: 8:00am &ndash; 6:00pm
+        Mon &ndash; Thu: 8:00am &ndash; 12:00pm, 2:00pm &ndash; 6:00pm
         <br />
-        Friday &ndash; Sunday: Closed
+        Friday: 8:00am &ndash; 12:00pm
+        <br />
+        Sat &ndash; Sun: Closed
       </>
     ),
   },
@@ -70,7 +79,7 @@ const CONTACT_ROWS: Array<{
 
 const TRUST_BADGES = [
   { icon: StarIcon, label: "5.0 Rating", sub: "Murfreesboro families" },
-  { icon: AwardIcon, label: "16+ Years", sub: "Serving the community" },
+  { icon: AwardIcon, label: "29+ Years", sub: "Serving the community" },
   { icon: ShieldIcon, label: "HIPAA Compliant", sub: "Secure & confidential" },
 ];
 

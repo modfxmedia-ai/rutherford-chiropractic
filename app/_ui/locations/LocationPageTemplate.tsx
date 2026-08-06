@@ -38,7 +38,6 @@ const SERVICE_LABELS: Record<string, string> = {
   "back-pain-relief": "Back Pain Relief",
   "auto-injuries": "Auto Injuries",
   "sports-injuries": "Sports Injuries",
-  "medical-weight-loss": "Medical Weight Loss",
 };
 
 export function LocationPageTemplate({ data }: { data: LocationPageData }) {

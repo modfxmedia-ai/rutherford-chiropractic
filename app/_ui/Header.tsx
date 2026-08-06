@@ -104,7 +104,12 @@ export function Header() {
           </div>
 
           <div className="flex shrink-0 items-center gap-2.5">
-            <a href="/#reviews" className="btn btn-outline-orange btn-xs hidden 2xl:inline-flex">
+            <a
+              href={businessInfo.googleReviewsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-orange btn-xs hidden 2xl:inline-flex"
+            >
               Read Reviews
             </a>
             <Link

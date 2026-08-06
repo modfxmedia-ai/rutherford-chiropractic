@@ -15,7 +15,7 @@
  * │  │ Intro paragraph (verbatim)   │  · Hours + wait time      │   │
  * │  │ ★★★★★ 5.0 Trusted        │   │ Floating 100% stat chip  │   │
  * │  │ [Schedule] [Call]        │   │ (both float via CSS)     │   │
- * │  │ 16+ / Whole-Person / Care│   └──────────────────────────┘   │
+ * │  │ 29+ / Whole-Person / Care│   └──────────────────────────┘   │
  * │  └──────────────────────────┘                                   │
  * │           ↓ Scroll                                              │
  * │  Bottom fade → next section                                     │
@@ -45,6 +45,8 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import type { ReactNode } from "react";
+import { useEffect, useState } from "react";
+import Link from "next/link";
 import { Counter, FloatOnHover, Parallax, Reveal, Stagger, StaggerItem } from "../motion/primitives";
 import { MagneticButton } from "../motion/MagneticButton";
 
@@ -160,8 +162,32 @@ const SPECIALTIES: Array<{ label: string; icon: () => ReactNode }> = [
   { label: "Neuropathy", icon: NerveIcon },
 ];
 
+/**
+ * Returns the office-hours string for a given day-of-week index
+ * (0 = Sunday, 6 = Saturday). Mirrors the actual schedule listed in the
+ * Footer / ContactPage / LocationMap so the hero's "Hours today" card
+ * stays in sync with the rest of the site.
+ */
+function hoursForDay(day: number): string {
+  if (day === 0 || day === 6) return "Closed today";
+  if (day === 5) return "8:00am – 12:00pm";
+  // Monday–Thursday: split shift with a midday break.
+  return "8am–12pm, 2–6pm";
+}
+
+/** Stable multi-day fallback used for the initial SSR render before the
+ *  client mounts and can read the visitor's local weekday. */
+const HOURS_FALLBACK = "Mon–Thu 8–6 · Fri 8–12";
+
 export function Hero() {
   const reduce = useReducedMotion();
+  // Deferred to client so the server render doesn't hard-code a day-of-week
+  // that would mismatch the visitor's local timezone (would trigger a
+  // hydration warning).
+  const [hoursToday, setHoursToday] = useState<string>(HOURS_FALLBACK);
+  useEffect(() => {
+    setHoursToday(hoursForDay(new Date().getDay()));
+  }, []);
 
   return (
     <section
@@ -308,7 +334,7 @@ export function Hero() {
                     Years Experience
                   </dt>
                   <dd className="mt-1 text-3xl font-extrabold text-[color:var(--color-brand-orange)]">
-                    16+
+                    29+
                   </dd>
                 </div>
                 <div>
@@ -419,7 +445,7 @@ export function Hero() {
                             Hours today
                           </p>
                           <p className="mt-1 text-sm font-semibold text-white">
-                            9:00am – 6:00pm
+                            {hoursToday}
                           </p>
                         </div>
                         <div>
@@ -480,9 +506,12 @@ export function Hero() {
                   </div>
                 </StaggerItem>
 
-                {/* Trust / certification badge */}
+                {/* Trust / certification badges — HIPAA + the three
+                    financing options (In-House / HFA / CareCredit).
+                    Each pill shares the same `glass-panel` treatment so
+                    they read as a cohesive row of reassurance chips. */}
                 <StaggerItem className="self-start">
-                  <div className="hero-anim-float-slow">
+                  <div className="hero-anim-float-slow flex flex-wrap gap-2">
                     <FloatOnHover>
                       <span className="glass-panel inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold text-white">
                         <span className="grid h-6 w-6 place-items-center rounded-full bg-white/15 text-[color:var(--color-brand-orange)]">
@@ -503,6 +532,83 @@ export function Hero() {
                         </span>
                         HIPAA Compliant Care
                       </span>
+                    </FloatOnHover>
+
+                    <FloatOnHover>
+                      <Link
+                        href="/financing/"
+                        className="glass-panel inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold text-white transition-colors hover:text-[color:var(--color-brand-orange)]"
+                      >
+                        <span className="grid h-6 w-6 place-items-center rounded-full bg-white/15 text-[color:var(--color-brand-orange)]">
+                          <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2.2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            aria-hidden
+                          >
+                            <path d="M3 21h18" />
+                            <path d="M5 21V10l7-5 7 5v11" />
+                            <path d="M9 21v-6h6v6" />
+                          </svg>
+                        </span>
+                        In-House Financing
+                      </Link>
+                    </FloatOnHover>
+
+                    <FloatOnHover>
+                      <Link
+                        href="/financing/"
+                        className="glass-panel inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold text-white transition-colors hover:text-[color:var(--color-brand-orange)]"
+                      >
+                        <span className="grid h-6 w-6 place-items-center rounded-full bg-white/15 text-[color:var(--color-brand-orange)]">
+                          <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2.2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            aria-hidden
+                          >
+                            <path d="M12 22s8-4.5 8-11.5V5l-8-3-8 3v5.5C4 17.5 12 22 12 22Z" />
+                            <path d="m9 12 2 2 4-4" />
+                          </svg>
+                        </span>
+                        HFA
+                      </Link>
+                    </FloatOnHover>
+
+                    <FloatOnHover>
+                      <Link
+                        href="/financing/"
+                        className="glass-panel inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-semibold text-white transition-colors hover:text-[color:var(--color-brand-orange)]"
+                      >
+                        <span className="grid h-6 w-6 place-items-center rounded-full bg-white/15 text-[color:var(--color-brand-orange)]">
+                          <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2.2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            aria-hidden
+                          >
+                            <rect x="3" y="6" width="18" height="12" rx="2" />
+                            <path d="M3 10h18" />
+                            <path d="M7 15h4" />
+                          </svg>
+                        </span>
+                        CareCredit
+                      </Link>
                     </FloatOnHover>
                   </div>
                 </StaggerItem>

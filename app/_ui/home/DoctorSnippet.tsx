@@ -11,13 +11,13 @@ import { businessInfo } from "../nav";
  * avatar badge (initials + icon) rather than mislabeling a room photo as a
  * portrait — swap in a real headshot `<Image>` here if/when one is supplied.
  *
- * Bio facts (16 years, "Whole-Person Approach", Murfreesboro) are the same
+ * Bio facts (29 years, "Whole-Person Approach", Murfreesboro) are the same
  * verified facts already used verbatim in `About.tsx`; the copy here is a
  * condensed, distinct blurb sized for a snippet card rather than a
  * duplicate of the full About paragraphs.
  */
 
-const CREDENTIALS = ["Doctor of Chiropractic", "Whole-Person Approach", "16+ Years in Murfreesboro"];
+const CREDENTIALS = ["Doctor of Chiropractic", "Whole-Person Approach", "29+ Years in Murfreesboro"];
 
 export function DoctorSnippet() {
   return (
@@ -32,7 +32,7 @@ export function DoctorSnippet() {
                   WS
                 </div>
                 <span className="absolute -bottom-2 left-1/2 inline-flex -translate-x-1/2 items-center gap-1 rounded-full bg-[color:var(--color-brand-orange)] px-3 py-1 text-[10px] font-bold uppercase tracking-[0.1em] text-white shadow-[var(--shadow-card)] whitespace-nowrap">
-                  16+ Years
+                  29+ Years
                 </span>
               </div>
             </Reveal>
@@ -61,7 +61,7 @@ export function DoctorSnippet() {
 
               <Reveal delay={0.15} as="div">
                 <p className="mt-4 text-[color:var(--color-body)] leading-relaxed">
-                  For 16 years, Dr. Stewart has helped Murfreesboro-area
+                  For 29 years, Dr. Stewart has helped Murfreesboro-area
                   patients get back to the lives they love. His compassionate
                   &ldquo;Whole-Person Approach&rdquo; looks beyond symptoms to
                   find and correct the hidden causes of pain - helping

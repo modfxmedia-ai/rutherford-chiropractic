@@ -113,7 +113,7 @@ const SERVICES: DetailedService[] = [
     accent: "Care",
     paragraphs: [
       "Rutherford Spine & Wellness Center provides the highest quality and compassionate chiropractic care in Murfreesboro, TN for our patients. From massage therapy and physical therapy to the latest pain management techniques and chiropractic treatments, our seasoned chiropractor, Dr. Wesley Stewart, and expert staff are ready to design a treatment plan that\u2019s right for you. Our goal is always to fully alleviate your back or neck pain, treat your whiplash or work place injury, or address your other healthcare issues, and ultimately get you back to the quality of life you deserve.",
-      "Whether you are dealing with back pain or an injury on the court, get it under control with a chiropractic adjustment at Rutherford Spine & Wellness Center. Backed by 16 years of experience, our chiropractor can help you get better faster using techniques that are non-invasive and get you away from those medications that can have serious and even fatal side effects.",
+      "Whether you are dealing with back pain or an injury on the court, get it under control with a chiropractic adjustment at Rutherford Spine & Wellness Center. Backed by 29 years of experience, our chiropractor can help you get better faster using techniques that are non-invasive and get you away from those medications that can have serious and even fatal side effects.",
       "Chiropractic Care can help with a number of conditions that you may not even think have to do with the neck and spine. Oftentimes, pain in other areas of your body are due to spine and neck injuries that need to be fixed in order to heal your pain. We provide extensive examinations, x-rays and consultations to ensure the proper treatment is applied for your unique situation.",
     ],
     listIntro: "Some of the symptoms and conditions we can assist with include:",
@@ -137,7 +137,7 @@ const SERVICES: DetailedService[] = [
     accent: "Decompression",
     subtitle: "For Faster Healing of Your Condition",
     paragraphs: [
-      "Rutherford Spine & Wellness Center provides the latest in spinal decompression in Murfreesboro, TN. Spinal decompression and manipulation relieves back pain in a safe and natural way through gentle stretching of the spine. Pressure is taken off of the spinal discs, allowing for greater shock absorption and the movement of oxygen for faster healing. Do you suffer from back pain? Get effective relief from this and related conditions with spinal decompression performed at Rutherford Spine & Wellness Center. With 16 years of experience, we are one of the area\u2019s leading providers of non-surgical decompression therapy and non-invasive pain relief.",
+      "Rutherford Spine & Wellness Center provides the latest in spinal decompression in Murfreesboro, TN. Spinal decompression and manipulation relieves back pain in a safe and natural way through gentle stretching of the spine. Pressure is taken off of the spinal discs, allowing for greater shock absorption and the movement of oxygen for faster healing. Do you suffer from back pain? Get effective relief from this and related conditions with spinal decompression performed at Rutherford Spine & Wellness Center. With 29 years of experience, we are one of the area\u2019s leading providers of non-surgical decompression therapy and non-invasive pain relief.",
     ],
     listIntro: "Spinal decompression can alleviate:",
     listItems: [
@@ -216,7 +216,7 @@ const SERVICES: DetailedService[] = [
     accent: "Injuries",
     subtitle: "You Might Be Injured and Not Know It",
     paragraphs: [
-      "A car accident can be over in mere seconds, but the pain caused by a related injury can last a lifetime if it\u2019s not treated properly. It\u2019s important to know that some accident injuries are hidden and might not be felt for months or even years. It\u2019s possible that you could feel nothing at all directly following an accident, yet still is injured. When you are seen at Rutherford Spine & Wellness Center, you will find out if there is anything to be concerned about, and if necessary, you will receive the appropriate treatment from a chiropractor with 16 years of experience.",
+      "A car accident can be over in mere seconds, but the pain caused by a related injury can last a lifetime if it\u2019s not treated properly. It\u2019s important to know that some accident injuries are hidden and might not be felt for months or even years. It\u2019s possible that you could feel nothing at all directly following an accident, yet still is injured. When you are seen at Rutherford Spine & Wellness Center, you will find out if there is anything to be concerned about, and if necessary, you will receive the appropriate treatment from a chiropractor with 29 years of experience.",
     ],
     listHeading: "Treating All Kinds of Auto Accident-Related Pain",
     listIntro:
@@ -526,7 +526,7 @@ export function DetailedServices() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="mt-4 text-[color:var(--color-body)]">
-              Six focused areas of care, each backed by 16 years of hands-on
+              Six focused areas of care, each backed by 29 years of hands-on
               clinical experience in Murfreesboro.
             </p>
           </Reveal>

@@ -20,7 +20,6 @@ export const SERVICE_HERO_BG: Record<string, string> = {
   "back-pain-relief": "/media/back-pain-relief-detailed.jpg",
   "auto-injuries": "/media/auto-injury-detailed.jpg",
   "sports-injuries": "/media/services/sports-injury.jpg",
-  "medical-weight-loss": "/media/medical-weight-loss-banner.jpg",
 };
 
 /**

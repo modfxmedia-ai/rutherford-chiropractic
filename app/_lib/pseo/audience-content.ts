@@ -101,7 +101,7 @@ export function isApprovedPseoAudienceCombo(conditionSlug: string, neighborhoodS
 }
 
 const WHY_CHOOSE_US = [
-  "16 years of hands-on clinical experience treating patients throughout Rutherford County and Middle Tennessee",
+  "29 years of hands-on clinical experience treating patients throughout Rutherford County and Middle Tennessee",
   "A whole-person, non-invasive, drug-free approach built around your specific symptoms",
   "Personalized treatment plans designed with you by Dr. Wesley Stewart and our care team",
   "A convenient Murfreesboro location with flexible scheduling for patients across the region",
@@ -121,7 +121,7 @@ function buildAudienceIntroParagraphs(
 
   const third = `If you live or work in ${neighborhood.name}, ${neighborhood.cityName} - including ${neighborhood.descriptor} - and your work as a ${audience.label.toLowerCase()} keeps aggravating ${condition.mentionPhrase}, you don't have to travel far for an accurate diagnosis and a real treatment plan.`;
 
-  const fourth = `At Rutherford Spine & Wellness Center, Dr. Wesley Stewart brings 16 years of hands-on clinical experience to every visit, combining a thorough exam with a whole-person, drug-free approach so your care plan addresses the root cause of ${condition.mentionPhrase} rather than just masking the symptoms.`;
+  const fourth = `At Rutherford Spine & Wellness Center, Dr. Wesley Stewart brings 29 years of hands-on clinical experience to every visit, combining a thorough exam with a whole-person, drug-free approach so your care plan addresses the root cause of ${condition.mentionPhrase} rather than just masking the symptoms.`;
 
   const fifth = `Patients from ${neighborhood.name} and the surrounding ${neighborhood.cityName} area - including many ${audience.label.toLowerCase()} - trust our team to build a plan around their specific symptoms, work demands, and goals, with the ongoing support to get back to normal life and stay there.`;
 

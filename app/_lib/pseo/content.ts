@@ -45,7 +45,7 @@ export type PseoPageContent = {
 };
 
 const WHY_CHOOSE_US = [
-  "16 years of hands-on clinical experience treating patients throughout Rutherford County and Middle Tennessee",
+  "29 years of hands-on clinical experience treating patients throughout Rutherford County and Middle Tennessee",
   "A whole-person, non-invasive, drug-free approach built around your specific symptoms",
   "Personalized treatment plans designed with you by Dr. Wesley Stewart and our care team",
   "A convenient Murfreesboro location with flexible scheduling for patients across the region",
@@ -59,7 +59,7 @@ function buildIntroParagraphs(conditionSlug: string, neighborhood: Neighborhood)
 
   const second = `If you live or work in ${neighborhood.name}, ${neighborhood.cityName} - including ${neighborhood.descriptor} - you don't have to travel far to get an accurate diagnosis and a real treatment plan for ${condition.mentionPhrase}.`;
 
-  const third = `At Rutherford Spine & Wellness Center, Dr. Wesley Stewart brings 16 years of hands-on clinical experience to every visit, combining a thorough exam with a whole-person, drug-free approach so your care plan addresses the root cause of ${condition.mentionPhrase} rather than just masking the symptoms.`;
+  const third = `At Rutherford Spine & Wellness Center, Dr. Wesley Stewart brings 29 years of hands-on clinical experience to every visit, combining a thorough exam with a whole-person, drug-free approach so your care plan addresses the root cause of ${condition.mentionPhrase} rather than just masking the symptoms.`;
 
   const fourth = `Patients from ${neighborhood.name} and the surrounding ${neighborhood.cityName} area trust our team to build a plan around their specific symptoms, activity level, and goals - with the ongoing support to get back to normal life and stay there.`;
 
@@ -98,7 +98,7 @@ export function buildPseoContent(params: PseoPageParams): PseoPageContent | unde
 
   const h1 = `${condition.name} Relief in ${neighborhood.name}, ${neighborhood.cityName} TN`;
   const metaTitle = `${condition.name} Treatment in ${neighborhood.name}, ${neighborhood.cityName} TN | Rutherford Spine & Wellness`;
-  const metaDescription = `Struggling with ${condition.mentionPhrase} in ${neighborhood.name}, ${neighborhood.cityName}? Dr. Wesley Stewart offers non-invasive, drug-free treatment plans backed by 16 years of experience. Schedule your consultation today.`;
+  const metaDescription = `Struggling with ${condition.mentionPhrase} in ${neighborhood.name}, ${neighborhood.cityName}? Dr. Wesley Stewart offers non-invasive, drug-free treatment plans backed by 29 years of experience. Schedule your consultation today.`;
 
   const locationSlug = `${serviceSlug}-${neighborhood.citySlug}-tn`;
   const hasLocationPage = Boolean(getLocationPage(locationSlug));

@@ -50,7 +50,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "migraines-headaches::blackman-murfreesboro": {
     introParagraphs: [
-      "Migraines rarely announce themselves politely - most people describe a pounding, one-sided pressure that builds behind an eye or temple until light, noise, and even the smell of coffee become unbearable. What gets missed is how often that pain actually originates in the neck, not the brain, from tight joints and muscles referring pain upward. Dr. Wesley Stewart has spent 16 years in Murfreesboro tracing headache pain back to its mechanical root instead of just naming the symptom.",
+      "Migraines rarely announce themselves politely - most people describe a pounding, one-sided pressure that builds behind an eye or temple until light, noise, and even the smell of coffee become unbearable. What gets missed is how often that pain actually originates in the neck, not the brain, from tight joints and muscles referring pain upward. Dr. Wesley Stewart has spent 29 years in Murfreesboro tracing headache pain back to its mechanical root instead of just naming the symptom.",
       "Patients from the fast-growing Blackman community - many commuting the Rock Springs Road corridor to jobs across Murfreesboro - regularly arrive with the same story: a headache that starts as neck tightness after a long commute or a desk-bound day.",
     ],
     symptoms: [
@@ -69,7 +69,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::sam-ridley-smyrna": {
     introParagraphs: [
-      "For a lot of patients, a migraine isn't a single symptom - it's a cascade that starts with a strange visual disturbance, moves into a deep throbbing behind one eye, and ends with nausea and a need to lie down in a dark, silent room. Chronic headaches like these often trace back to irritation in the joints and muscles of the neck and upper back rather than anything happening inside the skull itself. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has built a reputation for finding that root cause instead of masking it.",
+      "For a lot of patients, a migraine isn't a single symptom - it's a cascade that starts with a strange visual disturbance, moves into a deep throbbing behind one eye, and ends with nausea and a need to lie down in a dark, silent room. Chronic headaches like these often trace back to irritation in the joints and muscles of the neck and upper back rather than anything happening inside the skull itself. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has built a reputation for finding that root cause instead of masking it.",
       "Along the Sam Ridley Parkway corridor near the I-24 interchange - Smyrna's busiest retail and commuter stretch - stop-and-go traffic and long fluorescent-lit shifts are two of the most common everyday triggers we hear about from local patients.",
     ],
     symptoms: [
@@ -88,7 +88,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Some headaches build slowly over a day, starting as tightness across the shoulders and ending in a vice-like pressure that wraps around the whole head. Others hit suddenly, with a stabbing pain on one side severe enough to stop a person mid-task. Whichever pattern shows up, the underlying driver is frequently the same: irritated joints and overworked muscles in the neck referring pain into the head - something Dr. Wesley Stewart has spent 16 years learning to identify and correct without relying on medication.",
+      "Some headaches build slowly over a day, starting as tightness across the shoulders and ending in a vice-like pressure that wraps around the whole head. Others hit suddenly, with a stabbing pain on one side severe enough to stop a person mid-task. Whichever pattern shows up, the underlying driver is frequently the same: irritated joints and overworked muscles in the neck referring pain into the head - something Dr. Wesley Stewart has spent 29 years learning to identify and correct without relying on medication.",
       "In Lake Forest Estates - at more than 3,100 homes, the largest single subdivision in Tennessee - long days spent driving, working from home, or looking after a busy household are frequent culprits behind the recurring headaches residents describe to us.",
     ],
     symptoms: [
@@ -107,7 +107,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::downtown-lebanon": {
     introParagraphs: [
-      "A headache that keeps returning on a predictable schedule - worse in the afternoon, worse after a stressful week, worse with certain foods - usually isn't random. It's often the nervous system responding to a specific, identifiable irritant, most commonly tension and restriction building up in the neck and upper back. Dr. Wesley Stewart has spent 16 years helping patients map that pattern instead of just treating the pain as it happens.",
+      "A headache that keeps returning on a predictable schedule - worse in the afternoon, worse after a stressful week, worse with certain foods - usually isn't random. It's often the nervous system responding to a specific, identifiable irritant, most commonly tension and restriction building up in the neck and upper back. Dr. Wesley Stewart has spent 29 years helping patients map that pattern instead of just treating the pain as it happens.",
       "Around Lebanon's historic Town Square - steps from the Wilson County Courthouse and Cumberland University - students, courthouse staff, and small-business owners alike describe headaches that track closely with long hours at a desk or on their feet on hard courthouse-square sidewalks.",
     ],
     symptoms: [
@@ -126,7 +126,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers are some of the most frequent migraine and tension-headache sufferers we see, and it's rarely a coincidence. Hours spent staring at a screen with the head tilted forward place continuous strain on the same neck joints and muscles that, when irritated, refer pain straight into the head. Over 16 years of practice, Dr. Wesley Stewart has focused on correcting that underlying strain rather than simply prescribing rest.",
+      "Office workers are some of the most frequent migraine and tension-headache sufferers we see, and it's rarely a coincidence. Hours spent staring at a screen with the head tilted forward place continuous strain on the same neck joints and muscles that, when irritated, refer pain straight into the head. Over 29 years of practice, Dr. Wesley Stewart has focused on correcting that underlying strain rather than simply prescribing rest.",
       "Cool Springs - Franklin's dense office and retail corridor along Cool Springs Boulevard near I-65 - is full of exactly this kind of desk-bound workday, and it's one of the most common headache patterns we hear described by patients who work in the area.",
     ],
     symptoms: [
@@ -145,7 +145,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::maryland-farms-brentwood": {
     introParagraphs: [
-      "Chronic headaches in busy professionals often follow the same arc: tension builds across the shoulders and neck during the workday, and by evening it has converted into a full-blown, one-sided throbbing headache accompanied by light sensitivity. That connection between posture, neck tension, and headache frequency is one of the most consistent patterns Dr. Wesley Stewart has observed across 16 years treating patients from Williamson County and beyond.",
+      "Chronic headaches in busy professionals often follow the same arc: tension builds across the shoulders and neck during the workday, and by evening it has converted into a full-blown, one-sided throbbing headache accompanied by light sensitivity. That connection between posture, neck tension, and headache frequency is one of the most consistent patterns Dr. Wesley Stewart has observed across 29 years treating patients from Williamson County and beyond.",
       "In Maryland Farms - Brentwood's office district, built on a former Saddlebred horse farm and now the city's commercial center - long meetings and back-to-back video calls are a recurring trigger patients describe when their headaches start.",
     ],
     symptoms: [
@@ -164,7 +164,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::green-hills-nashville": {
     introParagraphs: [
-      "A headache that intensifies in bright, loud, or crowded environments is a strong signal that light and sound sensitivity - not just pain - are part of what's happening. That heightened sensitivity is a hallmark of migraine, and it frequently has a mechanical component originating in neck and upper-spine irritation that can be identified and treated directly. Dr. Wesley Stewart has spent 16 years helping patients throughout Middle Tennessee, including Nashville, work through exactly that kind of pattern.",
+      "A headache that intensifies in bright, loud, or crowded environments is a strong signal that light and sound sensitivity - not just pain - are part of what's happening. That heightened sensitivity is a hallmark of migraine, and it frequently has a mechanical component originating in neck and upper-spine irritation that can be identified and treated directly. Dr. Wesley Stewart has spent 29 years helping patients throughout Middle Tennessee, including Nashville, work through exactly that kind of pattern.",
       "Patients from Green Hills - the shopping and dining hub anchored by Green Hills Mall along Hillsboro Pike - often mention that traffic congestion and bright retail lighting are reliable triggers for their headaches.",
     ],
     symptoms: [
@@ -183,7 +183,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::downtown-shelbyville": {
     introParagraphs: [
-      "Headaches that seem to come out of nowhere often have a slow buildup that goes unnoticed - stiffness across the shoulders, a stiff neck after sitting still, tension that quietly accumulates over hours before turning into a full headache. Recognizing and interrupting that buildup, rather than waiting for the pain itself, is central to how Dr. Wesley Stewart has approached headache care for the past 16 years.",
+      "Headaches that seem to come out of nowhere often have a slow buildup that goes unnoticed - stiffness across the shoulders, a stiff neck after sitting still, tension that quietly accumulates over hours before turning into a full headache. Recognizing and interrupting that buildup, rather than waiting for the pain itself, is central to how Dr. Wesley Stewart has approached headache care for the past 29 years.",
       "Around Shelbyville's historic Public Square - perched on a limestone bluff above the Duck River in the heart of Bedford County - many patients describe headaches tied less to any single event and more to a steady buildup of neck and shoulder tension over the course of a long workday.",
     ],
     symptoms: [
@@ -202,7 +202,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::downtown-woodbury": {
     introParagraphs: [
-      "In more rural communities, headache sufferers often go years without a clear explanation for their pain simply because specialized, hands-on evaluation isn't close by. Yet the same mechanical causes - neck joint restriction, muscle tension, postural strain - apply just as much in a small town as in a big city. Dr. Wesley Stewart has spent 16 years making that kind of evaluation and treatment accessible to patients well outside Murfreesboro itself.",
+      "In more rural communities, headache sufferers often go years without a clear explanation for their pain simply because specialized, hands-on evaluation isn't close by. Yet the same mechanical causes - neck joint restriction, muscle tension, postural strain - apply just as much in a small town as in a big city. Dr. Wesley Stewart has spent 29 years making that kind of evaluation and treatment accessible to patients well outside Murfreesboro itself.",
       "For residents of Downtown Woodbury - the small Cannon County seat on the East Fork of the Stones River, about 19 miles east of Murfreesboro on US-70S - hours spent driving on rural highways or working outdoors in bright sun are common headache triggers we hear about.",
     ],
     symptoms: [
@@ -221,7 +221,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "migraines-headaches::downtown-eagleville": {
     introParagraphs: [
-      "For patients in Rutherford County's smaller towns, a recurring headache is too often written off as something to just live with, especially when the nearest specialized care feels far away. In reality, many of these headaches trace back to a treatable mechanical cause in the neck and upper back - the same root cause we address for patients throughout the region. Dr. Wesley Stewart has spent 16 years bringing that same standard of whole-person, drug-free care to patients across Rutherford County, including its smallest towns.",
+      "For patients in Rutherford County's smaller towns, a recurring headache is too often written off as something to just live with, especially when the nearest specialized care feels far away. In reality, many of these headaches trace back to a treatable mechanical cause in the neck and upper back - the same root cause we address for patients throughout the region. Dr. Wesley Stewart has spent 29 years bringing that same standard of whole-person, drug-free care to patients across Rutherford County, including its smallest towns.",
       "In Downtown Eagleville - the small Rutherford County town best known as home to Eagleville High School - many residents already travel into Murfreesboro for specialized medical care, making our office a natural, familiar option for headache treatment.",
     ],
     symptoms: [
@@ -244,7 +244,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "sciatica::blackman-murfreesboro": {
     introParagraphs: [
-      "Sciatica has a signature: a sharp, electric pain that starts low in the back and travels through the hip, down the back of the leg, sometimes as far as the foot. It's rarely one dramatic injury - more often it's the slow buildup of disc pressure or a tight piriformis muscle finally irritating the sciatic nerve enough to cause real pain. Dr. Wesley Stewart has spent 16 years in Murfreesboro tracing that nerve pressure back to its source instead of just treating the leg pain it produces.",
+      "Sciatica has a signature: a sharp, electric pain that starts low in the back and travels through the hip, down the back of the leg, sometimes as far as the foot. It's rarely one dramatic injury - more often it's the slow buildup of disc pressure or a tight piriformis muscle finally irritating the sciatic nerve enough to cause real pain. Dr. Wesley Stewart has spent 29 years in Murfreesboro tracing that nerve pressure back to its source instead of just treating the leg pain it produces.",
       "In the fast-growing Blackman community - zoned for Blackman Middle and Blackman High along the Rock Springs Road corridor - we regularly see sciatica in patients whose new-construction homes come with plenty of stairs, yard work, and moving boxes.",
     ],
     symptoms: [
@@ -262,7 +262,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::sam-ridley-smyrna": {
     introParagraphs: [
-      "When sciatic nerve pain flares, it rarely stays in one place - patients describe it starting as a low back ache and ending as a shooting pain that reaches the knee or even the foot. That pattern usually means a disc or tight muscle is pressing directly on the nerve root as it exits the spine. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has focused on relieving that pressure directly rather than simply managing pain with medication.",
+      "When sciatic nerve pain flares, it rarely stays in one place - patients describe it starting as a low back ache and ending as a shooting pain that reaches the knee or even the foot. That pattern usually means a disc or tight muscle is pressing directly on the nerve root as it exits the spine. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has focused on relieving that pressure directly rather than simply managing pain with medication.",
       "Along the Sam Ridley Parkway corridor near the I-24 interchange, long hours behind the wheel and warehouse or retail jobs that involve repetitive lifting are two of the most common sciatica triggers we hear about from Smyrna patients.",
     ],
     symptoms: [
@@ -280,7 +280,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Sciatic nerve pain often starts small - a tight ache in the low back - before building into the unmistakable, radiating pain that shoots down the leg. Left alone, that pressure on the nerve tends to get worse, not better, especially with continued heavy activity. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County catch that pattern early and correct the underlying pressure on the nerve.",
+      "Sciatic nerve pain often starts small - a tight ache in the low back - before building into the unmistakable, radiating pain that shoots down the leg. Left alone, that pressure on the nerve tends to get worse, not better, especially with continued heavy activity. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County catch that pattern early and correct the underlying pressure on the nerve.",
       "In Lake Forest Estates - Tennessee's largest single subdivision at over 3,100 homes - the sheer amount of walking, yard work, and stair climbing across such a sprawling neighborhood is a common backdrop to the sciatica cases we see from La Vergne.",
     ],
     symptoms: [
@@ -298,7 +298,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::downtown-lebanon": {
     introParagraphs: [
-      "Not every case of sciatica looks the same - some patients feel a constant, dull ache with occasional shooting pain, while others are stopped in their tracks by a single sudden movement. Both patterns usually point to the same underlying issue: pressure on the sciatic nerve somewhere along its path from the lower spine. Dr. Wesley Stewart has spent 16 years learning to tell these patterns apart and build a plan around each patient's specific presentation.",
+      "Not every case of sciatica looks the same - some patients feel a constant, dull ache with occasional shooting pain, while others are stopped in their tracks by a single sudden movement. Both patterns usually point to the same underlying issue: pressure on the sciatic nerve somewhere along its path from the lower spine. Dr. Wesley Stewart has spent 29 years learning to tell these patterns apart and build a plan around each patient's specific presentation.",
       "Near Lebanon's historic Town Square - steps from the Wilson County Courthouse and Cumberland University - many patients describe sciatica that began after long hours standing on the square's hard sidewalks or sitting through a full workday at a courthouse desk.",
     ],
     symptoms: [
@@ -316,7 +316,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers are some of the most common sciatica patients we see, and the reason is simple: hours of sitting place continuous pressure on the discs in the lower spine, often irritating the sciatic nerve without any single dramatic injury. That steady, cumulative pressure is exactly what Dr. Wesley Stewart has spent 16 years identifying and relieving for patients across Williamson County and beyond.",
+      "Office workers are some of the most common sciatica patients we see, and the reason is simple: hours of sitting place continuous pressure on the discs in the lower spine, often irritating the sciatic nerve without any single dramatic injury. That steady, cumulative pressure is exactly what Dr. Wesley Stewart has spent 29 years identifying and relieving for patients across Williamson County and beyond.",
       "In Cool Springs - Franklin's dense retail and office corridor along Cool Springs Boulevard near I-65 - long days at a desk followed by a stop-and-go commute are a near-daily pattern behind the sciatica cases we treat from the area.",
     ],
     symptoms: [
@@ -334,7 +334,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::maryland-farms-brentwood": {
     introParagraphs: [
-      "A hallmark of sciatica is how far the pain can travel from its actual source - patients often feel the worst of it in the calf or foot, even though the real problem is a disc or joint issue in the lower back. Understanding that distinction is the first step toward real relief, and it's something Dr. Wesley Stewart has focused on for 16 years treating patients throughout Williamson County.",
+      "A hallmark of sciatica is how far the pain can travel from its actual source - patients often feel the worst of it in the calf or foot, even though the real problem is a disc or joint issue in the lower back. Understanding that distinction is the first step toward real relief, and it's something Dr. Wesley Stewart has focused on for 29 years treating patients throughout Williamson County.",
       "In Maryland Farms - Brentwood's office district built on a former Saddlebred horse farm - long meetings and back-to-back calls spent sitting are a familiar setup for the sciatica cases we see from local professionals.",
     ],
     symptoms: [
@@ -352,7 +352,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::green-hills-nashville": {
     introParagraphs: [
-      "Sciatica pain has a way of showing up far from where it starts, radiating from the lower spine all the way to the foot in a clear, traceable pattern along the sciatic nerve. Identifying exactly where that nerve is being compressed - rather than just treating the leg pain - is central to how Dr. Wesley Stewart has approached sciatica care for 16 years across Middle Tennessee, including Nashville.",
+      "Sciatica pain has a way of showing up far from where it starts, radiating from the lower spine all the way to the foot in a clear, traceable pattern along the sciatic nerve. Identifying exactly where that nerve is being compressed - rather than just treating the leg pain - is central to how Dr. Wesley Stewart has approached sciatica care for 29 years across Middle Tennessee, including Nashville.",
       "Patients from Green Hills - the shopping and dining district anchored by Green Hills Mall along Hillsboro Pike - often describe sciatica flaring after standing on hard retail floors or sitting through heavy Hillsboro Pike traffic.",
     ],
     symptoms: [
@@ -370,7 +370,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::downtown-shelbyville": {
     introParagraphs: [
-      "Sciatica often builds gradually - a mild low back ache one week, a full shooting pain down the leg the next - as pressure on the nerve slowly increases. Catching that pattern early tends to make treatment more effective, which is why Dr. Wesley Stewart focuses on a thorough initial evaluation for every new patient, a standard he's held for 16 years in practice.",
+      "Sciatica often builds gradually - a mild low back ache one week, a full shooting pain down the leg the next - as pressure on the nerve slowly increases. Catching that pattern early tends to make treatment more effective, which is why Dr. Wesley Stewart focuses on a thorough initial evaluation for every new patient, a standard he's held for 29 years in practice.",
       "Around Shelbyville's historic Public Square - set on a limestone bluff above the Duck River - many Bedford County patients describe sciatica that started after physically demanding work or long days on their feet downtown.",
     ],
     symptoms: [
@@ -388,7 +388,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::downtown-woodbury": {
     introParagraphs: [
-      "In smaller, more rural communities, sciatica is sometimes dismissed as just \"getting older\" rather than treated as the specific, identifiable nerve problem it usually is. The reality is that the same disc and muscle issues that cause sciatica in a city also apply in the country - and they respond to the same kind of targeted, non-surgical care Dr. Wesley Stewart has provided for 16 years.",
+      "In smaller, more rural communities, sciatica is sometimes dismissed as just \"getting older\" rather than treated as the specific, identifiable nerve problem it usually is. The reality is that the same disc and muscle issues that cause sciatica in a city also apply in the country - and they respond to the same kind of targeted, non-surgical care Dr. Wesley Stewart has provided for 29 years.",
       "For residents of Downtown Woodbury - the small Cannon County seat about 19 miles east of Murfreesboro on US-70S - farm work, long drives on rural highways, and physically demanding daily routines are common threads behind the sciatica cases we treat.",
     ],
     symptoms: [
@@ -406,7 +406,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "sciatica::downtown-eagleville": {
     introParagraphs: [
-      "For patients in Rutherford County's smallest towns, sciatica often goes untreated simply because it's assumed nothing can be done short of surgery. In most cases, that's not true - non-surgical spinal decompression and targeted chiropractic care can meaningfully relieve the nerve pressure behind sciatica, the same standard of care Dr. Wesley Stewart has provided for 16 years to patients across the county.",
+      "For patients in Rutherford County's smallest towns, sciatica often goes untreated simply because it's assumed nothing can be done short of surgery. In most cases, that's not true - non-surgical spinal decompression and targeted chiropractic care can meaningfully relieve the nerve pressure behind sciatica, the same standard of care Dr. Wesley Stewart has provided for 29 years to patients across the county.",
       "In Downtown Eagleville - the small Rutherford County town best known as home to Eagleville High School - many residents already travel into Murfreesboro for specialized medical care, making sciatica treatment a familiar trip rather than a new one.",
     ],
     symptoms: [
@@ -428,7 +428,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "whiplash::blackman-murfreesboro": {
     introParagraphs: [
-      "Whiplash doesn't always announce itself right away - many patients feel fine immediately after a car accident, only to wake up the next morning with a stiff, aching neck that barely turns. That delayed onset is exactly why an evaluation soon after any collision matters, even when nothing feels wrong at first. Dr. Wesley Stewart has spent 16 years in Murfreesboro treating whiplash early, before minor strain has a chance to become a chronic problem.",
+      "Whiplash doesn't always announce itself right away - many patients feel fine immediately after a car accident, only to wake up the next morning with a stiff, aching neck that barely turns. That delayed onset is exactly why an evaluation soon after any collision matters, even when nothing feels wrong at first. Dr. Wesley Stewart has spent 29 years in Murfreesboro treating whiplash early, before minor strain has a chance to become a chronic problem.",
       "In the Blackman community on Murfreesboro's growing west side, busy commuter routes along Rock Springs Road mean a steady stream of rear-end and intersection collisions - and the whiplash injuries that come with them.",
     ],
     symptoms: [
@@ -446,7 +446,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::sam-ridley-smyrna": {
     introParagraphs: [
-      "The neck injury we call whiplash comes from a rapid, forceful back-and-forth motion of the head - most often from a rear-end collision - that strains muscles and ligaments never designed to move that fast. Even when a vehicle shows only minor damage, the forces involved can still injure the neck significantly. Over 16 years of practice, Dr. Wesley Stewart has learned not to judge whiplash severity by how a car looks after a crash.",
+      "The neck injury we call whiplash comes from a rapid, forceful back-and-forth motion of the head - most often from a rear-end collision - that strains muscles and ligaments never designed to move that fast. Even when a vehicle shows only minor damage, the forces involved can still injure the neck significantly. Over 29 years of practice, Dr. Wesley Stewart has learned not to judge whiplash severity by how a car looks after a crash.",
       "The Sam Ridley Parkway corridor near the I-24 interchange sees some of the heaviest traffic in Smyrna, and rear-end collisions in that stretch are one of the most common ways whiplash shows up in our Smyrna patients.",
     ],
     symptoms: [
@@ -464,7 +464,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Whiplash injuries are deceptive because the worst symptoms - stiffness, headaches, reduced range of motion - often build gradually rather than appearing all at once. That gradual buildup is exactly why so many whiplash cases go untreated in the first crucial days after an accident. Dr. Wesley Stewart has spent 16 years encouraging patients throughout La Vergne and Rutherford County to get checked early rather than wait to see if symptoms resolve on their own.",
+      "Whiplash injuries are deceptive because the worst symptoms - stiffness, headaches, reduced range of motion - often build gradually rather than appearing all at once. That gradual buildup is exactly why so many whiplash cases go untreated in the first crucial days after an accident. Dr. Wesley Stewart has spent 29 years encouraging patients throughout La Vergne and Rutherford County to get checked early rather than wait to see if symptoms resolve on their own.",
       "With Lake Forest Estates sitting so close to the I-24 corridor, many of our La Vergne whiplash patients were involved in a collision on their daily commute to or from the interstate.",
     ],
     symptoms: [
@@ -482,7 +482,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::downtown-lebanon": {
     introParagraphs: [
-      "A whiplash injury involves far more than just the neck - the sudden forward-and-back motion can strain the muscles, ligaments, and joints from the base of the skull down through the upper back. Treating only the most obvious pain point often misses part of the injury, which is why Dr. Wesley Stewart evaluates the whole cervical and upper-back region for every whiplash patient, a standard built over 16 years in practice.",
+      "A whiplash injury involves far more than just the neck - the sudden forward-and-back motion can strain the muscles, ligaments, and joints from the base of the skull down through the upper back. Treating only the most obvious pain point often misses part of the injury, which is why Dr. Wesley Stewart evaluates the whole cervical and upper-back region for every whiplash patient, a standard built over 29 years in practice.",
       "Near Lebanon's historic Town Square, patients often describe whiplash injuries from collisions on the busier roads surrounding the square and the courthouse district.",
     ],
     symptoms: [
@@ -500,7 +500,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::cool-springs-franklin": {
     introParagraphs: [
-      "Whiplash frequently affects busy professionals differently than expected - instead of constant pain, many notice their neck simply doesn't move as freely as it used to, especially after a long day at a desk. That subtle stiffness is often the lingering sign of an under-treated whiplash injury. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County recognize and treat that pattern before it becomes permanent.",
+      "Whiplash frequently affects busy professionals differently than expected - instead of constant pain, many notice their neck simply doesn't move as freely as it used to, especially after a long day at a desk. That subtle stiffness is often the lingering sign of an under-treated whiplash injury. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County recognize and treat that pattern before it becomes permanent.",
       "In Cool Springs, Franklin's busy retail and office corridor along Cool Springs Boulevard, congested traffic near the I-65 interchange is a common backdrop to the rear-end collisions behind many whiplash cases we treat.",
     ],
     symptoms: [
@@ -518,7 +518,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::maryland-farms-brentwood": {
     introParagraphs: [
-      "Whiplash can quietly limit far more than neck motion - many patients also notice tension headaches, shoulder tightness, and even trouble concentrating in the weeks following a car accident. Addressing the whole picture, not just the neck pain, is central to how Dr. Wesley Stewart has approached whiplash recovery over 16 years in practice.",
+      "Whiplash can quietly limit far more than neck motion - many patients also notice tension headaches, shoulder tightness, and even trouble concentrating in the weeks following a car accident. Addressing the whole picture, not just the neck pain, is central to how Dr. Wesley Stewart has approached whiplash recovery over 29 years in practice.",
       "Around Maryland Farms in Brentwood, congested office-park traffic during rush hour is a frequent setting for the rear-end collisions behind whiplash cases we see from the area.",
     ],
     symptoms: [
@@ -536,7 +536,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::antioch-nashville": {
     introParagraphs: [
-      "Some of the most serious whiplash cases we see come from higher-speed collisions on busy commuter corridors, where the sudden force involved can strain not just the neck but the muscles across the entire upper back. Recognizing the full extent of that injury - not just the most obvious pain - has been a focus of Dr. Wesley Stewart's whiplash care for 16 years.",
+      "Some of the most serious whiplash cases we see come from higher-speed collisions on busy commuter corridors, where the sudden force involved can strain not just the neck but the muscles across the entire upper back. Recognizing the full extent of that injury - not just the most obvious pain - has been a focus of Dr. Wesley Stewart's whiplash care for 29 years.",
       "The Bell Road and Murfreesboro Pike corridor through Antioch, which directly borders La Vergne, is one of the busiest and most accident-prone commuter routes in southeast Nashville, and it's a common origin point for the whiplash cases we treat from that area.",
     ],
     symptoms: [
@@ -554,7 +554,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::downtown-shelbyville": {
     introParagraphs: [
-      "Whiplash from a car accident can be easy to underestimate in the first hours afterward, especially when adrenaline masks how much the neck was actually strained. By the time stiffness and headaches set in, the injury is often further along than it seems. Dr. Wesley Stewart has spent 16 years encouraging Bedford County patients to get evaluated promptly rather than wait for pain to confirm something is wrong.",
+      "Whiplash from a car accident can be easy to underestimate in the first hours afterward, especially when adrenaline masks how much the neck was actually strained. By the time stiffness and headaches set in, the injury is often further along than it seems. Dr. Wesley Stewart has spent 29 years encouraging Bedford County patients to get evaluated promptly rather than wait for pain to confirm something is wrong.",
       "Around Shelbyville's historic Public Square, narrow downtown streets and blind intersections near the courthouse are a common setting for the low-speed collisions behind many local whiplash cases.",
     ],
     symptoms: [
@@ -572,7 +572,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, whiplash injuries from highway accidents often go unevaluated simply because specialized care feels far away. But the same neck strain that affects a Nashville commuter applies just as much to someone injured on a rural Cannon County highway - and it responds to the same kind of targeted, hands-on treatment Dr. Wesley Stewart has provided for 16 years.",
+      "In rural communities, whiplash injuries from highway accidents often go unevaluated simply because specialized care feels far away. But the same neck strain that affects a Nashville commuter applies just as much to someone injured on a rural Cannon County highway - and it responds to the same kind of targeted, hands-on treatment Dr. Wesley Stewart has provided for 29 years.",
       "Along US-70S near Downtown Woodbury, higher speed limits and long rural stretches make collisions there often more forceful, which is reflected in the whiplash cases we see from Cannon County patients.",
     ],
     symptoms: [
@@ -590,7 +590,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "whiplash::downtown-eagleville": {
     introParagraphs: [
-      "Whiplash doesn't care how small a town is - the same forceful, rapid neck motion that injures a driver in a big city can just as easily injure someone on a quiet rural road near Eagleville. What often differs is access to care, which is why Dr. Wesley Stewart has spent 16 years making sure patients from Rutherford County's smallest towns get the same thorough whiplash evaluation as anyone else.",
+      "Whiplash doesn't care how small a town is - the same forceful, rapid neck motion that injures a driver in a big city can just as easily injure someone on a quiet rural road near Eagleville. What often differs is access to care, which is why Dr. Wesley Stewart has spent 29 years making sure patients from Rutherford County's smallest towns get the same thorough whiplash evaluation as anyone else.",
       "For residents near Downtown Eagleville, accidents on the area's narrow, curving country roads are a common cause of the whiplash injuries we treat, often from drivers unfamiliar with the terrain.",
     ],
     symptoms: [
@@ -612,7 +612,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "carpal-tunnel::blackman-murfreesboro": {
     introParagraphs: [
-      "Carpal tunnel syndrome develops when the median nerve, which runs through a narrow passage in the wrist, becomes compressed - usually from repetitive hand motion like typing, assembly work, or gripping tools. The numbness and tingling that follow can start subtly but tend to worsen without treatment. Dr. Wesley Stewart has spent 16 years in Murfreesboro tracing carpal tunnel symptoms back to their true source, which sometimes starts higher up in the neck rather than the wrist alone.",
+      "Carpal tunnel syndrome develops when the median nerve, which runs through a narrow passage in the wrist, becomes compressed - usually from repetitive hand motion like typing, assembly work, or gripping tools. The numbness and tingling that follow can start subtly but tend to worsen without treatment. Dr. Wesley Stewart has spent 29 years in Murfreesboro tracing carpal tunnel symptoms back to their true source, which sometimes starts higher up in the neck rather than the wrist alone.",
       "Many of our patients from the Blackman community work in growing local trades and healthcare jobs that involve repetitive hand use, which shows up clearly in the carpal tunnel cases we treat.",
     ],
     symptoms: [
@@ -630,7 +630,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::rocky-fork-smyrna": {
     introParagraphs: [
-      "Carpal tunnel syndrome often shows up first as nighttime numbness - patients wake up shaking out a hand that's gone tingly or asleep, not realizing it's the median nerve being compressed at the wrist. Left unaddressed, that nighttime numbness frequently progresses into daytime symptoms that interfere with work and daily tasks. Over 16 years of practice, Dr. Wesley Stewart has helped patients across Rutherford County catch and treat that progression early.",
+      "Carpal tunnel syndrome often shows up first as nighttime numbness - patients wake up shaking out a hand that's gone tingly or asleep, not realizing it's the median nerve being compressed at the wrist. Left unaddressed, that nighttime numbness frequently progresses into daytime symptoms that interfere with work and daily tasks. Over 29 years of practice, Dr. Wesley Stewart has helped patients across Rutherford County catch and treat that progression early.",
       "In the Rocky Fork community on Smyrna's east side, home to a large share of the area's manufacturing and logistics workforce, repetitive hand motion on the job is one of the most common carpal tunnel triggers we see.",
     ],
     symptoms: [
@@ -648,7 +648,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "It's easy to blame carpal tunnel entirely on the wrist, but the median nerve's path actually starts in the neck, which means irritation anywhere along that route can produce the same numbness and tingling. Missing that bigger picture is one of the most common reasons carpal tunnel treatment doesn't fully work. Dr. Wesley Stewart has spent 16 years addressing that full nerve pathway for patients throughout La Vergne and Rutherford County.",
+      "It's easy to blame carpal tunnel entirely on the wrist, but the median nerve's path actually starts in the neck, which means irritation anywhere along that route can produce the same numbness and tingling. Missing that bigger picture is one of the most common reasons carpal tunnel treatment doesn't fully work. Dr. Wesley Stewart has spent 29 years addressing that full nerve pathway for patients throughout La Vergne and Rutherford County.",
       "Residents of Lake Forest Estates, Tennessee's largest single subdivision, often describe carpal tunnel symptoms tied to hours of computer work, phone use, or household tasks repeated day after day.",
     ],
     symptoms: [
@@ -666,7 +666,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::downtown-lebanon": {
     introParagraphs: [
-      "Carpal tunnel symptoms can be surprisingly disruptive for something that starts as mild tingling - patients describe struggling to hold a coffee cup, type an email, or even fasten a button once the numbness sets in. Addressing the compression early tends to prevent that kind of daily disruption from becoming permanent. Dr. Wesley Stewart has spent 16 years helping Wilson County patients catch carpal tunnel before it limits daily function.",
+      "Carpal tunnel symptoms can be surprisingly disruptive for something that starts as mild tingling - patients describe struggling to hold a coffee cup, type an email, or even fasten a button once the numbness sets in. Addressing the compression early tends to prevent that kind of daily disruption from becoming permanent. Dr. Wesley Stewart has spent 29 years helping Wilson County patients catch carpal tunnel before it limits daily function.",
       "Near Lebanon's Town Square and Cumberland University, students and courthouse staff alike describe carpal tunnel symptoms tied to hours of note-taking, typing, or filing paperwork.",
     ],
     symptoms: [
@@ -684,7 +684,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::cool-springs-franklin": {
     introParagraphs: [
-      "For office workers, carpal tunnel syndrome is often the direct result of thousands of small, repetitive keystrokes and mouse clicks compressing the median nerve day after day. What starts as occasional tingling can, without treatment, progress into constant numbness that makes typing genuinely difficult. Dr. Wesley Stewart has spent 16 years treating that exact pattern for patients across Williamson County's office corridors.",
+      "For office workers, carpal tunnel syndrome is often the direct result of thousands of small, repetitive keystrokes and mouse clicks compressing the median nerve day after day. What starts as occasional tingling can, without treatment, progress into constant numbness that makes typing genuinely difficult. Dr. Wesley Stewart has spent 29 years treating that exact pattern for patients across Williamson County's office corridors.",
       "In Cool Springs, Franklin's office-heavy retail and business district, long hours at a keyboard are one of the most consistent carpal tunnel triggers we see among local patients.",
     ],
     symptoms: [
@@ -702,7 +702,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::maryland-farms-brentwood": {
     introParagraphs: [
-      "Carpal tunnel syndrome tends to sneak up on busy professionals, showing up first as an odd tingling during a long meeting before becoming a persistent numbness that interferes with everyday tasks like typing or driving. Catching that shift early is one of the most effective ways to avoid more invasive treatment down the road, something Dr. Wesley Stewart has emphasized for 16 years in practice.",
+      "Carpal tunnel syndrome tends to sneak up on busy professionals, showing up first as an odd tingling during a long meeting before becoming a persistent numbness that interferes with everyday tasks like typing or driving. Catching that shift early is one of the most effective ways to avoid more invasive treatment down the road, something Dr. Wesley Stewart has emphasized for 29 years in practice.",
       "Around Maryland Farms in Brentwood, where long days often mean back-to-back laptop use and note-taking, carpal tunnel is one of the more common nerve complaints we hear from local professionals.",
     ],
     symptoms: [
@@ -720,7 +720,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::green-hills-nashville": {
     introParagraphs: [
-      "Carpal tunnel symptoms often follow a predictable progression - starting with occasional tingling, moving into numbness during specific activities, and eventually becoming a constant sensation that disrupts sleep and daily tasks. Interrupting that progression as early as possible is a central part of how Dr. Wesley Stewart has approached carpal tunnel care for 16 years across Middle Tennessee, including Nashville.",
+      "Carpal tunnel symptoms often follow a predictable progression - starting with occasional tingling, moving into numbness during specific activities, and eventually becoming a constant sensation that disrupts sleep and daily tasks. Interrupting that progression as early as possible is a central part of how Dr. Wesley Stewart has approached carpal tunnel care for 29 years across Middle Tennessee, including Nashville.",
       "Patients from Green Hills, Nashville's busy retail and dining district along Hillsboro Pike, often connect their carpal tunnel symptoms to a mix of retail, service, and office work involving repetitive hand use.",
     ],
     symptoms: [
@@ -738,7 +738,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::downtown-shelbyville": {
     introParagraphs: [
-      "Carpal tunnel syndrome is sometimes treated as a foregone conclusion toward surgery, but a significant number of cases respond well to conservative, non-surgical care when addressed early enough. Helping patients avoid unnecessary surgery by catching carpal tunnel sooner has been a consistent focus of Dr. Wesley Stewart's 16 years in practice.",
+      "Carpal tunnel syndrome is sometimes treated as a foregone conclusion toward surgery, but a significant number of cases respond well to conservative, non-surgical care when addressed early enough. Helping patients avoid unnecessary surgery by catching carpal tunnel sooner has been a consistent focus of Dr. Wesley Stewart's 29 years in practice.",
       "Around Shelbyville's historic Public Square, many longtime local tradespeople and factory workers describe carpal tunnel symptoms built up over years of repetitive hand work.",
     ],
     symptoms: [
@@ -756,7 +756,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, carpal tunnel is often tied to farm work, tool use, and other physically demanding daily tasks rather than desk work - but the underlying nerve compression is the same regardless of the cause. Recognizing that connection has allowed Dr. Wesley Stewart to bring the same 16 years of nerve-focused care to patients well outside Murfreesboro itself.",
+      "In rural communities, carpal tunnel is often tied to farm work, tool use, and other physically demanding daily tasks rather than desk work - but the underlying nerve compression is the same regardless of the cause. Recognizing that connection has allowed Dr. Wesley Stewart to bring the same 29 years of nerve-focused care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury and the surrounding Cannon County countryside, repetitive tool use and equipment operation are common contributors to the carpal tunnel symptoms we treat.",
     ],
     symptoms: [
@@ -774,7 +774,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "carpal-tunnel::downtown-eagleville": {
     introParagraphs: [
-      "Carpal tunnel syndrome affects hands used for farm work and manual labor just as often as hands used for typing, and patients in smaller towns sometimes go years without a clear diagnosis simply because specialized care feels out of reach. Dr. Wesley Stewart has spent 16 years working to close that gap for patients across Rutherford County, including its smallest communities.",
+      "Carpal tunnel syndrome affects hands used for farm work and manual labor just as often as hands used for typing, and patients in smaller towns sometimes go years without a clear diagnosis simply because specialized care feels out of reach. Dr. Wesley Stewart has spent 29 years working to close that gap for patients across Rutherford County, including its smallest communities.",
       "In and around Downtown Eagleville, many patients work in agriculture or skilled trades, and the repetitive hand use involved is a frequent contributor to the carpal tunnel cases we see from the area.",
     ],
     symptoms: [
@@ -796,7 +796,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "frozen-shoulder::salem-murfreesboro": {
     introParagraphs: [
-      "Frozen shoulder develops slowly, tightening the shoulder capsule over months until reaching overhead, buttoning a shirt, or even sleeping on that side becomes genuinely painful. It typically moves through a freezing, frozen, and thawing progression, and getting care during the earliest, most painful stage tends to shorten the whole process. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients through that recovery rather than just waiting it out.",
+      "Frozen shoulder develops slowly, tightening the shoulder capsule over months until reaching overhead, buttoning a shirt, or even sleeping on that side becomes genuinely painful. It typically moves through a freezing, frozen, and thawing progression, and getting care during the earliest, most painful stage tends to shorten the whole process. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients through that recovery rather than just waiting it out.",
       "In Salem, one of Murfreesboro's older established neighborhoods, we regularly see frozen shoulder in patients who noticed it creep in gradually after a minor shoulder injury or a long stretch of favoring one arm.",
     ],
     symptoms: [
@@ -814,7 +814,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::sam-ridley-smyrna": {
     introParagraphs: [
-      "One of the most frustrating parts of frozen shoulder is how ordinary tasks - reaching for a top shelf, fastening a seatbelt, washing your back - become surprisingly difficult as the shoulder capsule tightens. That tightening is a physical, mechanical change that responds to hands-on treatment aimed at restoring motion gradually and safely. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has focused on exactly that kind of steady, careful mobilization.",
+      "One of the most frustrating parts of frozen shoulder is how ordinary tasks - reaching for a top shelf, fastening a seatbelt, washing your back - become surprisingly difficult as the shoulder capsule tightens. That tightening is a physical, mechanical change that responds to hands-on treatment aimed at restoring motion gradually and safely. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has focused on exactly that kind of steady, careful mobilization.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see frozen shoulder follow a period of favoring an arm after a minor strain or a physically demanding stretch at work.",
     ],
     symptoms: [
@@ -832,7 +832,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Frozen shoulder tends to sneak up on people - a little stiffness after yard work or a fall gets ignored, and months later the whole shoulder barely moves. Recognizing that early stiffening stage, rather than waiting for it to become the more painful \"frozen\" phase, is one of the most valuable things a hands-on evaluation can catch. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County catch that window early.",
+      "Frozen shoulder tends to sneak up on people - a little stiffness after yard work or a fall gets ignored, and months later the whole shoulder barely moves. Recognizing that early stiffening stage, rather than waiting for it to become the more painful \"frozen\" phase, is one of the most valuable things a hands-on evaluation can catch. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County catch that window early.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, yard work, moving boxes, and general home upkeep are common starting points for the shoulder strain that can progress into frozen shoulder.",
     ],
     symptoms: [
@@ -850,7 +850,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::downtown-lebanon": {
     introParagraphs: [
-      "What makes frozen shoulder so disruptive is the mismatch between how ordinary it feels at first and how limiting it eventually becomes - reaching, dressing, and sleeping all become genuinely difficult once the capsule has fully tightened. Catching and treating it during the earlier, more responsive phase makes a real difference in how long the whole process takes. Dr. Wesley Stewart has spent 16 years helping Wilson County patients navigate that recovery.",
+      "What makes frozen shoulder so disruptive is the mismatch between how ordinary it feels at first and how limiting it eventually becomes - reaching, dressing, and sleeping all become genuinely difficult once the capsule has fully tightened. Catching and treating it during the earlier, more responsive phase makes a real difference in how long the whole process takes. Dr. Wesley Stewart has spent 29 years helping Wilson County patients navigate that recovery.",
       "Near Lebanon's Town Square and Cumberland University, we see frozen shoulder frequently in patients whose jobs or daily routines quietly favored one arm for weeks before the stiffness became obvious.",
     ],
     symptoms: [
@@ -868,7 +868,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers sometimes attribute frozen shoulder to \"just getting older,\" but the underlying capsule tightening is a specific, treatable mechanical process, not an inevitable part of aging. Addressing it early - rather than assuming it will resolve on its own - is one of the most effective ways to shorten recovery. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County make that distinction.",
+      "Office workers sometimes attribute frozen shoulder to \"just getting older,\" but the underlying capsule tightening is a specific, treatable mechanical process, not an inevitable part of aging. Addressing it early - rather than assuming it will resolve on its own - is one of the most effective ways to shorten recovery. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County make that distinction.",
       "In Cool Springs, Franklin's dense office corridor, long hours at a desk with one arm favored over the other is a pattern we frequently see behind frozen shoulder cases.",
     ],
     symptoms: [
@@ -886,7 +886,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::maryland-farms-brentwood": {
     introParagraphs: [
-      "Frozen shoulder pain has a particular cruelty to it - it often peaks at night, disrupting sleep exactly when the body needs rest to recover. Addressing that nighttime pain pattern directly, alongside restoring daytime motion, is a key part of how Dr. Wesley Stewart has approached frozen shoulder care over 16 years in practice.",
+      "Frozen shoulder pain has a particular cruelty to it - it often peaks at night, disrupting sleep exactly when the body needs rest to recover. Addressing that nighttime pain pattern directly, alongside restoring daytime motion, is a key part of how Dr. Wesley Stewart has approached frozen shoulder care over 29 years in practice.",
       "Around Maryland Farms in Brentwood, professionals who spend long days at a laptop sometimes notice frozen shoulder symptoms creeping in after weeks of subtly favoring one side.",
     ],
     symptoms: [
@@ -904,7 +904,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::green-hills-nashville": {
     introParagraphs: [
-      "Frozen shoulder frequently gets misdiagnosed early on as a simple strain, since the first symptom is often just mild stiffness rather than the dramatic pain people expect from a shoulder problem. Correctly identifying that early stiffening phase is one of the most valuable parts of an accurate evaluation. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients catch that pattern before it fully locks up.",
+      "Frozen shoulder frequently gets misdiagnosed early on as a simple strain, since the first symptom is often just mild stiffness rather than the dramatic pain people expect from a shoulder problem. Correctly identifying that early stiffening phase is one of the most valuable parts of an accurate evaluation. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients catch that pattern before it fully locks up.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often describe frozen shoulder symptoms building gradually after carrying bags or reaching overhead repeatedly in retail settings.",
     ],
     symptoms: [
@@ -922,7 +922,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::downtown-shelbyville": {
     introParagraphs: [
-      "For patients doing physical work, frozen shoulder can be especially disruptive since so many job tasks depend on full, pain-free shoulder motion. Getting an accurate diagnosis early - rather than pushing through worsening stiffness - tends to preserve function and shorten the overall recovery. Dr. Wesley Stewart has spent 16 years helping Bedford County patients through exactly that kind of physically demanding recovery.",
+      "For patients doing physical work, frozen shoulder can be especially disruptive since so many job tasks depend on full, pain-free shoulder motion. Getting an accurate diagnosis early - rather than pushing through worsening stiffness - tends to preserve function and shorten the overall recovery. Dr. Wesley Stewart has spent 29 years helping Bedford County patients through exactly that kind of physically demanding recovery.",
       "Around Shelbyville's historic Public Square, tradespeople and factory workers often describe frozen shoulder developing after weeks of working through a minor shoulder strain rather than resting it.",
     ],
     symptoms: [
@@ -940,7 +940,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, frozen shoulder is sometimes left untreated simply because patients assume nothing can be done short of waiting it out - but consistent, hands-on care can meaningfully shorten that wait. Bringing that same standard of care to smaller towns has been a focus of Dr. Wesley Stewart's 16 years in practice.",
+      "In rural communities, frozen shoulder is sometimes left untreated simply because patients assume nothing can be done short of waiting it out - but consistent, hands-on care can meaningfully shorten that wait. Bringing that same standard of care to smaller towns has been a focus of Dr. Wesley Stewart's 29 years in practice.",
       "For residents around Downtown Woodbury, farm work and equipment operation are common contributors to the shoulder strain that can gradually progress into frozen shoulder.",
     ],
     symptoms: [
@@ -958,7 +958,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "frozen-shoulder::downtown-eagleville": {
     introParagraphs: [
-      "Frozen shoulder affects patients in small towns just as often as anywhere else, but access to consistent, hands-on care can be harder to come by outside a larger city. Dr. Wesley Stewart has spent 16 years working to close that gap for patients across Rutherford County, including its smallest communities.",
+      "Frozen shoulder affects patients in small towns just as often as anywhere else, but access to consistent, hands-on care can be harder to come by outside a larger city. Dr. Wesley Stewart has spent 29 years working to close that gap for patients across Rutherford County, including its smallest communities.",
       "In and around Downtown Eagleville, many patients describe frozen shoulder developing gradually after favoring an arm following farm work or a minor fall.",
     ],
     symptoms: [
@@ -980,7 +980,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "pregnancy-related-back-pain::blackman-murfreesboro": {
     introParagraphs: [
-      "As pregnancy progresses, loosening ligaments and a shifting center of gravity place new, unfamiliar strain on the low back and pelvis - strain that's extremely common but doesn't have to simply be endured. Gentle, pregnancy-safe chiropractic care is designed to ease exactly that kind of discomfort without any added risk to mother or baby. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping expecting mothers stay comfortable through every trimester.",
+      "As pregnancy progresses, loosening ligaments and a shifting center of gravity place new, unfamiliar strain on the low back and pelvis - strain that's extremely common but doesn't have to simply be endured. Gentle, pregnancy-safe chiropractic care is designed to ease exactly that kind of discomfort without any added risk to mother or baby. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping expecting mothers stay comfortable through every trimester.",
       "For expecting mothers in the Blackman community, keeping up with a growing household while pregnancy-related back pain builds is one of the most common concerns we hear at our Murfreesboro office.",
     ],
     symptoms: [
@@ -998,7 +998,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::sam-ridley-smyrna": {
     introParagraphs: [
-      "Pregnancy-related back pain often gets dismissed as something to just push through, but the same hormonal and postural changes causing it also make it very responsive to gentle, targeted care. Relieving that strain early can make a real difference through the rest of pregnancy. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has built a gentle, pregnancy-specific approach for exactly this kind of discomfort.",
+      "Pregnancy-related back pain often gets dismissed as something to just push through, but the same hormonal and postural changes causing it also make it very responsive to gentle, targeted care. Relieving that strain early can make a real difference through the rest of pregnancy. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has built a gentle, pregnancy-specific approach for exactly this kind of discomfort.",
       "Expecting mothers near the Sam Ridley Parkway area of Smyrna often describe back pain intensifying with longer commutes or standing through retail and service shifts.",
     ],
     symptoms: [
@@ -1016,7 +1016,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "The added weight and shifting posture of pregnancy change how load moves through the spine and pelvis, often producing a dull, persistent ache that worsens as pregnancy progresses. That mechanical shift is exactly what pregnancy-safe chiropractic care is designed to address. Dr. Wesley Stewart has spent 16 years helping expecting mothers across La Vergne and Rutherford County manage that change comfortably.",
+      "The added weight and shifting posture of pregnancy change how load moves through the spine and pelvis, often producing a dull, persistent ache that worsens as pregnancy progresses. That mechanical shift is exactly what pregnancy-safe chiropractic care is designed to address. Dr. Wesley Stewart has spent 29 years helping expecting mothers across La Vergne and Rutherford County manage that change comfortably.",
       "In Lake Forest Estates, keeping up with a large, active household while managing pregnancy-related back pain is a common theme among the expecting mothers we see from La Vergne.",
     ],
     symptoms: [
@@ -1034,7 +1034,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::downtown-lebanon": {
     introParagraphs: [
-      "Many expecting mothers are surprised by how much pregnancy changes the mechanics of the low back and pelvis - ligaments loosen, posture shifts forward, and muscles that once supported the spine easily now work much harder. Addressing that shift directly, rather than assuming nothing can be done, is central to how Dr. Wesley Stewart has approached prenatal care for 16 years in practice.",
+      "Many expecting mothers are surprised by how much pregnancy changes the mechanics of the low back and pelvis - ligaments loosen, posture shifts forward, and muscles that once supported the spine easily now work much harder. Addressing that shift directly, rather than assuming nothing can be done, is central to how Dr. Wesley Stewart has approached prenatal care for 29 years in practice.",
       "Near Lebanon's Town Square, expecting mothers balancing courthouse jobs, small businesses, or coursework at Cumberland University often describe back pain building through a long day on their feet or at a desk.",
     ],
     symptoms: [
@@ -1052,7 +1052,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::cool-springs-franklin": {
     introParagraphs: [
-      "For expecting mothers working full-time, pregnancy-related back pain often peaks during long stretches at a desk, when the combination of sitting posture and a shifting center of gravity places extra strain on the low back. Relieving that strain safely, without medication, is exactly what pregnancy-focused chiropractic care is designed to do. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County manage this throughout their pregnancies.",
+      "For expecting mothers working full-time, pregnancy-related back pain often peaks during long stretches at a desk, when the combination of sitting posture and a shifting center of gravity places extra strain on the low back. Relieving that strain safely, without medication, is exactly what pregnancy-focused chiropractic care is designed to do. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County manage this throughout their pregnancies.",
       "In Cool Springs, Franklin's busy office corridor, expecting mothers balancing full workdays often notice back pain intensifying by the afternoon, especially during later trimesters.",
     ],
     symptoms: [
@@ -1070,7 +1070,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::maryland-farms-brentwood": {
     introParagraphs: [
-      "Pregnancy places new demands on the low back and pelvis with every passing week, and for busy professionals, long days spent sitting in meetings can compound that strain considerably. Addressing both the pregnancy-related changes and the everyday desk strain together is part of how Dr. Wesley Stewart has approached prenatal care for 16 years in practice.",
+      "Pregnancy places new demands on the low back and pelvis with every passing week, and for busy professionals, long days spent sitting in meetings can compound that strain considerably. Addressing both the pregnancy-related changes and the everyday desk strain together is part of how Dr. Wesley Stewart has approached prenatal care for 29 years in practice.",
       "Around Maryland Farms in Brentwood, expecting mothers juggling demanding careers often describe back pain intensifying during long stretches of sitting through meetings and calls.",
     ],
     symptoms: [
@@ -1088,7 +1088,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::berry-hill-nashville": {
     introParagraphs: [
-      "Pregnancy-related back pain tends to worsen with each trimester as ligaments loosen further and the growing baby shifts posture even more. Rather than treating that progression as something to simply tolerate, gentle, trimester-specific chiropractic care is designed to ease it at every stage. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, supporting expecting mothers through exactly that progression.",
+      "Pregnancy-related back pain tends to worsen with each trimester as ligaments loosen further and the growing baby shifts posture even more. Rather than treating that progression as something to simply tolerate, gentle, trimester-specific chiropractic care is designed to ease it at every stage. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, supporting expecting mothers through exactly that progression.",
       "Expecting mothers from Berry Hill, Nashville's compact business and music district close to downtown, often describe back and hip discomfort intensifying with the busier pace of city life.",
     ],
     symptoms: [
@@ -1106,7 +1106,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::downtown-shelbyville": {
     introParagraphs: [
-      "Expecting mothers doing physically active jobs often notice pregnancy-related back pain sooner and more intensely, since standing, lifting, or bending compounds the strain that pregnancy already places on the spine and pelvis. Gentle, targeted care can meaningfully ease that added burden throughout pregnancy. Dr. Wesley Stewart has spent 16 years helping Bedford County patients manage exactly this kind of physically demanding pregnancy.",
+      "Expecting mothers doing physically active jobs often notice pregnancy-related back pain sooner and more intensely, since standing, lifting, or bending compounds the strain that pregnancy already places on the spine and pelvis. Gentle, targeted care can meaningfully ease that added burden throughout pregnancy. Dr. Wesley Stewart has spent 29 years helping Bedford County patients manage exactly this kind of physically demanding pregnancy.",
       "Around Shelbyville's historic Public Square, expecting mothers working retail, food service, or trade jobs often describe back pain building noticeably by the end of a shift.",
     ],
     symptoms: [
@@ -1124,7 +1124,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, expecting mothers sometimes assume specialized prenatal chiropractic care isn't available nearby, and simply endure pregnancy-related back pain as a result. That doesn't have to be the case - gentle, pregnancy-safe care is available and effective regardless of how rural the community is. Dr. Wesley Stewart has spent 16 years extending that same standard of care to patients well outside Murfreesboro itself.",
+      "In rural communities, expecting mothers sometimes assume specialized prenatal chiropractic care isn't available nearby, and simply endure pregnancy-related back pain as a result. That doesn't have to be the case - gentle, pregnancy-safe care is available and effective regardless of how rural the community is. Dr. Wesley Stewart has spent 29 years extending that same standard of care to patients well outside Murfreesboro itself.",
       "For expecting mothers around Downtown Woodbury, farm responsibilities and physically active daily routines are common contributors to the back pain we see during pregnancy.",
     ],
     symptoms: [
@@ -1142,7 +1142,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pregnancy-related-back-pain::downtown-eagleville": {
     introParagraphs: [
-      "Every expecting mother deserves access to gentle, effective care for pregnancy-related back pain, regardless of how small her hometown is. Dr. Wesley Stewart has spent 16 years bringing that same standard of pregnancy-safe chiropractic care to patients across Rutherford County, including its smallest towns.",
+      "Every expecting mother deserves access to gentle, effective care for pregnancy-related back pain, regardless of how small her hometown is. Dr. Wesley Stewart has spent 29 years bringing that same standard of pregnancy-safe chiropractic care to patients across Rutherford County, including its smallest towns.",
       "For expecting mothers near Downtown Eagleville, many already travel into Murfreesboro for prenatal medical care, making chiropractic support a natural addition to that routine.",
     ],
     symptoms: [
@@ -1164,7 +1164,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "runners-knee::blackman-murfreesboro": {
     introParagraphs: [
-      "Runner's knee shows up as a dull ache around or behind the kneecap, and despite the name, it affects anyone with repetitive knee-loading activity, not just runners. The root cause is often found higher up the chain, in hip or ankle mechanics that change how force travels through the knee. Dr. Wesley Stewart has spent 16 years in Murfreesboro evaluating that whole lower-body chain rather than treating the knee in isolation.",
+      "Runner's knee shows up as a dull ache around or behind the kneecap, and despite the name, it affects anyone with repetitive knee-loading activity, not just runners. The root cause is often found higher up the chain, in hip or ankle mechanics that change how force travels through the knee. Dr. Wesley Stewart has spent 29 years in Murfreesboro evaluating that whole lower-body chain rather than treating the knee in isolation.",
       "In the Blackman community, we see runner's knee often in patients active on the neighborhood's newer sidewalks and greenways, particularly those training for local races or increasing mileage quickly.",
     ],
     symptoms: [
@@ -1182,7 +1182,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::sam-ridley-smyrna": {
     introParagraphs: [
-      "Knee pain that builds gradually with activity rather than starting from a single injury is a classic sign of runner's knee, and it usually points to a mechanical imbalance somewhere in the hip, knee, or ankle chain. Correcting that imbalance, not just icing the knee, is central to how Dr. Wesley Stewart has approached runner's knee care over 16 years treating patients throughout Rutherford County.",
+      "Knee pain that builds gradually with activity rather than starting from a single injury is a classic sign of runner's knee, and it usually points to a mechanical imbalance somewhere in the hip, knee, or ankle chain. Correcting that imbalance, not just icing the knee, is central to how Dr. Wesley Stewart has approached runner's knee care over 29 years treating patients throughout Rutherford County.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we regularly see runner's knee in patients logging miles on local trails or increasing activity levels after a long period of inactivity.",
     ],
     symptoms: [
@@ -1200,7 +1200,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Runner's knee often flares in patients who are otherwise very active - walking, hiking, or playing with kids - rather than exclusively serious runners. The common thread is repetitive knee loading combined with an underlying alignment issue in the hip or ankle. Dr. Wesley Stewart has spent 16 years helping active patients across La Vergne and Rutherford County identify that root cause.",
+      "Runner's knee often flares in patients who are otherwise very active - walking, hiking, or playing with kids - rather than exclusively serious runners. The common thread is repetitive knee loading combined with an underlying alignment issue in the hip or ankle. Dr. Wesley Stewart has spent 29 years helping active patients across La Vergne and Rutherford County identify that root cause.",
       "In Lake Forest Estates, La Vergne's sprawling neighborhood, we often see runner's knee in patients who log significant daily walking distances simply navigating such a large subdivision.",
     ],
     symptoms: [
@@ -1218,7 +1218,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::downtown-lebanon": {
     introParagraphs: [
-      "Many patients with runner's knee are surprised to learn their knee pain actually starts with weakness in the hip, since hip stabilizers play a major role in controlling how the kneecap tracks during movement. Addressing that hip-knee connection is a core part of how Dr. Wesley Stewart has approached runner's knee care for 16 years in practice.",
+      "Many patients with runner's knee are surprised to learn their knee pain actually starts with weakness in the hip, since hip stabilizers play a major role in controlling how the kneecap tracks during movement. Addressing that hip-knee connection is a core part of how Dr. Wesley Stewart has approached runner's knee care for 29 years in practice.",
       "Near Lebanon's Town Square, we see runner's knee often in patients who walk regularly around the historic downtown or are active with Cumberland University's athletic and recreation programs.",
     ],
     symptoms: [
@@ -1236,7 +1236,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::cool-springs-franklin": {
     introParagraphs: [
-      "For office workers who exercise before or after long workdays, runner's knee often develops from the combination of prolonged sitting - which weakens hip stabilizers - and jumping straight into higher-mileage workouts. Addressing both the sitting-related weakness and the training load together is part of how Dr. Wesley Stewart has approached runner's knee care across Williamson County for 16 years.",
+      "For office workers who exercise before or after long workdays, runner's knee often develops from the combination of prolonged sitting - which weakens hip stabilizers - and jumping straight into higher-mileage workouts. Addressing both the sitting-related weakness and the training load together is part of how Dr. Wesley Stewart has approached runner's knee care across Williamson County for 29 years.",
       "In Cool Springs, Franklin's busy office corridor, we frequently see runner's knee in patients balancing desk jobs with lunchtime runs or evening workouts.",
     ],
     symptoms: [
@@ -1254,7 +1254,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::maryland-farms-brentwood": {
     introParagraphs: [
-      "Busy professionals who squeeze in workouts around a demanding schedule are especially prone to runner's knee, since inconsistent training combined with desk-related hip weakness is a common recipe for kneecap irritation. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County identify and correct that specific combination.",
+      "Busy professionals who squeeze in workouts around a demanding schedule are especially prone to runner's knee, since inconsistent training combined with desk-related hip weakness is a common recipe for kneecap irritation. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County identify and correct that specific combination.",
       "Around Maryland Farms in Brentwood, professionals fitting in early-morning or after-work runs often describe runner's knee developing during particularly demanding stretches at the office.",
     ],
     symptoms: [
@@ -1272,7 +1272,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::green-hills-nashville": {
     introParagraphs: [
-      "Runner's knee is one of the most common overuse injuries we see, and it frequently develops in patients who are otherwise very fit but have an overlooked weakness in hip strength or ankle stability. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, tracking down that overlooked root cause.",
+      "Runner's knee is one of the most common overuse injuries we see, and it frequently develops in patients who are otherwise very fit but have an overlooked weakness in hip strength or ankle stability. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, tracking down that overlooked root cause.",
       "Patients from Green Hills, Nashville's active shopping and dining district, often describe runner's knee developing while training on the area's sidewalks and nearby park trails.",
     ],
     symptoms: [
@@ -1290,7 +1290,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::downtown-shelbyville": {
     introParagraphs: [
-      "For patients whose jobs involve a lot of standing, walking, or stair use, runner's knee can develop even without any formal running program, simply from the cumulative daily load on the knee. Dr. Wesley Stewart has spent 16 years helping Bedford County patients identify that everyday, work-related version of the condition.",
+      "For patients whose jobs involve a lot of standing, walking, or stair use, runner's knee can develop even without any formal running program, simply from the cumulative daily load on the knee. Dr. Wesley Stewart has spent 29 years helping Bedford County patients identify that everyday, work-related version of the condition.",
       "Around Shelbyville's historic Public Square, we often see runner's knee in patients whose jobs involve long days on their feet navigating the square and nearby storefronts.",
     ],
     symptoms: [
@@ -1308,7 +1308,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, runner's knee often develops from farm work and long days on uneven ground rather than a formal training program, but the underlying knee mechanics are the same. Dr. Wesley Stewart has spent 16 years bringing that same evaluation and treatment approach to patients well outside Murfreesboro itself.",
+      "In rural communities, runner's knee often develops from farm work and long days on uneven ground rather than a formal training program, but the underlying knee mechanics are the same. Dr. Wesley Stewart has spent 29 years bringing that same evaluation and treatment approach to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, walking long distances on uneven farm terrain is a common contributor to the runner's knee symptoms we treat from Cannon County.",
     ],
     symptoms: [
@@ -1326,7 +1326,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "runners-knee::downtown-eagleville": {
     introParagraphs: [
-      "Runner's knee affects patients in small towns just as often as serious athletes in bigger cities, and the same hip, knee, and ankle evaluation applies regardless of where a patient lives. Dr. Wesley Stewart has spent 16 years extending that same standard of care to patients across Rutherford County's smallest communities.",
+      "Runner's knee affects patients in small towns just as often as serious athletes in bigger cities, and the same hip, knee, and ankle evaluation applies regardless of where a patient lives. Dr. Wesley Stewart has spent 29 years extending that same standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe knee pain developing gradually from daily walking and farm-related activity rather than any single injury.",
     ],
     symptoms: [
@@ -1348,7 +1348,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "tennis-elbow::blackman-murfreesboro": {
     introParagraphs: [
-      "Despite the name, tennis elbow shows up far more often in office workers and tradespeople than in tennis players - it's overuse irritation of the tendons on the outside of the elbow from repetitive gripping or wrist motion. Left alone, that irritation tends to build gradually into a nagging, chronic problem. Dr. Wesley Stewart has spent 16 years in Murfreesboro treating exactly that kind of repetitive-strain injury.",
+      "Despite the name, tennis elbow shows up far more often in office workers and tradespeople than in tennis players - it's overuse irritation of the tendons on the outside of the elbow from repetitive gripping or wrist motion. Left alone, that irritation tends to build gradually into a nagging, chronic problem. Dr. Wesley Stewart has spent 29 years in Murfreesboro treating exactly that kind of repetitive-strain injury.",
       "In the Blackman community, we regularly see tennis elbow in patients whose home projects, yard work, or hobbies involve repetitive gripping tasks rather than the sport itself.",
     ],
     symptoms: [
@@ -1366,7 +1366,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::sam-ridley-smyrna": {
     introParagraphs: [
-      "Tennis elbow tends to sneak up gradually, starting as mild soreness after gripping tasks and slowly building into pain that lingers throughout the day. Catching it in that early stage makes treatment considerably more straightforward. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has focused on addressing that irritation before it becomes chronic.",
+      "Tennis elbow tends to sneak up gradually, starting as mild soreness after gripping tasks and slowly building into pain that lingers throughout the day. Catching it in that early stage makes treatment considerably more straightforward. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has focused on addressing that irritation before it becomes chronic.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see tennis elbow in manufacturing and warehouse workers whose jobs involve repetitive gripping or tool use.",
     ],
     symptoms: [
@@ -1384,7 +1384,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Home improvement projects and yard work are surprisingly common triggers for tennis elbow, since tasks like sawing, raking, and screwdriving all involve the same repetitive wrist and grip motion that irritates the outer elbow tendons. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County recover from exactly that kind of overuse injury.",
+      "Home improvement projects and yard work are surprisingly common triggers for tennis elbow, since tasks like sawing, raking, and screwdriving all involve the same repetitive wrist and grip motion that irritates the outer elbow tendons. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County recover from exactly that kind of overuse injury.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, weekend yard work and home projects are a frequent starting point for the tennis elbow cases we see.",
     ],
     symptoms: [
@@ -1402,7 +1402,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::downtown-lebanon": {
     introParagraphs: [
-      "Tennis elbow often develops quietly, with patients noticing a little soreness after a task and assuming it will fade on its own - until the same repetitive motion keeps re-irritating the tendon. Breaking that cycle is the focus of Dr. Wesley Stewart's 16 years treating patients throughout Wilson County.",
+      "Tennis elbow often develops quietly, with patients noticing a little soreness after a task and assuming it will fade on its own - until the same repetitive motion keeps re-irritating the tendon. Breaking that cycle is the focus of Dr. Wesley Stewart's 29 years treating patients throughout Wilson County.",
       "Near Lebanon's Town Square, we see tennis elbow frequently in tradespeople and small business owners whose daily tasks involve repetitive gripping or tool use.",
     ],
     symptoms: [
@@ -1420,7 +1420,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers are sometimes surprised to learn they can develop tennis elbow from typing, mousing, or gripping a phone for hours a day - the repetitive strain adds up the same way it does for manual laborers. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County recognize and treat that desk-related version of the condition.",
+      "Office workers are sometimes surprised to learn they can develop tennis elbow from typing, mousing, or gripping a phone for hours a day - the repetitive strain adds up the same way it does for manual laborers. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County recognize and treat that desk-related version of the condition.",
       "In Cool Springs, Franklin's busy office corridor, we regularly see tennis elbow in professionals whose desk work involves repetitive typing, mousing, or phone gripping.",
     ],
     symptoms: [
@@ -1438,7 +1438,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::maryland-farms-brentwood": {
     introParagraphs: [
-      "Tennis elbow's outer-elbow pain can make even simple tasks like shaking hands or lifting a briefcase surprisingly uncomfortable, which is often what finally prompts busy professionals to seek treatment. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County resolve that kind of persistent, activity-limiting pain.",
+      "Tennis elbow's outer-elbow pain can make even simple tasks like shaking hands or lifting a briefcase surprisingly uncomfortable, which is often what finally prompts busy professionals to seek treatment. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County resolve that kind of persistent, activity-limiting pain.",
       "Around Maryland Farms in Brentwood, professionals who spend long hours gripping a phone, laptop, or steering wheel often develop tennis elbow gradually over weeks.",
     ],
     symptoms: [
@@ -1456,7 +1456,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::donelson-nashville": {
     introParagraphs: [
-      "Tennis elbow is one of the most common overuse injuries we treat, and despite its name, it affects people who've never picked up a racket just as often as athletes. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients pinpoint the specific repetitive motion behind their pain.",
+      "Tennis elbow is one of the most common overuse injuries we treat, and despite its name, it affects people who've never picked up a racket just as often as athletes. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients pinpoint the specific repetitive motion behind their pain.",
       "Patients from Donelson, the Nashville neighborhood near the airport and Cumberland River, often describe tennis elbow developing from repetitive tasks at work or around the house.",
     ],
     symptoms: [
@@ -1474,7 +1474,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::downtown-shelbyville": {
     introParagraphs: [
-      "For tradespeople and factory workers, tennis elbow can be especially disruptive since so many job tasks depend on a strong, pain-free grip. Getting ahead of it early tends to prevent the kind of chronic, months-long irritation that's harder to resolve. Dr. Wesley Stewart has spent 16 years helping Bedford County patients through exactly that kind of work-related recovery.",
+      "For tradespeople and factory workers, tennis elbow can be especially disruptive since so many job tasks depend on a strong, pain-free grip. Getting ahead of it early tends to prevent the kind of chronic, months-long irritation that's harder to resolve. Dr. Wesley Stewart has spent 29 years helping Bedford County patients through exactly that kind of work-related recovery.",
       "Around Shelbyville's historic Public Square, we see tennis elbow often in factory and trade workers whose jobs involve repetitive gripping or tool use.",
     ],
     symptoms: [
@@ -1492,7 +1492,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, tennis elbow is often tied to farm equipment operation and repetitive tool use rather than sports, but the underlying tendon irritation and treatment approach are the same. Dr. Wesley Stewart has spent 16 years bringing that same standard of care to patients well outside Murfreesboro itself.",
+      "In rural communities, tennis elbow is often tied to farm equipment operation and repetitive tool use rather than sports, but the underlying tendon irritation and treatment approach are the same. Dr. Wesley Stewart has spent 29 years bringing that same standard of care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, operating farm equipment and hand tools is a common contributor to the tennis elbow cases we treat from Cannon County.",
     ],
     symptoms: [
@@ -1510,7 +1510,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tennis-elbow::downtown-eagleville": {
     introParagraphs: [
-      "Tennis elbow affects patients in small towns just as often as anywhere else, usually from repetitive work or home tasks rather than any connection to sports. Dr. Wesley Stewart has spent 16 years working to bring consistent, hands-on care to patients across Rutherford County, including its smallest communities.",
+      "Tennis elbow affects patients in small towns just as often as anywhere else, usually from repetitive work or home tasks rather than any connection to sports. Dr. Wesley Stewart has spent 29 years working to bring consistent, hands-on care to patients across Rutherford County, including its smallest communities.",
       "In and around Downtown Eagleville, many patients describe tennis elbow developing gradually from farm work or repetitive tool use around the home.",
     ],
     symptoms: [
@@ -1532,7 +1532,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "numbness-hands-feet::rockvale-murfreesboro": {
     introParagraphs: [
-      "Numbness or tingling in the hands or feet often points to nerve irritation somewhere along the pathway from the spine outward, whether from a compressed nerve root in the neck or lower back, or peripheral nerve involvement. Identifying exactly where that irritation starts is the key to effective, targeted treatment. Dr. Wesley Stewart has spent 16 years in Murfreesboro tracking down that root cause rather than just treating the symptom.",
+      "Numbness or tingling in the hands or feet often points to nerve irritation somewhere along the pathway from the spine outward, whether from a compressed nerve root in the neck or lower back, or peripheral nerve involvement. Identifying exactly where that irritation starts is the key to effective, targeted treatment. Dr. Wesley Stewart has spent 29 years in Murfreesboro tracking down that root cause rather than just treating the symptom.",
       "In Rockvale, the rural community southwest of Murfreesboro, we regularly see patients whose numbness symptoms developed gradually before finally prompting a visit.",
     ],
     symptoms: [
@@ -1550,7 +1550,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::sam-ridley-smyrna": {
     introParagraphs: [
-      "Numbness that follows a specific pattern - always the same fingers, or always the outer edge of the foot - is a strong clue that a particular nerve is being compressed somewhere along its path. Tracing that pattern back to its source is central to how Dr. Stewart has approached nerve-related symptoms over 16 years treating patients throughout Rutherford County.",
+      "Numbness that follows a specific pattern - always the same fingers, or always the outer edge of the foot - is a strong clue that a particular nerve is being compressed somewhere along its path. Tracing that pattern back to its source is central to how Dr. Stewart has approached nerve-related symptoms over 29 years treating patients throughout Rutherford County.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see numbness symptoms in manufacturing and warehouse workers whose jobs involve repetitive motion or prolonged standing.",
     ],
     symptoms: [
@@ -1568,7 +1568,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Numbness in the hands or feet is easy to dismiss as \"just circulation\" or a foot that fell asleep, but when it recurs consistently, it usually points to nerve irritation that benefits from a proper evaluation. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County get to the bottom of that recurring pattern.",
+      "Numbness in the hands or feet is easy to dismiss as \"just circulation\" or a foot that fell asleep, but when it recurs consistently, it usually points to nerve irritation that benefits from a proper evaluation. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County get to the bottom of that recurring pattern.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see numbness symptoms in patients who initially assumed it was a temporary, unimportant sensation.",
     ],
     symptoms: [
@@ -1586,7 +1586,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::downtown-lebanon": {
     introParagraphs: [
-      "When numbness in the hands or feet becomes a regular occurrence rather than a rare, fleeting sensation, it's usually a sign that a nerve somewhere along its pathway is being compressed or irritated. Addressing that irritation directly, rather than waiting for it to resolve on its own, is central to how Dr. Wesley Stewart has approached nerve-related symptoms for 16 years in practice.",
+      "When numbness in the hands or feet becomes a regular occurrence rather than a rare, fleeting sensation, it's usually a sign that a nerve somewhere along its pathway is being compressed or irritated. Addressing that irritation directly, rather than waiting for it to resolve on its own, is central to how Dr. Wesley Stewart has approached nerve-related symptoms for 29 years in practice.",
       "Near Lebanon's Town Square, we see numbness symptoms often in patients whose jobs or daily routines involve prolonged sitting or repetitive hand use.",
     ],
     symptoms: [
@@ -1604,7 +1604,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers frequently develop numbness in the hands from hours of typing and mousing, since sustained wrist and neck postures can compress nerves along their pathway. Identifying whether the irritation starts at the wrist, elbow, or neck is essential to treating it effectively. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County make that distinction.",
+      "Office workers frequently develop numbness in the hands from hours of typing and mousing, since sustained wrist and neck postures can compress nerves along their pathway. Identifying whether the irritation starts at the wrist, elbow, or neck is essential to treating it effectively. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County make that distinction.",
       "In Cool Springs, Franklin's busy office corridor, we regularly see numbness and tingling in professionals whose desk work involves long hours of typing or mousing.",
     ],
     symptoms: [
@@ -1622,7 +1622,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::maryland-farms-brentwood": {
     introParagraphs: [
-      "Numbness that shows up during long stretches at a laptop or on the phone often traces back to sustained neck or wrist postures compressing a nerve along its path. Addressing that postural pattern, not just the symptom, is part of how Dr. Wesley Stewart has approached nerve-related care across Williamson County for 16 years.",
+      "Numbness that shows up during long stretches at a laptop or on the phone often traces back to sustained neck or wrist postures compressing a nerve along its path. Addressing that postural pattern, not just the symptom, is part of how Dr. Wesley Stewart has approached nerve-related care across Williamson County for 29 years.",
       "Around Maryland Farms in Brentwood, professionals working long hours at a laptop often notice numbness or tingling creeping into their hands during the workday.",
     ],
     symptoms: [
@@ -1640,7 +1640,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::green-hills-nashville": {
     introParagraphs: [
-      "Numbness in the hands or feet is one of the more commonly overlooked symptoms we see, often dismissed until it starts interfering with sleep or daily tasks. Tracing the nerve pathway back to its source is the key step in resolving it rather than just managing the sensation. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, doing exactly that kind of nerve tracing.",
+      "Numbness in the hands or feet is one of the more commonly overlooked symptoms we see, often dismissed until it starts interfering with sleep or daily tasks. Tracing the nerve pathway back to its source is the key step in resolving it rather than just managing the sensation. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, doing exactly that kind of nerve tracing.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often describe numbness symptoms developing gradually before finally seeking an evaluation.",
     ],
     symptoms: [
@@ -1658,7 +1658,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::downtown-shelbyville": {
     introParagraphs: [
-      "For patients doing physical or repetitive work, numbness in the hands or feet can develop from a combination of nerve compression at the spine and repetitive strain further down the limb. Untangling those two contributing factors is a core part of how Dr. Wesley Stewart has approached nerve-related care for Bedford County patients over 16 years.",
+      "For patients doing physical or repetitive work, numbness in the hands or feet can develop from a combination of nerve compression at the spine and repetitive strain further down the limb. Untangling those two contributing factors is a core part of how Dr. Wesley Stewart has approached nerve-related care for Bedford County patients over 29 years.",
       "Around Shelbyville's historic Public Square, we often see numbness symptoms in factory and trade workers whose jobs involve repetitive hand use or prolonged standing.",
     ],
     symptoms: [
@@ -1676,7 +1676,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, numbness in the hands or feet is often tied to farm work and repetitive equipment use, but the underlying nerve irritation responds to the same targeted evaluation and treatment regardless of the cause. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients well outside Murfreesboro itself.",
+      "In rural communities, numbness in the hands or feet is often tied to farm work and repetitive equipment use, but the underlying nerve irritation responds to the same targeted evaluation and treatment regardless of the cause. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, farm work and equipment operation are common contributors to the numbness and tingling symptoms we treat from Cannon County.",
     ],
     symptoms: [
@@ -1694,7 +1694,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "numbness-hands-feet::downtown-eagleville": {
     introParagraphs: [
-      "Numbness in the hands or feet affects patients in small towns just as often as anywhere else, and the same careful nerve-tracing evaluation applies no matter how rural the community. Dr. Wesley Stewart has spent 16 years working to bring that same standard of care to patients across Rutherford County, including its smallest communities.",
+      "Numbness in the hands or feet affects patients in small towns just as often as anywhere else, and the same careful nerve-tracing evaluation applies no matter how rural the community. Dr. Wesley Stewart has spent 29 years working to bring that same standard of care to patients across Rutherford County, including its smallest communities.",
       "In and around Downtown Eagleville, many patients describe numbness developing gradually from farm work or repetitive daily tasks.",
     ],
     symptoms: [
@@ -1716,7 +1716,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "text-neck::blackman-murfreesboro": {
     introParagraphs: [
-      "\"Text neck\" is the everyday strain caused by hours spent looking down at a phone or laptop, which places dramatically more load on the neck than a neutral head position. Over time, that repeated forward-head posture can lead to chronic neck pain, tension headaches, and stiff shoulders. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients unwind exactly that kind of posture-driven strain.",
+      "\"Text neck\" is the everyday strain caused by hours spent looking down at a phone or laptop, which places dramatically more load on the neck than a neutral head position. Over time, that repeated forward-head posture can lead to chronic neck pain, tension headaches, and stiff shoulders. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients unwind exactly that kind of posture-driven strain.",
       "In the Blackman community, we regularly see text neck in patients of all ages, from students to remote workers, whose daily screen habits have quietly built up neck tension.",
     ],
     symptoms: [
@@ -1734,7 +1734,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::sam-ridley-smyrna": {
     introParagraphs: [
-      "The forward head posture behind text neck adds significant extra load to the neck's muscles and joints - for every inch the head tilts forward, the effective weight the neck supports increases dramatically. Correcting that posture, rather than just stretching the resulting tightness, is central to how Dr. Stewart has approached text neck over 16 years treating patients throughout Rutherford County.",
+      "The forward head posture behind text neck adds significant extra load to the neck's muscles and joints - for every inch the head tilts forward, the effective weight the neck supports increases dramatically. Correcting that posture, rather than just stretching the resulting tightness, is central to how Dr. Stewart has approached text neck over 29 years treating patients throughout Rutherford County.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see text neck in warehouse and manufacturing workers who also spend significant personal time on their phones after long shifts.",
     ],
     symptoms: [
@@ -1752,7 +1752,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Text neck doesn't just affect adults glued to work laptops - it's increasingly common in students and anyone who spends hours a day looking down at a phone, tablet, or handheld device. Dr. Wesley Stewart has spent 16 years helping patients of all ages across La Vergne and Rutherford County address that widespread postural strain.",
+      "Text neck doesn't just affect adults glued to work laptops - it's increasingly common in students and anyone who spends hours a day looking down at a phone, tablet, or handheld device. Dr. Wesley Stewart has spent 29 years helping patients of all ages across La Vergne and Rutherford County address that widespread postural strain.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we see text neck across a wide range of ages, from teens on phones to parents managing household tasks on tablets.",
     ],
     symptoms: [
@@ -1770,7 +1770,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::downtown-lebanon": {
     introParagraphs: [
-      "What starts as occasional neck soreness after a long stretch of phone use can, over months and years, settle into a chronic forward-head posture that's much harder to reverse. Catching that pattern early makes a real difference in how much correction is needed. Dr. Wesley Stewart has spent 16 years helping Wilson County patients address text neck before it becomes a fixed habit.",
+      "What starts as occasional neck soreness after a long stretch of phone use can, over months and years, settle into a chronic forward-head posture that's much harder to reverse. Catching that pattern early makes a real difference in how much correction is needed. Dr. Wesley Stewart has spent 29 years helping Wilson County patients address text neck before it becomes a fixed habit.",
       "Near Lebanon's Town Square, we see text neck often in students at Cumberland University and professionals whose jobs involve long hours on a computer or phone.",
     ],
     symptoms: [
@@ -1788,7 +1788,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers are often the classic text neck case - hours spent looking down at a phone between meetings, on top of a workday already spent facing a monitor, compound the strain considerably. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County unwind that dual source of neck strain.",
+      "Office workers are often the classic text neck case - hours spent looking down at a phone between meetings, on top of a workday already spent facing a monitor, compound the strain considerably. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County unwind that dual source of neck strain.",
       "In Cool Springs, Franklin's busy office corridor, we regularly see text neck in professionals whose days involve both monitor time and frequent phone checking.",
     ],
     symptoms: [
@@ -1806,7 +1806,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::maryland-farms-brentwood": {
     introParagraphs: [
-      "For professionals constantly checking phones between calls and reading documents on a laptop, text neck can build up surprisingly quickly, even without a formal desk job requiring hours of monitor time. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County recognize and reverse that pattern.",
+      "For professionals constantly checking phones between calls and reading documents on a laptop, text neck can build up surprisingly quickly, even without a formal desk job requiring hours of monitor time. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County recognize and reverse that pattern.",
       "Around Maryland Farms in Brentwood, professionals juggling phones, laptops, and tablets throughout the day often develop text neck without realizing how much cumulative strain adds up.",
     ],
     symptoms: [
@@ -1824,7 +1824,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::green-hills-nashville": {
     introParagraphs: [
-      "Text neck is one of the most common postural strain patterns we see, driven simply by how much time modern life spends looking down at screens. Reversing that pattern takes a combination of hands-on care and consistent posture habits. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients build exactly those habits.",
+      "Text neck is one of the most common postural strain patterns we see, driven simply by how much time modern life spends looking down at screens. Reversing that pattern takes a combination of hands-on care and consistent posture habits. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients build exactly those habits.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often describe text neck symptoms building up during commutes and time spent on their phones while out and about.",
     ],
     symptoms: [
@@ -1842,7 +1842,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::downtown-shelbyville": {
     introParagraphs: [
-      "Even in physically demanding jobs, text neck shows up during breaks and off-hours spent on a phone, adding postural strain on top of the physical demands of the workday itself. Dr. Wesley Stewart has spent 16 years helping Bedford County patients address that combined strain.",
+      "Even in physically demanding jobs, text neck shows up during breaks and off-hours spent on a phone, adding postural strain on top of the physical demands of the workday itself. Dr. Wesley Stewart has spent 29 years helping Bedford County patients address that combined strain.",
       "Around Shelbyville's historic Public Square, we see text neck in workers who spend breaks and evenings on their phones after physically demanding shifts.",
     ],
     symptoms: [
@@ -1860,7 +1860,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, text neck is just as common as anywhere else, often building up during downtime on a phone after a physically demanding day of farm or outdoor work. Dr. Wesley Stewart has spent 16 years bringing that same posture-focused care to patients well outside Murfreesboro itself.",
+      "In rural communities, text neck is just as common as anywhere else, often building up during downtime on a phone after a physically demanding day of farm or outdoor work. Dr. Wesley Stewart has spent 29 years bringing that same posture-focused care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, evening phone use after a long day of farm work is a common contributor to the text neck symptoms we treat from Cannon County.",
     ],
     symptoms: [
@@ -1878,7 +1878,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "text-neck::downtown-eagleville": {
     introParagraphs: [
-      "Text neck affects patients in small towns just as often as in larger cities, since it's driven by phone and screen habits rather than any particular urban lifestyle. Dr. Wesley Stewart has spent 16 years extending that same posture-focused care to patients across Rutherford County's smallest communities.",
+      "Text neck affects patients in small towns just as often as in larger cities, since it's driven by phone and screen habits rather than any particular urban lifestyle. Dr. Wesley Stewart has spent 29 years extending that same posture-focused care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe text neck symptoms building gradually from daily phone use and downtime spent on tablets or laptops.",
     ],
     symptoms: [
@@ -1900,7 +1900,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "poor-posture::blackman-murfreesboro": {
     introParagraphs: [
-      "Poor posture - whether from long hours at a desk, driving, or looking down at a phone - gradually shifts how weight is distributed through the spine, straining muscles and joints that weren't built to hold that position all day. Over time, that steady strain is a common root cause of chronic neck, shoulder, and back pain. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients unwind exactly this kind of cumulative postural strain.",
+      "Poor posture - whether from long hours at a desk, driving, or looking down at a phone - gradually shifts how weight is distributed through the spine, straining muscles and joints that weren't built to hold that position all day. Over time, that steady strain is a common root cause of chronic neck, shoulder, and back pain. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients unwind exactly this kind of cumulative postural strain.",
       "In the Blackman community, we regularly see posture-related pain in patients whose daily routines, from commuting to remote work, keep them seated for hours at a stretch.",
     ],
     symptoms: [
@@ -1918,7 +1918,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::sam-ridley-smyrna": {
     introParagraphs: [
-      "Posture-related pain tends to build so gradually that patients often don't notice it until rounded shoulders and a forward head position have become their new normal. Reversing that pattern takes both hands-on care and a conscious retraining of daily habits. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has guided many through exactly that kind of retraining.",
+      "Posture-related pain tends to build so gradually that patients often don't notice it until rounded shoulders and a forward head position have become their new normal. Reversing that pattern takes both hands-on care and a conscious retraining of daily habits. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has guided many through exactly that kind of retraining.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see posture-related pain in warehouse and manufacturing workers who spend long shifts hunched over equipment or paperwork.",
     ],
     symptoms: [
@@ -1936,7 +1936,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Posture-related pain doesn't just come from office work - it can build from years of carrying kids, hauling groceries, or generally favoring one side of the body during daily household tasks. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County untangle exactly that kind of everyday postural strain.",
+      "Posture-related pain doesn't just come from office work - it can build from years of carrying kids, hauling groceries, or generally favoring one side of the body during daily household tasks. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County untangle exactly that kind of everyday postural strain.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see posture-related pain in parents managing busy households across a large property.",
     ],
     symptoms: [
@@ -1954,7 +1954,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::downtown-lebanon": {
     introParagraphs: [
-      "What starts as a habit of slouching at a desk or hunching over a phone can, over years, become a fixed postural pattern that's genuinely difficult to reverse without targeted intervention. Catching and correcting that pattern earlier makes a real difference. Dr. Wesley Stewart has spent 16 years helping Wilson County patients address exactly that kind of long-building strain.",
+      "What starts as a habit of slouching at a desk or hunching over a phone can, over years, become a fixed postural pattern that's genuinely difficult to reverse without targeted intervention. Catching and correcting that pattern earlier makes a real difference. Dr. Wesley Stewart has spent 29 years helping Wilson County patients address exactly that kind of long-building strain.",
       "Near Lebanon's Town Square, we see posture-related pain often in students at Cumberland University and small business owners who spend long hours seated at a register or desk.",
     ],
     symptoms: [
@@ -1972,7 +1972,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers are especially prone to posture-related pain, since hours spent at a monitor or on video calls tend to encourage exactly the rounded-shoulder, forward-head position that strains the neck and upper back over time. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County counteract that daily desk strain.",
+      "Office workers are especially prone to posture-related pain, since hours spent at a monitor or on video calls tend to encourage exactly the rounded-shoulder, forward-head position that strains the neck and upper back over time. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County counteract that daily desk strain.",
       "In Cool Springs, Franklin's busy office corridor, we regularly see posture-related pain in professionals whose jobs involve back-to-back meetings and long stretches at a computer.",
     ],
     symptoms: [
@@ -1990,7 +1990,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, posture-related pain often creeps in during the exact hours meant for focused, productive work - hunched over a laptop, phone wedged against a shoulder, or slouched through back-to-back calls. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County break that cycle.",
+      "For busy professionals, posture-related pain often creeps in during the exact hours meant for focused, productive work - hunched over a laptop, phone wedged against a shoulder, or slouched through back-to-back calls. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County break that cycle.",
       "Around Maryland Farms in Brentwood, professionals juggling calls, laptops, and tight schedules often develop posture-related tension without realizing how much it's built up.",
     ],
     symptoms: [
@@ -2008,7 +2008,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::green-hills-nashville": {
     introParagraphs: [
-      "Posture-related pain is one of the most common patterns we see, largely because modern daily life - driving, screens, phones - is structured almost entirely around positions that strain the neck and back. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients counter that structural pull toward poor posture.",
+      "Posture-related pain is one of the most common patterns we see, largely because modern daily life - driving, screens, phones - is structured almost entirely around positions that strain the neck and back. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients counter that structural pull toward poor posture.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often describe posture-related tension building up during commutes and long days spent out and about.",
     ],
     symptoms: [
@@ -2026,7 +2026,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::downtown-shelbyville": {
     introParagraphs: [
-      "Even in physically active jobs, posture-related pain shows up in the moments of rest - slouched during breaks, hunched over a phone, or sitting awkwardly after a long shift. Dr. Wesley Stewart has spent 16 years helping Bedford County patients address that overlooked source of strain.",
+      "Even in physically active jobs, posture-related pain shows up in the moments of rest - slouched during breaks, hunched over a phone, or sitting awkwardly after a long shift. Dr. Wesley Stewart has spent 29 years helping Bedford County patients address that overlooked source of strain.",
       "Around Shelbyville's historic Public Square, we see posture-related pain often in workers whose jobs involve long, physically demanding shifts followed by hours of sitting at home.",
     ],
     symptoms: [
@@ -2044,7 +2044,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, posture-related pain is often tied to hours spent hunched over farm equipment or leaning into physically demanding tasks, but the underlying muscle and joint strain responds to the same treatment regardless of the cause. Dr. Wesley Stewart has spent 16 years bringing that standard of care to patients well outside Murfreesboro itself.",
+      "In rural communities, posture-related pain is often tied to hours spent hunched over farm equipment or leaning into physically demanding tasks, but the underlying muscle and joint strain responds to the same treatment regardless of the cause. Dr. Wesley Stewart has spent 29 years bringing that standard of care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, long days spent bent over farm tasks are a common contributor to the posture-related pain we treat from Cannon County.",
     ],
     symptoms: [
@@ -2062,7 +2062,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "poor-posture::downtown-eagleville": {
     introParagraphs: [
-      "Posture-related pain affects patients in small towns just as often as in busy office corridors, whether it comes from farm work, driving long distances, or simply daily habits. Dr. Wesley Stewart has spent 16 years extending that same standard of care to patients across Rutherford County's smallest communities.",
+      "Posture-related pain affects patients in small towns just as often as in busy office corridors, whether it comes from farm work, driving long distances, or simply daily habits. Dr. Wesley Stewart has spent 29 years extending that same standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe posture-related tension building gradually from long days spent on their feet or behind the wheel.",
     ],
     symptoms: [
@@ -2084,7 +2084,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "slip-and-fall-injury::blackman-murfreesboro": {
     introParagraphs: [
-      "A slip-and-fall injury can jolt the spine and joints even when there's no visible bruising, and symptoms sometimes don't fully appear until a day or two later as inflammation sets in. Getting evaluated soon after a fall - even a seemingly minor one - helps catch soft-tissue and spinal injuries early. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients through exactly that kind of post-fall evaluation.",
+      "A slip-and-fall injury can jolt the spine and joints even when there's no visible bruising, and symptoms sometimes don't fully appear until a day or two later as inflammation sets in. Getting evaluated soon after a fall - even a seemingly minor one - helps catch soft-tissue and spinal injuries early. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients through exactly that kind of post-fall evaluation.",
       "In the Blackman community, we regularly see patients shortly after a fall at home, in a parking lot, or on uneven sidewalks who want to be sure nothing was seriously injured.",
     ],
     symptoms: [
@@ -2102,7 +2102,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::sam-ridley-smyrna": {
     introParagraphs: [
-      "Falls on the job - a wet warehouse floor, an uneven loading dock, a slick parking lot - are a common source of the slip-and-fall injuries we treat, and the delayed-onset nature of the resulting pain is exactly why early evaluation matters. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has focused on catching that delayed inflammation before it becomes a bigger problem.",
+      "Falls on the job - a wet warehouse floor, an uneven loading dock, a slick parking lot - are a common source of the slip-and-fall injuries we treat, and the delayed-onset nature of the resulting pain is exactly why early evaluation matters. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has focused on catching that delayed inflammation before it becomes a bigger problem.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see slip-and-fall injuries among warehouse and manufacturing workers following an incident on the job.",
     ],
     symptoms: [
@@ -2120,7 +2120,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Falls at home - on stairs, wet floors, or uneven yard terrain - are just as capable of causing lasting spinal and joint strain as a fall in a public place, even when the immediate pain feels minor. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County take those household falls seriously.",
+      "Falls at home - on stairs, wet floors, or uneven yard terrain - are just as capable of causing lasting spinal and joint strain as a fall in a public place, even when the immediate pain feels minor. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County take those household falls seriously.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see slip-and-fall injuries following a stumble on stairs or uneven yard terrain around large properties.",
     ],
     symptoms: [
@@ -2138,7 +2138,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::downtown-lebanon": {
     introParagraphs: [
-      "One of the trickiest aspects of a slip-and-fall injury is how normal you can feel in the first hour or two, only for stiffness, soreness, or headaches to build significantly by the next day. Dr. Wesley Stewart has spent 16 years helping Wilson County patients navigate that delayed-onset pattern.",
+      "One of the trickiest aspects of a slip-and-fall injury is how normal you can feel in the first hour or two, only for stiffness, soreness, or headaches to build significantly by the next day. Dr. Wesley Stewart has spent 29 years helping Wilson County patients navigate that delayed-onset pattern.",
       "Near Lebanon's Town Square, we see slip-and-fall injuries often following a stumble on uneven historic sidewalks or an incident at a local business.",
     ],
     symptoms: [
@@ -2156,7 +2156,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::cool-springs-franklin": {
     introParagraphs: [
-      "Slip-and-fall injuries in busy commercial areas - a slick entryway, an icy parking lot, an uneven curb - are common, and the delayed nature of the resulting pain is exactly why a prompt evaluation matters. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County get evaluated quickly after exactly this kind of incident.",
+      "Slip-and-fall injuries in busy commercial areas - a slick entryway, an icy parking lot, an uneven curb - are common, and the delayed nature of the resulting pain is exactly why a prompt evaluation matters. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County get evaluated quickly after exactly this kind of incident.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see slip-and-fall injuries following incidents in parking lots or building entryways.",
     ],
     symptoms: [
@@ -2174,7 +2174,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, a fall on the way into the office or across an icy parking lot can seem like a minor inconvenience at first, until stiffness and soreness build up over the following day. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County take that kind of incident seriously.",
+      "For busy professionals, a fall on the way into the office or across an icy parking lot can seem like a minor inconvenience at first, until stiffness and soreness build up over the following day. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County take that kind of incident seriously.",
       "Around Maryland Farms in Brentwood, we regularly see professionals shortly after a fall in an office parking lot or building entryway.",
     ],
     symptoms: [
@@ -2192,7 +2192,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::green-hills-nashville": {
     introParagraphs: [
-      "Slip-and-fall injuries happen often in busy retail and dining areas - a wet floor, an uneven step, a crowded walkway - and the resulting pain can build gradually over the hours that follow. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients get evaluated promptly after exactly this kind of incident.",
+      "Slip-and-fall injuries happen often in busy retail and dining areas - a wet floor, an uneven step, a crowded walkway - and the resulting pain can build gradually over the hours that follow. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients get evaluated promptly after exactly this kind of incident.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in shortly after a fall at a store, restaurant, or parking area.",
     ],
     symptoms: [
@@ -2210,7 +2210,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::downtown-shelbyville": {
     introParagraphs: [
-      "For workers in physically demanding jobs, a fall on a job site or factory floor can add serious strain on top of an already-taxed body, making prompt evaluation especially important. Dr. Wesley Stewart has spent 16 years helping Bedford County patients recover from exactly this kind of workplace incident.",
+      "For workers in physically demanding jobs, a fall on a job site or factory floor can add serious strain on top of an already-taxed body, making prompt evaluation especially important. Dr. Wesley Stewart has spent 29 years helping Bedford County patients recover from exactly this kind of workplace incident.",
       "Around Shelbyville's historic Public Square, we see slip-and-fall injuries often among factory and trade workers following an incident at a job site.",
     ],
     symptoms: [
@@ -2228,7 +2228,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, falls often happen on uneven farm terrain, wet barn floors, or icy driveways, and the same delayed-onset pain pattern applies regardless of the setting. Dr. Wesley Stewart has spent 16 years bringing that same prompt, careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, falls often happen on uneven farm terrain, wet barn floors, or icy driveways, and the same delayed-onset pain pattern applies regardless of the setting. Dr. Wesley Stewart has spent 29 years bringing that same prompt, careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, falls on uneven farm terrain or wet outbuilding floors are a common source of the injuries we treat from Cannon County.",
     ],
     symptoms: [
@@ -2246,7 +2246,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "slip-and-fall-injury::downtown-eagleville": {
     introParagraphs: [
-      "Falls happen in small towns just as often as anywhere else, and the same careful, prompt evaluation applies regardless of how rural the setting. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Falls happen in small towns just as often as anywhere else, and the same careful, prompt evaluation applies regardless of how rural the setting. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients come in shortly after a fall at home or during outdoor farm-related work.",
     ],
     symptoms: [
@@ -2268,7 +2268,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "pinched-nerve::blackman-murfreesboro": {
     introParagraphs: [
-      "A pinched nerve happens when surrounding bone, disc, or soft tissue puts abnormal pressure on a nerve root, disrupting its normal signal and producing pain, numbness, or weakness. It can occur in the neck or lower back and often radiates into an arm or leg. Dr. Wesley Stewart has spent 16 years in Murfreesboro identifying exactly where that pressure originates.",
+      "A pinched nerve happens when surrounding bone, disc, or soft tissue puts abnormal pressure on a nerve root, disrupting its normal signal and producing pain, numbness, or weakness. It can occur in the neck or lower back and often radiates into an arm or leg. Dr. Wesley Stewart has spent 29 years in Murfreesboro identifying exactly where that pressure originates.",
       "In the Blackman community, we regularly see patients whose pinched-nerve symptoms started subtly before building into sharp, radiating pain.",
     ],
     symptoms: [
@@ -2286,7 +2286,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::sam-ridley-smyrna": {
     introParagraphs: [
-      "A pinched nerve can turn ordinary tasks into genuinely painful ones, since the sharp, electric-feeling pain often flares with specific positions or movements rather than staying constant. Identifying exactly which nerve is involved is the key first step toward relief. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has focused on that precise identification.",
+      "A pinched nerve can turn ordinary tasks into genuinely painful ones, since the sharp, electric-feeling pain often flares with specific positions or movements rather than staying constant. Identifying exactly which nerve is involved is the key first step toward relief. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has focused on that precise identification.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see pinched nerves in manufacturing and warehouse workers whose repetitive job tasks or awkward postures contribute to nerve compression.",
     ],
     symptoms: [
@@ -2304,7 +2304,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "A pinched nerve is often mistaken for a simple muscle strain at first, since both can cause pain - but nerve-related symptoms typically include numbness, tingling, or weakness that follows a specific pathway rather than staying localized. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County make that distinction accurately.",
+      "A pinched nerve is often mistaken for a simple muscle strain at first, since both can cause pain - but nerve-related symptoms typically include numbness, tingling, or weakness that follows a specific pathway rather than staying localized. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County make that distinction accurately.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see pinched-nerve symptoms in patients who initially assumed their pain was just a pulled muscle.",
     ],
     symptoms: [
@@ -2322,7 +2322,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::downtown-lebanon": {
     introParagraphs: [
-      "The radiating quality of pinched-nerve pain - starting near the spine and shooting down an arm or leg - is one of the clearest signs that a nerve root, not just a muscle, is the source of the problem. Dr. Wesley Stewart has spent 16 years helping Wilson County patients trace that radiating pattern to its source.",
+      "The radiating quality of pinched-nerve pain - starting near the spine and shooting down an arm or leg - is one of the clearest signs that a nerve root, not just a muscle, is the source of the problem. Dr. Wesley Stewart has spent 29 years helping Wilson County patients trace that radiating pattern to its source.",
       "Near Lebanon's Town Square, we see pinched nerves often in patients whose jobs or daily routines involve long hours in a fixed, awkward position.",
     ],
     symptoms: [
@@ -2340,7 +2340,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::cool-springs-franklin": {
     introParagraphs: [
-      "Office workers sometimes develop a pinched nerve in the neck from hours of poor desk posture, which compresses a nerve root and produces pain that radiates down the arm rather than staying at the neck itself. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County identify that specific desk-related pattern.",
+      "Office workers sometimes develop a pinched nerve in the neck from hours of poor desk posture, which compresses a nerve root and produces pain that radiates down the arm rather than staying at the neck itself. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County identify that specific desk-related pattern.",
       "In Cool Springs, Franklin's busy office corridor, we regularly see pinched-nerve symptoms in professionals whose desk posture has compressed a nerve in the neck.",
     ],
     symptoms: [
@@ -2358,7 +2358,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, a pinched nerve can be especially disruptive since typing, gripping a phone, or even sitting through a long meeting can all aggravate it. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County resolve that kind of activity-limiting nerve compression.",
+      "For busy professionals, a pinched nerve can be especially disruptive since typing, gripping a phone, or even sitting through a long meeting can all aggravate it. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County resolve that kind of activity-limiting nerve compression.",
       "Around Maryland Farms in Brentwood, professionals whose jobs involve long hours at a laptop often develop pinched-nerve symptoms in the neck or wrist.",
     ],
     symptoms: [
@@ -2376,7 +2376,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::green-hills-nashville": {
     introParagraphs: [
-      "A pinched nerve is one of the more urgent-feeling conditions we treat, since the sharp, electric quality of the pain often prompts patients to seek care faster than they would for ordinary muscle soreness. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, responding to exactly that kind of urgent nerve-related pain.",
+      "A pinched nerve is one of the more urgent-feeling conditions we treat, since the sharp, electric quality of the pain often prompts patients to seek care faster than they would for ordinary muscle soreness. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, responding to exactly that kind of urgent nerve-related pain.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often describe pinched-nerve symptoms starting suddenly after an awkward movement or gradually over weeks.",
     ],
     symptoms: [
@@ -2394,7 +2394,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::downtown-shelbyville": {
     introParagraphs: [
-      "For patients in physically demanding jobs, a pinched nerve can significantly limit the ability to lift, grip, or perform repetitive tasks safely, making prompt evaluation especially important. Dr. Wesley Stewart has spent 16 years helping Bedford County patients recover the strength and function that nerve compression can take away.",
+      "For patients in physically demanding jobs, a pinched nerve can significantly limit the ability to lift, grip, or perform repetitive tasks safely, making prompt evaluation especially important. Dr. Wesley Stewart has spent 29 years helping Bedford County patients recover the strength and function that nerve compression can take away.",
       "Around Shelbyville's historic Public Square, we see pinched nerves often in factory and trade workers whose repetitive job tasks contribute to nerve compression.",
     ],
     symptoms: [
@@ -2412,7 +2412,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, a pinched nerve often develops from farm work and equipment operation, but the underlying nerve compression responds to the same targeted evaluation and treatment regardless of the cause. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients well outside Murfreesboro itself.",
+      "In rural communities, a pinched nerve often develops from farm work and equipment operation, but the underlying nerve compression responds to the same targeted evaluation and treatment regardless of the cause. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, farm work and equipment use are common contributors to the pinched-nerve symptoms we treat from Cannon County.",
     ],
     symptoms: [
@@ -2430,7 +2430,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "pinched-nerve::downtown-eagleville": {
     introParagraphs: [
-      "A pinched nerve affects patients in small towns just as often as anywhere else, and the same careful evaluation to trace the nerve's pathway applies no matter how rural the community. Dr. Wesley Stewart has spent 16 years working to bring that same standard of care to patients across Rutherford County's smallest communities.",
+      "A pinched nerve affects patients in small towns just as often as anywhere else, and the same careful evaluation to trace the nerve's pathway applies no matter how rural the community. Dr. Wesley Stewart has spent 29 years working to bring that same standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe pinched-nerve symptoms developing gradually from farm work or repetitive daily tasks.",
     ],
     symptoms: [
@@ -2452,7 +2452,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "tmj::blackman-murfreesboro": {
     introParagraphs: [
-      "TMJ disorder centers on the jaw joint just in front of the ear, but because the jaw, neck, and upper spine share overlapping nerve and muscle pathways, jaw pain rarely stays isolated to the jaw itself. Dr. Wesley Stewart has spent 16 years in Murfreesboro tracing that connection back to its source.",
+      "TMJ disorder centers on the jaw joint just in front of the ear, but because the jaw, neck, and upper spine share overlapping nerve and muscle pathways, jaw pain rarely stays isolated to the jaw itself. Dr. Wesley Stewart has spent 29 years in Murfreesboro tracing that connection back to its source.",
       "In the Blackman community, we regularly see patients whose jaw clicking and facial tension trace back to clenching habits made worse by neck strain.",
     ],
     symptoms: [
@@ -2470,7 +2470,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::sam-ridley-smyrna": {
     introParagraphs: [
-      "For many people, TMJ disorder develops gradually - a little clicking here, some jaw tightness there - until the discomfort becomes hard to ignore. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has learned to catch that gradual pattern early.",
+      "For many people, TMJ disorder develops gradually - a little clicking here, some jaw tightness there - until the discomfort becomes hard to ignore. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has learned to catch that gradual pattern early.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see warehouse and manufacturing workers whose jaw clenching under stress compounds with neck strain from repetitive physical work.",
     ],
     symptoms: [
@@ -2488,7 +2488,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "TMJ disorder can be surprisingly disruptive for something that starts as minor jaw discomfort - interfering with chewing, sleep, and even concentration once tension builds. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County get ahead of that escalation.",
+      "TMJ disorder can be surprisingly disruptive for something that starts as minor jaw discomfort - interfering with chewing, sleep, and even concentration once tension builds. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County get ahead of that escalation.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see jaw tension connect back to stress and screen-related neck posture.",
     ],
     symptoms: [
@@ -2506,7 +2506,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::downtown-lebanon": {
     introParagraphs: [
-      "One of the more frustrating things about TMJ disorder is how it can quietly worsen over months before someone realizes the jaw clicking and facial soreness are connected to neck tension rather than a dental problem. Dr. Wesley Stewart has spent 16 years helping Wilson County patients make that connection.",
+      "One of the more frustrating things about TMJ disorder is how it can quietly worsen over months before someone realizes the jaw clicking and facial soreness are connected to neck tension rather than a dental problem. Dr. Wesley Stewart has spent 29 years helping Wilson County patients make that connection.",
       "Near Lebanon's Town Square, we see jaw tension often show up in patients who spend long hours in a fixed head position at a desk or behind the wheel.",
     ],
     symptoms: [
@@ -2524,7 +2524,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::cool-springs-franklin": {
     introParagraphs: [
-      "Busy schedules and screen-heavy workdays are a common backdrop for TMJ disorder, since stress-driven clenching and forward head posture tend to build up together over a demanding week. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County untangle that combination.",
+      "Busy schedules and screen-heavy workdays are a common backdrop for TMJ disorder, since stress-driven clenching and forward head posture tend to build up together over a demanding week. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County untangle that combination.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see professionals whose jaw tension builds alongside long days at a computer.",
     ],
     symptoms: [
@@ -2542,7 +2542,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, TMJ disorder often creeps in during periods of high stress, when jaw clenching becomes an unconscious habit layered on top of hours at a desk. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County recognize and address that pattern.",
+      "For busy professionals, TMJ disorder often creeps in during periods of high stress, when jaw clenching becomes an unconscious habit layered on top of hours at a desk. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County recognize and address that pattern.",
       "Around Maryland Farms in Brentwood, we regularly see jaw tension develop in professionals juggling long hours and high-stress workloads.",
     ],
     symptoms: [
@@ -2560,7 +2560,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::green-hills-nashville": {
     introParagraphs: [
-      "TMJ disorder often gets treated as a purely dental issue, but a significant portion of jaw pain traces back to tension and habits playing out in the neck and upper spine. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, addressing that overlooked connection.",
+      "TMJ disorder often gets treated as a purely dental issue, but a significant portion of jaw pain traces back to tension and habits playing out in the neck and upper spine. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, addressing that overlooked connection.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing jaw clicking that started subtly and gradually became harder to ignore.",
     ],
     symptoms: [
@@ -2578,7 +2578,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs can add an extra layer to TMJ disorder, since the muscle tension from manual work often overlaps with jaw clenching brought on by the physical strain of the job itself. Dr. Wesley Stewart has spent 16 years helping Bedford County patients navigate that overlap.",
+      "Physically demanding jobs can add an extra layer to TMJ disorder, since the muscle tension from manual work often overlaps with jaw clenching brought on by the physical strain of the job itself. Dr. Wesley Stewart has spent 29 years helping Bedford County patients navigate that overlap.",
       "Around Shelbyville's historic Public Square, we see jaw tension often among factory and trade workers whose physically demanding shifts add to existing clenching habits.",
     ],
     symptoms: [
@@ -2596,7 +2596,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, TMJ disorder often develops quietly alongside the physical strain of farm work and long days outdoors, with jaw clenching frequently going unnoticed until it becomes a persistent problem. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, TMJ disorder often develops quietly alongside the physical strain of farm work and long days outdoors, with jaw clenching frequently going unnoticed until it becomes a persistent problem. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, jaw tension often develops alongside the physical demands of farm work and long days outdoors.",
     ],
     symptoms: [
@@ -2614,7 +2614,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tmj::downtown-eagleville": {
     introParagraphs: [
-      "Jaw tension affects patients in small towns just as often as anywhere else, and the same careful evaluation to trace jaw symptoms back to the neck applies regardless of how rural the setting. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Jaw tension affects patients in small towns just as often as anywhere else, and the same careful evaluation to trace jaw symptoms back to the neck applies regardless of how rural the setting. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe jaw tension building gradually alongside stress or physically demanding daily routines.",
     ],
     symptoms: [
@@ -2636,7 +2636,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "herniated-disc::blackman-murfreesboro": {
     introParagraphs: [
-      "A herniated disc occurs when the soft inner material of a spinal disc pushes through its tougher outer layer, often irritating a nearby nerve directly. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients recover from exactly this kind of disc injury.",
+      "A herniated disc occurs when the soft inner material of a spinal disc pushes through its tougher outer layer, often irritating a nearby nerve directly. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients recover from exactly this kind of disc injury.",
       "In the Blackman community, we regularly see herniated discs following a single awkward lift or years of repetitive strain that finally catches up.",
     ],
     symptoms: [
@@ -2654,7 +2654,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::sam-ridley-smyrna": {
     introParagraphs: [
-      "A single awkward lift on a warehouse floor or years of repetitive strain can both lead to the same result - a herniated disc pressing on a nearby nerve. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has focused on getting Smyrna's workforce back to full function.",
+      "A single awkward lift on a warehouse floor or years of repetitive strain can both lead to the same result - a herniated disc pressing on a nearby nerve. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has focused on getting Smyrna's workforce back to full function.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see herniated discs among warehouse and manufacturing workers following a heavy lift gone wrong.",
     ],
     symptoms: [
@@ -2672,7 +2672,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "A herniated disc can develop from something as simple as an awkward twist while gardening or lifting around the house, not just a dramatic accident. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County recognize that pattern.",
+      "A herniated disc can develop from something as simple as an awkward twist while gardening or lifting around the house, not just a dramatic accident. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County recognize that pattern.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see herniated discs following yard work or an awkward lift around a large property.",
     ],
     symptoms: [
@@ -2690,7 +2690,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::downtown-lebanon": {
     introParagraphs: [
-      "The radiating nerve pain that comes with a herniated disc can be one of the more alarming symptoms a patient experiences, especially when it travels well past the original site of the injury. Dr. Wesley Stewart has spent 16 years helping Wilson County patients trace that radiating pain to its source.",
+      "The radiating nerve pain that comes with a herniated disc can be one of the more alarming symptoms a patient experiences, especially when it travels well past the original site of the injury. Dr. Wesley Stewart has spent 29 years helping Wilson County patients trace that radiating pain to its source.",
       "Near Lebanon's Town Square, we see herniated discs often in patients whose symptoms built gradually before becoming impossible to ignore.",
     ],
     symptoms: [
@@ -2708,7 +2708,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::cool-springs-franklin": {
     introParagraphs: [
-      "Long hours at a desk followed by an ill-timed lift or twist is a common setup for a herniated disc, and the resulting nerve pain can range from a dull ache to sharp, radiating discomfort. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County recover from exactly this kind of injury.",
+      "Long hours at a desk followed by an ill-timed lift or twist is a common setup for a herniated disc, and the resulting nerve pain can range from a dull ache to sharp, radiating discomfort. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County recover from exactly this kind of injury.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see herniated discs in professionals whose desk-bound routines leave the spine more vulnerable to a sudden strain.",
     ],
     symptoms: [
@@ -2726,7 +2726,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, a herniated disc often shows up after what feels like a minor lifting mistake, with pain that then radiates unexpectedly into an arm or leg. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County get back to a demanding schedule.",
+      "For busy professionals, a herniated disc often shows up after what feels like a minor lifting mistake, with pain that then radiates unexpectedly into an arm or leg. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County get back to a demanding schedule.",
       "Around Maryland Farms in Brentwood, we regularly see herniated discs in professionals following an awkward lift, whether at the gym or around the house.",
     ],
     symptoms: [
@@ -2744,7 +2744,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::green-hills-nashville": {
     introParagraphs: [
-      "A herniated disc doesn't always announce itself with a dramatic injury - sometimes it's the result of years of repetitive strain finally reaching a tipping point. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients understand exactly how that tipping point happened.",
+      "A herniated disc doesn't always announce itself with a dramatic injury - sometimes it's the result of years of repetitive strain finally reaching a tipping point. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients understand exactly how that tipping point happened.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing radiating leg or arm pain that built up gradually.",
     ],
     symptoms: [
@@ -2762,7 +2762,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs put extra strain on the spine, which is part of why herniated discs show up so often among workers whose daily routine involves repeated lifting or twisting. Dr. Wesley Stewart has spent 16 years helping Bedford County patients recover from exactly this kind of workplace strain.",
+      "Physically demanding jobs put extra strain on the spine, which is part of why herniated discs show up so often among workers whose daily routine involves repeated lifting or twisting. Dr. Wesley Stewart has spent 29 years helping Bedford County patients recover from exactly this kind of workplace strain.",
       "Around Shelbyville's historic Public Square, we see herniated discs often among factory and trade workers whose jobs involve repeated lifting or awkward positions.",
     ],
     symptoms: [
@@ -2780,7 +2780,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, herniated discs often develop from farm-related lifting or years of physically demanding outdoor work rather than a single dramatic event. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, herniated discs often develop from farm-related lifting or years of physically demanding outdoor work rather than a single dramatic event. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, herniated discs are a common result of farm-related lifting or physically demanding outdoor work from Cannon County.",
     ],
     symptoms: [
@@ -2798,7 +2798,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "herniated-disc::downtown-eagleville": {
     introParagraphs: [
-      "Herniated discs affect patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Herniated discs affect patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe herniated-disc symptoms developing gradually from farm work or repetitive daily tasks.",
     ],
     symptoms: [
@@ -2820,7 +2820,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "degenerative-disc-disease::blackman-murfreesboro": {
     introParagraphs: [
-      "Degenerative disc disease describes the natural wear-and-tear breakdown of the spinal discs that cushion each vertebra - a normal part of aging that becomes a problem once it starts irritating nerves or joints. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients manage that ongoing wear.",
+      "Degenerative disc disease describes the natural wear-and-tear breakdown of the spinal discs that cushion each vertebra - a normal part of aging that becomes a problem once it starts irritating nerves or joints. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients manage that ongoing wear.",
       "In the Blackman community, we regularly see patients whose chronic back or neck pain traces back to disc changes that built up gradually over the years.",
     ],
     symptoms: [
@@ -2838,7 +2838,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::sam-ridley-smyrna": {
     introParagraphs: [
-      "Years of physically demanding work can accelerate the disc wear behind degenerative disc disease, even though the underlying process is a normal part of aging for everyone. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that accelerated wear.",
+      "Years of physically demanding work can accelerate the disc wear behind degenerative disc disease, even though the underlying process is a normal part of aging for everyone. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that accelerated wear.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see degenerative disc disease in warehouse and manufacturing workers whose repetitive job tasks add extra strain to the spine.",
     ],
     symptoms: [
@@ -2856,7 +2856,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Degenerative disc disease often shows up as a nagging, come-and-go ache rather than one dramatic injury, which can make it easy to dismiss until the stiffness becomes a daily frustration. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County take that gradual pattern seriously.",
+      "Degenerative disc disease often shows up as a nagging, come-and-go ache rather than one dramatic injury, which can make it easy to dismiss until the stiffness becomes a daily frustration. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County take that gradual pattern seriously.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see degenerative disc disease in patients managing both yard work and long commutes.",
     ],
     symptoms: [
@@ -2874,7 +2874,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::downtown-lebanon": {
     introParagraphs: [
-      "The unpredictable, come-and-go nature of degenerative disc disease can be one of its most frustrating aspects, with good weeks followed by flare-ups that seem to come out of nowhere. Dr. Wesley Stewart has spent 16 years helping Wilson County patients find a more consistent, manageable pattern.",
+      "The unpredictable, come-and-go nature of degenerative disc disease can be one of its most frustrating aspects, with good weeks followed by flare-ups that seem to come out of nowhere. Dr. Wesley Stewart has spent 29 years helping Wilson County patients find a more consistent, manageable pattern.",
       "Near Lebanon's Town Square, we see degenerative disc disease often in patients who've lived with intermittent back or neck stiffness for years before seeking care.",
     ],
     symptoms: [
@@ -2892,7 +2892,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::downtown-franklin": {
     introParagraphs: [
-      "Degenerative disc disease is a normal part of aging for most people, but when that disc wear starts irritating nearby nerves or joints, it can turn into a chronic source of pain and stiffness. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County manage exactly that transition.",
+      "Degenerative disc disease is a normal part of aging for most people, but when that disc wear starts irritating nearby nerves or joints, it can turn into a chronic source of pain and stiffness. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County manage exactly that transition.",
       "Near Historic Downtown Franklin's Main Street district, we regularly see patients whose chronic back or neck stiffness has built gradually over the years.",
     ],
     symptoms: [
@@ -2910,7 +2910,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, degenerative disc disease often shows up as a persistent, low-grade backache that flares during long stretches at a desk. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County manage that pattern without it derailing a demanding schedule.",
+      "For busy professionals, degenerative disc disease often shows up as a persistent, low-grade backache that flares during long stretches at a desk. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County manage that pattern without it derailing a demanding schedule.",
       "Around Maryland Farms in Brentwood, we regularly see degenerative disc disease in professionals whose desk-bound days aggravate existing disc wear.",
     ],
     symptoms: [
@@ -2928,7 +2928,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::green-hills-nashville": {
     introParagraphs: [
-      "Degenerative disc disease is often mistaken for a single injury when in fact it's the cumulative result of years of gradual disc wear finally producing noticeable symptoms. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients understand that longer-term pattern.",
+      "Degenerative disc disease is often mistaken for a single injury when in fact it's the cumulative result of years of gradual disc wear finally producing noticeable symptoms. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients understand that longer-term pattern.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after years of intermittent back stiffness that has slowly become more frequent.",
     ],
     symptoms: [
@@ -2946,7 +2946,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs tend to accelerate the wear behind degenerative disc disease, adding extra strain on top of a process that happens naturally with age. Dr. Wesley Stewart has spent 16 years helping Bedford County patients manage that accelerated pattern.",
+      "Physically demanding jobs tend to accelerate the wear behind degenerative disc disease, adding extra strain on top of a process that happens naturally with age. Dr. Wesley Stewart has spent 29 years helping Bedford County patients manage that accelerated pattern.",
       "Around Shelbyville's historic Public Square, we see degenerative disc disease often among factory and trade workers whose physically demanding jobs add extra strain to the spine over time.",
     ],
     symptoms: [
@@ -2964,7 +2964,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, years of farm work and physically demanding outdoor labor often accelerate the disc wear behind degenerative disc disease well beyond what aging alone would cause. Dr. Wesley Stewart has spent 16 years bringing that same careful management to patients well outside Murfreesboro itself.",
+      "In rural communities, years of farm work and physically demanding outdoor labor often accelerate the disc wear behind degenerative disc disease well beyond what aging alone would cause. Dr. Wesley Stewart has spent 29 years bringing that same careful management to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, degenerative disc disease often develops alongside decades of farm work and physically demanding outdoor labor from Cannon County.",
     ],
     symptoms: [
@@ -2982,7 +2982,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "degenerative-disc-disease::downtown-eagleville": {
     introParagraphs: [
-      "Degenerative disc disease affects patients in small towns just as often as anywhere else, and the same steady, long-term management approach applies no matter how rural the setting. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Degenerative disc disease affects patients in small towns just as often as anywhere else, and the same steady, long-term management approach applies no matter how rural the setting. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe years of intermittent back stiffness that has gradually become more frequent.",
     ],
     symptoms: [
@@ -3004,7 +3004,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "work-injury::blackman-murfreesboro": {
     introParagraphs: [
-      "Work injuries range from a single dramatic incident - a fall, an awkward lift, a collision on the job site - to the slow accumulation of repetitive strain built up over years on the same tasks. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients recover from both kinds of injury.",
+      "Work injuries range from a single dramatic incident - a fall, an awkward lift, a collision on the job site - to the slow accumulation of repetitive strain built up over years on the same tasks. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients recover from both kinds of injury.",
       "In the Blackman community, we regularly see work-related injuries ranging from a single lifting mishap to gradually worsening joint pain from repetitive job duties.",
     ],
     symptoms: [
@@ -3022,7 +3022,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::sam-ridley-smyrna": {
     introParagraphs: [
-      "Warehouse and manufacturing settings carry a higher-than-average risk of work injury, whether from a single heavy lift or the cumulative toll of repetitive tasks performed shift after shift. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has focused on getting Smyrna's workforce back to full duty safely.",
+      "Warehouse and manufacturing settings carry a higher-than-average risk of work injury, whether from a single heavy lift or the cumulative toll of repetitive tasks performed shift after shift. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has focused on getting Smyrna's workforce back to full duty safely.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see work injuries among warehouse and manufacturing employees following a lifting incident or repetitive strain from the assembly line.",
     ],
     symptoms: [
@@ -3040,7 +3040,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "For many patients, a work injury doesn't come from one dramatic moment but from years of the same physical demands finally catching up - a pattern we see just as often as sudden, single-incident injuries. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County address both.",
+      "For many patients, a work injury doesn't come from one dramatic moment but from years of the same physical demands finally catching up - a pattern we see just as often as sudden, single-incident injuries. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County address both.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see work injuries in residents commuting to nearby industrial and warehouse employers.",
     ],
     symptoms: [
@@ -3058,7 +3058,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::downtown-lebanon": {
     introParagraphs: [
-      "One of the trickiest parts of a work injury is that the full extent of the pain doesn't always show up right away - a sore back on a Friday can feel much worse by Monday. Dr. Wesley Stewart has spent 16 years helping Wilson County patients catch that delayed pattern early.",
+      "One of the trickiest parts of a work injury is that the full extent of the pain doesn't always show up right away - a sore back on a Friday can feel much worse by Monday. Dr. Wesley Stewart has spent 29 years helping Wilson County patients catch that delayed pattern early.",
       "Near Lebanon's Town Square, we see work injuries often in patients whose symptoms built gradually before finally prompting a visit.",
     ],
     symptoms: [
@@ -3076,7 +3076,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::cool-springs-franklin": {
     introParagraphs: [
-      "Even office-based jobs carry work-injury risk - an awkward reach for a heavy box, a fall in a parking lot, or the cumulative strain of long hours at a desk. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County recover from exactly this range of incidents.",
+      "Even office-based jobs carry work-injury risk - an awkward reach for a heavy box, a fall in a parking lot, or the cumulative strain of long hours at a desk. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County recover from exactly this range of incidents.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see work injuries ranging from a single incident to strain that built up gradually at a desk.",
     ],
     symptoms: [
@@ -3094,7 +3094,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::maryland-farms-brentwood": {
     introParagraphs: [
-      "For professionals in demanding roles, a work injury often shows up as compounding strain - long hours plus one bad lift or fall - rather than a single clear-cut event. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County untangle exactly what's driving their symptoms.",
+      "For professionals in demanding roles, a work injury often shows up as compounding strain - long hours plus one bad lift or fall - rather than a single clear-cut event. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County untangle exactly what's driving their symptoms.",
       "Around Maryland Farms in Brentwood, we regularly see work injuries in professionals dealing with a combination of desk strain and an isolated incident.",
     ],
     symptoms: [
@@ -3112,7 +3112,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::green-hills-nashville": {
     introParagraphs: [
-      "Work injuries happen in retail, dining, and office settings just as often as more physically demanding jobs, whether from a fall, an awkward lift, or hours spent in the same position. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, treating that broad range of workplace injuries.",
+      "Work injuries happen in retail, dining, and office settings just as often as more physically demanding jobs, whether from a fall, an awkward lift, or hours spent in the same position. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, treating that broad range of workplace injuries.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after a workplace fall or a strain from repetitive tasks on the job.",
     ],
     symptoms: [
@@ -3130,7 +3130,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs carry an elevated risk of work injury, whether from a single heavy lift gone wrong or years of repetitive strain finally catching up. Dr. Wesley Stewart has spent 16 years helping Bedford County patients recover from exactly this kind of workplace demand.",
+      "Physically demanding jobs carry an elevated risk of work injury, whether from a single heavy lift gone wrong or years of repetitive strain finally catching up. Dr. Wesley Stewart has spent 29 years helping Bedford County patients recover from exactly this kind of workplace demand.",
       "Around Shelbyville's historic Public Square, we see work injuries often among factory and trade workers following an incident on the job or gradually worsening strain.",
     ],
     symptoms: [
@@ -3148,7 +3148,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, work injuries often come from farm equipment, uneven terrain, or the physical demands of outdoor labor, and the same prompt evaluation applies no matter how far from town the incident happened. Dr. Wesley Stewart has spent 16 years bringing that same standard of care to patients well outside Murfreesboro itself.",
+      "In rural communities, work injuries often come from farm equipment, uneven terrain, or the physical demands of outdoor labor, and the same prompt evaluation applies no matter how far from town the incident happened. Dr. Wesley Stewart has spent 29 years bringing that same standard of care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, work injuries often stem from farm equipment use or the physical strain of outdoor labor from Cannon County.",
     ],
     symptoms: [
@@ -3166,7 +3166,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "work-injury::downtown-eagleville": {
     introParagraphs: [
-      "Work injuries affect patients in small towns just as often as anywhere else, and the same prompt, thorough evaluation applies regardless of how rural the workplace is. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Work injuries affect patients in small towns just as often as anywhere else, and the same prompt, thorough evaluation applies regardless of how rural the workplace is. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients come in after a workplace incident tied to farm work or small-business labor.",
     ],
     symptoms: [
@@ -3188,7 +3188,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "plantar-fasciitis::blackman-murfreesboro": {
     introParagraphs: [
-      "Plantar fasciitis is inflammation of the thick band of tissue running along the bottom of the foot, and it's one of the most common causes of heel pain we see. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients trace that heel pain back to its underlying mechanical cause.",
+      "Plantar fasciitis is inflammation of the thick band of tissue running along the bottom of the foot, and it's one of the most common causes of heel pain we see. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients trace that heel pain back to its underlying mechanical cause.",
       "In the Blackman community, we regularly see plantar fasciitis in patients whose repetitive standing or unsupportive footwear finally caught up with them.",
     ],
     symptoms: [
@@ -3206,7 +3206,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::sam-ridley-smyrna": {
     introParagraphs: [
-      "Jobs that involve hours of standing on hard warehouse or factory floors are a common setup for plantar fasciitis, since the repeated strain on the foot's arch builds up shift after shift. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that repetitive strain.",
+      "Jobs that involve hours of standing on hard warehouse or factory floors are a common setup for plantar fasciitis, since the repeated strain on the foot's arch builds up shift after shift. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that repetitive strain.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see plantar fasciitis among warehouse and manufacturing workers whose shifts involve hours on hard concrete floors.",
     ],
     symptoms: [
@@ -3224,7 +3224,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Plantar fasciitis often develops gradually, starting as a mild ache that's easy to dismiss before becoming a sharp, unmistakable pain with the first steps each morning. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County catch that gradual pattern early.",
+      "Plantar fasciitis often develops gradually, starting as a mild ache that's easy to dismiss before becoming a sharp, unmistakable pain with the first steps each morning. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County catch that gradual pattern early.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see plantar fasciitis in patients who spend a lot of time on their feet around large properties.",
     ],
     symptoms: [
@@ -3242,7 +3242,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::downtown-lebanon": {
     introParagraphs: [
-      "One of the more frustrating parts of plantar fasciitis is how the pain can seem to disappear once you're up and moving, only to return in full force the moment you sit down for a while. Dr. Wesley Stewart has spent 16 years helping Wilson County patients break that frustrating cycle.",
+      "One of the more frustrating parts of plantar fasciitis is how the pain can seem to disappear once you're up and moving, only to return in full force the moment you sit down for a while. Dr. Wesley Stewart has spent 29 years helping Wilson County patients break that frustrating cycle.",
       "Near Lebanon's Town Square, we see plantar fasciitis often in patients who spend long days on their feet at local shops and businesses.",
     ],
     symptoms: [
@@ -3260,7 +3260,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::cool-springs-franklin": {
     introParagraphs: [
-      "Long days spent walking a busy retail floor or standing at a counter are a common setup for plantar fasciitis, since the repetitive strain on the foot's arch adds up over the course of a shift. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County manage exactly that kind of repetitive strain.",
+      "Long days spent walking a busy retail floor or standing at a counter are a common setup for plantar fasciitis, since the repetitive strain on the foot's arch adds up over the course of a shift. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County manage exactly that kind of repetitive strain.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see plantar fasciitis in employees whose jobs keep them on their feet most of the day.",
     ],
     symptoms: [
@@ -3278,7 +3278,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals who stay active outside of work, plantar fasciitis often shows up after a jump in running mileage or a switch to unsupportive footwear. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County pinpoint that kind of trigger.",
+      "For busy professionals who stay active outside of work, plantar fasciitis often shows up after a jump in running mileage or a switch to unsupportive footwear. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County pinpoint that kind of trigger.",
       "Around Maryland Farms in Brentwood, we regularly see plantar fasciitis in professionals who run or walk regularly around the neighborhood's greenways.",
     ],
     symptoms: [
@@ -3296,7 +3296,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::green-hills-nashville": {
     introParagraphs: [
-      "Plantar fasciitis is common among people who spend long days walking on hard surfaces, whether at work, shopping, or exploring a busy neighborhood on foot. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, treating exactly this kind of cumulative foot strain.",
+      "Plantar fasciitis is common among people who spend long days walking on hard surfaces, whether at work, shopping, or exploring a busy neighborhood on foot. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, treating exactly this kind of cumulative foot strain.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing heel pain from hours spent walking on hard sidewalks and store floors.",
     ],
     symptoms: [
@@ -3314,7 +3314,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs that involve hours on your feet on hard factory or warehouse floors are a common contributor to plantar fasciitis, adding repetitive strain to the foot's arch shift after shift. Dr. Wesley Stewart has spent 16 years helping Bedford County patients manage exactly that kind of job-related strain.",
+      "Physically demanding jobs that involve hours on your feet on hard factory or warehouse floors are a common contributor to plantar fasciitis, adding repetitive strain to the foot's arch shift after shift. Dr. Wesley Stewart has spent 29 years helping Bedford County patients manage exactly that kind of job-related strain.",
       "Around Shelbyville's historic Public Square, we see plantar fasciitis often among factory and trade workers whose jobs keep them standing for hours at a time.",
     ],
     symptoms: [
@@ -3332,7 +3332,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, plantar fasciitis often develops from long days spent on uneven farm terrain or standing on hard barn and outbuilding floors. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, plantar fasciitis often develops from long days spent on uneven farm terrain or standing on hard barn and outbuilding floors. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, plantar fasciitis is a common result of long days on uneven farm terrain or hard outbuilding floors from Cannon County.",
     ],
     symptoms: [
@@ -3349,7 +3349,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "plantar-fasciitis::downtown-eagleville": {
     introParagraphs: [
-      "Plantar fasciitis affects patients in small towns just as often as anywhere else, and the same careful evaluation of foot, ankle, and spine mechanics applies no matter how rural the setting. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Plantar fasciitis affects patients in small towns just as often as anywhere else, and the same careful evaluation of foot, ankle, and spine mechanics applies no matter how rural the setting. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe heel pain building gradually from farm work or long days spent on their feet.",
     ],
     symptoms: [
@@ -3371,7 +3371,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "tendonitis::blackman-murfreesboro": {
     introParagraphs: [
-      "Tendonitis is inflammation of a tendon, usually from repetitive overuse rather than a single injury, and it commonly shows up in the shoulder, elbow, wrist, or knee. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients calm that kind of ongoing irritation before it becomes a chronic problem.",
+      "Tendonitis is inflammation of a tendon, usually from repetitive overuse rather than a single injury, and it commonly shows up in the shoulder, elbow, wrist, or knee. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients calm that kind of ongoing irritation before it becomes a chronic problem.",
       "In the Blackman community, we regularly see tendonitis develop from repetitive motions at work or during regular exercise routines.",
     ],
     symptoms: [
@@ -3389,7 +3389,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::sam-ridley-smyrna": {
     introParagraphs: [
-      "Repetitive tasks on a factory or assembly line are one of the most common causes of tendonitis, since the same motion performed thousands of times a shift eventually irritates the tendon involved. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce address exactly that kind of repetitive strain.",
+      "Repetitive tasks on a factory or assembly line are one of the most common causes of tendonitis, since the same motion performed thousands of times a shift eventually irritates the tendon involved. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce address exactly that kind of repetitive strain.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see tendonitis among warehouse and manufacturing workers whose repetitive job tasks irritate the same tendon shift after shift.",
     ],
     symptoms: [
@@ -3407,7 +3407,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Tendonitis often builds gradually from everyday repetitive activities - yard work, hobbies, even certain exercise routines - rather than one obvious injury. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County recognize that gradual pattern.",
+      "Tendonitis often builds gradually from everyday repetitive activities - yard work, hobbies, even certain exercise routines - rather than one obvious injury. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County recognize that gradual pattern.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see tendonitis develop from repetitive yard work or home-improvement projects around large properties.",
     ],
     symptoms: [
@@ -3425,7 +3425,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::downtown-lebanon": {
     introParagraphs: [
-      "Tendonitis can be deceptively persistent, flaring up again and again with the same activity until the underlying movement pattern causing the overuse is actually addressed. Dr. Wesley Stewart has spent 16 years helping Wilson County patients break that frustrating cycle.",
+      "Tendonitis can be deceptively persistent, flaring up again and again with the same activity until the underlying movement pattern causing the overuse is actually addressed. Dr. Wesley Stewart has spent 29 years helping Wilson County patients break that frustrating cycle.",
       "Near Lebanon's Town Square, we see tendonitis often in patients whose symptoms kept returning until the root cause was properly identified.",
     ],
     symptoms: [
@@ -3443,7 +3443,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::cool-springs-franklin": {
     introParagraphs: [
-      "Desk-based repetitive strain - typing, mousing, gripping a phone - is a common and often overlooked cause of tendonitis in the wrist and elbow. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County address exactly this kind of desk-related overuse.",
+      "Desk-based repetitive strain - typing, mousing, gripping a phone - is a common and often overlooked cause of tendonitis in the wrist and elbow. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County address exactly this kind of desk-related overuse.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see tendonitis in professionals whose repetitive computer use irritates the wrist or elbow tendons.",
     ],
     symptoms: [
@@ -3461,7 +3461,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::maryland-farms-brentwood": {
     introParagraphs: [
-      "For active professionals, tendonitis often shows up after ramping up a new workout routine too quickly, with the tendon unable to keep pace with the sudden increase in repetitive load. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County manage that kind of overuse pattern.",
+      "For active professionals, tendonitis often shows up after ramping up a new workout routine too quickly, with the tendon unable to keep pace with the sudden increase in repetitive load. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County manage that kind of overuse pattern.",
       "Around Maryland Farms in Brentwood, we regularly see tendonitis in professionals who've recently increased their gym or running routine.",
     ],
     symptoms: [
@@ -3479,7 +3479,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::green-hills-nashville": {
     introParagraphs: [
-      "Tendonitis develops in all kinds of settings - a busy retail job, a new fitness routine, or simply years of the same repetitive motion finally catching up. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, treating that wide range of overuse patterns.",
+      "Tendonitis develops in all kinds of settings - a busy retail job, a new fitness routine, or simply years of the same repetitive motion finally catching up. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, treating that wide range of overuse patterns.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing tendon pain that built gradually rather than starting all at once.",
     ],
     symptoms: [
@@ -3497,7 +3497,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs are a common source of tendonitis, since the same repetitive motion performed shift after shift eventually irritates the involved tendon. Dr. Wesley Stewart has spent 16 years helping Bedford County patients recover from exactly this kind of job-related overuse.",
+      "Physically demanding jobs are a common source of tendonitis, since the same repetitive motion performed shift after shift eventually irritates the involved tendon. Dr. Wesley Stewart has spent 29 years helping Bedford County patients recover from exactly this kind of job-related overuse.",
       "Around Shelbyville's historic Public Square, we see tendonitis often among factory and trade workers whose repetitive job tasks irritate the same tendon over time.",
     ],
     symptoms: [
@@ -3515,7 +3515,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, tendonitis often develops from repetitive farm tasks - hauling, pulling, or repeated tool use - that gradually irritate a single tendon over time. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, tendonitis often develops from repetitive farm tasks - hauling, pulling, or repeated tool use - that gradually irritate a single tendon over time. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, tendonitis is a common result of repetitive farm tasks and tool use from Cannon County.",
     ],
     symptoms: [
@@ -3533,7 +3533,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "tendonitis::downtown-eagleville": {
     introParagraphs: [
-      "Tendonitis affects patients in small towns just as often as anywhere else, and the same careful approach to calming inflammation and correcting the underlying movement applies no matter how rural the setting. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Tendonitis affects patients in small towns just as often as anywhere else, and the same careful approach to calming inflammation and correcting the underlying movement applies no matter how rural the setting. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe tendon pain building gradually from repetitive farm work or daily routines.",
     ],
     symptoms: [
@@ -3555,7 +3555,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "bulging-disc::blackman-murfreesboro": {
     introParagraphs: [
-      "A bulging disc happens when a spinal disc extends beyond its normal boundary without the inner material breaking through, but it can still press on nearby nerves and cause real pain. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients address that pressure before it progresses further.",
+      "A bulging disc happens when a spinal disc extends beyond its normal boundary without the inner material breaking through, but it can still press on nearby nerves and cause real pain. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients address that pressure before it progresses further.",
       "In the Blackman community, we regularly see bulging discs in patients whose symptoms started as a mild ache before gradually becoming more noticeable.",
     ],
     symptoms: [
@@ -3573,7 +3573,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::sam-ridley-smyrna": {
     introParagraphs: [
-      "Repeated heavy lifting on a warehouse floor is one of the more common ways a bulging disc develops, as the disc gradually extends beyond its normal boundary under sustained load. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage exactly that kind of repetitive strain.",
+      "Repeated heavy lifting on a warehouse floor is one of the more common ways a bulging disc develops, as the disc gradually extends beyond its normal boundary under sustained load. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage exactly that kind of repetitive strain.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see bulging discs in warehouse and manufacturing workers whose jobs involve frequent heavy lifting.",
     ],
     symptoms: [
@@ -3591,7 +3591,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "A bulging disc can develop quietly over months of everyday strain - yard work, an awkward lift, long hours in the car - without one specific dramatic moment. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County recognize that gradual pattern.",
+      "A bulging disc can develop quietly over months of everyday strain - yard work, an awkward lift, long hours in the car - without one specific dramatic moment. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County recognize that gradual pattern.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see bulging discs following ongoing strain from yard work and long commutes.",
     ],
     symptoms: [
@@ -3609,7 +3609,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::downtown-lebanon": {
     introParagraphs: [
-      "One of the trickier aspects of a bulging disc is that symptoms can ease and flare depending on posture, which sometimes delays people from seeking an evaluation. Dr. Wesley Stewart has spent 16 years helping Wilson County patients get ahead of that inconsistent pattern.",
+      "One of the trickier aspects of a bulging disc is that symptoms can ease and flare depending on posture, which sometimes delays people from seeking an evaluation. Dr. Wesley Stewart has spent 29 years helping Wilson County patients get ahead of that inconsistent pattern.",
       "Near Lebanon's Town Square, we see bulging discs often in patients whose symptoms come and go depending on how they're sitting or standing.",
     ],
     symptoms: [
@@ -3627,7 +3627,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::cool-springs-franklin": {
     introParagraphs: [
-      "Long hours at a desk are a common contributor to a bulging disc, since sustained sitting places extra load on the lower spine day after day. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County address exactly that kind of desk-related strain.",
+      "Long hours at a desk are a common contributor to a bulging disc, since sustained sitting places extra load on the lower spine day after day. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County address exactly that kind of desk-related strain.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see bulging discs in professionals whose desk-bound routines add ongoing pressure to the spine.",
     ],
     symptoms: [
@@ -3645,7 +3645,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, a bulging disc often develops from the combination of long desk hours and an occasional strenuous workout or awkward lift. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County untangle that combination.",
+      "For busy professionals, a bulging disc often develops from the combination of long desk hours and an occasional strenuous workout or awkward lift. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County untangle that combination.",
       "Around Maryland Farms in Brentwood, we regularly see bulging discs in professionals balancing desk work with an active lifestyle.",
     ],
     symptoms: [
@@ -3663,7 +3663,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::green-hills-nashville": {
     introParagraphs: [
-      "A bulging disc doesn't always come from a single injury - often it's the cumulative result of posture habits and repetitive strain building over time. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients trace that gradual buildup.",
+      "A bulging disc doesn't always come from a single injury - often it's the cumulative result of posture habits and repetitive strain building over time. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients trace that gradual buildup.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing a persistent ache that slowly became more bothersome.",
     ],
     symptoms: [
@@ -3681,7 +3681,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs put repeated strain on the spine, which is a common contributor to a bulging disc among workers whose daily routine involves lifting or awkward positions. Dr. Wesley Stewart has spent 16 years helping Bedford County patients recover from exactly this kind of workplace strain.",
+      "Physically demanding jobs put repeated strain on the spine, which is a common contributor to a bulging disc among workers whose daily routine involves lifting or awkward positions. Dr. Wesley Stewart has spent 29 years helping Bedford County patients recover from exactly this kind of workplace strain.",
       "Around Shelbyville's historic Public Square, we see bulging discs often among factory and trade workers whose jobs involve repeated lifting.",
     ],
     symptoms: [
@@ -3699,7 +3699,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, a bulging disc often develops from years of farm-related lifting and bending rather than a single dramatic event. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, a bulging disc often develops from years of farm-related lifting and bending rather than a single dramatic event. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, bulging discs are a common result of years of farm-related lifting and bending from Cannon County.",
     ],
     symptoms: [
@@ -3717,7 +3717,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "bulging-disc::downtown-eagleville": {
     introParagraphs: [
-      "Bulging discs affect patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Bulging discs affect patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe bulging-disc symptoms developing gradually from farm work or repetitive daily tasks.",
     ],
     symptoms: [
@@ -3739,7 +3739,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "radiculopathy::blackman-murfreesboro": {
     introParagraphs: [
-      "Radiculopathy is the medical term for pain, numbness, or weakness caused by irritation or compression of a spinal nerve root, and it can originate in the neck or lower back. Dr. Wesley Stewart has spent 16 years in Murfreesboro tracing that nerve-root pattern to its source.",
+      "Radiculopathy is the medical term for pain, numbness, or weakness caused by irritation or compression of a spinal nerve root, and it can originate in the neck or lower back. Dr. Wesley Stewart has spent 29 years in Murfreesboro tracing that nerve-root pattern to its source.",
       "In the Blackman community, we regularly see radiculopathy present with symptoms that show up far from the spine itself, in a hand or foot.",
     ],
     symptoms: [
@@ -3757,7 +3757,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::sam-ridley-smyrna": {
     introParagraphs: [
-      "Repetitive strain and heavy lifting on the job are common contributors to radiculopathy, as sustained pressure on a spinal nerve root gradually builds into a radiating pattern of pain. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce trace that pattern back to its source.",
+      "Repetitive strain and heavy lifting on the job are common contributors to radiculopathy, as sustained pressure on a spinal nerve root gradually builds into a radiating pattern of pain. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce trace that pattern back to its source.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see radiculopathy in warehouse and manufacturing workers following repetitive lifting tasks.",
     ],
     symptoms: [
@@ -3775,7 +3775,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Radiculopathy can develop gradually, with symptoms that start as a subtle tingling before becoming a clearly recognizable pattern radiating down an arm or leg. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County catch that pattern early.",
+      "Radiculopathy can develop gradually, with symptoms that start as a subtle tingling before becoming a clearly recognizable pattern radiating down an arm or leg. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County catch that pattern early.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see radiculopathy following yard work or an awkward twist around a large property.",
     ],
     symptoms: [
@@ -3793,7 +3793,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::downtown-lebanon": {
     introParagraphs: [
-      "The radiating nature of radiculopathy can be one of its more unsettling qualities, especially when the symptoms show up in a hand or foot that seems unrelated to the original problem. Dr. Wesley Stewart has spent 16 years helping Wilson County patients connect that radiating pattern back to its source.",
+      "The radiating nature of radiculopathy can be one of its more unsettling qualities, especially when the symptoms show up in a hand or foot that seems unrelated to the original problem. Dr. Wesley Stewart has spent 29 years helping Wilson County patients connect that radiating pattern back to its source.",
       "Near Lebanon's Town Square, we see radiculopathy often in patients whose symptoms built gradually before becoming impossible to ignore.",
     ],
     symptoms: [
@@ -3811,7 +3811,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::cool-springs-franklin": {
     introParagraphs: [
-      "Long hours at a desk followed by an ill-timed twist or lift is a common setup for radiculopathy, with the resulting nerve pain often radiating well beyond the lower back. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County trace that radiating pattern to its source.",
+      "Long hours at a desk followed by an ill-timed twist or lift is a common setup for radiculopathy, with the resulting nerve pain often radiating well beyond the lower back. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County trace that radiating pattern to its source.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see radiculopathy in professionals whose desk-bound routines leave the spine more vulnerable to nerve irritation.",
     ],
     symptoms: [
@@ -3829,7 +3829,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, radiculopathy often shows up after what feels like a minor strain, with symptoms then radiating unexpectedly into an arm or leg. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County get back to a demanding schedule.",
+      "For busy professionals, radiculopathy often shows up after what feels like a minor strain, with symptoms then radiating unexpectedly into an arm or leg. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County get back to a demanding schedule.",
       "Around Maryland Farms in Brentwood, we regularly see radiculopathy in professionals following an awkward lift or an intense workout.",
     ],
     symptoms: [
@@ -3847,7 +3847,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::green-hills-nashville": {
     introParagraphs: [
-      "Radiculopathy doesn't always announce itself with a dramatic injury - sometimes it's the result of years of repetitive strain finally irritating a specific nerve root. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients understand exactly how that pattern developed.",
+      "Radiculopathy doesn't always announce itself with a dramatic injury - sometimes it's the result of years of repetitive strain finally irritating a specific nerve root. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients understand exactly how that pattern developed.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing radiating arm or leg symptoms that built up gradually.",
     ],
     symptoms: [
@@ -3865,7 +3865,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs put extra strain on the spine, which is part of why radiculopathy shows up so often among workers whose daily routine involves repeated lifting or awkward postures. Dr. Wesley Stewart has spent 16 years helping Bedford County patients recover from exactly this kind of workplace strain.",
+      "Physically demanding jobs put extra strain on the spine, which is part of why radiculopathy shows up so often among workers whose daily routine involves repeated lifting or awkward postures. Dr. Wesley Stewart has spent 29 years helping Bedford County patients recover from exactly this kind of workplace strain.",
       "Around Shelbyville's historic Public Square, we see radiculopathy often among factory and trade workers whose jobs involve repeated lifting or twisting.",
     ],
     symptoms: [
@@ -3883,7 +3883,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, radiculopathy often develops from farm-related lifting or years of physically demanding outdoor work rather than a single dramatic event. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, radiculopathy often develops from farm-related lifting or years of physically demanding outdoor work rather than a single dramatic event. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, radiculopathy is a common result of farm-related lifting or physically demanding outdoor work from Cannon County.",
     ],
     symptoms: [
@@ -3901,7 +3901,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "radiculopathy::downtown-eagleville": {
     introParagraphs: [
-      "Radiculopathy affects patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Radiculopathy affects patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe radiculopathy symptoms developing gradually from farm work or repetitive daily tasks.",
     ],
     symptoms: [
@@ -3923,7 +3923,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "facet-syndrome::blackman-murfreesboro": {
     introParagraphs: [
-      "Facet syndrome refers to pain coming from the small stabilizing joints that run along the back of the spine, which can become irritated or arthritic over time. Dr. Wesley Stewart has spent 16 years in Murfreesboro identifying this often-overlooked source of chronic back pain.",
+      "Facet syndrome refers to pain coming from the small stabilizing joints that run along the back of the spine, which can become irritated or arthritic over time. Dr. Wesley Stewart has spent 29 years in Murfreesboro identifying this often-overlooked source of chronic back pain.",
       "In the Blackman community, we regularly see facet syndrome in patients whose back pain worsens with twisting or arching movements.",
     ],
     symptoms: [
@@ -3941,7 +3941,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::sam-ridley-smyrna": {
     introParagraphs: [
-      "Repetitive twisting and bending on a factory or warehouse floor can accelerate the wear on the spine's facet joints, gradually leading to the kind of chronic pain we call facet syndrome. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that repetitive strain.",
+      "Repetitive twisting and bending on a factory or warehouse floor can accelerate the wear on the spine's facet joints, gradually leading to the kind of chronic pain we call facet syndrome. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that repetitive strain.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see facet syndrome in warehouse and manufacturing workers whose jobs involve frequent twisting motions.",
     ],
     symptoms: [
@@ -3959,7 +3959,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Facet syndrome often develops quietly, with morning stiffness and a nagging ache that's easy to attribute to just getting older rather than a specific, treatable joint issue. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County identify that specific cause.",
+      "Facet syndrome often develops quietly, with morning stiffness and a nagging ache that's easy to attribute to just getting older rather than a specific, treatable joint issue. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County identify that specific cause.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see facet syndrome in patients managing both yard work and the natural wear of aging joints.",
     ],
     symptoms: [
@@ -3977,7 +3977,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::downtown-lebanon": {
     introParagraphs: [
-      "Facet syndrome is often overlooked in favor of disc-focused explanations for back pain, even though the small stabilizing joints along the spine are a very common source of chronic discomfort. Dr. Wesley Stewart has spent 16 years helping Wilson County patients identify that overlooked cause.",
+      "Facet syndrome is often overlooked in favor of disc-focused explanations for back pain, even though the small stabilizing joints along the spine are a very common source of chronic discomfort. Dr. Wesley Stewart has spent 29 years helping Wilson County patients identify that overlooked cause.",
       "Near Lebanon's Town Square, we see facet syndrome often in patients who've dealt with a nagging backache for months before finally seeking an evaluation.",
     ],
     symptoms: [
@@ -3995,7 +3995,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::cool-springs-franklin": {
     introParagraphs: [
-      "Long hours seated at a desk followed by an ill-timed twist or reach is a common setup for facet syndrome, since the joints along the spine can become irritated by sudden awkward movement after prolonged stillness. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County address exactly that kind of strain.",
+      "Long hours seated at a desk followed by an ill-timed twist or reach is a common setup for facet syndrome, since the joints along the spine can become irritated by sudden awkward movement after prolonged stillness. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County address exactly that kind of strain.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see facet syndrome in professionals whose desk-bound routines leave the spine more vulnerable to sudden irritation.",
     ],
     symptoms: [
@@ -4013,7 +4013,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, facet syndrome often shows up as a persistent ache that flares with a specific twisting motion, whether reaching for something in the back seat or turning quickly at a desk. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County identify that specific trigger.",
+      "For busy professionals, facet syndrome often shows up as a persistent ache that flares with a specific twisting motion, whether reaching for something in the back seat or turning quickly at a desk. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County identify that specific trigger.",
       "Around Maryland Farms in Brentwood, we regularly see facet syndrome in professionals whose back pain flares with everyday twisting movements.",
     ],
     symptoms: [
@@ -4031,7 +4031,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::green-hills-nashville": {
     introParagraphs: [
-      "Facet syndrome is a common but often-overlooked source of chronic back and neck pain, since it's easy to assume ongoing stiffness is simply a disc issue rather than an issue with the spine's small stabilizing joints. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients identify that distinction.",
+      "Facet syndrome is a common but often-overlooked source of chronic back and neck pain, since it's easy to assume ongoing stiffness is simply a disc issue rather than an issue with the spine's small stabilizing joints. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients identify that distinction.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after years of intermittent back stiffness that turns out to be facet-related.",
     ],
     symptoms: [
@@ -4049,7 +4049,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs that involve frequent twisting and bending accelerate the wear on the spine's facet joints, which is a common contributor to facet syndrome among manual workers. Dr. Wesley Stewart has spent 16 years helping Bedford County patients manage exactly that accelerated wear.",
+      "Physically demanding jobs that involve frequent twisting and bending accelerate the wear on the spine's facet joints, which is a common contributor to facet syndrome among manual workers. Dr. Wesley Stewart has spent 29 years helping Bedford County patients manage exactly that accelerated wear.",
       "Around Shelbyville's historic Public Square, we see facet syndrome often among factory and trade workers whose jobs involve frequent twisting or bending.",
     ],
     symptoms: [
@@ -4067,7 +4067,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, years of farm work and physically demanding outdoor labor often accelerate the wear on the spine's facet joints well beyond what aging alone would cause. Dr. Wesley Stewart has spent 16 years bringing that same careful management to patients well outside Murfreesboro itself.",
+      "In rural communities, years of farm work and physically demanding outdoor labor often accelerate the wear on the spine's facet joints well beyond what aging alone would cause. Dr. Wesley Stewart has spent 29 years bringing that same careful management to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, facet syndrome often develops alongside decades of farm work and physically demanding outdoor labor from Cannon County.",
     ],
     symptoms: [
@@ -4085,7 +4085,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "facet-syndrome::downtown-eagleville": {
     introParagraphs: [
-      "Facet syndrome affects patients in small towns just as often as anywhere else, and the same steady, long-term management approach applies no matter how rural the setting. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Facet syndrome affects patients in small towns just as often as anywhere else, and the same steady, long-term management approach applies no matter how rural the setting. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe years of intermittent back stiffness that turns out to be facet-related.",
     ],
     symptoms: [
@@ -4107,7 +4107,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "rotator-cuff-pain::blackman-murfreesboro": {
     introParagraphs: [
-      "Rotator cuff pain comes from irritation, overuse, or partial injury to the group of muscles and tendons stabilizing the shoulder joint, and it commonly worsens gradually rather than appearing all at once. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients address that gradual shoulder breakdown before it becomes a larger problem.",
+      "Rotator cuff pain comes from irritation, overuse, or partial injury to the group of muscles and tendons stabilizing the shoulder joint, and it commonly worsens gradually rather than appearing all at once. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients address that gradual shoulder breakdown before it becomes a larger problem.",
       "In the Blackman community, we regularly see rotator cuff pain develop from repeated overhead reaching at work or during recreational sports.",
     ],
     symptoms: [
@@ -4125,7 +4125,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::sam-ridley-smyrna": {
     introParagraphs: [
-      "Repetitive overhead motions on an assembly line are a common cause of rotator cuff pain, since the shoulder muscles and tendons take on cumulative strain shift after shift. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that repetitive overhead strain.",
+      "Repetitive overhead motions on an assembly line are a common cause of rotator cuff pain, since the shoulder muscles and tendons take on cumulative strain shift after shift. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that repetitive overhead strain.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we often see rotator cuff pain among warehouse and manufacturing workers whose jobs involve frequent overhead reaching.",
     ],
     symptoms: [
@@ -4143,7 +4143,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Rotator cuff pain can sneak up gradually after months of yard work, home projects, or recreational sports involving overhead motion, without one specific dramatic injury. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County trace that gradual pattern to its source.",
+      "Rotator cuff pain can sneak up gradually after months of yard work, home projects, or recreational sports involving overhead motion, without one specific dramatic injury. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County trace that gradual pattern to its source.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we often see rotator cuff pain following yard work or weekend home improvement projects.",
     ],
     symptoms: [
@@ -4161,7 +4161,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::downtown-lebanon": {
     introParagraphs: [
-      "Rotator cuff pain often develops from a combination of age-related wear and repetitive overhead activity, and it can be easy to dismiss as simple shoulder soreness at first. Dr. Wesley Stewart has spent 16 years helping Wilson County patients recognize that pattern before it worsens.",
+      "Rotator cuff pain often develops from a combination of age-related wear and repetitive overhead activity, and it can be easy to dismiss as simple shoulder soreness at first. Dr. Wesley Stewart has spent 29 years helping Wilson County patients recognize that pattern before it worsens.",
       "Near Lebanon's Town Square, we see rotator cuff pain often in patients who initially wrote off their symptoms as ordinary shoulder soreness.",
     ],
     symptoms: [
@@ -4179,7 +4179,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::cool-springs-franklin": {
     introParagraphs: [
-      "Long hours at a desk followed by an intense workout is a common setup for rotator cuff pain, since a shoulder that's been sedentary all day is more vulnerable to strain during activity. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County navigate that particular combination.",
+      "Long hours at a desk followed by an intense workout is a common setup for rotator cuff pain, since a shoulder that's been sedentary all day is more vulnerable to strain during activity. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County navigate that particular combination.",
       "In Cool Springs, Franklin's busy office and retail corridor, we regularly see rotator cuff pain in professionals who balance desk work with regular workouts.",
     ],
     symptoms: [
@@ -4197,7 +4197,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::maryland-farms-brentwood": {
     introParagraphs: [
-      "For busy professionals, rotator cuff pain often develops from the combination of a sedentary desk job and an active gym or sports routine that places repeated demand on the shoulder. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County untangle that combination.",
+      "For busy professionals, rotator cuff pain often develops from the combination of a sedentary desk job and an active gym or sports routine that places repeated demand on the shoulder. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County untangle that combination.",
       "Around Maryland Farms in Brentwood, we regularly see rotator cuff pain in professionals balancing desk work with an active fitness routine.",
     ],
     symptoms: [
@@ -4215,7 +4215,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::green-hills-nashville": {
     introParagraphs: [
-      "Rotator cuff pain doesn't always come from a dramatic injury - often it builds gradually from years of repetitive overhead activity, whether from work, sports, or an active lifestyle. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients trace that gradual buildup.",
+      "Rotator cuff pain doesn't always come from a dramatic injury - often it builds gradually from years of repetitive overhead activity, whether from work, sports, or an active lifestyle. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients trace that gradual buildup.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing shoulder pain that slowly worsened over months.",
     ],
     symptoms: [
@@ -4233,7 +4233,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs that involve repeated overhead lifting or reaching put extra strain on the rotator cuff, making it a common source of chronic shoulder pain among manual workers. Dr. Wesley Stewart has spent 16 years helping Bedford County patients manage exactly that kind of workplace strain.",
+      "Physically demanding jobs that involve repeated overhead lifting or reaching put extra strain on the rotator cuff, making it a common source of chronic shoulder pain among manual workers. Dr. Wesley Stewart has spent 29 years helping Bedford County patients manage exactly that kind of workplace strain.",
       "Around Shelbyville's historic Public Square, we see rotator cuff pain often among factory and trade workers whose jobs involve repeated overhead lifting.",
     ],
     symptoms: [
@@ -4251,7 +4251,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, rotator cuff pain often develops from years of farm-related overhead work - reaching, lifting, and pulling - rather than a single dramatic event. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, rotator cuff pain often develops from years of farm-related overhead work - reaching, lifting, and pulling - rather than a single dramatic event. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, rotator cuff pain is a common result of years of farm-related overhead work from Cannon County.",
     ],
     symptoms: [
@@ -4269,7 +4269,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "rotator-cuff-pain::downtown-eagleville": {
     introParagraphs: [
-      "Rotator cuff pain affects patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Rotator cuff pain affects patients in small towns just as often as anywhere else, and the same careful, non-surgical approach applies no matter how rural the community. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe rotator cuff symptoms developing gradually from farm work or repetitive daily tasks.",
     ],
     symptoms: [
@@ -4291,7 +4291,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "fibromyalgia::blackman-murfreesboro": {
     introParagraphs: [
-      "Fibromyalgia is a chronic condition marked by widespread muscle pain, fatigue, and heightened pain sensitivity throughout the body, and while there's no single cure, consistent gentle care can meaningfully help. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping fibromyalgia patients manage that widespread discomfort.",
+      "Fibromyalgia is a chronic condition marked by widespread muscle pain, fatigue, and heightened pain sensitivity throughout the body, and while there's no single cure, consistent gentle care can meaningfully help. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping fibromyalgia patients manage that widespread discomfort.",
       "In the Blackman community, we see fibromyalgia patients benefit from a gentle, consistent approach that reduces muscular tension over time.",
     ],
     symptoms: [
@@ -4309,7 +4309,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::sam-ridley-smyrna": {
     introParagraphs: [
-      "Fibromyalgia's widespread pain can be especially challenging for patients working physically demanding jobs, where fatigue and muscle tenderness make an already tough shift harder. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that daily challenge.",
+      "Fibromyalgia's widespread pain can be especially challenging for patients working physically demanding jobs, where fatigue and muscle tenderness make an already tough shift harder. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that daily challenge.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we see fibromyalgia patients working warehouse and manufacturing jobs benefit from gentle, consistent chiropractic support.",
     ],
     symptoms: [
@@ -4327,7 +4327,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Fibromyalgia symptoms can fluctuate significantly from day to day, making it hard to predict which days will be manageable and which will be especially difficult. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County navigate that unpredictability.",
+      "Fibromyalgia symptoms can fluctuate significantly from day to day, making it hard to predict which days will be manageable and which will be especially difficult. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County navigate that unpredictability.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we work with fibromyalgia patients to build a care routine that adapts to those fluctuating symptoms.",
     ],
     symptoms: [
@@ -4345,7 +4345,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::downtown-lebanon": {
     introParagraphs: [
-      "Fibromyalgia's combination of widespread pain and persistent fatigue can make even routine daily tasks feel exhausting, which is part of why a gentle, individualized care approach matters. Dr. Wesley Stewart has spent 16 years helping Wilson County patients find that individualized approach.",
+      "Fibromyalgia's combination of widespread pain and persistent fatigue can make even routine daily tasks feel exhausting, which is part of why a gentle, individualized care approach matters. Dr. Wesley Stewart has spent 29 years helping Wilson County patients find that individualized approach.",
       "Near Lebanon's Town Square, we work with fibromyalgia patients to build a gentle, sustainable care plan around their specific symptoms.",
     ],
     symptoms: [
@@ -4363,7 +4363,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::cool-springs-franklin": {
     introParagraphs: [
-      "For professionals managing fibromyalgia, the combination of a demanding job and widespread pain can make consistent care feel difficult to prioritize, even though it often makes the biggest difference. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County make that care manageable.",
+      "For professionals managing fibromyalgia, the combination of a demanding job and widespread pain can make consistent care feel difficult to prioritize, even though it often makes the biggest difference. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County make that care manageable.",
       "In Cool Springs, Franklin's busy office and retail corridor, we help working professionals with fibromyalgia build a sustainable, gentle care routine.",
     ],
     symptoms: [
@@ -4381,7 +4381,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::maryland-farms-brentwood": {
     introParagraphs: [
-      "Fibromyalgia doesn't discriminate by career type, and busy professionals managing widespread pain and fatigue often need a care plan that respects both their symptoms and their schedule. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County strike that balance.",
+      "Fibromyalgia doesn't discriminate by career type, and busy professionals managing widespread pain and fatigue often need a care plan that respects both their symptoms and their schedule. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County strike that balance.",
       "Around Maryland Farms in Brentwood, we help professionals managing fibromyalgia build a gentle, realistic care routine.",
     ],
     symptoms: [
@@ -4399,7 +4399,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::green-hills-nashville": {
     introParagraphs: [
-      "Fibromyalgia is often misunderstood, since the widespread pain and fatigue it causes aren't always visible to others, which can make finding the right care especially important. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients feel understood and supported.",
+      "Fibromyalgia is often misunderstood, since the widespread pain and fatigue it causes aren't always visible to others, which can make finding the right care especially important. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients feel understood and supported.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after years of searching for a care approach that actually helps.",
     ],
     symptoms: [
@@ -4417,7 +4417,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs can be especially difficult for patients managing fibromyalgia, since widespread pain and fatigue compound the ordinary strain of manual work. Dr. Wesley Stewart has spent 16 years helping Bedford County patients manage that added challenge.",
+      "Physically demanding jobs can be especially difficult for patients managing fibromyalgia, since widespread pain and fatigue compound the ordinary strain of manual work. Dr. Wesley Stewart has spent 29 years helping Bedford County patients manage that added challenge.",
       "Around Shelbyville's historic Public Square, we work with fibromyalgia patients in physically demanding jobs to find a sustainable care approach.",
     ],
     symptoms: [
@@ -4435,7 +4435,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, fibromyalgia can be especially isolating, since ongoing pain and fatigue often go unrecognized by others who don't see an obvious injury. Dr. Wesley Stewart has spent 16 years bringing that same understanding, gentle care to patients well outside Murfreesboro itself.",
+      "In rural communities, fibromyalgia can be especially isolating, since ongoing pain and fatigue often go unrecognized by others who don't see an obvious injury. Dr. Wesley Stewart has spent 29 years bringing that same understanding, gentle care to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, fibromyalgia care means finding a gentle, consistent approach that fits around farm responsibilities from Cannon County.",
     ],
     symptoms: [
@@ -4453,7 +4453,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "fibromyalgia::downtown-eagleville": {
     introParagraphs: [
-      "Fibromyalgia affects patients in small towns just as often as anywhere else, and the same gentle, individualized care approach applies no matter how rural the community. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Fibromyalgia affects patients in small towns just as often as anywhere else, and the same gentle, individualized care approach applies no matter how rural the community. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe years of widespread pain and fatigue before finding a care approach that genuinely helps.",
     ],
     symptoms: [
@@ -4475,7 +4475,7 @@ const DATA: Record<string, PseoCustomContent> = {
   // ---------------------------------------------------------------------
   "scoliosis::blackman-murfreesboro": {
     introParagraphs: [
-      "Scoliosis is an abnormal sideways curvature of the spine that can develop during growth spurts or, in adults, from age-related degenerative changes. Dr. Wesley Stewart has spent 16 years in Murfreesboro helping patients manage the pain and muscle imbalance that often come with it.",
+      "Scoliosis is an abnormal sideways curvature of the spine that can develop during growth spurts or, in adults, from age-related degenerative changes. Dr. Wesley Stewart has spent 29 years in Murfreesboro helping patients manage the pain and muscle imbalance that often come with it.",
       "In the Blackman community, we see scoliosis patients of all ages, from growing teenagers to adults managing longstanding curves.",
     ],
     symptoms: [
@@ -4493,7 +4493,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::sam-ridley-smyrna": {
     introParagraphs: [
-      "Adults with scoliosis working physically demanding jobs often notice increased back fatigue and stiffness by the end of a shift, as the spine's curve places uneven demand on surrounding muscles. Over 16 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that added strain.",
+      "Adults with scoliosis working physically demanding jobs often notice increased back fatigue and stiffness by the end of a shift, as the spine's curve places uneven demand on surrounding muscles. Over 29 years treating patients throughout Rutherford County, Dr. Stewart has helped Smyrna's workforce manage that added strain.",
       "Along the Sam Ridley Parkway corridor in Smyrna, we see scoliosis patients working warehouse and manufacturing jobs benefit from care aimed at easing that uneven muscular load.",
     ],
     symptoms: [
@@ -4511,7 +4511,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::lake-forest-estates-la-vergne": {
     introParagraphs: [
-      "Scoliosis in adults often goes unaddressed for years until back pain or muscle fatigue becomes noticeable enough to prompt an evaluation. Dr. Wesley Stewart has spent 16 years helping patients across La Vergne and Rutherford County finally address that longstanding curve.",
+      "Scoliosis in adults often goes unaddressed for years until back pain or muscle fatigue becomes noticeable enough to prompt an evaluation. Dr. Wesley Stewart has spent 29 years helping patients across La Vergne and Rutherford County finally address that longstanding curve.",
       "In Lake Forest Estates, La Vergne's sprawling largest subdivision, we see adult scoliosis patients who've lived with an uneven spine for years before seeking care.",
     ],
     symptoms: [
@@ -4529,7 +4529,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::downtown-lebanon": {
     introParagraphs: [
-      "Scoliosis can sometimes go unnoticed for years, with subtle postural changes gradually becoming more apparent to family members before the person themselves realizes something has shifted. Dr. Wesley Stewart has spent 16 years helping Wilson County patients address that gradual pattern.",
+      "Scoliosis can sometimes go unnoticed for years, with subtle postural changes gradually becoming more apparent to family members before the person themselves realizes something has shifted. Dr. Wesley Stewart has spent 29 years helping Wilson County patients address that gradual pattern.",
       "Near Lebanon's Town Square, we see scoliosis patients who often mention a family member first noticed their uneven posture.",
     ],
     symptoms: [
@@ -4547,7 +4547,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::cool-springs-franklin": {
     introParagraphs: [
-      "Long hours at a desk can be particularly uncomfortable for adults with scoliosis, since sustained sitting places uneven pressure through an already-curved spine. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County manage that desk-related discomfort.",
+      "Long hours at a desk can be particularly uncomfortable for adults with scoliosis, since sustained sitting places uneven pressure through an already-curved spine. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County manage that desk-related discomfort.",
       "In Cool Springs, Franklin's busy office and retail corridor, we see scoliosis patients whose desk-bound routines make their symptoms more noticeable.",
     ],
     symptoms: [
@@ -4565,7 +4565,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::maryland-farms-brentwood": {
     introParagraphs: [
-      "Busy professionals with scoliosis often notice their symptoms flare with a combination of long desk hours and an active workout routine that places extra demand on an already-imbalanced spine. Dr. Wesley Stewart has spent 16 years helping patients across Williamson County navigate that combination.",
+      "Busy professionals with scoliosis often notice their symptoms flare with a combination of long desk hours and an active workout routine that places extra demand on an already-imbalanced spine. Dr. Wesley Stewart has spent 29 years helping patients across Williamson County navigate that combination.",
       "Around Maryland Farms in Brentwood, we see scoliosis patients balancing demanding careers with fitness routines that sometimes aggravate their symptoms.",
     ],
     symptoms: [
@@ -4583,7 +4583,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::green-hills-nashville": {
     introParagraphs: [
-      "Scoliosis affects people differently depending on the location and severity of the curve, and some patients go years without significant symptoms before back pain or fatigue eventually develops. Dr. Wesley Stewart has spent 16 years across Middle Tennessee, including Nashville, helping patients understand their specific pattern.",
+      "Scoliosis affects people differently depending on the location and severity of the curve, and some patients go years without significant symptoms before back pain or fatigue eventually develops. Dr. Wesley Stewart has spent 29 years across Middle Tennessee, including Nashville, helping patients understand their specific pattern.",
       "Patients from Green Hills, Nashville's busy shopping and dining district, often come in after noticing back discomfort that seems connected to a longstanding, mild curve.",
     ],
     symptoms: [
@@ -4601,7 +4601,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::downtown-shelbyville": {
     introParagraphs: [
-      "Physically demanding jobs can be especially taxing for workers with scoliosis, since the spine's curve creates uneven muscular demand that builds fatigue faster during manual labor. Dr. Wesley Stewart has spent 16 years helping Bedford County patients manage exactly that added strain.",
+      "Physically demanding jobs can be especially taxing for workers with scoliosis, since the spine's curve creates uneven muscular demand that builds fatigue faster during manual labor. Dr. Wesley Stewart has spent 29 years helping Bedford County patients manage exactly that added strain.",
       "Around Shelbyville's historic Public Square, we see scoliosis patients working factory and trade jobs whose symptoms flare with physically demanding tasks.",
     ],
     symptoms: [
@@ -4619,7 +4619,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::downtown-woodbury": {
     introParagraphs: [
-      "In rural communities, scoliosis-related back pain often goes unaddressed for years amid the demands of farm work, until the discomfort becomes hard to ignore. Dr. Wesley Stewart has spent 16 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
+      "In rural communities, scoliosis-related back pain often goes unaddressed for years amid the demands of farm work, until the discomfort becomes hard to ignore. Dr. Wesley Stewart has spent 29 years bringing that same careful evaluation to patients well outside Murfreesboro itself.",
       "For residents around Downtown Woodbury, scoliosis-related discomfort often builds gradually alongside years of physically demanding farm work from Cannon County.",
     ],
     symptoms: [
@@ -4637,7 +4637,7 @@ const DATA: Record<string, PseoCustomContent> = {
   },
   "scoliosis::downtown-eagleville": {
     introParagraphs: [
-      "Scoliosis affects patients in small towns just as often as anywhere else, and the same steady, long-term management approach applies no matter how rural the setting. Dr. Wesley Stewart has spent 16 years extending that standard of care to patients across Rutherford County's smallest communities.",
+      "Scoliosis affects patients in small towns just as often as anywhere else, and the same steady, long-term management approach applies no matter how rural the setting. Dr. Wesley Stewart has spent 29 years extending that standard of care to patients across Rutherford County's smallest communities.",
       "In and around Downtown Eagleville, many patients describe years of mild, uneven back discomfort that turns out to be related to a longstanding scoliosis curve.",
     ],
     symptoms: [

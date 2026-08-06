@@ -1,17 +1,15 @@
 /**
- * Data for the 7 core-service pages (`/chiropractic/`, `/spinal-decompression/`,
- * `/neuropathy/`, `/back-pain-relief/`, `/auto-injuries/`, `/sports-injuries/`,
- * `/medical-weight-loss/`).
+ * Data for the 6 core-service pages (`/chiropractic/`, `/spinal-decompression/`,
+ * `/neuropathy/`, `/back-pain-relief/`, `/auto-injuries/`, `/sports-injuries/`).
  *
  * Every H1, paragraph, and list item below is VERBATIM copy pulled directly
  * from the live rutherfordchiropractic.com pages (fetched via Playwright —
  * the origin sits behind an SG Captcha bot-challenge that blocks plain
  * fetches) so search-ranking signals are preserved. Design/layout is new;
- * wording is unchanged. The 6 simpler pages' body copy matches what's
- * already verified verbatim in `app/_ui/home/DetailedServices.tsx` (spot
- * checked against the live `/chiropractic/` and `/spinal-decompression/`
- * pages during this task — identical). `/medical-weight-loss/` is a richer,
- * multi-section page fetched fresh for this task.
+ * wording is unchanged. The 6 pages' body copy matches what's already
+ * verified verbatim in `app/_ui/home/DetailedServices.tsx` (spot checked
+ * against the live `/chiropractic/` and `/spinal-decompression/` pages
+ * during this task — identical).
  */
 
 export type ServiceListBlock = {
@@ -45,11 +43,11 @@ export type ServicePageData = {
   related: Array<{ label: string; href: string }>;
 };
 
-/** Shared, factual trust points (16 years experience, non-invasive care,
+/** Shared, factual trust points (29 years experience, non-invasive care,
  * etc.) — the same claims already made verbatim elsewhere in each page's
  * body copy, so this section reinforces rather than invents anything. */
 const TRUST_POINTS = [
-  "16 years of hands-on clinical experience in Murfreesboro, TN",
+  "29 years of hands-on clinical experience in Murfreesboro, TN",
   "Non-invasive, drug-free treatment plans",
   "Personalized care built around your specific condition and goals",
   "Convenient Murfreesboro location with flexible scheduling",
@@ -83,7 +81,6 @@ export const ALL_SERVICE_LINKS = [
   { label: "Back Pain Relief", href: "/back-pain-relief/" },
   { label: "Auto Injuries", href: "/auto-injuries/" },
   { label: "Sports Injuries", href: "/sports-injuries/" },
-  { label: "Medical Weight Loss", href: "/medical-weight-loss/" },
 ];
 
 function relatedTo(...slugs: string[]) {
@@ -104,7 +101,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     sections: [
       {
         paragraphs: [
-          "Whether you are dealing with back pain or an injury on the court, get it under control with a chiropractic adjustment at Rutherford Spine & Wellness Center. Backed by 16 years of experience, our chiropractor can help you get better faster using techniques that are non-invasive and get you away from those medications that can have serious and even fatal side effects.",
+          "Whether you are dealing with back pain or an injury on the court, get it under control with a chiropractic adjustment at Rutherford Spine & Wellness Center. Backed by 29 years of experience, our chiropractor can help you get better faster using techniques that are non-invasive and get you away from those medications that can have serious and even fatal side effects.",
           "Chiropractic Care can help with a number of conditions that you may not even think have to do with the neck and spine. Oftentimes, pain in other areas of your body are due to spine and neck injuries that need to be fixed in order to heal your pain. We provide extensive examinations, x-rays and consultations to ensure the proper treatment is applied for your unique situation.",
         ],
       },
@@ -153,7 +150,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     eyebrow: "Detailed Care",
     h1: "Spinal Decompression Murfreesboro TN",
     heroParagraph:
-      "Rutherford Spine & Wellness Center provides the latest in spinal decompression in Murfreesboro, TN. Spinal decompression and manipulation relieves back pain in a safe and natural way through gentle stretching of the spine. Pressure is taken off of the spinal discs, allowing for greater shock absorption and the movement of oxygen for faster healing. Do you suffer from back pain? Get effective relief from this and related conditions with spinal decompression performed at Rutherford Spine & Wellness Center. With 16 years of experience, we are one of the area\u2019s leading providers of non-surgical decompression therapy and non-invasive pain relief.",
+      "Rutherford Spine & Wellness Center provides the latest in spinal decompression in Murfreesboro, TN. Spinal decompression and manipulation relieves back pain in a safe and natural way through gentle stretching of the spine. Pressure is taken off of the spinal discs, allowing for greater shock absorption and the movement of oxygen for faster healing. Do you suffer from back pain? Get effective relief from this and related conditions with spinal decompression performed at Rutherford Spine & Wellness Center. With 29 years of experience, we are one of the area\u2019s leading providers of non-surgical decompression therapy and non-invasive pain relief.",
     heroImage: {
       src: "/media/decompression-therapy.jpg",
       alt: "Spinal decompression in Murfreesboro, TN",
@@ -258,7 +255,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
           "Every case is different, but many patients notice reduced pain and improved sensation within the first several weeks of consistent treatment.",
       },
     ],
-    related: relatedTo("/chiropractic/", "/spinal-decompression/", "/medical-weight-loss/"),
+    related: relatedTo("/chiropractic/", "/spinal-decompression/", "/back-pain-relief/"),
   },
 
   "back-pain-relief": {
@@ -325,7 +322,7 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
     eyebrow: "Detailed Care",
     h1: "Auto Injuries Murfreesboro TN",
     heroParagraph:
-      "A car accident can be over in mere seconds, but the pain caused by a related injury can last a lifetime if it\u2019s not treated properly. It\u2019s important to know that some accident injuries are hidden and might not be felt for months or even years. It\u2019s possible that you could feel nothing at all directly following an accident, yet still is injured. When you are seen at Rutherford Spine & Wellness Center, you will find out if there is anything to be concerned about, and if necessary, you will receive the appropriate treatment from a chiropractor with 16 years of experience.",
+      "A car accident can be over in mere seconds, but the pain caused by a related injury can last a lifetime if it\u2019s not treated properly. It\u2019s important to know that some accident injuries are hidden and might not be felt for months or even years. It\u2019s possible that you could feel nothing at all directly following an accident, yet still is injured. When you are seen at Rutherford Spine & Wellness Center, you will find out if there is anything to be concerned about, and if necessary, you will receive the appropriate treatment from a chiropractor with 29 years of experience.",
     heroImage: {
       src: "/media/auto-injury-detailed.jpg",
       alt: "Auto injury pain relief in Murfreesboro, TN",
@@ -429,110 +426,6 @@ export const SERVICE_PAGES: Record<string, ServicePageData> = {
       },
     ],
     related: relatedTo("/chiropractic/", "/back-pain-relief/", "/auto-injuries/"),
-  },
-
-  "medical-weight-loss": {
-    slug: "medical-weight-loss",
-    eyebrow: "Wellness Program",
-    h1: "Medical Weight Loss",
-    heroParagraph:
-      "When our patients need a healthy weight loss solution, they usually turn to our Medical Weight Loss services and treatments. Making sure our patients meet their goals is our main priority.",
-    heroImage: {
-      src: "/media/pain-relief-murfreesboro-tn-copy.jpg",
-      alt: "Medical weight loss program in Murfreesboro, TN",
-    },
-    sections: [
-      {
-        paragraphs: [
-          "Besides having a medical doctor to supervise your weight loss journey, you can also receive Genetic Testing to find out what your body responds to the best. Your DNA holds the secrets to your optimal health. It tells you what your health needs to be at its best. Knowing what to do gives you a clear path to your health needs.",
-        ],
-      },
-      {
-        heading: "Who Benefits From Medical Weight Loss?",
-        list: {
-          items: [
-            "Rapid Weight loss Protocols for Effective Weight Loss",
-            "Lifestyle Weight Loss Program",
-            "Genetic Testing",
-            "Nutritional Supplementation and Support",
-            "Personal Training for Weight Loss",
-          ],
-        },
-      },
-      {
-        heading: "Rapid Weight Loss Protocols for Effective Weight Loss",
-        paragraphs: [
-          "Looking for a faster way to drop those extra unwanted pounds? Our rapid weight loss program, featuring pharmaceutical-grade Rapid Weight loss injections, can help speed up fat reduction. With our program, patients have lost up to 45 pounds in 45 days! That\u2019s an average of up to 1 pound lost per day.",
-          "For patients who have struggled with yo-yo dieting in the past, the Rutherford Chiropractic Weight Loss program is truly revolutionary. This is a customized medical approach to losing and maintaining weight loss. Most importantly, in conjunction with Rapid Weight loss injections, our wellness team provides nutritional counseling and lifestyle advice. This helps our patients adopt new, healthy habits that support an active lifestyle and long-term weight loss success. Our patient-proven results show that it really works!",
-        ],
-        image: { src: "/media/HCG-weight-loss.jpeg", alt: "Rapid weight loss injections program" },
-      },
-      {
-        heading: "Lifestyle Weight Loss Program",
-        paragraphs: [
-          "Losing weight and keeping it off can be a difficult thing to achieve. It is frustrating to put in the work and only see minimal results. But what if there was another way to drop those unwanted pounds?",
-          "Our lifestyle programs may be the answer you\u2019re looking for!",
-        ],
-        image: { src: "/media/weight-loss.jpeg", alt: "Lifestyle weight loss program" },
-      },
-      {
-        heading: "How Genetic Testing Can Improve Your Health",
-        list: {
-          items: [
-            "The specific genes that dictate how the human body processes carbohydrates, fats, proteins and micro-nutrients",
-            "How types of exercise affect the body",
-            "How lifestyle behaviors influence the aging process",
-            "How unique metabolic and physiologic functions influence athletic performance",
-          ],
-        },
-        image: { src: "/media/genetic-weight-loss.jpeg", alt: "Genetic testing for weight loss" },
-      },
-      {
-        heading: "Take the Next Step in Personalized Healthcare!",
-        list: {
-          ordered: true,
-          items: [
-            "Order the product that aligns with your goals.",
-            "Come to our office to pick up your DNA kit or receive it in the mail within 1 week.",
-            "Your DNA sample will be analyzed and your genotype will be identified. Your individualized DNA report will be ready within 2-3 weeks.",
-            "Set up your office appointment to see our healthcare provider to discuss your DNA results and wellness goals.",
-            "We will refine your nutrition plan, develop fitness strategies, and sharpen your focus on specific health goals. A personalized plan will be tailored to your unique genetic profile, your lifestyle, where you currently are on your health and fitness journey, and where you would like to be moving forward. Our provider will make sure your journey is efficient and successful.",
-            "After your provider visit, we will set you up with an online licensed Nutritionist to guide and support you through your lifestyle journey.",
-          ],
-        },
-      },
-      {
-        heading: "Nutritional Supplementation & Support",
-        paragraphs: [
-          "Losing weight and keeping it off can be a difficult thing to achieve. It is frustrating to put in the work and only see minimal results. But what if there was another way to drop those unwanted pounds?",
-          "Our lifestyle programs may be the answer you\u2019re looking for!",
-        ],
-        image: { src: "/media/nutritional-supplement-support.jpeg", alt: "Nutritional supplementation and support" },
-      },
-    ],
-    whyChooseUs: TRUST_POINTS,
-    process: processSteps(
-      "Goals & Genetic Testing Consultation",
-      "We discuss your weight loss goals and, if you choose, get your DNA kit started so your plan can be tailored to your genetic profile.",
-    ),
-    faqs: [
-      {
-        question: "What is included in the Medical Weight Loss program?",
-        answer:
-          "Our program combines medical supervision, rapid weight loss protocols, lifestyle coaching, genetic testing, and nutritional support to build a plan around your unique needs.",
-      },
-      {
-        question: "How does genetic testing help with weight loss?",
-        answer:
-          "Genetic testing reveals how your body processes carbohydrates, fats, and proteins, so your nutrition and fitness plan can be tailored to your unique genetic profile.",
-      },
-      {
-        question: "How much weight can I expect to lose?",
-        answer:
-          "Results vary by patient, but our rapid weight loss program has helped patients lose up to 45 pounds in 45 days when combined with nutritional counseling and lifestyle changes.",
-      },
-    ],
-    related: relatedTo("/chiropractic/", "/neuropathy/", "/back-pain-relief/"),
   },
 };
 

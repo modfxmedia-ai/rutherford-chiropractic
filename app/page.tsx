@@ -9,7 +9,7 @@ import { About } from "./_ui/home/About";
 import { DoctorSnippet } from "./_ui/home/DoctorSnippet";
 import { DetailedServices } from "./_ui/home/DetailedServices";
 import { ReviewsSection } from "./_ui/home/ReviewsSection";
-import { NutritionistCta } from "./_ui/home/NutritionistCta";
+import { FinancingOptions } from "./_ui/FinancingOptions";
 import { LocationMap } from "./_ui/home/LocationMap";
 
 export const metadata = metadataFor("/");
@@ -31,8 +31,8 @@ export default function Page() {
         <About />
         <DoctorSnippet />
         <DetailedServices />
+        <FinancingOptions />
         <ReviewsSection />
-        <NutritionistCta />
         <LocationMap />
       </main>
     </>

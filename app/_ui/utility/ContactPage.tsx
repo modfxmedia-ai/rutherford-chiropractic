@@ -34,6 +34,7 @@ import { businessInfo } from "../nav";
 import { MailIcon, MapPinIcon, PhoneIcon } from "../icons";
 import { Reveal } from "../motion/primitives";
 import { UtilityHero } from "./UtilityHero";
+import { FinancingOptions } from "../FinancingOptions";
 
 const GHL_FORM_SRC = "https://api.leadconnectorhq.com/widget/form/iCpqftU99Vpw3Z0yzIlU";
 
@@ -54,6 +55,11 @@ const NAP_ROWS: Array<{
     label: "Phone",
     value: businessInfo.phone,
     href: businessInfo.phoneHref,
+  },
+  {
+    icon: PhoneIcon,
+    label: "Fax",
+    value: businessInfo.fax,
   },
   {
     icon: MapPinIcon,
@@ -79,9 +85,11 @@ const NAP_ROWS: Array<{
     label: "Hours",
     value: (
       <>
-        Monday &ndash; Thursday: 8:00am &ndash; 6:00pm
+        Mon &ndash; Thu: 8:00am &ndash; 12:00pm, 2:00pm &ndash; 6:00pm
         <br />
-        Friday: Closed
+        Friday: 8:00am &ndash; 12:00pm
+        <br />
+        Sat &ndash; Sun: Closed
       </>
     ),
   },
@@ -144,6 +152,10 @@ export function ContactPage() {
               </Reveal>
 
               <Reveal delay={0.1}>
+                <FinancingOptions variant="compact" />
+              </Reveal>
+
+              <Reveal delay={0.15}>
                 <div className="surface-card flex flex-col bg-white p-7">
                   <p className="eyebrow">Visit Us</p>
                   <h3 className="mt-2 text-2xl font-bold text-[color:var(--color-brand-navy)]">

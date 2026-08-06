@@ -176,9 +176,10 @@ export function MobileMenu() {
             >
               Schedule Your Consultation
             </Link>
-            {/* TODO: swap the `#reviews` target for the client's Google reviews URL */}
             <a
-              href="/#reviews"
+              href={businessInfo.googleReviewsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setOpen(false)}
               className="btn btn-outline-orange btn-lg w-full"
             >

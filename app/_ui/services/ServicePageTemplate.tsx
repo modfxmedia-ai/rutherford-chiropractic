@@ -1,11 +1,11 @@
 "use client";
 
 /**
- * <ServicePageTemplate> — shared layout for the 7 core-service pages
+ * <ServicePageTemplate> — shared layout for the 6 core-service pages
  * (`/chiropractic/`, `/spinal-decompression/`, `/neuropathy/`,
- * `/back-pain-relief/`, `/auto-injuries/`, `/sports-injuries/`,
- * `/medical-weight-loss/`). Data-driven from a single `ServicePageData`
- * object (see `app/_lib/services.ts`) so every page shares identical
+ * `/back-pain-relief/`, `/auto-injuries/`, `/sports-injuries/`).
+ * Data-driven from a single `ServicePageData` object (see
+ * `app/_lib/services.ts`) so every page shares identical
  * structure/styling/motion:
  *
  *   Hero (H1 + intro) -> body sections (verbatim copy + symptom/condition

@@ -137,7 +137,7 @@ export function StaggerItem({
 
 /* ---------------------------------------------------------------------------
  * <Counter> — Big-number stat that ticks up from 0 to a target when it
- * enters the viewport. Used in the "16 years experience" / stat blocks.
+ * enters the viewport. Used in the "29 years experience" / stat blocks.
  * ------------------------------------------------------------------------- */
 
 export function Counter({
