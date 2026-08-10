@@ -134,7 +134,7 @@ export function About() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     "In-House Financing",
-                    "HFA",
+                    "Healthcare Financing of America",
                     "CareCredit",
                   ].map((label) => (
                     <span

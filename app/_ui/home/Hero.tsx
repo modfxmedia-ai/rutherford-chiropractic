@@ -507,7 +507,7 @@ export function Hero() {
                 </StaggerItem>
 
                 {/* Trust / certification badges — HIPAA + the three
-                    financing options (In-House / HFA / CareCredit).
+                    financing options (In-House / Healthcare Financing of America / CareCredit).
                     Each pill shares the same `glass-panel` treatment so
                     they read as a cohesive row of reassurance chips. */}
                 <StaggerItem className="self-start">
@@ -581,7 +581,7 @@ export function Hero() {
                             <path d="m9 12 2 2 4-4" />
                           </svg>
                         </span>
-                        HFA
+                        Healthcare Financing of America
                       </Link>
                     </FloatOnHover>
 

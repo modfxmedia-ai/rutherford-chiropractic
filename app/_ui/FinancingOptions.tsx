@@ -1,6 +1,6 @@
 /**
  * <FinancingOptions> — compact card explaining the 3 payment paths the
- * clinic offers (in-house financing, HFA, CareCredit) plus the shared
+ * clinic offers (in-house financing, Healthcare Financing of America, CareCredit) plus the shared
  * "interest-free if paid within the term" note. Used verbatim on:
  *   - `/` (homepage, between DoctorSnippet and DetailedServices)
  *   - `/contact-us/` (left column stack)
@@ -38,7 +38,7 @@ const OPTIONS = [
     ),
   },
   {
-    name: "HFA",
+    name: "Healthcare Financing of America",
     description:
       "Health Financial Assistance program with straightforward monthly terms designed for medical care.",
     icon: (

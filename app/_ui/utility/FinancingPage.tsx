@@ -1,7 +1,7 @@
 /**
  * <FinancingPage> — body content for `/financing/`. Presents the three
  * flexible payment options offered by the clinic (In-House Financing,
- * HFA, CareCredit), the shared "interest-free when paid within the
+ * Healthcare Financing of America, CareCredit), the shared "interest-free when paid within the
  * agreed term" note, and a CareCredit Apply-Now CTA linking to the live
  * provider portal.
  */
