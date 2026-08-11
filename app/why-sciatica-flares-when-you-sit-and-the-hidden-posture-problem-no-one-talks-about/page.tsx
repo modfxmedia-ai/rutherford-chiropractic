@@ -6,7 +6,7 @@ import { getBlogPost } from "../_lib/blog";
 // Route: /why-sciatica-flares-when-you-sit-and-the-hidden-posture-problem-no-one-talks-about/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "Why Sciatica Flares When You Sit — And The Hidden Posture Problem No One Talks About"
+// Live title: "Why Sciatica Flares When You Sit - And The Hidden Posture Problem No One Talks About"
 
 export const metadata = metadataFor("/why-sciatica-flares-when-you-sit-and-the-hidden-posture-problem-no-one-talks-about/");
 

@@ -6,7 +6,7 @@ import { getBlogPost } from "../_lib/blog";
 // Route: /why-your-back-locks-up-when-you-try-to-stand-straight-and-what-its-really-telling-you/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "Why Your Back Locks Up When You Try to Stand Straight — And What It’s Really Telling You"
+// Live title: "Why Your Back Locks Up When You Try to Stand Straight - And What It’s Really Telling You"
 
 export const metadata = metadataFor("/why-your-back-locks-up-when-you-try-to-stand-straight-and-what-its-really-telling-you/");
 

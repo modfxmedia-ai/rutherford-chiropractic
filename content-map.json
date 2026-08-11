@@ -8,7 +8,7 @@
     "utility": 4,
     "location-landing": 69,
     "blog-index": 1,
-    "blog-post": 64,
+    "blog-post": 66,
     "other": 0,
     "routes": 134
   },
@@ -16750,6 +16750,216 @@
               "name": "Rutherford Chiropractic",
               "@id": "https://rutherfordchiropractic.com/#organization"
             }
+          }
+        ]
+      }
+    },
+    {
+      "path": "/find-your-pain-driver-before-choosing-a-treatment/",
+      "url": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/",
+      "lastmod": "2026-08-10T17:00:00+00:00",
+      "source": "post",
+      "category": "blog-post",
+      "fetchError": null,
+      "meta": {
+        "title": "Find Your Pain Driver Before Choosing a Treatment",
+        "description": "Use this step-by-step guide for chronic pain relief in Murfreesboro, TN to identify disc, facet, nerve, or muscle pain and pick next steps wisely",
+        "canonical": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/",
+        "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+        "openGraph": {
+          "title": "Find Your Pain Driver Before Choosing a Treatment",
+          "description": "Use this step-by-step guide for chronic pain relief in Murfreesboro, TN to identify disc, facet, nerve, or muscle pain and pick next steps wisely",
+          "image": "/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg",
+          "type": "article"
+        },
+        "twitter": {
+          "card": "summary_large_image"
+        },
+        "jsonLd": [
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": [
+                  "Person",
+                  "Organization"
+                ],
+                "@id": "https://rutherfordchiropractic.com/#person",
+                "name": "Chiropractic Murfreesboro TN"
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://rutherfordchiropractic.com/#website",
+                "url": "https://rutherfordchiropractic.com",
+                "name": "Chiropractic Murfreesboro TN",
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "ImageObject",
+                "@id": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg",
+                "url": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg",
+                "width": "980",
+                "height": "652",
+                "caption": "Pain Assessment",
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#webpage",
+                "url": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/",
+                "name": "Find Your Pain Driver Before Choosing a Treatment",
+                "datePublished": "2026-08-10T17:00:00+00:00",
+                "dateModified": "2026-08-10T17:00:00+00:00",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/#website"
+                },
+                "primaryImageOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                "name": "Palash",
+                "url": "https://rutherfordchiropractic.com/author/palashseo/"
+              },
+              {
+                "@type": "BlogPosting",
+                "headline": "Find Your Pain Driver Before Choosing a Treatment",
+                "datePublished": "2026-08-10T17:00:00+00:00",
+                "dateModified": "2026-08-10T17:00:00+00:00",
+                "articleSection": "Back Pain",
+                "author": {
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash"
+                },
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "description": "Use this step-by-step guide for chronic pain relief in Murfreesboro, TN to identify disc, facet, nerve, or muscle pain and pick next steps wisely",
+                "name": "Find Your Pain Driver Before Choosing a Treatment",
+                "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#richSnippet",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#webpage"
+                },
+                "image": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg"
+                },
+                "inLanguage": "en-US",
+                "mainEntityOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#webpage"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/chronic-pain-warning-signs-when-to-seek-imaging/",
+      "url": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/",
+      "lastmod": "2026-08-03T17:00:00+00:00",
+      "source": "post",
+      "category": "blog-post",
+      "fetchError": null,
+      "meta": {
+        "title": "Chronic Pain Warning Signs: When to Seek Imaging",
+        "description": "Learn key red flags and next steps for persistent pain, and when a chiropractor in Murfreesboro, TN should recommend imaging or referral",
+        "canonical": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/",
+        "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+        "openGraph": {
+          "title": "Chronic Pain Warning Signs: When to Seek Imaging",
+          "description": "Learn key red flags and next steps for persistent pain, and when a chiropractor in Murfreesboro, TN should recommend imaging or referral",
+          "image": "/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg",
+          "type": "article"
+        },
+        "twitter": {
+          "card": "summary_large_image"
+        },
+        "jsonLd": [
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": [
+                  "Person",
+                  "Organization"
+                ],
+                "@id": "https://rutherfordchiropractic.com/#person",
+                "name": "Chiropractic Murfreesboro TN"
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://rutherfordchiropractic.com/#website",
+                "url": "https://rutherfordchiropractic.com",
+                "name": "Chiropractic Murfreesboro TN",
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "ImageObject",
+                "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg",
+                "url": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg",
+                "width": "980",
+                "height": "654",
+                "caption": "Chronic Pain",
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#webpage",
+                "url": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/",
+                "name": "Chronic Pain Warning Signs: When to Seek Imaging",
+                "datePublished": "2026-08-03T17:00:00+00:00",
+                "dateModified": "2026-08-03T17:00:00+00:00",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/#website"
+                },
+                "primaryImageOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                "name": "Palash",
+                "url": "https://rutherfordchiropractic.com/author/palashseo/"
+              },
+              {
+                "@type": "BlogPosting",
+                "headline": "Chronic Pain Warning Signs: When to Seek Imaging",
+                "datePublished": "2026-08-03T17:00:00+00:00",
+                "dateModified": "2026-08-03T17:00:00+00:00",
+                "articleSection": "Back Pain",
+                "author": {
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash"
+                },
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "description": "Learn key red flags and next steps for persistent pain, and when a chiropractor in Murfreesboro, TN should recommend imaging or referral",
+                "name": "Chronic Pain Warning Signs: When to Seek Imaging",
+                "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#richSnippet",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#webpage"
+                },
+                "image": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg"
+                },
+                "inLanguage": "en-US",
+                "mainEntityOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#webpage"
+                }
+              }
+            ]
           }
         ]
       }
@@ -46938,6 +47148,216 @@
       }
     ],
     "blog-post": [
+      {
+        "path": "/find-your-pain-driver-before-choosing-a-treatment/",
+        "url": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/",
+        "lastmod": "2026-08-10T17:00:00+00:00",
+        "source": "post",
+        "category": "blog-post",
+        "fetchError": null,
+        "meta": {
+          "title": "Find Your Pain Driver Before Choosing a Treatment",
+          "description": "Use this step-by-step guide for chronic pain relief in Murfreesboro, TN to identify disc, facet, nerve, or muscle pain and pick next steps wisely",
+          "canonical": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/",
+          "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+          "openGraph": {
+            "title": "Find Your Pain Driver Before Choosing a Treatment",
+            "description": "Use this step-by-step guide for chronic pain relief in Murfreesboro, TN to identify disc, facet, nerve, or muscle pain and pick next steps wisely",
+            "image": "/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg",
+            "type": "article"
+          },
+          "twitter": {
+            "card": "summary_large_image"
+          },
+          "jsonLd": [
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": [
+                    "Person",
+                    "Organization"
+                  ],
+                  "@id": "https://rutherfordchiropractic.com/#person",
+                  "name": "Chiropractic Murfreesboro TN"
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://rutherfordchiropractic.com/#website",
+                  "url": "https://rutherfordchiropractic.com",
+                  "name": "Chiropractic Murfreesboro TN",
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "ImageObject",
+                  "@id": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg",
+                  "url": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg",
+                  "width": "980",
+                  "height": "652",
+                  "caption": "Pain Assessment",
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#webpage",
+                  "url": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/",
+                  "name": "Find Your Pain Driver Before Choosing a Treatment",
+                  "datePublished": "2026-08-10T17:00:00+00:00",
+                  "dateModified": "2026-08-10T17:00:00+00:00",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/#website"
+                  },
+                  "primaryImageOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "Person",
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash",
+                  "url": "https://rutherfordchiropractic.com/author/palashseo/"
+                },
+                {
+                  "@type": "BlogPosting",
+                  "headline": "Find Your Pain Driver Before Choosing a Treatment",
+                  "datePublished": "2026-08-10T17:00:00+00:00",
+                  "dateModified": "2026-08-10T17:00:00+00:00",
+                  "articleSection": "Back Pain",
+                  "author": {
+                    "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                    "name": "Palash"
+                  },
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "description": "Use this step-by-step guide for chronic pain relief in Murfreesboro, TN to identify disc, facet, nerve, or muscle pain and pick next steps wisely",
+                  "name": "Find Your Pain Driver Before Choosing a Treatment",
+                  "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#richSnippet",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#webpage"
+                  },
+                  "image": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/find-your-pain-driver-before-choosing-a-treatment-featured.jpg"
+                  },
+                  "inLanguage": "en-US",
+                  "mainEntityOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/#webpage"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "path": "/chronic-pain-warning-signs-when-to-seek-imaging/",
+        "url": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/",
+        "lastmod": "2026-08-03T17:00:00+00:00",
+        "source": "post",
+        "category": "blog-post",
+        "fetchError": null,
+        "meta": {
+          "title": "Chronic Pain Warning Signs: When to Seek Imaging",
+          "description": "Learn key red flags and next steps for persistent pain, and when a chiropractor in Murfreesboro, TN should recommend imaging or referral",
+          "canonical": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/",
+          "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+          "openGraph": {
+            "title": "Chronic Pain Warning Signs: When to Seek Imaging",
+            "description": "Learn key red flags and next steps for persistent pain, and when a chiropractor in Murfreesboro, TN should recommend imaging or referral",
+            "image": "/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg",
+            "type": "article"
+          },
+          "twitter": {
+            "card": "summary_large_image"
+          },
+          "jsonLd": [
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": [
+                    "Person",
+                    "Organization"
+                  ],
+                  "@id": "https://rutherfordchiropractic.com/#person",
+                  "name": "Chiropractic Murfreesboro TN"
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://rutherfordchiropractic.com/#website",
+                  "url": "https://rutherfordchiropractic.com",
+                  "name": "Chiropractic Murfreesboro TN",
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "ImageObject",
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg",
+                  "url": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg",
+                  "width": "980",
+                  "height": "654",
+                  "caption": "Chronic Pain",
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#webpage",
+                  "url": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/",
+                  "name": "Chronic Pain Warning Signs: When to Seek Imaging",
+                  "datePublished": "2026-08-03T17:00:00+00:00",
+                  "dateModified": "2026-08-03T17:00:00+00:00",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/#website"
+                  },
+                  "primaryImageOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "Person",
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash",
+                  "url": "https://rutherfordchiropractic.com/author/palashseo/"
+                },
+                {
+                  "@type": "BlogPosting",
+                  "headline": "Chronic Pain Warning Signs: When to Seek Imaging",
+                  "datePublished": "2026-08-03T17:00:00+00:00",
+                  "dateModified": "2026-08-03T17:00:00+00:00",
+                  "articleSection": "Back Pain",
+                  "author": {
+                    "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                    "name": "Palash"
+                  },
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "description": "Learn key red flags and next steps for persistent pain, and when a chiropractor in Murfreesboro, TN should recommend imaging or referral",
+                  "name": "Chronic Pain Warning Signs: When to Seek Imaging",
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#richSnippet",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#webpage"
+                  },
+                  "image": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-warning-signs-when-to-seek-imaging-featured.jpg"
+                  },
+                  "inLanguage": "en-US",
+                  "mainEntityOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/chronic-pain-warning-signs-when-to-seek-imaging/#webpage"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       {
         "path": "/neuropathy-treatment-without-drugs/",
         "url": "https://rutherfordchiropractic.com/neuropathy-treatment-without-drugs/",

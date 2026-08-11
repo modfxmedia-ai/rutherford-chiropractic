@@ -6,7 +6,7 @@ import { getBlogPost } from "../_lib/blog";
 // Route: /why-your-pain-moves-around-one-day-its-your-back-the-next-its-your-leg/
 // Category: blog-post (Blog post)
 // Source sitemap: post-sitemap.xml
-// Live title: "Why Your Pain Moves Around — One Day It’s Your Back, The Next It’s Your Leg"
+// Live title: "Why Your Pain Moves Around - One Day It’s Your Back, The Next It’s Your Leg"
 
 export const metadata = metadataFor("/why-your-pain-moves-around-one-day-its-your-back-the-next-its-your-leg/");
 
