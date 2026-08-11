@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import type { JsonLd } from "./content-map";
 import type { Condition } from "./conditions";
 import { businessInfo } from "../_ui/nav";
-
-const ORIGIN = "https://rutherfordchiropractic.com";
+import { ORIGIN, DEFAULT_OG_IMAGE } from "./content-map";
 
 /**
  * Builds Next.js `Metadata` for a dedicated condition page. Unlike the
@@ -21,9 +20,15 @@ export function conditionMetadata(condition: Condition): Metadata {
       title: condition.metaTitle,
       description: condition.metaDescription,
       url: canonical,
+      images: [DEFAULT_OG_IMAGE],
       type: "website",
     },
-    twitter: { card: "summary_large_image" },
+    twitter: {
+      card: "summary_large_image",
+      title: condition.metaTitle,
+      description: condition.metaDescription,
+      images: [DEFAULT_OG_IMAGE],
+    },
   };
 }
 

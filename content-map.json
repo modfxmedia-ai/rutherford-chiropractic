@@ -113,48 +113,6 @@
                 }
               }
             ]
-          },
-          {
-            "@context": "https://schema.org",
-            "@type": "MedicalClinic",
-            "name": "Rutherford Spine & Wellness Center",
-            "alternateName": "Rutherford Spine and Wellness",
-            "url": "https://rutherfordchiropractic.com/",
-            "logo": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-            "image": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-            "@id": "https://rutherfordchiropractic.com/#organization",
-            "description": "Providing spine care, medical weight loss, and wellness solutions in Murfreesboro, TN.",
-            "telephone": "+16152170097",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "1139 NW Broad St #103",
-              "addressLocality": "Murfreesboro",
-              "addressRegion": "TN",
-              "postalCode": "37129",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 35.8586059,
-              "longitude": -86.4065423
-            },
-            "openingHoursSpecification": [
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday"
-                ],
-                "opens": "09:00",
-                "closes": "18:00"
-              }
-            ],
-            "sameAs": [
-              "https://www.facebook.com/rutherfordspineandwellness"
-            ]
           }
         ]
       }
@@ -1499,12 +1457,12 @@
       "fetchError": null,
       "meta": {
         "title": "La Vergne Spinal Decompression - Chiropractic Murfreesboro TN",
-        "description": "Suffering from herniated discs or sciatica in La Vergne? Our non-surgical spinal decompression therapy relieves pressure and restores mobility. Call (615) 217-0097 for relief.",
+        "description": "Suffering from herniated discs or sciatica in La Vergne? Non-surgical spinal decompression therapy relieves pressure. Call (615) 217-0097 for relief.",
         "canonical": "https://rutherfordchiropractic.com/spinal-decompression-la-vergne-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Spinal Decompression in La Vergne | Relief for Herniated Discs & Back Pain",
-          "description": "Suffering from herniated discs or sciatica in La Vergne? Our non-surgical spinal decompression therapy relieves pressure and restores mobility. Call (615) 217-0097 for relief.",
+          "description": "Suffering from herniated discs or sciatica in La Vergne? Non-surgical spinal decompression therapy relieves pressure. Call (615) 217-0097 for relief.",
           "image": null,
           "type": "article"
         },
@@ -2824,12 +2782,12 @@
       "fetchError": null,
       "meta": {
         "title": "Shelbyville Neuropathy - Chiropractic Murfreesboro TN",
-        "description": "Tingling, numbness, or burning pain? Our Shelbyville team offers neuropathy care. Call (615) 217-0097 for relief.",
+        "description": "Tingling, numbness, or burning pain? Our Shelbyville team at Rutherford Spine and Wellness Center offers neuropathy care. Call (615) 217-0097 for relief.",
         "canonical": "https://rutherfordchiropractic.com/neuropathy-shelbyville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Neuropathy Pain Relief in Shelbyville, TN | Rutherford Spine and Wellness Center",
-          "description": "Tingling, numbness, or burning pain? Our Shelbyville team offers neuropathy care. Call (615) 217-0097 for relief.",
+          "description": "Tingling, numbness, or burning pain? Our Shelbyville team at Rutherford Spine and Wellness Center offers neuropathy care. Call (615) 217-0097 for relief.",
           "image": null,
           "type": "article"
         },
@@ -4149,12 +4107,12 @@
       "fetchError": null,
       "meta": {
         "title": "La Vergne Neuropathy - Chiropractic Murfreesboro TN",
-        "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center provides neuropathy care to help manage nerve discomfort. Call (615) 217-0097 for relief.",
+        "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center offers neuropathy care to manage nerve discomfort. Call 615-217-0097.",
         "canonical": "https://rutherfordchiropractic.com/neuropathy-la-vergne-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Neuropathy Relief in La Vergne | Reduce Nerve Discomfort | Rutherford Spine and Wellness Center",
-          "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center provides neuropathy care to help manage nerve discomfort. Call (615) 217-0097 for relief.",
+          "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center offers neuropathy care to manage nerve discomfort. Call 615-217-0097.",
           "image": null,
           "type": "article"
         },
@@ -4944,12 +4902,12 @@
       "fetchError": null,
       "meta": {
         "title": "Nashville Back Pain Relief - Chiropractic Murfreesboro TN",
-        "description": "Struggling with back pain in Nashville? Get personalized care from the team at Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day assessment.",
+        "description": "Struggling with back pain in Nashville? Get personalized care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day visit.",
         "canonical": "https://rutherfordchiropractic.com/back-pain-relief-nashville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Back Pain Relief in Nashville | Find Relief at Rutherford Spine and Wellness Center",
-          "description": "Struggling with back pain in Nashville? Get personalized care from the team at Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day assessment.",
+          "description": "Struggling with back pain in Nashville? Get personalized care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day visit.",
           "image": null,
           "type": "article"
         },
@@ -5209,12 +5167,12 @@
       "fetchError": null,
       "meta": {
         "title": "Woodbury Back Pain Relief - Chiropractic Murfreesboro TN",
-        "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN. Call (615) 217-0097 to start feeling better.",
+        "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN from Rutherford Spine and Wellness Center. Call (615) 217-0097 to feel better.",
         "canonical": "https://rutherfordchiropractic.com/back-pain-relief-woodbury-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Back Pain Relief in Woodbury, TN | Get Out of Pain at Rutherford Spine and Wellness Center",
-          "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN. Call (615) 217-0097 to start feeling better.",
+          "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN from Rutherford Spine and Wellness Center. Call (615) 217-0097 to feel better.",
           "image": null,
           "type": "article"
         },
@@ -5474,12 +5432,12 @@
       "fetchError": null,
       "meta": {
         "title": "Shelbyville Back Pain Relief - Chiropractic Murfreesboro TN",
-        "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for expert care. Stop the pain today.",
+        "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for care.",
         "canonical": "https://rutherfordchiropractic.com/back-pain-relief-shelbyville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Back Pain Relief in Shelbyville | Stop Hurting, Start Living | Rutherford Spine and Wellness Center",
-          "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for expert care. Stop the pain today.",
+          "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for care.",
           "image": null,
           "type": "article"
         },
@@ -6269,12 +6227,12 @@
       "fetchError": null,
       "meta": {
         "title": "Shelbyville Chiropractic - Chiropractic Murfreesboro TN",
-        "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center provides trusted chiropractic care in Shelbyville. Call (615) 217-0097 for a personalized approach.",
+        "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center offers trusted chiropractic care in Shelbyville. Call 615-217-0097.",
         "canonical": "https://rutherfordchiropractic.com/chiropractic-shelbyville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Chiropractic Care in Shelbyville | Rutherford Spine and Wellness Center | (615) 217-0097",
-          "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center provides trusted chiropractic care in Shelbyville. Call (615) 217-0097 for a personalized approach.",
+          "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center offers trusted chiropractic care in Shelbyville. Call 615-217-0097.",
           "image": null,
           "type": "article"
         },
@@ -7992,12 +7950,12 @@
       "fetchError": null,
       "meta": {
         "title": "Woodbury Chiropractic - Chiropractic Murfreesboro TN",
-        "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a comfortable, effective treatment plan.",
+        "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for treatment.",
         "canonical": "https://rutherfordchiropractic.com/chiropractic-woodbury-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Chiropractic Woodbury, TN | Gentle, Personalized Care at Rutherford Spine and Wellness Center",
-          "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a comfortable, effective treatment plan.",
+          "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for treatment.",
           "image": null,
           "type": "article"
         },
@@ -9052,12 +9010,12 @@
       "fetchError": null,
       "meta": {
         "title": "Brentwood Spinal Decompression - Chiropractic Murfreesboro TN",
-        "description": "Struggling with back pain in Brentwood? Gentle spinal decompression can help. Call (615) 217-0097 for a free consultation at Rutherford Spine and Wellness Center.",
+        "description": "Struggling with back pain in Brentwood? Gentle spinal decompression therapy can help. Call (615) 217-0097 for a free consultation at Rutherford Spine.",
         "canonical": "https://rutherfordchiropractic.com/spinal-decompression-brentwood-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Spinal Decompression in Brentwood | Relieve Back Pain at Rutherford Spine and Wellness Center",
-          "description": "Struggling with back pain in Brentwood? Gentle spinal decompression can help. Call (615) 217-0097 for a free consultation at Rutherford Spine and Wellness Center.",
+          "description": "Struggling with back pain in Brentwood? Gentle spinal decompression therapy can help. Call (615) 217-0097 for a free consultation at Rutherford Spine.",
           "image": null,
           "type": "article"
         },
@@ -9317,12 +9275,12 @@
       "fetchError": null,
       "meta": {
         "title": "Eagleville Spinal Decompression - Chiropractic Murfreesboro TN",
-        "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine and Wellness Center.",
+        "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine.",
         "canonical": "https://rutherfordchiropractic.com/spinal-decompression-eagleville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Spinal Decompression in Eagleville | Relief for Herniated Discs & Back Pain",
-          "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine and Wellness Center.",
+          "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine.",
           "image": null,
           "type": "article"
         },
@@ -11967,12 +11925,12 @@
       "fetchError": null,
       "meta": {
         "title": "Woodbury Sports Injuries - Chiropractic Murfreesboro TN",
-        "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness Center. Call (615) 217-0097 today.",
+        "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness. Call 615-217-0097.",
         "canonical": "https://rutherfordchiropractic.com/sports-injuries-woodbury-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Sports Injuries Treatment in Woodbury | Rutherford Spine and Wellness Center",
-          "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness Center. Call (615) 217-0097 today.",
+          "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness. Call 615-217-0097.",
           "image": null,
           "type": "article"
         },
@@ -13292,12 +13250,12 @@
       "fetchError": null,
       "meta": {
         "title": "Lebanon Back Pain Relief - Chiropractic Murfreesboro TN",
-        "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized treatment plan at Rutherford Spine and Wellness Center.",
+        "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized plan at Rutherford Spine.",
         "canonical": "https://rutherfordchiropractic.com/back-pain-relief-lebanon-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Back Pain Relief in Lebanon | Expert Chiropractic Care | Rutherford Spine and Wellness Center",
-          "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized treatment plan at Rutherford Spine and Wellness Center.",
+          "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized plan at Rutherford Spine.",
           "image": null,
           "type": "article"
         },
@@ -13822,12 +13780,12 @@
       "fetchError": null,
       "meta": {
         "title": "Eagleville Auto Injuries - Chiropractic Murfreesboro TN",
-        "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 for a personalized treatment plan.",
+        "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 today.",
         "canonical": "https://rutherfordchiropractic.com/auto-injuries-eagleville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Auto Injuries Chiropractic in Eagleville | Rutherford Spine and Wellness Center",
-          "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 for a personalized treatment plan.",
+          "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 today.",
           "image": null,
           "type": "article"
         },
@@ -14087,12 +14045,12 @@
       "fetchError": null,
       "meta": {
         "title": "Nashville Auto Injuries - Chiropractic Murfreesboro TN",
-        "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call (615) 217-0097 for your consultation.",
+        "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call 615-217-0097.",
         "canonical": "https://rutherfordchiropractic.com/auto-injuries-nashville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Nashville Auto Injuries | Rutherford Spine and Wellness Center | Chiropractic Care",
-          "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call (615) 217-0097 for your consultation.",
+          "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call 615-217-0097.",
           "image": null,
           "type": "article"
         },
@@ -14882,12 +14840,12 @@
       "fetchError": null,
       "meta": {
         "title": "Shelbyville Auto Injuries - Chiropractic Murfreesboro TN",
-        "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain. Rutherford Spine and Wellness Center offers auto injury chiropractic care. Call (615) 217-0097 today.",
+        "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain with auto injury chiropractic care. Call (615) 217-0097 today.",
         "canonical": "https://rutherfordchiropractic.com/auto-injuries-shelbyville-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Auto Injuries in Shelbyville | Chiropractic Care for Car Accidents",
-          "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain. Rutherford Spine and Wellness Center offers auto injury chiropractic care. Call (615) 217-0097 today.",
+          "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain with auto injury chiropractic care. Call (615) 217-0097 today.",
           "image": null,
           "type": "article"
         },
@@ -15412,12 +15370,12 @@
       "fetchError": null,
       "meta": {
         "title": "La Vergne Auto Injuries - Chiropractic Murfreesboro TN",
-        "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center. We help with auto injuries and recovery. Call (615) 217-0097 today.",
+        "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center for auto injuries and recovery. Call 615-217-0097 today.",
         "canonical": "https://rutherfordchiropractic.com/auto-injuries-la-vergne-tn/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Auto Injuries in La Vergne | Get Back on the Road with Rutherford Spine and Wellness Center",
-          "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center. We help with auto injuries and recovery. Call (615) 217-0097 today.",
+          "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center for auto injuries and recovery. Call 615-217-0097 today.",
           "image": null,
           "type": "article"
         },
@@ -16782,48 +16740,6 @@
           },
           {
             "@context": "https://schema.org",
-            "@type": "MedicalClinic",
-            "name": "Rutherford Spine & Wellness Center",
-            "alternateName": "Rutherford Spine and Wellness",
-            "url": "https://rutherfordchiropractic.com/",
-            "logo": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-            "image": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-            "@id": "https://rutherfordchiropractic.com/#organization",
-            "description": "Providing spine care, medical weight loss, and wellness solutions in Murfreesboro, TN.",
-            "telephone": "+16152170097",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "1139 NW Broad St #103",
-              "addressLocality": "Murfreesboro",
-              "addressRegion": "TN",
-              "postalCode": "37129",
-              "addressCountry": "US"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 35.8586059,
-              "longitude": -86.4065423
-            },
-            "openingHoursSpecification": [
-              {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday"
-                ],
-                "opens": "09:00",
-                "closes": "18:00"
-              }
-            ],
-            "sameAs": [
-              "https://www.facebook.com/rutherfordspineandwellness"
-            ]
-          },
-          {
-            "@context": "https://schema.org",
             "@type": "Blog",
             "@id": "https://rutherfordchiropractic.com/blog/#blog",
             "url": "https://rutherfordchiropractic.com/blog/",
@@ -16853,7 +16769,7 @@
         "openGraph": {
           "title": "Drug-Free Neuropathy Care Options in Murfreesboro",
           "description": "Discover drug-free options for neuropathy treatment in Murfreesboro, including non-invasive care, spinal decompression, and lifestyle guidance for relief",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/07/towfiqu-barbhuiya-dNe6TyX_laM-unsplash.jpg",
+          "image": "/media/blog/neuropathy-treatment-without-drugs-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -16965,7 +16881,7 @@
         "openGraph": {
           "title": "Chiropractor-Guided Pain Med Tapering and Relief Tips",
           "description": "Discover how chiropractic care can help reduce reliance on pain medication with safe tapering support and chronic pain relief in Murfreesboro, TN.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/07/getty-images-CtvjPaRoHQc-unsplash-1.jpg",
+          "image": "/media/blog/pain-medication-chiropractic-care-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -17208,7 +17124,7 @@
         "openGraph": {
           "title": "First Spinal Decompression Visit Guide in Murfreesboro",
           "description": "Learn what happens during your first spinal decompression in Murfreesboro, TN visit, including eligibility, safety, session steps, and aftercare tips.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/07/sasun-bughdaryan-bNdiJ1FEbV4-unsplash.jpg",
+          "image": "/media/blog/first-spinal-decompression-visit-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -17320,7 +17236,7 @@
         "openGraph": {
           "title": "Stop Sciatica Pain While Driving: Tips and Care",
           "description": "Learn car seat and posture fixes to ease driving pain, plus when to seek sciatica treatment in Murfreesboro, TN for lasting relief",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/jan-baborak-4STq2B24S1k-unsplash.jpg",
+          "image": "/media/blog/sciatica-while-driving-seat-setup-posture-treatment-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -17573,7 +17489,7 @@
         "openGraph": {
           "title": "Common Habits That Make Sciatica Pain Worse",
           "description": "Learn everyday movements that can irritate nerves and how sciatica treatment in Murfreesboro, TN can help relieve pain and improve mobility",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/getty-images-a7R1X-geveY-unsplash.jpg",
+          "image": "/media/blog/movements-aggravate-sciatica-pain-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -17685,7 +17601,7 @@
         "openGraph": {
           "title": "Disc Pain Vs Muscle Strain: Symptoms and Next Steps",
           "description": "Learn to recognize spinal disc pain vs. muscle strain and when to seek disc pain treatment in Murfreesboro for lasting relief and restored mobility.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/curated-lifestyle-Z722q95ed2k-unsplash-3.jpg",
+          "image": "/media/blog/spinal-disc-pain-vs-muscle-strain-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -17797,7 +17713,7 @@
         "openGraph": {
           "title": "Spine-Safe Daily Habits and Posture Tips in Murfreesboro",
           "description": "Learn which everyday habits strain your back and how chiropractic care in Murfreesboro can restore alignment, mobility, and nerve health naturally.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/getty-images-HwY41_CUTSk-unsplash.jpg",
+          "image": "/media/blog/everyday-habits-quietly-damage-spine-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -18040,7 +17956,7 @@
         "openGraph": {
           "title": "Summer Sports Injury Prevention Tips in Murfreesboro",
           "description": "Avoid common summer strains with warm-ups, mobility drills, and prehab from a sports injury doctor in Murfreesboro, TN for active adults",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/pexels-kindelmedia-7298678.jpg",
+          "image": "/media/blog/preventing-summer-sports-injuries-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -18152,7 +18068,7 @@
         "openGraph": {
           "title": "Auto Accident Headache and Dizziness Warning Signs",
           "description": "Learn what headaches and dizziness after a crash may mean and when to see an auto accident chiropractor in Murfreesboro for relief and recovery guidance.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/getty-images-aJWvZ8GE_Fs-unsplash.jpg",
+          "image": "/media/blog/auto-injury-headaches-and-dizziness-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -18395,7 +18311,7 @@
         "openGraph": {
           "title": "Why Your Pain Moves Around: Back to Leg Pain Explained",
           "description": "Learn why pain moves from your back to leg and other areas. Rutherford Spine & Wellness Center explains traveling pain patterns and root causes. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/02/Screenshot_20260225_122950_Gallery.jpg",
+          "image": "/media/blog/why-your-pain-moves-around-one-day-its-your-back-the-next-its-your-leg-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -18650,7 +18566,7 @@
         "openGraph": {
           "title": "Why Hip Pain Comes and Goes: Spine Stability Connection",
           "description": "Understand why hip pain comes and goes with spine stability issues. Rutherford Spine & Wellness Center reveals the hidden connection and treatment. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/01/Screenshot_20260130_005427_Gallery.jpg",
+          "image": "/media/blog/why-your-hip-pain-comes-and-goes-the-spine-stability-connection-no-one-is-talking-about-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -18761,7 +18677,7 @@
         "openGraph": {
           "title": "Back Locks Up When Standing? What Your Body Is Saying",
           "description": "Find out why your back locks up when standing straight and what it means. Rutherford Spine & Wellness Center explains this common spine warning sign. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/02/Screenshot_20260225_122034_Gallery.jpg",
+          "image": "/media/blog/why-your-back-locks-up-when-you-try-to-stand-straight-and-what-its-really-telling-you-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -19016,7 +18932,7 @@
         "openGraph": {
           "title": "Spinal Decompression: Missing Link in Your Pain Relief?",
           "description": "Could spinal decompression be your missing pain relief solution? Rutherford Spine & Wellness Center explains how this treatment completes recovery. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/06/Screen-Shot-2025-06-11-at-11.37.07-PM.png",
+          "image": "/media/blog/why-spinal-decompression-may-be-the-missing-link-in-your-pain-relief-journey-featured.png",
           "type": "article"
         },
         "twitter": {
@@ -19127,7 +19043,7 @@
         "openGraph": {
           "title": "Why Sciatica Gets Worse When Sitting: Posture Problems",
           "description": "Learn why sciatica pain flares when sitting and the hidden posture issues. Rutherford Spine & Wellness Center explains sitting pain and solutions. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/12/Screenshot_20251216_174422_Gallery.jpg",
+          "image": "/media/blog/why-sciatica-flares-when-you-sit-and-the-hidden-posture-problem-no-one-talks-about-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -19238,7 +19154,7 @@
         "openGraph": {
           "title": "Why One Knee or Hip Hurts More: Hidden Alignment Issues",
           "description": "Discover why one knee or hip hurts more than the other. Rutherford Spine & Wellness Center reveals hidden alignment problems causing uneven pain. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/03/Screenshot_20260311_124959_Gallery.jpg",
+          "image": "/media/blog/why-one-knee-or-hip-hurts-more-than-the-other-and-the-hidden-alignment-problem-most-people-never-realize-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -19493,7 +19409,7 @@
         "openGraph": {
           "title": "Tight Socks When Barefoot? Neuropathy Warning Sign Explained",
           "description": "Feeling tight socks when barefoot signals neuropathy nerve damage. Rutherford Spine & Wellness Center explains this warning sign and treatment options.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/11/1d1aa4ac-3587-4e70-af00-4c711c0ca3c0.webp",
+          "image": "/media/blog/why-do-my-socks-feel-tight-when-im-not-wearing-any-the-neuropathy-red-flag-you-shouldnt-ignore-featured.webp",
           "type": "article"
         },
         "twitter": {
@@ -19604,7 +19520,7 @@
         "openGraph": {
           "title": "Lower Back Pain Causing Hand & Foot Neuropathy? The Link",
           "description": "Learn how lower back problems cause neuropathy in hands and feet. Rutherford Spine & Wellness Center explains this hidden connection and treatment. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/11/bb3656c0-a76b-4aec-aa2f-e6128e7db085.webp",
+          "image": "/media/blog/the-hidden-link-between-lower-back-problems-and-neuropathy-in-your-feet-and-hands-and-why-no-one-told-you-earlier-featured.webp",
           "type": "article"
         },
         "twitter": {
@@ -19854,7 +19770,7 @@
         "openGraph": {
           "title": "7 Daily Activities That Secretly Damage Your Spine",
           "description": "Discover common daily habits that harm your spine without you knowing. Rutherford Spine & Wellness Center reveals hidden spine damage causes and fixes.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/12/Screenshot_20251216_175154_Gallery.jpg",
+          "image": "/media/blog/the-7-most-common-daily-activities-that-damage-your-spine-without-you-realizing-it-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -20109,7 +20025,7 @@
         "openGraph": {
           "title": "Shoulder Pain Preventing Sleep? Causes and Treatment",
           "description": "Stop shoulder pain from ruining your sleep with proper treatment. Rutherford Spine & Wellness Center identifies and fixes sleep-disrupting pain. Read more.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/10/20251024-000736-1b0e23113c95bfe6-a03af517-3809-40ac-83a3-9bbe3254e739.jpg",
+          "image": "/media/blog/stop-losing-sleep-the-real-reason-your-shoulder-pain-wont-let-you-rest-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -20221,7 +20137,7 @@
         "openGraph": {
           "title": "Spinal Decompression Therapy | Natural Back Relief",
           "description": "Gentle spinal decompression therapy relieves disc pain and back problems naturally. Rutherford Spine & Wellness Center provides safe spine treatment. Call us!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/11/image1.jpg",
+          "image": "/media/blog/spinal-decompression-therapy-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -20474,7 +20390,7 @@
         "openGraph": {
           "title": "Non-Surgical Spinal Decompression Murfreesboro | Real Relief",
           "description": "Get real relief without surgery through spinal decompression in Murfreesboro. Rutherford Spine & Wellness Center offers proven non-surgical care. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/06/Screen-Shot-2025-06-11-at-11.35.56-PM.png",
+          "image": "/media/blog/spinal-decompression-in-murfreesboro-a-non-surgical-path-to-real-relief-featured.png",
           "type": "article"
         },
         "twitter": {
@@ -20724,7 +20640,7 @@
         "openGraph": {
           "title": "Spinal Decompression for Headaches | Migraine Relief",
           "description": "Treat headaches and migraines with spinal decompression therapy. Rutherford Spine & Wellness Center addresses spine-related headache causes. Read more.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/01/image1.jpg",
+          "image": "/media/blog/spinal-decompression-for-headaches-and-migraines-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -20977,7 +20893,7 @@
         "openGraph": {
           "title": "Early Signs of Neuropathy | Symptoms to Watch Out For",
           "description": "Recognize early neuropathy symptoms before they worsen. Rutherford Spine & Wellness Center helps identify and treat nerve damage signs naturally. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/10/image1.jpg",
+          "image": "/media/blog/signs-of-neuropathy-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -21230,7 +21146,7 @@
         "openGraph": {
           "title": "Neuropathy Leg Pain Keeping You Awake? Sleep Solutions",
           "description": "Stop neuropathy leg pain from disrupting your sleep. Rutherford Spine & Wellness Center provides natural treatments for better rest and pain relief. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/12/image1-150x150-Ctivfs.jpeg",
+          "image": "/media/blog/restless-nights-how-neuropathy-leg-pain-disrupts-sleep-what-you-can-do-about-it-9-featured.jpeg",
           "type": "article"
         },
         "twitter": {
@@ -21480,7 +21396,7 @@
         "openGraph": {
           "title": "Leg Gave Out? Understanding Sciatica Pain Symptoms",
           "description": "Leg weakness and sciatica pain mean nerve problems need treatment. Rutherford Spine & Wellness Center explains what your symptoms really mean. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/10/photo-1740512922093-9c2756ab5844-819x1024.jpeg",
+          "image": "/media/blog/i-just-stood-up-and-my-leg-gave-out-what-sciatica-pain-is-really-telling-you-featured.jpeg",
           "type": "article"
         },
         "twitter": {
@@ -21730,7 +21646,7 @@
         "openGraph": {
           "title": "Spine Misalignment Treatment | Work Injuries in Murfreesboro",
           "description": "Fix spine misalignment from work injuries with spinal decompression. Rutherford Spine & Wellness Center corrects workplace back injury damage. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/03/image1.jpg",
+          "image": "/media/blog/how-spinal-decompression-can-help-with-spine-misalignment-from-work-injuries-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -21983,7 +21899,7 @@
         "openGraph": {
           "title": "Spinal Decompression for Work Injuries | Murfreesboro TN",
           "description": "Treat work-related back injuries with spinal decompression therapy. Rutherford Spine & Wellness Center helps workers recover from spine injuries. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/08/image1.jpg",
+          "image": "/media/blog/how-spinal-decompression-can-alleviate-pain-from-work-related-injuries-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -22236,7 +22152,7 @@
         "openGraph": {
           "title": "Chiropractic Care & Spinal Decompression in Murfreesboro",
           "description": "Combined chiropractic care and spinal decompression therapy in Murfreesboro, TN. Rutherford Spine & Wellness Center treats disc pain and spine issues.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/11/image1.png",
+          "image": "/media/blog/chiropractic-care-and-spinal-decompression-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -22489,7 +22405,7 @@
         "openGraph": {
           "title": "What Causes Neuropathy? Symptoms & Treatment Options",
           "description": "Learn what causes neuropathy and how to treat it naturally. Rutherford Spine & Wellness Center explains nerve damage causes and treatment options. Read on!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/06/image1.jpg",
+          "image": "/media/blog/what-causes-neuropathy-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -23174,7 +23090,7 @@
         "openGraph": {
           "title": "When to See Chiropractors in Murfreesboro for Pain",
           "description": "Wondering if chronic pain needs care? Learn signs to seek chiropractors in Murfreesboro for non-invasive spine, joint, and injury relief without surgery",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/Chiropractic-Care-1.jpg",
+          "image": "/media/blog/when-to-see-chiropractor-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -23427,7 +23343,7 @@
         "openGraph": {
           "title": "When to See a Chiropractor for Sports Injuries",
           "description": "Learn key warning signs you need a sports injury doctor in Murfreesboro, TN and how chiropractic care can speed recovery and prevent setbacks",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/getty-images-rDui-aa8Ebk-unsplash.jpg",
+          "image": "/media/blog/signs-sports-injury-needs-chiropractor-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -23539,7 +23455,7 @@
         "openGraph": {
           "title": "Whiplash Care Options for Neck Pain After Auto Wrecks",
           "description": "Learn when neck pain signals a serious injury and how whiplash treatment in Murfreesboro can relieve pain, restore mobility, and speed healing.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/getty-images-u8h05JY4yuw-unsplash.jpg",
+          "image": "/media/blog/neck-pain-after-car-accident-needs-chiropractor-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -23794,7 +23710,7 @@
         "openGraph": {
           "title": "Spinal Decompression Options for Chronic Back Pain Relief",
           "description": "Learn how spinal decompression in Murfreesboro, TN can ease chronic back pain by reducing pressure on spinal discs and supporting lasting recovery.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/getty-images-7k7mYdy_LFs-unsplash.jpg",
+          "image": "/media/blog/chronic-back-pain-needs-spinal-decompression-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -23906,7 +23822,7 @@
         "openGraph": {
           "title": "Choosing a Spine Doctor in Murfreesboro After a Sports Injury",
           "description": "Recover with personalized, non-invasive care from a spine doctor in Murfreesboro, TN for sports injuries, joint pain, and nerve issues.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/Spine-Doctor.jpg",
+          "image": "/media/blog/choosing-spine-doctor-after-sports-injury-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -24018,7 +23934,7 @@
         "openGraph": {
           "title": "Relief for Desk-Related Neck Pain in Murfreesboro",
           "description": "Find lasting relief with neck pain treatment in Murfreesboro designed for desk and remote workers to reduce tension, restore mobility, and prevent flare-ups.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/getty-images-ItoFJmnJTXo-unsplash-2.jpg",
+          "image": "/media/blog/neck-pain-treatment-remote-workers-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -24130,7 +24046,7 @@
         "openGraph": {
           "title": "Hidden Joint Pain Triggers Active Murfreesboro Residents Overlook",
           "description": "Read our article \"Hidden Joint Pain Triggers Active Murfreesboro Residents Overlook\" to learn more. Explore our blog for the latest spine and wellness insights.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/1365.jpg",
+          "image": "/media/blog/hidden-joint-pain-triggers-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -24373,7 +24289,7 @@
         "openGraph": {
           "title": "Understanding Whiplash Treatment Options in Murfreesboro",
           "description": "Read our article \"Understanding Whiplash Treatment Options in Murfreesboro\" to learn more. Explore our blog for the latest spine and wellness insights.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/2150321562.jpg",
+          "image": "/media/blog/whiplash-treatment-options-murfreesboro-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -24479,13 +24395,13 @@
       "fetchError": null,
       "meta": {
         "title": "Why Your Joints Pop, Crack, or Click When You Move",
-        "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care in Murfreesboro can improve joint function and mobility.",
+        "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care improves joint function and mobility.",
         "canonical": "https://rutherfordchiropractic.com/why-your-joints-pop-crack-or-click-when-you-move/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Why Your Joints Pop, Crack, or Click When You Move",
-          "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care in Murfreesboro can improve joint function and mobility.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/03/Lumii_20260311_125635649.jpg",
+          "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care improves joint function and mobility.",
+          "image": "/media/blog/why-your-joints-pop-crack-or-click-when-you-move-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -24596,7 +24512,7 @@
         "openGraph": {
           "title": "The Hidden Reason Your Lower Back Pain Makes Your Knees Ache Too",
           "description": "Knee pain without a knee injury? Learn how lower back problems often cause knee pain - and how chiropractic care in Murfreesboro can help.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/01/Screenshot_20260130_010027_Gallery.jpg",
+          "image": "/media/blog/the-hidden-reason-your-lower-back-pain-makes-your-knees-ache-too-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -24851,7 +24767,7 @@
         "openGraph": {
           "title": "Regain Grip: Find Relief From Hand Numbness & Neuropathy",
           "description": "Struggling with tingling or numb hands? Discover effective, drug-free neuropathy therapy and chiropractic care for nerve relief",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/08/photo-1654876691672-150715c3420c-1024x683.jpeg",
+          "image": "/media/blog/regain-grip-find-relief-from-hand-numbness-neuropathy-featured.jpeg",
           "type": "article"
         },
         "twitter": {
@@ -25101,7 +25017,7 @@
         "openGraph": {
           "title": "Overcome Runner’s Knee with Chiropractic Care",
           "description": "Struggling with runner’s knee or knee pain? Discover how chiropractic care and sports injury prevention in Murfreesboro can help you stay active and pain-free.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/08/photo-1571008887538-b36bb32f4571-1024x683.jpeg",
+          "image": "/media/blog/overcome-runners-knee-with-chiropractic-care-featured.jpeg",
           "type": "article"
         },
         "twitter": {
@@ -25212,7 +25128,7 @@
         "openGraph": {
           "title": "7 Essential Hacks for Easing Neuropathy in Daily Life",
           "description": "Rutherford Chiropractic: Discover practical tips to manage neuropathy symptoms effectively and enhance your daily life. Start improving your wellness today!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/04/image1.jpg",
+          "image": "/media/blog/living-with-neuropathy-7-real-life-hacks-to-make-everyday-tasks-easier-and-less-painful-7-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -25462,7 +25378,7 @@
         "openGraph": {
           "title": "Discover Spinal Decompression Therapy for Neuropathy Relief",
           "description": "Rutherford Spine and Wellness Center: Discover how spinal decompression therapy can relieve neuropathy symptoms. Schedule your consultation today!",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/03/image1-1.jpg",
+          "image": "/media/blog/how-spinal-decompression-can-help-with-different-types-of-neuropathy-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -25569,13 +25485,13 @@
       "fetchError": null,
       "meta": {
         "title": "How Spinal Decompression Can Help with Arthritis and Numbness - Chiropractic Murfreesboro TN",
-        "description": "When people think of arthritis, they often picture joint pain, swelling, and stiffness. But arthritis can also lead to numbness and tingling, especially when it affects the spine",
+        "description": "Arthritis can cause more than joint pain, it can lead to numbness and tingling, especially when it affects the spine. Learn how decompression helps.",
         "canonical": "https://rutherfordchiropractic.com/how-spinal-decompression-can-help-with-arthritis-and-numbness/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "How Spinal Decompression Can Help with Arthritis and Numbness",
-          "description": "When people think of arthritis, they often picture joint pain, swelling, and stiffness. But arthritis can also lead to numbness and tingling, especially when it affects the spine",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/02/image1.jpg",
+          "description": "Arthritis can cause more than joint pain, it can lead to numbness and tingling, especially when it affects the spine. Learn how decompression helps.",
+          "image": "/media/blog/how-spinal-decompression-can-help-with-arthritis-and-numbness-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -26039,13 +25955,13 @@
       "fetchError": null,
       "meta": {
         "title": "Say Goodbye to Chronic Neck Pain with Spinal Decompression - Chiropractic Murfreesboro TN",
-        "description": "chronic neck pain stems from issues like herniated discs, degenerative disc disease, or poor posture. These conditions can compress the nerves in your cervical spine, leading to pain, stiffness, and even radiating symptoms like tingling in your arms.",
+        "description": "Chronic neck pain from herniated discs, degenerative disc disease, or poor posture can compress nerves. Spinal decompression therapy offers relief.",
         "canonical": "https://rutherfordchiropractic.com/chronic-neck-pain-with-spinal-decompression/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Say Goodbye to Chronic Neck Pain with Spinal Decompression",
-          "description": "chronic neck pain stems from issues like herniated discs, degenerative disc disease, or poor posture. These conditions can compress the nerves in your cervical spine, leading to pain, stiffness, and even radiating symptoms like tingling in your arms.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/01/image1-1.jpg",
+          "description": "Chronic neck pain from herniated discs, degenerative disc disease, or poor posture can compress nerves. Spinal decompression therapy offers relief.",
+          "image": "/media/blog/chronic-neck-pain-with-spinal-decompression-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -26298,7 +26214,7 @@
         "openGraph": {
           "title": "When Touch Hurts: Coping with Extreme Sensitivity from Neuropathy",
           "description": "Read our article \"When Touch Hurts: Coping with Extreme Sensitivity from Neuropathy\" to learn more. Explore our blog for the latest spine and wellness insights.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/12/image1-1.jpg",
+          "image": "/media/blog/when-touch-hurts-coping-with-extreme-sensitivity-from-neuropathy-42-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -26548,7 +26464,7 @@
         "openGraph": {
           "title": "Holiday Relief: Managing Neuropathy Pain During the Busy Season",
           "description": "The holiday season is a time of joy, togetherness, and celebration, but it can also be challenging for those dealing with neuropathy pain.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/11/image1-1.jpg",
+          "image": "/media/blog/neuropathy-pain-during-the-busy-season-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -26795,13 +26711,13 @@
       "fetchError": null,
       "meta": {
         "title": "Neuropathy in Young Adults: Understanding the Hidden Risk Factors - Chiropractic Murfreesboro TN",
-        "description": "Neuropathy refers to the damage of peripheral nerves, which are responsible for transmitting signals between the brain, spinal cord, and the rest of the body. When these nerves are damaged, it can result in a wide range of symptoms, such as burning, sharp pains, or loss of sensation, typically in the hands, feet, and legs.",
+        "description": "Neuropathy can affect young adults too, causing burning pain, tingling, or numbness in the hands and feet. Learn the causes and treatment options.",
         "canonical": "https://rutherfordchiropractic.com/neuropathy-in-young-adults/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Neuropathy in Young Adults: Understanding the Hidden Risk Factors",
-          "description": "Neuropathy refers to the damage of peripheral nerves, which are responsible for transmitting signals between the brain, spinal cord, and the rest of the body. When these nerves are damaged, it can result in a wide range of symptoms, such as burning, sharp pains, or loss of sensation, typically in the hands, feet, and legs.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/10/image1-1.jpg",
+          "description": "Neuropathy can affect young adults too, causing burning pain, tingling, or numbness in the hands and feet. Learn the causes and treatment options.",
+          "image": "/media/blog/neuropathy-in-young-adults-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -27048,13 +26964,13 @@
       "fetchError": null,
       "meta": {
         "title": "How Spinal Decompression Can Help with Sciatica Relief - Chiropractic Murfreesboro TN",
-        "description": "Rutherford Spine & Wellness Center in Murfreesboro, TN, is proud to offer the latest in spinal decompression technology to help relieve sciatica and other nerve pain conditions. With over 16 years of experience, we are one of the area’s leading providers of non-surgical decompression therapy. Our skilled professionals use advanced equipment to safely and effectively stretch the spine, taking pressure off the spinal discs and promoting faster healing.",
+        "description": "Rutherford Spine & Wellness Center offers advanced spinal decompression therapy in Murfreesboro, TN to safely relieve sciatica and nerve pain.",
         "canonical": "https://rutherfordchiropractic.com/how-spinal-decompression-can-help-with-sciatica-relief/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "How Spinal Decompression Can Help with Sciatica Relief",
-          "description": "Rutherford Spine & Wellness Center in Murfreesboro, TN, is proud to offer the latest in spinal decompression technology to help relieve sciatica and other nerve pain conditions. With over 16 years of experience, we are one of the area’s leading providers of non-surgical decompression therapy. Our skilled professionals use advanced equipment to safely and effectively stretch the spine, taking pressure off the spinal discs and promoting faster healing.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/09/image1.jpg",
+          "description": "Rutherford Spine & Wellness Center offers advanced spinal decompression therapy in Murfreesboro, TN to safely relieve sciatica and nerve pain.",
+          "image": "/media/blog/how-spinal-decompression-can-help-with-sciatica-relief-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -27301,13 +27217,13 @@
       "fetchError": null,
       "meta": {
         "title": "How Neuropathy Affects Your Sleep and Tips for Better Rest - Chiropractic Murfreesboro TN",
-        "description": "For your peace of mind, we use only FDA-approved neuropathy equipment and all of our treatments are non-invasive. Click here to schedule your consultation today or call us directly at 615-217-0097.",
+        "description": "Neuropathy pain can disrupt sleep with burning, tingling, or numbness at night. Our FDA-approved, non-invasive treatments help. Call 615-217-0097.",
         "canonical": "https://rutherfordchiropractic.com/how-neuropathy-affects-your-sleep/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "How Neuropathy Affects Your Sleep and Tips for Better Rest",
-          "description": "For your peace of mind, we use only FDA-approved neuropathy equipment and all of our treatments are non-invasive. Click here to schedule your consultation today or call us directly at 615-217-0097.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/07/image1-1.jpg",
+          "description": "Neuropathy pain can disrupt sleep with burning, tingling, or numbness at night. Our FDA-approved, non-invasive treatments help. Call 615-217-0097.",
+          "image": "/media/blog/how-neuropathy-affects-your-sleep-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -27554,13 +27470,13 @@
       "fetchError": null,
       "meta": {
         "title": "How to Recognize the Early Signs of Neuropathy - Chiropractic Murfreesboro TN",
-        "description": "At Rutherford Spine & Wellness Center, we offer opioid-free/drug-free alternative therapies for acute, and/or chronic neuropathy pain or circulatory disorders symptoms patients in Murfreesboro, TN.",
+        "description": "Learn to recognize the early signs of neuropathy. Rutherford Spine & Wellness Center offers drug-free treatment for nerve pain in Murfreesboro, TN.",
         "canonical": "https://rutherfordchiropractic.com/how-to-recognize-the-early-signs-of-neuropathy/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "How to Recognize the Early Signs of Neuropathy",
-          "description": "At Rutherford Spine & Wellness Center, we offer opioid-free/drug-free alternative therapies for acute, and/or chronic neuropathy pain or circulatory disorders symptoms patients in Murfreesboro, TN.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/07/image1.jpg",
+          "description": "Learn to recognize the early signs of neuropathy. Rutherford Spine & Wellness Center offers drug-free treatment for nerve pain in Murfreesboro, TN.",
+          "image": "/media/blog/how-to-recognize-the-early-signs-of-neuropathy-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -27813,7 +27729,7 @@
         "openGraph": {
           "title": "Chiropractic Spinal Decompression Therapy",
           "description": "Read our article \"Chiropractic Spinal Decompression Therapy\" to learn more. Explore our blog for the latest spine and wellness insights.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/image1-1.jpg",
+          "image": "/media/blog/chiropractic-spinal-decompression-therapy-4-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -28040,13 +27956,13 @@
       "fetchError": null,
       "meta": {
         "title": "Chiropractic Care for Disc Injuries - Chiropractic Murfreesboro TN",
-        "description": "Beyond providing treatment for disc injuries, our goal at Rutherford Spine and Wellness Center is to empower our patients to take control of their health and well-being. Through education, lifestyle recommendations, and preventive care strategies, we aim to equip our patients with the tools they need to maintain a healthy spine and prevent future injuries.",
+        "description": "Rutherford Spine and Wellness Center helps patients recover from disc injuries in Murfreesboro through education, chiropractic care, and prevention.",
         "canonical": "https://rutherfordchiropractic.com/chiropractic-care-for-disc-injuries/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Chiropractic Care for Disc Injuries",
-          "description": "Beyond providing treatment for disc injuries, our goal at Rutherford Spine and Wellness Center is to empower our patients to take control of their health and well-being. Through education, lifestyle recommendations, and preventive care strategies, we aim to equip our patients with the tools they need to maintain a healthy spine and prevent future injuries.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/image1.jpg",
+          "description": "Rutherford Spine and Wellness Center helps patients recover from disc injuries in Murfreesboro through education, chiropractic care, and prevention.",
+          "image": "/media/blog/chiropractic-care-for-disc-injuries-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -28293,13 +28209,13 @@
       "fetchError": null,
       "meta": {
         "title": "Chiropractic Relief for Headaches and Pain - Chiropractic Murfreesboro TN",
-        "description": "At Rutherford Spine and Wellness Center, we're committed to helping our patients achieve lasting relief from pain and improve their overall quality of life through personalized chiropractic care and holistic wellness solutions.",
+        "description": "Rutherford Spine and Wellness Center helps Murfreesboro patients find lasting relief from headaches and pain through personalized chiropractic care.",
         "canonical": "https://rutherfordchiropractic.com/chiropractic-relief-for-headaches-and-pain/",
         "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
         "openGraph": {
           "title": "Chiropractic Relief for Headaches and Pain",
-          "description": "At Rutherford Spine and Wellness Center, we're committed to helping our patients achieve lasting relief from pain and improve their overall quality of life through personalized chiropractic care and holistic wellness solutions.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/image1-3.jpg",
+          "description": "Rutherford Spine and Wellness Center helps Murfreesboro patients find lasting relief from headaches and pain through personalized chiropractic care.",
+          "image": "/media/blog/chiropractic-relief-for-headaches-and-pain-featured.jpg",
           "type": "article"
         },
         "twitter": {
@@ -28552,7 +28468,7 @@
         "openGraph": {
           "title": "Murfreesboro Back Pain Relief: Rutherford Chiropractic Care",
           "description": "Find back pain relief in Murfreesboro, TN with Rutherford Spine & Wellness Center. Dr. Stewart offers natural chiropractic care for a healthier you.",
-          "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/Back-Pain-Chiropractor-Murfreesboro-TN-RGYpJB.jpeg",
+          "image": "/media/blog/back-pain-chiropractor-murfreesboro-tn-featured.jpeg",
           "type": "article"
         },
         "twitter": {
@@ -30155,48 +30071,6 @@
                   }
                 }
               ]
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "MedicalClinic",
-              "name": "Rutherford Spine & Wellness Center",
-              "alternateName": "Rutherford Spine and Wellness",
-              "url": "https://rutherfordchiropractic.com/",
-              "logo": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-              "image": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-              "@id": "https://rutherfordchiropractic.com/#organization",
-              "description": "Providing spine care, medical weight loss, and wellness solutions in Murfreesboro, TN.",
-              "telephone": "+16152170097",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "1139 NW Broad St #103",
-                "addressLocality": "Murfreesboro",
-                "addressRegion": "TN",
-                "postalCode": "37129",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 35.8586059,
-                "longitude": -86.4065423
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                  ],
-                  "opens": "09:00",
-                  "closes": "18:00"
-                }
-              ],
-              "sameAs": [
-                "https://www.facebook.com/rutherfordspineandwellness"
-              ]
             }
           ]
         }
@@ -31547,12 +31421,12 @@
         "fetchError": null,
         "meta": {
           "title": "La Vergne Spinal Decompression - Chiropractic Murfreesboro TN",
-          "description": "Suffering from herniated discs or sciatica in La Vergne? Our non-surgical spinal decompression therapy relieves pressure and restores mobility. Call (615) 217-0097 for relief.",
+          "description": "Suffering from herniated discs or sciatica in La Vergne? Non-surgical spinal decompression therapy relieves pressure. Call (615) 217-0097 for relief.",
           "canonical": "https://rutherfordchiropractic.com/spinal-decompression-la-vergne-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Spinal Decompression in La Vergne | Relief for Herniated Discs & Back Pain",
-            "description": "Suffering from herniated discs or sciatica in La Vergne? Our non-surgical spinal decompression therapy relieves pressure and restores mobility. Call (615) 217-0097 for relief.",
+            "description": "Suffering from herniated discs or sciatica in La Vergne? Non-surgical spinal decompression therapy relieves pressure. Call (615) 217-0097 for relief.",
             "image": null,
             "type": "article"
           },
@@ -32872,12 +32746,12 @@
         "fetchError": null,
         "meta": {
           "title": "Shelbyville Neuropathy - Chiropractic Murfreesboro TN",
-          "description": "Tingling, numbness, or burning pain? Our Shelbyville team offers neuropathy care. Call (615) 217-0097 for relief.",
+          "description": "Tingling, numbness, or burning pain? Our Shelbyville team at Rutherford Spine and Wellness Center offers neuropathy care. Call (615) 217-0097 for relief.",
           "canonical": "https://rutherfordchiropractic.com/neuropathy-shelbyville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Neuropathy Pain Relief in Shelbyville, TN | Rutherford Spine and Wellness Center",
-            "description": "Tingling, numbness, or burning pain? Our Shelbyville team offers neuropathy care. Call (615) 217-0097 for relief.",
+            "description": "Tingling, numbness, or burning pain? Our Shelbyville team at Rutherford Spine and Wellness Center offers neuropathy care. Call (615) 217-0097 for relief.",
             "image": null,
             "type": "article"
           },
@@ -34197,12 +34071,12 @@
         "fetchError": null,
         "meta": {
           "title": "La Vergne Neuropathy - Chiropractic Murfreesboro TN",
-          "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center provides neuropathy care to help manage nerve discomfort. Call (615) 217-0097 for relief.",
+          "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center offers neuropathy care to manage nerve discomfort. Call 615-217-0097.",
           "canonical": "https://rutherfordchiropractic.com/neuropathy-la-vergne-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Neuropathy Relief in La Vergne | Reduce Nerve Discomfort | Rutherford Spine and Wellness Center",
-            "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center provides neuropathy care to help manage nerve discomfort. Call (615) 217-0097 for relief.",
+            "description": "Tingling, numbness, or burning in La Vergne? Rutherford Spine and Wellness Center offers neuropathy care to manage nerve discomfort. Call 615-217-0097.",
             "image": null,
             "type": "article"
           },
@@ -34992,12 +34866,12 @@
         "fetchError": null,
         "meta": {
           "title": "Nashville Back Pain Relief - Chiropractic Murfreesboro TN",
-          "description": "Struggling with back pain in Nashville? Get personalized care from the team at Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day assessment.",
+          "description": "Struggling with back pain in Nashville? Get personalized care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day visit.",
           "canonical": "https://rutherfordchiropractic.com/back-pain-relief-nashville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Back Pain Relief in Nashville | Find Relief at Rutherford Spine and Wellness Center",
-            "description": "Struggling with back pain in Nashville? Get personalized care from the team at Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day assessment.",
+            "description": "Struggling with back pain in Nashville? Get personalized care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a same-day visit.",
             "image": null,
             "type": "article"
           },
@@ -35257,12 +35131,12 @@
         "fetchError": null,
         "meta": {
           "title": "Woodbury Back Pain Relief - Chiropractic Murfreesboro TN",
-          "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN. Call (615) 217-0097 to start feeling better.",
+          "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN from Rutherford Spine and Wellness Center. Call (615) 217-0097 to feel better.",
           "canonical": "https://rutherfordchiropractic.com/back-pain-relief-woodbury-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Back Pain Relief in Woodbury, TN | Get Out of Pain at Rutherford Spine and Wellness Center",
-            "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN. Call (615) 217-0097 to start feeling better.",
+            "description": "Tired of living with back pain? Get personalized relief in Woodbury, TN from Rutherford Spine and Wellness Center. Call (615) 217-0097 to feel better.",
             "image": null,
             "type": "article"
           },
@@ -35522,12 +35396,12 @@
         "fetchError": null,
         "meta": {
           "title": "Shelbyville Back Pain Relief - Chiropractic Murfreesboro TN",
-          "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for expert care. Stop the pain today.",
+          "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for care.",
           "canonical": "https://rutherfordchiropractic.com/back-pain-relief-shelbyville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Back Pain Relief in Shelbyville | Stop Hurting, Start Living | Rutherford Spine and Wellness Center",
-            "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for expert care. Stop the pain today.",
+            "description": "Struggling with back pain in Shelbyville? Get proven relief without surgery. Call Rutherford Spine and Wellness Center at (615) 217-0097 for care.",
             "image": null,
             "type": "article"
           },
@@ -36317,12 +36191,12 @@
         "fetchError": null,
         "meta": {
           "title": "Shelbyville Chiropractic - Chiropractic Murfreesboro TN",
-          "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center provides trusted chiropractic care in Shelbyville. Call (615) 217-0097 for a personalized approach.",
+          "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center offers trusted chiropractic care in Shelbyville. Call 615-217-0097.",
           "canonical": "https://rutherfordchiropractic.com/chiropractic-shelbyville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Chiropractic Care in Shelbyville | Rutherford Spine and Wellness Center | (615) 217-0097",
-            "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center provides trusted chiropractic care in Shelbyville. Call (615) 217-0097 for a personalized approach.",
+            "description": "Neck, back, or joint pain limiting your life? Rutherford Spine and Wellness Center offers trusted chiropractic care in Shelbyville. Call 615-217-0097.",
             "image": null,
             "type": "article"
           },
@@ -38040,12 +37914,12 @@
         "fetchError": null,
         "meta": {
           "title": "Woodbury Chiropractic - Chiropractic Murfreesboro TN",
-          "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a comfortable, effective treatment plan.",
+          "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for treatment.",
           "canonical": "https://rutherfordchiropractic.com/chiropractic-woodbury-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Chiropractic Woodbury, TN | Gentle, Personalized Care at Rutherford Spine and Wellness Center",
-            "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for a comfortable, effective treatment plan.",
+            "description": "Back pain or stiffness in Woodbury? Get personalized chiropractic care from Rutherford Spine and Wellness Center. Call (615) 217-0097 for treatment.",
             "image": null,
             "type": "article"
           },
@@ -39100,12 +38974,12 @@
         "fetchError": null,
         "meta": {
           "title": "Brentwood Spinal Decompression - Chiropractic Murfreesboro TN",
-          "description": "Struggling with back pain in Brentwood? Gentle spinal decompression can help. Call (615) 217-0097 for a free consultation at Rutherford Spine and Wellness Center.",
+          "description": "Struggling with back pain in Brentwood? Gentle spinal decompression therapy can help. Call (615) 217-0097 for a free consultation at Rutherford Spine.",
           "canonical": "https://rutherfordchiropractic.com/spinal-decompression-brentwood-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Spinal Decompression in Brentwood | Relieve Back Pain at Rutherford Spine and Wellness Center",
-            "description": "Struggling with back pain in Brentwood? Gentle spinal decompression can help. Call (615) 217-0097 for a free consultation at Rutherford Spine and Wellness Center.",
+            "description": "Struggling with back pain in Brentwood? Gentle spinal decompression therapy can help. Call (615) 217-0097 for a free consultation at Rutherford Spine.",
             "image": null,
             "type": "article"
           },
@@ -39365,12 +39239,12 @@
         "fetchError": null,
         "meta": {
           "title": "Eagleville Spinal Decompression - Chiropractic Murfreesboro TN",
-          "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine and Wellness Center.",
+          "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine.",
           "canonical": "https://rutherfordchiropractic.com/spinal-decompression-eagleville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Spinal Decompression in Eagleville | Relief for Herniated Discs & Back Pain",
-            "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine and Wellness Center.",
+            "description": "Struggling with back pain or sciatica in Eagleville? Spinal decompression therapy can help. Call (615) 217-0097 for relief at Rutherford Spine.",
             "image": null,
             "type": "article"
           },
@@ -42015,12 +41889,12 @@
         "fetchError": null,
         "meta": {
           "title": "Woodbury Sports Injuries - Chiropractic Murfreesboro TN",
-          "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness Center. Call (615) 217-0097 today.",
+          "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness. Call 615-217-0097.",
           "canonical": "https://rutherfordchiropractic.com/sports-injuries-woodbury-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Sports Injuries Treatment in Woodbury | Rutherford Spine and Wellness Center",
-            "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness Center. Call (615) 217-0097 today.",
+            "description": "Athletes in Woodbury need relief from sports injuries. Get back in the game faster with expert care at Rutherford Spine and Wellness. Call 615-217-0097.",
             "image": null,
             "type": "article"
           },
@@ -43340,12 +43214,12 @@
         "fetchError": null,
         "meta": {
           "title": "Lebanon Back Pain Relief - Chiropractic Murfreesboro TN",
-          "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized treatment plan at Rutherford Spine and Wellness Center.",
+          "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized plan at Rutherford Spine.",
           "canonical": "https://rutherfordchiropractic.com/back-pain-relief-lebanon-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Back Pain Relief in Lebanon | Expert Chiropractic Care | Rutherford Spine and Wellness Center",
-            "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized treatment plan at Rutherford Spine and Wellness Center.",
+            "description": "Struggling with back pain in Lebanon? Get lasting relief without drugs or surgery. Call (615) 217-0097 for a personalized plan at Rutherford Spine.",
             "image": null,
             "type": "article"
           },
@@ -43870,12 +43744,12 @@
         "fetchError": null,
         "meta": {
           "title": "Eagleville Auto Injuries - Chiropractic Murfreesboro TN",
-          "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 for a personalized treatment plan.",
+          "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 today.",
           "canonical": "https://rutherfordchiropractic.com/auto-injuries-eagleville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Auto Injuries Chiropractic in Eagleville | Rutherford Spine and Wellness Center",
-            "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 for a personalized treatment plan.",
+            "description": "Whiplash or back pain after a car crash? Rutherford Spine and Wellness Center provides auto injury care in Eagleville. Call (615) 217-0097 today.",
             "image": null,
             "type": "article"
           },
@@ -44135,12 +44009,12 @@
         "fetchError": null,
         "meta": {
           "title": "Nashville Auto Injuries - Chiropractic Murfreesboro TN",
-          "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call (615) 217-0097 for your consultation.",
+          "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call 615-217-0097.",
           "canonical": "https://rutherfordchiropractic.com/auto-injuries-nashville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Nashville Auto Injuries | Rutherford Spine and Wellness Center | Chiropractic Care",
-            "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call (615) 217-0097 for your consultation.",
+            "description": "Nashville auto injury? Get non-surgical relief. Rutherford Spine and Wellness Center specializes in whiplash and accident recovery. Call 615-217-0097.",
             "image": null,
             "type": "article"
           },
@@ -44930,12 +44804,12 @@
         "fetchError": null,
         "meta": {
           "title": "Shelbyville Auto Injuries - Chiropractic Murfreesboro TN",
-          "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain. Rutherford Spine and Wellness Center offers auto injury chiropractic care. Call (615) 217-0097 today.",
+          "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain with auto injury chiropractic care. Call (615) 217-0097 today.",
           "canonical": "https://rutherfordchiropractic.com/auto-injuries-shelbyville-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Auto Injuries in Shelbyville | Chiropractic Care for Car Accidents",
-            "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain. Rutherford Spine and Wellness Center offers auto injury chiropractic care. Call (615) 217-0097 today.",
+            "description": "After a car accident in Shelbyville? Get natural recovery for whiplash and back pain with auto injury chiropractic care. Call (615) 217-0097 today.",
             "image": null,
             "type": "article"
           },
@@ -45460,12 +45334,12 @@
         "fetchError": null,
         "meta": {
           "title": "La Vergne Auto Injuries - Chiropractic Murfreesboro TN",
-          "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center. We help with auto injuries and recovery. Call (615) 217-0097 today.",
+          "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center for auto injuries and recovery. Call 615-217-0097 today.",
           "canonical": "https://rutherfordchiropractic.com/auto-injuries-la-vergne-tn/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Auto Injuries in La Vergne | Get Back on the Road with Rutherford Spine and Wellness Center",
-            "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center. We help with auto injuries and recovery. Call (615) 217-0097 today.",
+            "description": "After a La Vergne car accident, get professional care at Rutherford Spine and Wellness Center for auto injuries and recovery. Call 615-217-0097 today.",
             "image": null,
             "type": "article"
           },
@@ -47048,48 +46922,6 @@
             },
             {
               "@context": "https://schema.org",
-              "@type": "MedicalClinic",
-              "name": "Rutherford Spine & Wellness Center",
-              "alternateName": "Rutherford Spine and Wellness",
-              "url": "https://rutherfordchiropractic.com/",
-              "logo": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-              "image": "http://rutherfordchiropractic.com/wp-content/uploads/2024/05/cropped-rutherford-spine-wellness-center-murfreesboro-tn.png",
-              "@id": "https://rutherfordchiropractic.com/#organization",
-              "description": "Providing spine care, medical weight loss, and wellness solutions in Murfreesboro, TN.",
-              "telephone": "+16152170097",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "1139 NW Broad St #103",
-                "addressLocality": "Murfreesboro",
-                "addressRegion": "TN",
-                "postalCode": "37129",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 35.8586059,
-                "longitude": -86.4065423
-              },
-              "openingHoursSpecification": [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  "dayOfWeek": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday"
-                  ],
-                  "opens": "09:00",
-                  "closes": "18:00"
-                }
-              ],
-              "sameAs": [
-                "https://www.facebook.com/rutherfordspineandwellness"
-              ]
-            },
-            {
-              "@context": "https://schema.org",
               "@type": "Blog",
               "@id": "https://rutherfordchiropractic.com/blog/#blog",
               "url": "https://rutherfordchiropractic.com/blog/",
@@ -47121,7 +46953,7 @@
           "openGraph": {
             "title": "Drug-Free Neuropathy Care Options in Murfreesboro",
             "description": "Discover drug-free options for neuropathy treatment in Murfreesboro, including non-invasive care, spinal decompression, and lifestyle guidance for relief",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/07/towfiqu-barbhuiya-dNe6TyX_laM-unsplash.jpg",
+            "image": "/media/blog/neuropathy-treatment-without-drugs-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -47233,7 +47065,7 @@
           "openGraph": {
             "title": "Chiropractor-Guided Pain Med Tapering and Relief Tips",
             "description": "Discover how chiropractic care can help reduce reliance on pain medication with safe tapering support and chronic pain relief in Murfreesboro, TN.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/07/getty-images-CtvjPaRoHQc-unsplash-1.jpg",
+            "image": "/media/blog/pain-medication-chiropractic-care-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -47476,7 +47308,7 @@
           "openGraph": {
             "title": "First Spinal Decompression Visit Guide in Murfreesboro",
             "description": "Learn what happens during your first spinal decompression in Murfreesboro, TN visit, including eligibility, safety, session steps, and aftercare tips.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/07/sasun-bughdaryan-bNdiJ1FEbV4-unsplash.jpg",
+            "image": "/media/blog/first-spinal-decompression-visit-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -47588,7 +47420,7 @@
           "openGraph": {
             "title": "Stop Sciatica Pain While Driving: Tips and Care",
             "description": "Learn car seat and posture fixes to ease driving pain, plus when to seek sciatica treatment in Murfreesboro, TN for lasting relief",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/jan-baborak-4STq2B24S1k-unsplash.jpg",
+            "image": "/media/blog/sciatica-while-driving-seat-setup-posture-treatment-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -47841,7 +47673,7 @@
           "openGraph": {
             "title": "Common Habits That Make Sciatica Pain Worse",
             "description": "Learn everyday movements that can irritate nerves and how sciatica treatment in Murfreesboro, TN can help relieve pain and improve mobility",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/getty-images-a7R1X-geveY-unsplash.jpg",
+            "image": "/media/blog/movements-aggravate-sciatica-pain-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -47953,7 +47785,7 @@
           "openGraph": {
             "title": "Disc Pain Vs Muscle Strain: Symptoms and Next Steps",
             "description": "Learn to recognize spinal disc pain vs. muscle strain and when to seek disc pain treatment in Murfreesboro for lasting relief and restored mobility.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/curated-lifestyle-Z722q95ed2k-unsplash-3.jpg",
+            "image": "/media/blog/spinal-disc-pain-vs-muscle-strain-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -48065,7 +47897,7 @@
           "openGraph": {
             "title": "Spine-Safe Daily Habits and Posture Tips in Murfreesboro",
             "description": "Learn which everyday habits strain your back and how chiropractic care in Murfreesboro can restore alignment, mobility, and nerve health naturally.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/06/getty-images-HwY41_CUTSk-unsplash.jpg",
+            "image": "/media/blog/everyday-habits-quietly-damage-spine-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -48308,7 +48140,7 @@
           "openGraph": {
             "title": "Summer Sports Injury Prevention Tips in Murfreesboro",
             "description": "Avoid common summer strains with warm-ups, mobility drills, and prehab from a sports injury doctor in Murfreesboro, TN for active adults",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/pexels-kindelmedia-7298678.jpg",
+            "image": "/media/blog/preventing-summer-sports-injuries-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -48420,7 +48252,7 @@
           "openGraph": {
             "title": "Auto Accident Headache and Dizziness Warning Signs",
             "description": "Learn what headaches and dizziness after a crash may mean and when to see an auto accident chiropractor in Murfreesboro for relief and recovery guidance.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/getty-images-aJWvZ8GE_Fs-unsplash.jpg",
+            "image": "/media/blog/auto-injury-headaches-and-dizziness-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -48663,7 +48495,7 @@
           "openGraph": {
             "title": "Why Your Pain Moves Around: Back to Leg Pain Explained",
             "description": "Learn why pain moves from your back to leg and other areas. Rutherford Spine & Wellness Center explains traveling pain patterns and root causes. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/02/Screenshot_20260225_122950_Gallery.jpg",
+            "image": "/media/blog/why-your-pain-moves-around-one-day-its-your-back-the-next-its-your-leg-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -48918,7 +48750,7 @@
           "openGraph": {
             "title": "Why Hip Pain Comes and Goes: Spine Stability Connection",
             "description": "Understand why hip pain comes and goes with spine stability issues. Rutherford Spine & Wellness Center reveals the hidden connection and treatment. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/01/Screenshot_20260130_005427_Gallery.jpg",
+            "image": "/media/blog/why-your-hip-pain-comes-and-goes-the-spine-stability-connection-no-one-is-talking-about-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -49029,7 +48861,7 @@
           "openGraph": {
             "title": "Back Locks Up When Standing? What Your Body Is Saying",
             "description": "Find out why your back locks up when standing straight and what it means. Rutherford Spine & Wellness Center explains this common spine warning sign. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/02/Screenshot_20260225_122034_Gallery.jpg",
+            "image": "/media/blog/why-your-back-locks-up-when-you-try-to-stand-straight-and-what-its-really-telling-you-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -49284,7 +49116,7 @@
           "openGraph": {
             "title": "Spinal Decompression: Missing Link in Your Pain Relief?",
             "description": "Could spinal decompression be your missing pain relief solution? Rutherford Spine & Wellness Center explains how this treatment completes recovery. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/06/Screen-Shot-2025-06-11-at-11.37.07-PM.png",
+            "image": "/media/blog/why-spinal-decompression-may-be-the-missing-link-in-your-pain-relief-journey-featured.png",
             "type": "article"
           },
           "twitter": {
@@ -49395,7 +49227,7 @@
           "openGraph": {
             "title": "Why Sciatica Gets Worse When Sitting: Posture Problems",
             "description": "Learn why sciatica pain flares when sitting and the hidden posture issues. Rutherford Spine & Wellness Center explains sitting pain and solutions. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/12/Screenshot_20251216_174422_Gallery.jpg",
+            "image": "/media/blog/why-sciatica-flares-when-you-sit-and-the-hidden-posture-problem-no-one-talks-about-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -49506,7 +49338,7 @@
           "openGraph": {
             "title": "Why One Knee or Hip Hurts More: Hidden Alignment Issues",
             "description": "Discover why one knee or hip hurts more than the other. Rutherford Spine & Wellness Center reveals hidden alignment problems causing uneven pain. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/03/Screenshot_20260311_124959_Gallery.jpg",
+            "image": "/media/blog/why-one-knee-or-hip-hurts-more-than-the-other-and-the-hidden-alignment-problem-most-people-never-realize-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -49761,7 +49593,7 @@
           "openGraph": {
             "title": "Tight Socks When Barefoot? Neuropathy Warning Sign Explained",
             "description": "Feeling tight socks when barefoot signals neuropathy nerve damage. Rutherford Spine & Wellness Center explains this warning sign and treatment options.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/11/1d1aa4ac-3587-4e70-af00-4c711c0ca3c0.webp",
+            "image": "/media/blog/why-do-my-socks-feel-tight-when-im-not-wearing-any-the-neuropathy-red-flag-you-shouldnt-ignore-featured.webp",
             "type": "article"
           },
           "twitter": {
@@ -49872,7 +49704,7 @@
           "openGraph": {
             "title": "Lower Back Pain Causing Hand & Foot Neuropathy? The Link",
             "description": "Learn how lower back problems cause neuropathy in hands and feet. Rutherford Spine & Wellness Center explains this hidden connection and treatment. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/11/bb3656c0-a76b-4aec-aa2f-e6128e7db085.webp",
+            "image": "/media/blog/the-hidden-link-between-lower-back-problems-and-neuropathy-in-your-feet-and-hands-and-why-no-one-told-you-earlier-featured.webp",
             "type": "article"
           },
           "twitter": {
@@ -50122,7 +49954,7 @@
           "openGraph": {
             "title": "7 Daily Activities That Secretly Damage Your Spine",
             "description": "Discover common daily habits that harm your spine without you knowing. Rutherford Spine & Wellness Center reveals hidden spine damage causes and fixes.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/12/Screenshot_20251216_175154_Gallery.jpg",
+            "image": "/media/blog/the-7-most-common-daily-activities-that-damage-your-spine-without-you-realizing-it-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -50377,7 +50209,7 @@
           "openGraph": {
             "title": "Shoulder Pain Preventing Sleep? Causes and Treatment",
             "description": "Stop shoulder pain from ruining your sleep with proper treatment. Rutherford Spine & Wellness Center identifies and fixes sleep-disrupting pain. Read more.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/10/20251024-000736-1b0e23113c95bfe6-a03af517-3809-40ac-83a3-9bbe3254e739.jpg",
+            "image": "/media/blog/stop-losing-sleep-the-real-reason-your-shoulder-pain-wont-let-you-rest-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -50489,7 +50321,7 @@
           "openGraph": {
             "title": "Spinal Decompression Therapy | Natural Back Relief",
             "description": "Gentle spinal decompression therapy relieves disc pain and back problems naturally. Rutherford Spine & Wellness Center provides safe spine treatment. Call us!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/11/image1.jpg",
+            "image": "/media/blog/spinal-decompression-therapy-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -50742,7 +50574,7 @@
           "openGraph": {
             "title": "Non-Surgical Spinal Decompression Murfreesboro | Real Relief",
             "description": "Get real relief without surgery through spinal decompression in Murfreesboro. Rutherford Spine & Wellness Center offers proven non-surgical care. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/06/Screen-Shot-2025-06-11-at-11.35.56-PM.png",
+            "image": "/media/blog/spinal-decompression-in-murfreesboro-a-non-surgical-path-to-real-relief-featured.png",
             "type": "article"
           },
           "twitter": {
@@ -50992,7 +50824,7 @@
           "openGraph": {
             "title": "Spinal Decompression for Headaches | Migraine Relief",
             "description": "Treat headaches and migraines with spinal decompression therapy. Rutherford Spine & Wellness Center addresses spine-related headache causes. Read more.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/01/image1.jpg",
+            "image": "/media/blog/spinal-decompression-for-headaches-and-migraines-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -51245,7 +51077,7 @@
           "openGraph": {
             "title": "Early Signs of Neuropathy | Symptoms to Watch Out For",
             "description": "Recognize early neuropathy symptoms before they worsen. Rutherford Spine & Wellness Center helps identify and treat nerve damage signs naturally. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/10/image1.jpg",
+            "image": "/media/blog/signs-of-neuropathy-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -51498,7 +51330,7 @@
           "openGraph": {
             "title": "Neuropathy Leg Pain Keeping You Awake? Sleep Solutions",
             "description": "Stop neuropathy leg pain from disrupting your sleep. Rutherford Spine & Wellness Center provides natural treatments for better rest and pain relief. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/12/image1-150x150-Ctivfs.jpeg",
+            "image": "/media/blog/restless-nights-how-neuropathy-leg-pain-disrupts-sleep-what-you-can-do-about-it-9-featured.jpeg",
             "type": "article"
           },
           "twitter": {
@@ -51748,7 +51580,7 @@
           "openGraph": {
             "title": "Leg Gave Out? Understanding Sciatica Pain Symptoms",
             "description": "Leg weakness and sciatica pain mean nerve problems need treatment. Rutherford Spine & Wellness Center explains what your symptoms really mean. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/10/photo-1740512922093-9c2756ab5844-819x1024.jpeg",
+            "image": "/media/blog/i-just-stood-up-and-my-leg-gave-out-what-sciatica-pain-is-really-telling-you-featured.jpeg",
             "type": "article"
           },
           "twitter": {
@@ -51998,7 +51830,7 @@
           "openGraph": {
             "title": "Spine Misalignment Treatment | Work Injuries in Murfreesboro",
             "description": "Fix spine misalignment from work injuries with spinal decompression. Rutherford Spine & Wellness Center corrects workplace back injury damage. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/03/image1.jpg",
+            "image": "/media/blog/how-spinal-decompression-can-help-with-spine-misalignment-from-work-injuries-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -52251,7 +52083,7 @@
           "openGraph": {
             "title": "Spinal Decompression for Work Injuries | Murfreesboro TN",
             "description": "Treat work-related back injuries with spinal decompression therapy. Rutherford Spine & Wellness Center helps workers recover from spine injuries. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/08/image1.jpg",
+            "image": "/media/blog/how-spinal-decompression-can-alleviate-pain-from-work-related-injuries-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -52504,7 +52336,7 @@
           "openGraph": {
             "title": "Chiropractic Care & Spinal Decompression in Murfreesboro",
             "description": "Combined chiropractic care and spinal decompression therapy in Murfreesboro, TN. Rutherford Spine & Wellness Center treats disc pain and spine issues.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/11/image1.png",
+            "image": "/media/blog/chiropractic-care-and-spinal-decompression-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -52757,7 +52589,7 @@
           "openGraph": {
             "title": "What Causes Neuropathy? Symptoms & Treatment Options",
             "description": "Learn what causes neuropathy and how to treat it naturally. Rutherford Spine & Wellness Center explains nerve damage causes and treatment options. Read on!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/06/image1.jpg",
+            "image": "/media/blog/what-causes-neuropathy-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -53226,7 +53058,7 @@
           "openGraph": {
             "title": "When to See Chiropractors in Murfreesboro for Pain",
             "description": "Wondering if chronic pain needs care? Learn signs to seek chiropractors in Murfreesboro for non-invasive spine, joint, and injury relief without surgery",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/Chiropractic-Care-1.jpg",
+            "image": "/media/blog/when-to-see-chiropractor-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -53479,7 +53311,7 @@
           "openGraph": {
             "title": "When to See a Chiropractor for Sports Injuries",
             "description": "Learn key warning signs you need a sports injury doctor in Murfreesboro, TN and how chiropractic care can speed recovery and prevent setbacks",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/getty-images-rDui-aa8Ebk-unsplash.jpg",
+            "image": "/media/blog/signs-sports-injury-needs-chiropractor-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -53591,7 +53423,7 @@
           "openGraph": {
             "title": "Whiplash Care Options for Neck Pain After Auto Wrecks",
             "description": "Learn when neck pain signals a serious injury and how whiplash treatment in Murfreesboro can relieve pain, restore mobility, and speed healing.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/getty-images-u8h05JY4yuw-unsplash.jpg",
+            "image": "/media/blog/neck-pain-after-car-accident-needs-chiropractor-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -53846,7 +53678,7 @@
           "openGraph": {
             "title": "Spinal Decompression Options for Chronic Back Pain Relief",
             "description": "Learn how spinal decompression in Murfreesboro, TN can ease chronic back pain by reducing pressure on spinal discs and supporting lasting recovery.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/getty-images-7k7mYdy_LFs-unsplash.jpg",
+            "image": "/media/blog/chronic-back-pain-needs-spinal-decompression-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -53958,7 +53790,7 @@
           "openGraph": {
             "title": "Choosing a Spine Doctor in Murfreesboro After a Sports Injury",
             "description": "Recover with personalized, non-invasive care from a spine doctor in Murfreesboro, TN for sports injuries, joint pain, and nerve issues.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/05/Spine-Doctor.jpg",
+            "image": "/media/blog/choosing-spine-doctor-after-sports-injury-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -54070,7 +53902,7 @@
           "openGraph": {
             "title": "Relief for Desk-Related Neck Pain in Murfreesboro",
             "description": "Find lasting relief with neck pain treatment in Murfreesboro designed for desk and remote workers to reduce tension, restore mobility, and prevent flare-ups.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/getty-images-ItoFJmnJTXo-unsplash-2.jpg",
+            "image": "/media/blog/neck-pain-treatment-remote-workers-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -54182,7 +54014,7 @@
           "openGraph": {
             "title": "Hidden Joint Pain Triggers Active Murfreesboro Residents Overlook",
             "description": "Read our article \"Hidden Joint Pain Triggers Active Murfreesboro Residents Overlook\" to learn more. Explore our blog for the latest spine and wellness insights.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/1365.jpg",
+            "image": "/media/blog/hidden-joint-pain-triggers-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -54425,7 +54257,7 @@
           "openGraph": {
             "title": "Understanding Whiplash Treatment Options in Murfreesboro",
             "description": "Read our article \"Understanding Whiplash Treatment Options in Murfreesboro\" to learn more. Explore our blog for the latest spine and wellness insights.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/04/2150321562.jpg",
+            "image": "/media/blog/whiplash-treatment-options-murfreesboro-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -54531,13 +54363,13 @@
         "fetchError": null,
         "meta": {
           "title": "Why Your Joints Pop, Crack, or Click When You Move",
-          "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care in Murfreesboro can improve joint function and mobility.",
+          "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care improves joint function and mobility.",
           "canonical": "https://rutherfordchiropractic.com/why-your-joints-pop-crack-or-click-when-you-move/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Why Your Joints Pop, Crack, or Click When You Move",
-            "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care in Murfreesboro can improve joint function and mobility.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/03/Lumii_20260311_125635649.jpg",
+            "description": "Curious why your joints pop or crack when you move? Learn what those sounds mean and how chiropractic care improves joint function and mobility.",
+            "image": "/media/blog/why-your-joints-pop-crack-or-click-when-you-move-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -54648,7 +54480,7 @@
           "openGraph": {
             "title": "The Hidden Reason Your Lower Back Pain Makes Your Knees Ache Too",
             "description": "Knee pain without a knee injury? Learn how lower back problems often cause knee pain - and how chiropractic care in Murfreesboro can help.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2026/01/Screenshot_20260130_010027_Gallery.jpg",
+            "image": "/media/blog/the-hidden-reason-your-lower-back-pain-makes-your-knees-ache-too-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -54903,7 +54735,7 @@
           "openGraph": {
             "title": "Regain Grip: Find Relief From Hand Numbness & Neuropathy",
             "description": "Struggling with tingling or numb hands? Discover effective, drug-free neuropathy therapy and chiropractic care for nerve relief",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/08/photo-1654876691672-150715c3420c-1024x683.jpeg",
+            "image": "/media/blog/regain-grip-find-relief-from-hand-numbness-neuropathy-featured.jpeg",
             "type": "article"
           },
           "twitter": {
@@ -55153,7 +54985,7 @@
           "openGraph": {
             "title": "Overcome Runner’s Knee with Chiropractic Care",
             "description": "Struggling with runner’s knee or knee pain? Discover how chiropractic care and sports injury prevention in Murfreesboro can help you stay active and pain-free.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/08/photo-1571008887538-b36bb32f4571-1024x683.jpeg",
+            "image": "/media/blog/overcome-runners-knee-with-chiropractic-care-featured.jpeg",
             "type": "article"
           },
           "twitter": {
@@ -55264,7 +55096,7 @@
           "openGraph": {
             "title": "7 Essential Hacks for Easing Neuropathy in Daily Life",
             "description": "Rutherford Chiropractic: Discover practical tips to manage neuropathy symptoms effectively and enhance your daily life. Start improving your wellness today!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/04/image1.jpg",
+            "image": "/media/blog/living-with-neuropathy-7-real-life-hacks-to-make-everyday-tasks-easier-and-less-painful-7-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -55514,7 +55346,7 @@
           "openGraph": {
             "title": "Discover Spinal Decompression Therapy for Neuropathy Relief",
             "description": "Rutherford Spine and Wellness Center: Discover how spinal decompression therapy can relieve neuropathy symptoms. Schedule your consultation today!",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/03/image1-1.jpg",
+            "image": "/media/blog/how-spinal-decompression-can-help-with-different-types-of-neuropathy-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -55621,13 +55453,13 @@
         "fetchError": null,
         "meta": {
           "title": "How Spinal Decompression Can Help with Arthritis and Numbness - Chiropractic Murfreesboro TN",
-          "description": "When people think of arthritis, they often picture joint pain, swelling, and stiffness. But arthritis can also lead to numbness and tingling, especially when it affects the spine",
+          "description": "Arthritis can cause more than joint pain, it can lead to numbness and tingling, especially when it affects the spine. Learn how decompression helps.",
           "canonical": "https://rutherfordchiropractic.com/how-spinal-decompression-can-help-with-arthritis-and-numbness/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "How Spinal Decompression Can Help with Arthritis and Numbness",
-            "description": "When people think of arthritis, they often picture joint pain, swelling, and stiffness. But arthritis can also lead to numbness and tingling, especially when it affects the spine",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/02/image1.jpg",
+            "description": "Arthritis can cause more than joint pain, it can lead to numbness and tingling, especially when it affects the spine. Learn how decompression helps.",
+            "image": "/media/blog/how-spinal-decompression-can-help-with-arthritis-and-numbness-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -56091,13 +55923,13 @@
         "fetchError": null,
         "meta": {
           "title": "Say Goodbye to Chronic Neck Pain with Spinal Decompression - Chiropractic Murfreesboro TN",
-          "description": "chronic neck pain stems from issues like herniated discs, degenerative disc disease, or poor posture. These conditions can compress the nerves in your cervical spine, leading to pain, stiffness, and even radiating symptoms like tingling in your arms.",
+          "description": "Chronic neck pain from herniated discs, degenerative disc disease, or poor posture can compress nerves. Spinal decompression therapy offers relief.",
           "canonical": "https://rutherfordchiropractic.com/chronic-neck-pain-with-spinal-decompression/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Say Goodbye to Chronic Neck Pain with Spinal Decompression",
-            "description": "chronic neck pain stems from issues like herniated discs, degenerative disc disease, or poor posture. These conditions can compress the nerves in your cervical spine, leading to pain, stiffness, and even radiating symptoms like tingling in your arms.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2025/01/image1-1.jpg",
+            "description": "Chronic neck pain from herniated discs, degenerative disc disease, or poor posture can compress nerves. Spinal decompression therapy offers relief.",
+            "image": "/media/blog/chronic-neck-pain-with-spinal-decompression-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -56350,7 +56182,7 @@
           "openGraph": {
             "title": "When Touch Hurts: Coping with Extreme Sensitivity from Neuropathy",
             "description": "Read our article \"When Touch Hurts: Coping with Extreme Sensitivity from Neuropathy\" to learn more. Explore our blog for the latest spine and wellness insights.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/12/image1-1.jpg",
+            "image": "/media/blog/when-touch-hurts-coping-with-extreme-sensitivity-from-neuropathy-42-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -56600,7 +56432,7 @@
           "openGraph": {
             "title": "Holiday Relief: Managing Neuropathy Pain During the Busy Season",
             "description": "The holiday season is a time of joy, togetherness, and celebration, but it can also be challenging for those dealing with neuropathy pain.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/11/image1-1.jpg",
+            "image": "/media/blog/neuropathy-pain-during-the-busy-season-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -56847,13 +56679,13 @@
         "fetchError": null,
         "meta": {
           "title": "Neuropathy in Young Adults: Understanding the Hidden Risk Factors - Chiropractic Murfreesboro TN",
-          "description": "Neuropathy refers to the damage of peripheral nerves, which are responsible for transmitting signals between the brain, spinal cord, and the rest of the body. When these nerves are damaged, it can result in a wide range of symptoms, such as burning, sharp pains, or loss of sensation, typically in the hands, feet, and legs.",
+          "description": "Neuropathy can affect young adults too, causing burning pain, tingling, or numbness in the hands and feet. Learn the causes and treatment options.",
           "canonical": "https://rutherfordchiropractic.com/neuropathy-in-young-adults/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Neuropathy in Young Adults: Understanding the Hidden Risk Factors",
-            "description": "Neuropathy refers to the damage of peripheral nerves, which are responsible for transmitting signals between the brain, spinal cord, and the rest of the body. When these nerves are damaged, it can result in a wide range of symptoms, such as burning, sharp pains, or loss of sensation, typically in the hands, feet, and legs.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/10/image1-1.jpg",
+            "description": "Neuropathy can affect young adults too, causing burning pain, tingling, or numbness in the hands and feet. Learn the causes and treatment options.",
+            "image": "/media/blog/neuropathy-in-young-adults-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -57100,13 +56932,13 @@
         "fetchError": null,
         "meta": {
           "title": "How Spinal Decompression Can Help with Sciatica Relief - Chiropractic Murfreesboro TN",
-          "description": "Rutherford Spine & Wellness Center in Murfreesboro, TN, is proud to offer the latest in spinal decompression technology to help relieve sciatica and other nerve pain conditions. With over 16 years of experience, we are one of the area’s leading providers of non-surgical decompression therapy. Our skilled professionals use advanced equipment to safely and effectively stretch the spine, taking pressure off the spinal discs and promoting faster healing.",
+          "description": "Rutherford Spine & Wellness Center offers advanced spinal decompression therapy in Murfreesboro, TN to safely relieve sciatica and nerve pain.",
           "canonical": "https://rutherfordchiropractic.com/how-spinal-decompression-can-help-with-sciatica-relief/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "How Spinal Decompression Can Help with Sciatica Relief",
-            "description": "Rutherford Spine & Wellness Center in Murfreesboro, TN, is proud to offer the latest in spinal decompression technology to help relieve sciatica and other nerve pain conditions. With over 16 years of experience, we are one of the area’s leading providers of non-surgical decompression therapy. Our skilled professionals use advanced equipment to safely and effectively stretch the spine, taking pressure off the spinal discs and promoting faster healing.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/09/image1.jpg",
+            "description": "Rutherford Spine & Wellness Center offers advanced spinal decompression therapy in Murfreesboro, TN to safely relieve sciatica and nerve pain.",
+            "image": "/media/blog/how-spinal-decompression-can-help-with-sciatica-relief-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -57353,13 +57185,13 @@
         "fetchError": null,
         "meta": {
           "title": "How Neuropathy Affects Your Sleep and Tips for Better Rest - Chiropractic Murfreesboro TN",
-          "description": "For your peace of mind, we use only FDA-approved neuropathy equipment and all of our treatments are non-invasive. Click here to schedule your consultation today or call us directly at 615-217-0097.",
+          "description": "Neuropathy pain can disrupt sleep with burning, tingling, or numbness at night. Our FDA-approved, non-invasive treatments help. Call 615-217-0097.",
           "canonical": "https://rutherfordchiropractic.com/how-neuropathy-affects-your-sleep/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "How Neuropathy Affects Your Sleep and Tips for Better Rest",
-            "description": "For your peace of mind, we use only FDA-approved neuropathy equipment and all of our treatments are non-invasive. Click here to schedule your consultation today or call us directly at 615-217-0097.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/07/image1-1.jpg",
+            "description": "Neuropathy pain can disrupt sleep with burning, tingling, or numbness at night. Our FDA-approved, non-invasive treatments help. Call 615-217-0097.",
+            "image": "/media/blog/how-neuropathy-affects-your-sleep-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -57606,13 +57438,13 @@
         "fetchError": null,
         "meta": {
           "title": "How to Recognize the Early Signs of Neuropathy - Chiropractic Murfreesboro TN",
-          "description": "At Rutherford Spine & Wellness Center, we offer opioid-free/drug-free alternative therapies for acute, and/or chronic neuropathy pain or circulatory disorders symptoms patients in Murfreesboro, TN.",
+          "description": "Learn to recognize the early signs of neuropathy. Rutherford Spine & Wellness Center offers drug-free treatment for nerve pain in Murfreesboro, TN.",
           "canonical": "https://rutherfordchiropractic.com/how-to-recognize-the-early-signs-of-neuropathy/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "How to Recognize the Early Signs of Neuropathy",
-            "description": "At Rutherford Spine & Wellness Center, we offer opioid-free/drug-free alternative therapies for acute, and/or chronic neuropathy pain or circulatory disorders symptoms patients in Murfreesboro, TN.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/07/image1.jpg",
+            "description": "Learn to recognize the early signs of neuropathy. Rutherford Spine & Wellness Center offers drug-free treatment for nerve pain in Murfreesboro, TN.",
+            "image": "/media/blog/how-to-recognize-the-early-signs-of-neuropathy-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -57865,7 +57697,7 @@
           "openGraph": {
             "title": "Chiropractic Spinal Decompression Therapy",
             "description": "Read our article \"Chiropractic Spinal Decompression Therapy\" to learn more. Explore our blog for the latest spine and wellness insights.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/image1-1.jpg",
+            "image": "/media/blog/chiropractic-spinal-decompression-therapy-4-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -58092,13 +57924,13 @@
         "fetchError": null,
         "meta": {
           "title": "Chiropractic Care for Disc Injuries - Chiropractic Murfreesboro TN",
-          "description": "Beyond providing treatment for disc injuries, our goal at Rutherford Spine and Wellness Center is to empower our patients to take control of their health and well-being. Through education, lifestyle recommendations, and preventive care strategies, we aim to equip our patients with the tools they need to maintain a healthy spine and prevent future injuries.",
+          "description": "Rutherford Spine and Wellness Center helps patients recover from disc injuries in Murfreesboro through education, chiropractic care, and prevention.",
           "canonical": "https://rutherfordchiropractic.com/chiropractic-care-for-disc-injuries/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Chiropractic Care for Disc Injuries",
-            "description": "Beyond providing treatment for disc injuries, our goal at Rutherford Spine and Wellness Center is to empower our patients to take control of their health and well-being. Through education, lifestyle recommendations, and preventive care strategies, we aim to equip our patients with the tools they need to maintain a healthy spine and prevent future injuries.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/image1.jpg",
+            "description": "Rutherford Spine and Wellness Center helps patients recover from disc injuries in Murfreesboro through education, chiropractic care, and prevention.",
+            "image": "/media/blog/chiropractic-care-for-disc-injuries-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -58345,13 +58177,13 @@
         "fetchError": null,
         "meta": {
           "title": "Chiropractic Relief for Headaches and Pain - Chiropractic Murfreesboro TN",
-          "description": "At Rutherford Spine and Wellness Center, we're committed to helping our patients achieve lasting relief from pain and improve their overall quality of life through personalized chiropractic care and holistic wellness solutions.",
+          "description": "Rutherford Spine and Wellness Center helps Murfreesboro patients find lasting relief from headaches and pain through personalized chiropractic care.",
           "canonical": "https://rutherfordchiropractic.com/chiropractic-relief-for-headaches-and-pain/",
           "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
           "openGraph": {
             "title": "Chiropractic Relief for Headaches and Pain",
-            "description": "At Rutherford Spine and Wellness Center, we're committed to helping our patients achieve lasting relief from pain and improve their overall quality of life through personalized chiropractic care and holistic wellness solutions.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/image1-3.jpg",
+            "description": "Rutherford Spine and Wellness Center helps Murfreesboro patients find lasting relief from headaches and pain through personalized chiropractic care.",
+            "image": "/media/blog/chiropractic-relief-for-headaches-and-pain-featured.jpg",
             "type": "article"
           },
           "twitter": {
@@ -58604,7 +58436,7 @@
           "openGraph": {
             "title": "Murfreesboro Back Pain Relief: Rutherford Chiropractic Care",
             "description": "Find back pain relief in Murfreesboro, TN with Rutherford Spine & Wellness Center. Dr. Stewart offers natural chiropractic care for a healthier you.",
-            "image": "https://rutherfordchiropractic.com/wp-content/uploads/2024/05/Back-Pain-Chiropractor-Murfreesboro-TN-RGYpJB.jpeg",
+            "image": "/media/blog/back-pain-chiropractor-murfreesboro-tn-featured.jpeg",
             "type": "article"
           },
           "twitter": {

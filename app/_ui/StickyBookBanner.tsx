@@ -84,13 +84,13 @@ export function StickyBookBanner() {
       role="region"
       aria-label="Book an appointment"
       aria-hidden={!visible}
-      className={`fixed inset-x-0 z-40 flex justify-center px-4 transition-all duration-300 ease-out ${
+      className={`fixed inset-x-0 z-40 flex justify-center pl-4 pr-40 transition-all duration-300 ease-out sm:pr-32 ${
         visible ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0 pointer-events-none"
       }`}
       style={{ bottom: "max(env(safe-area-inset-bottom, 0px), 1rem)" }}
     >
-      {/* Capped width + centered (not full-bleed) so it doesn't sit under the
-          Knock Knock chat launcher parked in the bottom-right corner. */}
+      {/* Capped width + extra right-side clearance (not centered/full-bleed) so
+          it never sits under the Knock Knock chat launcher parked bottom-right. */}
       <div className="flex w-full max-w-md items-center gap-2.5 rounded-full border border-white/10 bg-[color:var(--color-brand-navy)]/95 px-3 py-2 shadow-[0_10px_30px_-8px_rgba(1,17,73,0.45)] backdrop-blur-md sm:max-w-lg sm:gap-3 sm:px-4">
         <a
           href={businessInfo.phoneHref}

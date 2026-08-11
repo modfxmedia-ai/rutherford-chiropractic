@@ -28,7 +28,7 @@ export const SERVICE_HERO_BG: Record<string, string> = {
  * service-fallback mapping below.
  */
 export const CONDITION_HERO_BG: Record<string, string> = {
-  sciatica: "/media/conditions/sciatica.webp",
+  sciatica: "/media/conditions/sciatica.jpg",
   "herniated-disc": "/media/conditions/herniated-and-bulging-disc.jpg",
   "migraines-headaches": "/media/conditions/migraines-and-headaches.jpg",
   whiplash: "/media/conditions/whiplash.jpg",

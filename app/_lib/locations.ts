@@ -43,6 +43,13 @@ export function getAllLocationSlugs(): string[] {
   return Object.keys(LOCATIONS);
 }
 
+/** Every location-landing page for a given core service, for cross-linking
+ * from that service's pillar page (e.g. `/chiropractic/` links out to all
+ * `/chiropractic-{city}-tn/` pages). */
+export function getLocationsForService(service: string): LocationPageData[] {
+  return Object.values(LOCATIONS).filter((loc) => loc.service === service);
+}
+
 /** Service label + hero image + related-service links, reused from the 7
  * core service pages' own data module rather than duplicated per-location
  * (location pages have zero body images of their own). */

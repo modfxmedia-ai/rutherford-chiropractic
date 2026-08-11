@@ -41,8 +41,15 @@ const map = contentMap as unknown as {
   grouped: Record<string, RouteEntry[]>;
 };
 
-export const ORIGIN = map.origin;
+// Single source of truth for the production origin: prefer the env var (so
+// changing domains/Vercel projects only requires an env change) and fall
+// back to the scraped content-map value if it's ever unset.
+export const ORIGIN = process.env.NEXT_PUBLIC_SITE_URL ?? map.origin;
 export const ROUTES = map.routes;
+
+// Sitewide fallback social-share image for any page that has no dedicated
+// OG image of its own (e.g. most migrated WordPress routes never had one).
+export const DEFAULT_OG_IMAGE = "/media/blog-banner.jpeg";
 
 const byPath = new Map<string, RouteEntry>();
 for (const r of ROUTES) byPath.set(r.path, r);
@@ -61,6 +68,7 @@ export function metadataFor(path: string): Metadata {
   const entry = getRoute(path);
   const m = entry.meta;
   if (!m) return {};
+  const ogImage = m.openGraph.image ?? DEFAULT_OG_IMAGE;
   const meta: Metadata = {
     title: m.title ?? undefined,
     description: m.description ?? undefined,
@@ -70,7 +78,7 @@ export function metadataFor(path: string): Metadata {
       title: m.openGraph.title ?? undefined,
       description: m.openGraph.description ?? undefined,
       url: m.canonical ?? undefined,
-      images: m.openGraph.image ? [m.openGraph.image] : undefined,
+      images: [ogImage],
       type:
         (m.openGraph.type as
           | "article"
@@ -78,7 +86,12 @@ export function metadataFor(path: string): Metadata {
           | undefined) ?? undefined,
     },
     twitter: m.twitter.card
-      ? { card: m.twitter.card as "summary" | "summary_large_image" }
+      ? {
+          card: m.twitter.card as "summary" | "summary_large_image",
+          title: m.openGraph.title ?? m.title ?? undefined,
+          description: m.openGraph.description ?? m.description ?? undefined,
+          images: [ogImage],
+        }
       : undefined,
   };
   return meta;

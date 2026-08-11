@@ -28,6 +28,7 @@ import { ServiceIcon } from "./icons";
 import { FaqAccordion } from "../conditions/FaqAccordion";
 import { HeroBgImage } from "../HeroBgImage";
 import { heroBgForService } from "../../_lib/hero-images";
+import { getLocationsForService } from "../../_lib/locations";
 import type { ServicePageData, ServiceSection as ServiceSectionData } from "../../_lib/services";
 
 export function ServicePageTemplate({ data }: { data: ServicePageData }) {
@@ -48,6 +49,7 @@ export function ServicePageTemplate({ data }: { data: ServicePageData }) {
       <WhyChooseSection data={data} />
       <ProcessSection data={data} />
       <ServiceFaqSection data={data} />
+      <ServiceLocationsSection data={data} />
       {data.outro && <ServiceOutro text={data.outro} />}
       <ServiceCta data={data} />
     </main>
@@ -344,6 +346,36 @@ function ServiceFaqSection({ data }: { data: ServicePageData }) {
         <div className="mt-10">
           <FaqAccordion faqs={data.faqs} />
         </div>
+      </div>
+    </section>
+  );
+}
+
+function ServiceLocationsSection({ data }: { data: ServicePageData }) {
+  const locations = getLocationsForService(data.slug);
+  if (locations.length === 0) return null;
+
+  return (
+    <section className="section-y surface-muted">
+      <div className="container-content">
+        <Reveal as="div" className="text-center">
+          <span className="eyebrow">Service Areas</span>
+          <h2 className="h-section mt-3">
+            {data.h1.replace(" Murfreesboro TN", "")} Near You
+          </h2>
+        </Reveal>
+        <Stagger as="ul" className="mt-8 flex flex-wrap justify-center gap-3">
+          {locations.map((loc) => (
+            <StaggerItem key={loc.slug} as="li">
+              <Link
+                href={`/${loc.slug}/`}
+                className="hover-lift inline-flex items-center rounded-full border border-[color:var(--color-border)] bg-white px-5 py-2.5 text-sm font-semibold text-[color:var(--color-brand-navy)] transition-colors hover:border-[color:var(--color-brand-orange)]"
+              >
+                {loc.city}, TN
+              </Link>
+            </StaggerItem>
+          ))}
+        </Stagger>
       </div>
     </section>
   );

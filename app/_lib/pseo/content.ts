@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { JsonLd } from "../content-map";
 import { businessInfo } from "../../_ui/nav";
-import { ORIGIN } from "../content-map";
+import { ORIGIN, DEFAULT_OG_IMAGE } from "../content-map";
 import { PSEO_CONDITIONS, getPseoCondition, type PseoFaq } from "./conditions";
 import { NEIGHBORHOODS, getNeighborhood, type Neighborhood } from "./neighborhoods";
 import { PSEO_COMBINATIONS, isApprovedPseoCombo } from "./combinations";
@@ -132,9 +132,15 @@ export function pseoMetadata(content: PseoPageContent): Metadata {
       title: content.metaTitle,
       description: content.metaDescription,
       url: content.canonical,
+      images: [DEFAULT_OG_IMAGE],
       type: "website",
     },
-    twitter: { card: "summary_large_image" },
+    twitter: {
+      card: "summary_large_image",
+      title: content.metaTitle,
+      description: content.metaDescription,
+      images: [DEFAULT_OG_IMAGE],
+    },
   };
 }
 
