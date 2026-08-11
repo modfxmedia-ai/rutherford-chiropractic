@@ -8,6 +8,9 @@
  *
  * The `variant` prop scales padding/heading so the same content reads
  * appropriately in a compact sidebar vs. a full-width homepage section.
+ *
+ * HFA and CareCredit options carry an external `href` (their patient-facing
+ * provider pages) so their name renders as a link in every variant.
  */
 
 import Link from "next/link";
@@ -41,6 +44,7 @@ const OPTIONS = [
     name: "Healthcare Financing of America",
     description:
       "Health Financial Assistance program with straightforward monthly terms designed for medical care.",
+    href: "https://paybyhfa.com/for-patients/",
     icon: (
       <svg
         width={20}
@@ -62,6 +66,7 @@ const OPTIONS = [
     name: "CareCredit",
     description:
       "Nationally recognized healthcare credit card with easy monthly payments and quick online approval.",
+    href: "https://www.carecredit.com/chiropractic/",
     icon: (
       <svg
         width={20}
@@ -107,9 +112,20 @@ export function FinancingOptions({
                 {opt.icon}
               </span>
               <div>
-                <p className="text-sm font-bold text-[color:var(--color-brand-navy)]">
-                  {opt.name}
-                </p>
+                {opt.href ? (
+                  <a
+                    href={opt.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-bold text-[color:var(--color-brand-navy)] transition-colors hover:text-[color:var(--color-brand-blue)] hover:underline"
+                  >
+                    {opt.name}
+                  </a>
+                ) : (
+                  <p className="text-sm font-bold text-[color:var(--color-brand-navy)]">
+                    {opt.name}
+                  </p>
+                )}
               </div>
             </li>
           ))}
@@ -141,6 +157,16 @@ export function FinancingOptions({
             <p className="mt-3 text-sm leading-relaxed text-[color:var(--color-body)]">
               {opt.description}
             </p>
+            {opt.href && (
+              <a
+                href={opt.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-[color:var(--color-brand-blue)] transition-colors hover:text-[color:var(--color-brand-orange)]"
+              >
+                Learn More →
+              </a>
+            )}
           </div>
         ))}
       </div>
@@ -176,9 +202,20 @@ export function FinancingOptions({
                 className="hover-lift surface-card flex flex-col bg-white p-5"
               >
                 <span className="icon-badge h-10 w-10">{opt.icon}</span>
-                <p className="mt-3 text-sm font-bold text-[color:var(--color-brand-navy)]">
-                  {opt.name}
-                </p>
+                {opt.href ? (
+                  <a
+                    href={opt.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 text-sm font-bold text-[color:var(--color-brand-navy)] transition-colors hover:text-[color:var(--color-brand-blue)] hover:underline"
+                  >
+                    {opt.name}
+                  </a>
+                ) : (
+                  <p className="mt-3 text-sm font-bold text-[color:var(--color-brand-navy)]">
+                    {opt.name}
+                  </p>
+                )}
               </div>
             ))}
           </div>
