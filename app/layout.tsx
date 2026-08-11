@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "./_ui/Header";
@@ -45,6 +46,15 @@ export default function RootLayout({
         {children}
         <Footer />
         <StickyBookBanner />
+        {/* Knock Knock chat widget */}
+        <Script id="knock-knock-widget" strategy="lazyOnload">
+          {`
+            window.company_id = '6a7aefaab47776717de9bae4';
+            var newScript = document.createElement('script');
+            newScript.src = 'https://api.knock-knockapp.com/widget/widget.js';
+            document.getElementsByTagName('HEAD')[0].appendChild(newScript);
+          `}
+        </Script>
       </body>
     </html>
   );

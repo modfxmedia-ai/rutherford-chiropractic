@@ -84,22 +84,24 @@ export function StickyBookBanner() {
       role="region"
       aria-label="Book an appointment"
       aria-hidden={!visible}
-      className={`fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-[color:var(--color-brand-navy)]/95 backdrop-blur-md shadow-[0_-8px_30px_-8px_rgba(1,17,73,0.35)] transition-transform duration-300 ease-out ${
-        visible ? "translate-y-0" : "translate-y-full pointer-events-none"
+      className={`fixed inset-x-0 z-40 flex justify-center px-4 transition-all duration-300 ease-out ${
+        visible ? "translate-y-0 opacity-100" : "translate-y-3 opacity-0 pointer-events-none"
       }`}
-      style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
+      style={{ bottom: "max(env(safe-area-inset-bottom, 0px), 1rem)" }}
     >
-      <div className="flex items-center gap-3 px-4 py-3 sm:px-6">
+      {/* Capped width + centered (not full-bleed) so it doesn't sit under the
+          Knock Knock chat launcher parked in the bottom-right corner. */}
+      <div className="flex w-full max-w-md items-center gap-2.5 rounded-full border border-white/10 bg-[color:var(--color-brand-navy)]/95 px-3 py-2 shadow-[0_10px_30px_-8px_rgba(1,17,73,0.45)] backdrop-blur-md sm:max-w-lg sm:gap-3 sm:px-4">
         <a
           href={businessInfo.phoneHref}
           aria-label={`Call ${businessInfo.phone}`}
-          className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
+          className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
         >
-          <PhoneIcon size={19} />
+          <PhoneIcon size={17} />
         </a>
 
         <div className="hidden min-w-0 flex-1 sm:block">
-          <p className="truncate text-xs font-bold uppercase tracking-[0.1em] text-white/60">
+          <p className="truncate text-[11px] font-bold uppercase tracking-[0.1em] text-white/60">
             Now Accepting New Patients
           </p>
           <p className="truncate text-sm font-semibold text-white">Murfreesboro, TN</p>
@@ -122,9 +124,9 @@ export function StickyBookBanner() {
           aria-label="Dismiss booking banner"
           tabIndex={visible ? 0 : -1}
           onClick={() => setDismissed(true)}
-          className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-white/50 transition-colors hover:bg-white/10 hover:text-white"
+          className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-white/50 transition-colors hover:bg-white/10 hover:text-white"
         >
-          <CloseIcon size={16} />
+          <CloseIcon size={15} />
         </button>
       </div>
     </div>
