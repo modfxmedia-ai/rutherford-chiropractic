@@ -43,6 +43,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [DEFAULT_OG_IMAGE],
   },
+  verification: {
+    google: "jOM4qXYpiMZjyzIa3xPSUt-fZCwgBxgDuLJ03BF2XBE",
+  },
 };
 
 export default function RootLayout({
@@ -56,6 +59,19 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        {/* Google tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-4RDRK2BSL1"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-4RDRK2BSL1');
+          `}
+        </Script>
         <BusinessSchema />
         <Header />
         {children}
