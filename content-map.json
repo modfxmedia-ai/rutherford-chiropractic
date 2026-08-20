@@ -2,15 +2,15 @@
   "generatedAt": "2026-07-28T21:30:22.576Z",
   "origin": "https://rutherfordchiropractic.com",
   "totals": {
-    "all": 146,
+    "all": 147,
     "home": 1,
     "core-service": 7,
     "utility": 4,
     "location-landing": 69,
     "blog-index": 1,
-    "blog-post": 66,
+    "blog-post": 67,
     "other": 0,
-    "routes": 134
+    "routes": 135
   },
   "routes": [
     {
@@ -110,6 +110,111 @@
                 "inLanguage": "en-US",
                 "mainEntityOfPage": {
                   "@id": "https://rutherfordchiropractic.com/#webpage"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+      "url": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+      "lastmod": "2026-08-17T17:00:00+00:00",
+      "source": "post",
+      "category": "blog-post",
+      "fetchError": null,
+      "meta": {
+        "title": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+        "description": "Find lasting, drug-free comfort with massage therapy in Murfreesboro, TN plus supportive chiropractic care for spine, joint, and injury pain relief",
+        "canonical": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+        "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+        "openGraph": {
+          "title": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+          "description": "Find lasting, drug-free comfort with massage therapy in Murfreesboro, TN plus supportive chiropractic care for spine, joint, and injury pain relief",
+          "image": "/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg",
+          "type": "article"
+        },
+        "twitter": {
+          "card": "summary_large_image"
+        },
+        "jsonLd": [
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": [
+                  "Person",
+                  "Organization"
+                ],
+                "@id": "https://rutherfordchiropractic.com/#person",
+                "name": "Chiropractic Murfreesboro TN"
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://rutherfordchiropractic.com/#website",
+                "url": "https://rutherfordchiropractic.com",
+                "name": "Chiropractic Murfreesboro TN",
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "ImageObject",
+                "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg",
+                "url": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg",
+                "width": "612",
+                "height": "408",
+                "caption": "Massage Therapy",
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#webpage",
+                "url": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+                "name": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+                "datePublished": "2026-08-17T17:00:00+00:00",
+                "dateModified": "2026-08-17T17:00:00+00:00",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/#website"
+                },
+                "primaryImageOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                "name": "Palash",
+                "url": "https://rutherfordchiropractic.com/author/palashseo/"
+              },
+              {
+                "@type": "BlogPosting",
+                "headline": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+                "datePublished": "2026-08-17T17:00:00+00:00",
+                "dateModified": "2026-08-17T17:00:00+00:00",
+                "articleSection": "Massage Therapy",
+                "author": {
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash"
+                },
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "description": "Find lasting, drug-free comfort with massage therapy in Murfreesboro, TN plus supportive chiropractic care for spine, joint, and injury pain relief",
+                "name": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+                "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#richSnippet",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#webpage"
+                },
+                "image": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg"
+                },
+                "inLanguage": "en-US",
+                "mainEntityOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#webpage"
                 }
               }
             ]
@@ -47148,6 +47253,111 @@
       }
     ],
     "blog-post": [
+      {
+        "path": "/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+        "url": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+        "lastmod": "2026-08-17T17:00:00+00:00",
+        "source": "post",
+        "category": "blog-post",
+        "fetchError": null,
+        "meta": {
+          "title": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+          "description": "Find lasting, drug-free comfort with massage therapy in Murfreesboro, TN plus supportive chiropractic care for spine, joint, and injury pain relief",
+          "canonical": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+          "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+          "openGraph": {
+            "title": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+            "description": "Find lasting, drug-free comfort with massage therapy in Murfreesboro, TN plus supportive chiropractic care for spine, joint, and injury pain relief",
+            "image": "/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg",
+            "type": "article"
+          },
+          "twitter": {
+            "card": "summary_large_image"
+          },
+          "jsonLd": [
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": [
+                    "Person",
+                    "Organization"
+                  ],
+                  "@id": "https://rutherfordchiropractic.com/#person",
+                  "name": "Chiropractic Murfreesboro TN"
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://rutherfordchiropractic.com/#website",
+                  "url": "https://rutherfordchiropractic.com",
+                  "name": "Chiropractic Murfreesboro TN",
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "ImageObject",
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg",
+                  "url": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg",
+                  "width": "612",
+                  "height": "408",
+                  "caption": "Massage Therapy",
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#webpage",
+                  "url": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
+                  "name": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+                  "datePublished": "2026-08-17T17:00:00+00:00",
+                  "dateModified": "2026-08-17T17:00:00+00:00",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/#website"
+                  },
+                  "primaryImageOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "Person",
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash",
+                  "url": "https://rutherfordchiropractic.com/author/palashseo/"
+                },
+                {
+                  "@type": "BlogPosting",
+                  "headline": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+                  "datePublished": "2026-08-17T17:00:00+00:00",
+                  "dateModified": "2026-08-17T17:00:00+00:00",
+                  "articleSection": "Massage Therapy",
+                  "author": {
+                    "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                    "name": "Palash"
+                  },
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "description": "Find lasting, drug-free comfort with massage therapy in Murfreesboro, TN plus supportive chiropractic care for spine, joint, and injury pain relief",
+                  "name": "Chronic Pain Relief With Massage Therapy in Murfreesboro",
+                  "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#richSnippet",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#webpage"
+                  },
+                  "image": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/chronic-pain-relief-with-massage-therapy-in-murfreesboro-featured.jpg"
+                  },
+                  "inLanguage": "en-US",
+                  "mainEntityOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/#webpage"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       {
         "path": "/find-your-pain-driver-before-choosing-a-treatment/",
         "url": "https://rutherfordchiropractic.com/find-your-pain-driver-before-choosing-a-treatment/",
