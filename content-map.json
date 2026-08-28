@@ -2,15 +2,15 @@
   "generatedAt": "2026-07-28T21:30:22.576Z",
   "origin": "https://rutherfordchiropractic.com",
   "totals": {
-    "all": 147,
+    "all": 148,
     "home": 1,
     "core-service": 7,
     "utility": 4,
     "location-landing": 69,
     "blog-index": 1,
-    "blog-post": 67,
+    "blog-post": 68,
     "other": 0,
-    "routes": 135
+    "routes": 136
   },
   "routes": [
     {
@@ -110,6 +110,111 @@
                 "inLanguage": "en-US",
                 "mainEntityOfPage": {
                   "@id": "https://rutherfordchiropractic.com/#webpage"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+      "url": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+      "lastmod": "2026-08-24T17:00:00+00:00",
+      "source": "post",
+      "category": "blog-post",
+      "fetchError": null,
+      "meta": {
+        "title": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+        "description": "Discover non-invasive options for chronic spine pain, including rehabilitation services in Murfreesboro that support nerve health and reduce meds reliance",
+        "canonical": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+        "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+        "openGraph": {
+          "title": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+          "description": "Discover non-invasive options for chronic spine pain, including rehabilitation services in Murfreesboro that support nerve health and reduce meds reliance",
+          "image": "/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp",
+          "type": "article"
+        },
+        "twitter": {
+          "card": "summary_large_image"
+        },
+        "jsonLd": [
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": [
+                  "Person",
+                  "Organization"
+                ],
+                "@id": "https://rutherfordchiropractic.com/#person",
+                "name": "Chiropractic Murfreesboro TN"
+              },
+              {
+                "@type": "WebSite",
+                "@id": "https://rutherfordchiropractic.com/#website",
+                "url": "https://rutherfordchiropractic.com",
+                "name": "Chiropractic Murfreesboro TN",
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "ImageObject",
+                "@id": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp",
+                "url": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp",
+                "width": "1200",
+                "height": "625",
+                "caption": "Spine Rehabilitation",
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "WebPage",
+                "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#webpage",
+                "url": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+                "name": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+                "datePublished": "2026-08-24T17:00:00+00:00",
+                "dateModified": "2026-08-24T17:00:00+00:00",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/#website"
+                },
+                "primaryImageOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp"
+                },
+                "inLanguage": "en-US"
+              },
+              {
+                "@type": "Person",
+                "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                "name": "Palash",
+                "url": "https://rutherfordchiropractic.com/author/palashseo/"
+              },
+              {
+                "@type": "BlogPosting",
+                "headline": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+                "datePublished": "2026-08-24T17:00:00+00:00",
+                "dateModified": "2026-08-24T17:00:00+00:00",
+                "articleSection": "Rehabilitation",
+                "author": {
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash"
+                },
+                "publisher": {
+                  "@id": "https://rutherfordchiropractic.com/#person"
+                },
+                "description": "Discover non-invasive options for chronic spine pain, including rehabilitation services in Murfreesboro that support nerve health and reduce meds reliance",
+                "name": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+                "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#richSnippet",
+                "isPartOf": {
+                  "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#webpage"
+                },
+                "image": {
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp"
+                },
+                "inLanguage": "en-US",
+                "mainEntityOfPage": {
+                  "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#webpage"
                 }
               }
             ]
@@ -47253,6 +47358,111 @@
       }
     ],
     "blog-post": [
+      {
+        "path": "/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+        "url": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+        "lastmod": "2026-08-24T17:00:00+00:00",
+        "source": "post",
+        "category": "blog-post",
+        "fetchError": null,
+        "meta": {
+          "title": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+          "description": "Discover non-invasive options for chronic spine pain, including rehabilitation services in Murfreesboro that support nerve health and reduce meds reliance",
+          "canonical": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+          "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+          "openGraph": {
+            "title": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+            "description": "Discover non-invasive options for chronic spine pain, including rehabilitation services in Murfreesboro that support nerve health and reduce meds reliance",
+            "image": "/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp",
+            "type": "article"
+          },
+          "twitter": {
+            "card": "summary_large_image"
+          },
+          "jsonLd": [
+            {
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": [
+                    "Person",
+                    "Organization"
+                  ],
+                  "@id": "https://rutherfordchiropractic.com/#person",
+                  "name": "Chiropractic Murfreesboro TN"
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": "https://rutherfordchiropractic.com/#website",
+                  "url": "https://rutherfordchiropractic.com",
+                  "name": "Chiropractic Murfreesboro TN",
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "ImageObject",
+                  "@id": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp",
+                  "url": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp",
+                  "width": "1200",
+                  "height": "625",
+                  "caption": "Spine Rehabilitation",
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "WebPage",
+                  "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#webpage",
+                  "url": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/",
+                  "name": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+                  "datePublished": "2026-08-24T17:00:00+00:00",
+                  "dateModified": "2026-08-24T17:00:00+00:00",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/#website"
+                  },
+                  "primaryImageOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp"
+                  },
+                  "inLanguage": "en-US"
+                },
+                {
+                  "@type": "Person",
+                  "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                  "name": "Palash",
+                  "url": "https://rutherfordchiropractic.com/author/palashseo/"
+                },
+                {
+                  "@type": "BlogPosting",
+                  "headline": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+                  "datePublished": "2026-08-24T17:00:00+00:00",
+                  "dateModified": "2026-08-24T17:00:00+00:00",
+                  "articleSection": "Rehabilitation",
+                  "author": {
+                    "@id": "https://rutherfordchiropractic.com/author/palashseo/",
+                    "name": "Palash"
+                  },
+                  "publisher": {
+                    "@id": "https://rutherfordchiropractic.com/#person"
+                  },
+                  "description": "Discover non-invasive options for chronic spine pain, including rehabilitation services in Murfreesboro that support nerve health and reduce meds reliance",
+                  "name": "Chronic Spine Pain Relief With Rehab Care in Murfreesboro",
+                  "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#richSnippet",
+                  "isPartOf": {
+                    "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#webpage"
+                  },
+                  "image": {
+                    "@id": "https://rutherfordchiropractic.com/media/blog/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro-featured.webp"
+                  },
+                  "inLanguage": "en-US",
+                  "mainEntityOfPage": {
+                    "@id": "https://rutherfordchiropractic.com/chronic-spine-pain-relief-with-rehab-care-in-murfreesboro/#webpage"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
       {
         "path": "/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
         "url": "https://rutherfordchiropractic.com/chronic-pain-relief-with-massage-therapy-in-murfreesboro/",
