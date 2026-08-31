@@ -192,11 +192,7 @@ function NapBlock() {
           </p>
           <div className="flex justify-between gap-4 pt-1">
             <dt>Mon &ndash; Thu</dt>
-            <dd className="text-white text-right">
-              8:00am &ndash; 12:00pm
-              <br />
-              2:00pm &ndash; 6:00pm
-            </dd>
+            <dd className="text-white text-right">8:00am &ndash; 6:00pm</dd>
           </div>
           <div className="flex justify-between gap-4">
             <dt>Friday</dt>

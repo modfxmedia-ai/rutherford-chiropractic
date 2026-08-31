@@ -171,8 +171,7 @@ const SPECIALTIES: Array<{ label: string; icon: () => ReactNode }> = [
 function hoursForDay(day: number): string {
   if (day === 0 || day === 6) return "Closed today";
   if (day === 5) return "8:00am – 12:00pm";
-  // Monday–Thursday: split shift with a midday break.
-  return "8am–12pm, 2–6pm";
+  return "8am–6pm";
 }
 
 /** Stable multi-day fallback used for the initial SSR render before the

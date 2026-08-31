@@ -1717,10 +1717,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -1982,10 +1992,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -2247,10 +2267,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -2512,10 +2542,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -2777,10 +2817,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -3042,10 +3092,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -3307,10 +3367,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -3572,10 +3642,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -3837,10 +3917,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -4102,10 +4192,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -4367,10 +4467,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -4632,10 +4742,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -4897,10 +5017,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -5162,10 +5292,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -5427,10 +5567,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -5692,10 +5842,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -5957,10 +6117,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -6222,10 +6392,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -6487,10 +6667,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -6752,10 +6942,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -7017,10 +7217,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -7216,10 +7426,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -7481,10 +7701,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -7746,10 +7976,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -7945,10 +8185,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -8210,10 +8460,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -8475,10 +8735,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -8740,10 +9010,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -9005,10 +9285,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -9270,10 +9560,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -9535,10 +9835,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -9800,10 +10110,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -10065,10 +10385,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -10330,10 +10660,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -10595,10 +10935,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -10860,10 +11210,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -11125,10 +11485,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -11390,10 +11760,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -11655,10 +12035,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -11920,10 +12310,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -12185,10 +12585,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -12450,10 +12860,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -12715,10 +13135,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -12980,10 +13410,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -13245,10 +13685,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -13510,10 +13960,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -13775,10 +14235,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -14040,10 +14510,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -14305,10 +14785,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -14570,10 +15060,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -14835,10 +15335,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -15100,10 +15610,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -15365,10 +15885,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -15630,10 +16160,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -15895,10 +16435,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -16160,10 +16710,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -16425,10 +16985,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -16690,10 +17260,20 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": [
                   "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
                   "Friday"
                 ],
-                "opens": "09:00",
-                "closes": "18:00"
+                "opens": "08:00",
+                "closes": "12:00"
               }
             ],
             "hasOfferCatalog": {
@@ -31891,10 +32471,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -32156,10 +32746,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -32421,10 +33021,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -32686,10 +33296,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -32951,10 +33571,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -33216,10 +33846,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -33481,10 +34121,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -33746,10 +34396,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -34011,10 +34671,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -34276,10 +34946,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -34541,10 +35221,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -34806,10 +35496,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -35071,10 +35771,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -35336,10 +36046,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -35601,10 +36321,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -35866,10 +36596,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -36131,10 +36871,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -36396,10 +37146,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -36661,10 +37421,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -36926,10 +37696,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -37191,10 +37971,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -37390,10 +38180,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -37655,10 +38455,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -37920,10 +38730,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -38119,10 +38939,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -38384,10 +39214,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -38649,10 +39489,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -38914,10 +39764,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -39179,10 +40039,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -39444,10 +40314,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -39709,10 +40589,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -39974,10 +40864,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -40239,10 +41139,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -40504,10 +41414,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -40769,10 +41689,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -41034,10 +41964,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -41299,10 +42239,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -41564,10 +42514,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -41829,10 +42789,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -42094,10 +43064,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -42359,10 +43339,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -42624,10 +43614,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -42889,10 +43889,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -43154,10 +44164,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -43419,10 +44439,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -43684,10 +44714,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -43949,10 +44989,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -44214,10 +45264,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -44479,10 +45539,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -44744,10 +45814,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -45009,10 +46089,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -45274,10 +46364,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -45539,10 +46639,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -45804,10 +46914,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -46069,10 +47189,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -46334,10 +47464,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -46599,10 +47739,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {
@@ -46864,10 +48014,20 @@
                   "@type": "OpeningHoursSpecification",
                   "dayOfWeek": [
                     "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday"
+                  ],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
                     "Friday"
                   ],
-                  "opens": "09:00",
-                  "closes": "18:00"
+                  "opens": "08:00",
+                  "closes": "12:00"
                 }
               ],
               "hasOfferCatalog": {

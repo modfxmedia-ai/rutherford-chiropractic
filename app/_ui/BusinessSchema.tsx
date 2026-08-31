@@ -38,12 +38,6 @@ const BUSINESS_SCHEMA = {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
       opens: "08:00",
-      closes: "12:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday"],
-      opens: "14:00",
       closes: "18:00",
     },
     {

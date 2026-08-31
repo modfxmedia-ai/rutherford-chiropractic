@@ -85,7 +85,7 @@ const NAP_ROWS: Array<{
     label: "Hours",
     value: (
       <>
-        Mon &ndash; Thu: 8:00am &ndash; 12:00pm, 2:00pm &ndash; 6:00pm
+        Mon &ndash; Thu: 8:00am &ndash; 6:00pm
         <br />
         Friday: 8:00am &ndash; 12:00pm
         <br />
