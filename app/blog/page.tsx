@@ -1,7 +1,9 @@
 import { metadataFor, jsonLdFor } from "../_lib/content-map";
 import { JsonLdBlocks } from "../_lib/JsonLdBlocks";
 import { BlogIndexPage } from "../_ui/blog/BlogIndexPage";
-import { getAllBlogPosts } from "../_lib/blog";
+import { getPublishedBlogIndexPosts } from "../_lib/ranked-blog";
+
+export const revalidate = 3600
 
 // Route: /blog/
 // Category: blog-index (Blog index)
@@ -10,11 +12,12 @@ import { getAllBlogPosts } from "../_lib/blog";
 
 export const metadata = metadataFor("/blog/");
 
-export default function Page() {
+export default async function Page() {
+  const posts = await getPublishedBlogIndexPosts();
   return (
     <>
       <JsonLdBlocks blocks={jsonLdFor("/blog/")} />
-      <BlogIndexPage posts={getAllBlogPosts()} />
+      <BlogIndexPage posts={posts} />
     </>
   );
 }

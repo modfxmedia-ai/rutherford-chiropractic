@@ -3,6 +3,7 @@ import { ORIGIN, ROUTES } from "./_lib/content-map";
 import { CONDITIONS } from "./_lib/conditions";
 import { PSEO_COMBINATIONS } from "./_lib/pseo/combinations";
 import { PSEO_AUDIENCE_COMBINATIONS } from "./_lib/pseo/audience-content";
+import { getPublishedBlogSlugs } from "@/lib/ranked/posts";
 
 /**
  * Emits `/sitemap.xml` containing every URL from the original WordPress
@@ -11,7 +12,7 @@ import { PSEO_AUDIENCE_COMBINATIONS } from "./_lib/pseo/audience-content";
  * `lastModified` for migrated routes is taken from Yoast's original
  * `<lastmod>` timestamp so we don't reset freshness signals on migration.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const migrated = ROUTES.map((r) => {
     const url = `${ORIGIN}${r.path}`;
     const lastModified = r.lastmod ? new Date(r.lastmod) : undefined;
@@ -67,5 +68,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  return [...migrated, ...conditions, ...pseo, ...pseoAudience, ...areasWeServe];
+  const rankedSlugs = await getPublishedBlogSlugs().catch(() => [])
+  const ranked = rankedSlugs.map((slug) => ({
+    url: `${ORIGIN}/blog/${slug}/`,
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }))
+
+  return [...migrated, ...conditions, ...pseo, ...pseoAudience, ...areasWeServe, ...ranked];
 }
